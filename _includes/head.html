@@ -1,0 +1,173 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.metaKeywords }}">
+    <meta name="google-site-verification" content="{{ site.siteVerification }}" />
+    <link rel="canonical" href="{{ site.url }}">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitterAccount }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" /> 
+    <meta property="og:site_name" content="{{ site.title }}" /> 
+    <meta property="og:type" content="website" /> 
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:description" content="{{ site.description }}" /> 
+    
+    <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ "/img/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ "/img/favicons/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ "/img/favicons/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ "/img/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ "/img/favicons/apple-touch-icon-76x76.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/img/favicons/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ "/img/favicons/apple-touch-icon-60x60.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ "/img/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-196x196.png" sizes="196x196" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-160x160.png" sizes="160x160" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-96x96.png" sizes="96x96" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-32x32.png" sizes="32x32" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-16x16.png" sizes="16x16" | prepend: site.baseurl }}">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="{{ "/img/favicons/mstile-144x144.png" | prepend: site.baseurl }}">
+    <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
+    
+    <meta name="theme-color" content="#2b5797">
+    
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!-- Trigger/Open The Modal -->
+    <!--<button id="myBtn">Open Modal</button>-->
+
+    <!-- The Modal -->
+    <!--Todo:Move modal to respective place-->
+    <div id="registrationModal" class="modal" style="z-index:99999; display:none;">
+
+        <!-- Modal content -->
+        <div class="modal-content container-fluid">
+            <span class="close" style="color:black">&times;</span>
+            <!--<p>Some text in the Modal..</p>-->
+
+
+            <h2>Get Notified</h2>
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname">
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" class="form-control" id="city">
+            </div>
+            <div class="form-group">
+                <label for="state">State / Province:</label>
+                <input type="text" class="form-control" id="state">
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" class="form-control" id="country">
+            </div>
+            <div class="form-group">
+                <label for="student">Student Affiliation:</label>
+                <input type="text" class="form-control" id="student">
+            </div>
+            <div class="form-group">
+                <label for="minority">Self identified minority group you represent:</label>
+                <input type="text" class="form-control" id="minority">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer not to specify</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Age range:</label>
+                <select class="form-control" id="age">
+                    <option>0-24</option>
+                    <option>25-64</option>
+                    <option>65-74</option>
+                    <option>75+</option>
+                </select>
+            </div>
+
+            <!--b.1 First name, last name-->
+            <!--b.2. city, state/province, and country-->
+            <!--b.3 Student? University affiliation-->
+            <!--b.4 Gender M, F, NB, do not care to answer-->
+            <!--b.5 Age range - here is the standard that I found from wikimedia for age brackets-->
+            <!--https://meta.wikimedia.org/wiki/Survey_best_practices-->
+            <!--b.6 Self identified minority group you represent?-->
+            <!--b.7 Integrate with mailchimp to send confirmation that their request for notification of the opening of the opening of applications was received.-->
+            <!--b.8 on the data capture form, we should notify potential participants that they may require a Visa. If their country is not on the Visa Waiver Program (the "VWP") list https://www.dhs.gov/visa-waiver-program-requirements the accepted applicant will require a US Visa.-->
+            <!--b.9  here is the directory to store the non-GDPR data-->
+
+            <button class="btn btn-success center-block">Submit</button>
+        </div>
+    </div>
+
+
+    <!--//TODO:Move-->
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+  </head>

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
+    <meta name="description" content="Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA">
+    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, lviv">
+    <meta name="google-site-verification" content="" />
+    <link rel="canonical" href="http://localhost:4000">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@DevFest">
+    <meta name="twitter:title" content="Don't be a jerk policy">
+    <meta name="twitter:description" content="Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA">
+    <meta name="twitter:image:src" content="http://localhost:4000/zeppelin/img/seo/sharing-twitter.png">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="Don't be a jerk policy" /> 
+    <meta property="og:site_name" content="Reality Virtually Hackathon" /> 
+    <meta property="og:type" content="website" /> 
+    <meta property="og:url" content="http://localhost:4000" />
+    <meta property="og:image" content="http://localhost:4000/zeppelin/img/seo/sharing-facebook.png" />
+    <meta property="og:description" content="Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA" /> 
+    
+    <title>Don't be a jerk policy &bull; Reality Virtually Hackathon</title>
+    <link rel="shortcut icon" href="/zeppelin/img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="/zeppelin/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/zeppelin/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/zeppelin/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/zeppelin/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/zeppelin/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/zeppelin/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/zeppelin/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/zeppelin/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="/zeppelin/img/favicons/favicon-196x196.png">
+    <link rel="icon" type="image/png" href="/zeppelin/img/favicons/favicon-160x160.png">
+    <link rel="icon" type="image/png" href="/zeppelin/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="/zeppelin/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="/zeppelin/img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/zeppelin/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/zeppelin/img/favicons/browserconfig.xml">
+    
+    <meta name="theme-color" content="#2b5797">
+    
+    <link href="/zeppelin/css/main.css" rel="stylesheet"> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!-- Trigger/Open The Modal -->
+    <!--<button id="myBtn">Open Modal</button>-->
+
+    <!-- The Modal -->
+    <!--Todo:Move modal to respective place-->
+    <div id="registrationModal" class="modal" style="z-index:99999; display:none;">
+
+        <!-- Modal content -->
+        <div class="modal-content container-fluid">
+            <span class="close" style="color:black">&times;</span>
+            <!--<p>Some text in the Modal..</p>-->
+
+
+            <h2>Get Notified</h2>
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname">
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" class="form-control" id="city">
+            </div>
+            <div class="form-group">
+                <label for="state">State / Province:</label>
+                <input type="text" class="form-control" id="state">
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" class="form-control" id="country">
+            </div>
+            <div class="form-group">
+                <label for="student">Student Affiliation:</label>
+                <input type="text" class="form-control" id="student">
+            </div>
+            <div class="form-group">
+                <label for="minority">Self identified minority group you represent:</label>
+                <input type="text" class="form-control" id="minority">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer not to specify</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Age range:</label>
+                <select class="form-control" id="age">
+                    <option>0-24</option>
+                    <option>25-64</option>
+                    <option>65-74</option>
+                    <option>75+</option>
+                </select>
+            </div>
+
+            <!--b.1 First name, last name-->
+            <!--b.2. city, state/province, and country-->
+            <!--b.3 Student? University affiliation-->
+            <!--b.4 Gender M, F, NB, do not care to answer-->
+            <!--b.5 Age range - here is the standard that I found from wikimedia for age brackets-->
+            <!--https://meta.wikimedia.org/wiki/Survey_best_practices-->
+            <!--b.6 Self identified minority group you represent?-->
+            <!--b.7 Integrate with mailchimp to send confirmation that their request for notification of the opening of the opening of applications was received.-->
+            <!--b.8 on the data capture form, we should notify potential participants that they may require a Visa. If their country is not on the Visa Waiver Program (the "VWP") list https://www.dhs.gov/visa-waiver-program-requirements the accepted applicant will require a US Visa.-->
+            <!--b.9  here is the directory to store the non-GDPR data-->
+
+            <button class="btn btn-success center-block">Submit</button>
+        </div>
+    </div>
+
+
+    <!--//TODO:Move-->
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+  </head>
+
+
+<body>
+    <div id="preloader" class="preloader">
+        <div class="loader-gplus"></div>
+    </div>
+    
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+
+                <!-- Begin Top Section -->
+<section id="top-section" class="top-section image-section " style="">
+    <div class="overlay gradient-overlay"></div>
+
+    <header id="top-header" class="top-header">
+    <div class="overlay white-solid"></div>
+    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
+        <use xlink:href="/zeppelin/img/sprites/sprites.svg#icon-menu"></use>
+
+
+
+
+    </svg>
+    <a href="/zeppelin/" id="logo-header" class="logo-header">
+        <div class="logo">
+            <use xlink:href="/zeppelin/img/sprites/sprites.svg#icon-menu"></use>
+        </div>
+    </a>
+    <nav class="st-menu st-effect" id="menu">
+
+
+
+
+
+        <div class="logo-navbar logo logo-dark visible-xs">
+
+        </div>
+        <ul>
+            
+                
+                <li>
+                    <a class=""  href=" /zeppelin/ " >Home</a>
+                </li>
+                
+                
+            
+                
+                <li>
+                    <a class=""  href=" /zeppelin/hackathon/ " >Hackathon</a>
+                </li>
+                
+                
+            
+                
+                <li>
+                    <a class=""  href=" http://www.realityvirtuallyhack.com/ " target="_blank">Past Events</a>
+                </li>
+                
+                
+            
+                
+                
+                <li>
+                    <a class="calltoaction" id="registrationButton" style="color:#5dccb7;">Get Updates</a>
+                    <!--<a class=""  href=" /zeppelin/# " >Get Updates</a>-->
+                </li>
+                
+            
+        </ul>
+        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+            
+        </ul>
+        
+    </nav>
+</header>
+	<div class="content-wrapper">
+	    <div class="jumbotron text-left">
+	        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
+	            <h1>Don't be a jerk policy</h1>
+	        </div>
+	    </div>
+    </div>
+</section>
+<!-- End Top Section -->
+
+                <!-- Begin Post-->
+<section id="post-section" class="post-section">
+    <div class="content-wrapper text-left">
+        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+            <div class="col-lg-8 col-md-10 col-xs-12">
+                <article class="row post">
+                    
+                    
+                    <div class="post-body"><p><strong>This “Don’t be a jerk” policy is a shortened, more casual version of the longer Code of Conduct policy. <a href="http://meta.wikimedia.org/wiki/Don%27t_be_a_dick">Read full version</a>.</strong></p>
+
+<p>GDG Lviv prides itself on being an open, respectful, and inclusive community. That means jerky behavior isn’t allowed at GDG meetings. Because we know that it’s not obvious to everyone, here’s a reminder of the things we don’t allow: jokes or offensive comments about sex/sexuality/race/religion/nationality/body size, showing porn in public, touching people uninvited, or continuing to interact with someone after they’ve asked you to stop. Continuous jerky behavior may result in getting expelled from the meeting or GDG Chapter.</p>
+
+<p>If someone is bothering you, please tell GDG Organizers immediately and they will take care of it. We want to maintain GDG DevFest’s awesomeness.</p>
+
+<p>######Contacts:</p>
+
+<ul>
+  <li>Vitaliy Zasadnyy, +38 063 863 20 62, <a href="mailto:vitaliy.zasadnyy@gdg.org.ua">vitaliy.zasadnyy@gdg.org.ua</a></li>
+</ul>
+
+<p><img class="img-responsive feature-image" src="/zeppelin/img/posts/cod.jpg" style="display:none" /></p>
+</div>
+
+                    <div id="page-navigation" class="page-navigation">
+                        <div class="next col-xs-6">
+                            
+                        </div>
+                        <div class="previous col-xs-6 text-right">
+                            
+                        </div>
+                    </div>
+
+                    
+
+                </article>
+
+                
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Post --> 
+                
+                <!-- Begin Footer -->
+<footer id="footer" class="footer">
+	<div class="row">
+		<div class="pull-left col-md-6 col-xs-6">
+			<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300" data-href="http://localhost:4000"></div>
+		</div>
+		<div class="logo logo-footer logo-gray pull-right"></div>
+	</div>
+	<div class="row">
+		
+        
+		<div class="col-md-4 col-xs-6">
+			<h5>Links</h5>
+			<ul>
+				
+				<li><a href=" http://gdg.org.ua " target="_blank">GDG.org.ua</a></li>
+				
+				<li><a href=" https://developers.google.com " target="_blank">Google Developers</a></li>
+				
+			</ul>
+		</div>
+		
+        
+		<div class="col-md-4 col-xs-6">
+			<h5>Contacts</h5>
+			<ul>
+				
+				<li><a href=" mailto:lviv@gdg.org.ua " target="_blank">lviv@gdg.org.ua</a></li>
+				
+			</ul>
+		</div>
+		
+        
+		<div class="col-md-4 col-xs-6">
+			<h5>FAQ</h5>
+			<ul>
+				
+				<li><a href=" /zeppelin/cod/ " >Code of Conduct</a></li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-xs-12">
+			<ul class="social-links">
+				
+				<li>
+					<a href=" https://plus.google.com/b/102444623953913144164 " target="_blank">
+						<svg class="icon icon-google-plus" viewBox="0 0 30 32">
+							<use xlink:href="/zeppelin/img/sprites/sprites.svg#icon-google-plus"></use>
+						</svg>
+					</a>
+				</li>
+				
+				<li>
+					<a href=" https://twitter.com/intent/user?screen_name=GDGLviv " target="_blank">
+						<svg class="icon icon-twitter" viewBox="0 0 30 32">
+							<use xlink:href="/zeppelin/img/sprites/sprites.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				
+				<li>
+					<a href=" https://facebook.com/GDGLviv " target="_blank">
+						<svg class="icon icon-facebook" viewBox="0 0 30 32">
+							<use xlink:href="/zeppelin/img/sprites/sprites.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+				
+				<li>
+					<a href=" /zeppelin/feed.xml " target="_blank">
+						<svg class="icon icon-rss" viewBox="0 0 30 32">
+							<use xlink:href="/zeppelin/img/sprites/sprites.svg#icon-rss"></use>
+						</svg>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<!-- Please don't delete this line-->
+		<div class="col-md-6">
+			<p class="copyright">
+				&copy; 2014 Based on <a href="https://github.com/gdg-x/zeppelin" target="_blank">Project Zeppelin</a>. Designed and created by <a href="https://plus.google.com/+OlehZasadnyy/about" target="_blank">Oleh Zasadnyy</a> &middot; <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
+			</p>
+		</div>
+	</div>
+</footer>
+<!-- End Footer -->
+
+<!-- Footer Logic -->
+<script src="js/register.js"></script>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', '');
+  ga('send', 'pageview');
+
+</script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/zeppelin/js/jquery-2.1.1.min.js ><\/script>')
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+        if (typeof ($.fn.modal) === 'undefined') {
+            document.write('<script src="/zeppelin/js/bootstrap.min.js ><\/script>')
+        }
+    </script>
+    <script src="/zeppelin/js/default.js"></script>
+    <script>Waves.displayEffect();</script>
+    <script src="/zeppelin/js/scripts.min.js"></script>
+    <script type="application/ld+json">
+    [{
+        "@context" : "http://schema.org",
+        "@type" : "Event",
+        "name" : "Reality Virtually Hackathon",
+        "description": "Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA",
+        "image" : "http://localhost:4000/zeppelin/img/seo/sharing-google-plus.png",
+        "url" : "http://localhost:4000",
+        "startDate" : "2014-10-25T10:00",
+        "doorTime" : "09:00",
+        "endDate" : "2014-10-25T20:00",
+        "location" : {
+            "@type" : "Place",
+            "name" : "Conference Hall",
+            "sameAs" : "http://cabinet.kinopalace.lviv.ua/showtimes/",
+            "address" : {
+                "@type" : "PostalAddress",
+                "streetAddress" : "22 Teatral'na St",
+                "addressLocality" : "Lviv",
+                "addressRegion" : "Lvivska",
+                "postalCode" : "79000",
+                "addressCountry" : "Ukraine"
+            },
+            "geo" : {
+                "@type" : "GeoCoordinates",
+                
+                "latitude" : "49.843237",
+                "longitude" : " 24.028751"
+            }
+        },
+        // Not supported yet
+        // "organizer" : {
+        //     "@type" : "Organization",
+        //     "name" : "GDG Lviv",
+        //     "alternateName" : "Google Developer Group Lviv",
+        //     "description" : "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion.",
+        //     "logo" : "http://localhost:4000/zeppelin/img/seo/mitmedialab.png",
+        //     "email" : "lviv@gdg.org.ua",
+        //     "sameAs" : "http://lviv.gdg.org.ua/"
+        // },
+        "subEvent" : {
+            "@type" : "Event",
+            "name" : "Hackathon",
+            "description": "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!",
+            "image" : "http://localhost:4000/zeppelin/img/seo/sharing-google-plus.png",
+            "url" : "http://localhost:4000/zeppelin/hackathon/",
+            "startDate" : "2014-10-24T10:00",
+            "doorTime" : "09:00",
+            "endDate" : "2014-10-25T00:00",
+            "location" : {
+                "@type" : "Place",
+                "name" : "Communa",
+                "sameAs" : "http://communa.net.ua/",
+                "address" : {
+                    "@type" : "PostalAddress",
+                    "streetAddress" : "1 Halytska St",
+                    "addressLocality" : "Lviv",
+                    "addressRegion" : "Lvivska",
+                    "postalCode" : "79000",
+                    "addressCountry" : "Ukraine"
+                },
+                "geo" : {
+                    "@type" : "GeoCoordinates",
+                    
+                    "latitude" : "49.840999",
+                    "longitude" : " 24.031144"
+                }
+            }
+        },
+        "offers" : [
+        
+        {
+            "@type" : "Offer",
+            "name" : "Early Bird",
+            "url" : "http://dfua.ticketforevent.com/",
+            "price" : "350",
+            "priceCurrency" : "UAH",
+            "validFrom" : "2014-08-25T10:00",
+            "validThrough" : "2014-09-30T23:59"
+        },
+        
+        {
+            "@type" : "Offer",
+            "name" : "Last Chance",
+            "url" : "http://dfua.ticketforevent.com/",
+            "price" : "450",
+            "priceCurrency" : "UAH",
+            "validFrom" : "2014-10-01T00:00",
+            "validThrough" : "2014-10-23T23:59"
+        },
+        
+        {
+            "@type" : "Offer",
+            "name" : "Student",
+            "url" : "http://dfua.ticketforevent.com/",
+            "price" : "200",
+            "priceCurrency" : "UAH",
+            "validFrom" : "2014-08-20T10:00",
+            "validThrough" : "2014-10-23T23:59"
+        }
+         
+        ],
+        "performer" : [ 
+        
+        {
+            "@type" : "Person",
+            "name" : "Dawid Ostrowski",
+            "image" : "http://localhost:4000/zeppelin/img/people/DawidOstrowski.jpg",
+            "jobTitle" : "Developer Relations Program Manager",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Google Poland"
+            },
+            "sameAs" : "https://plus.google.com/+DawidOstrowski/"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Dmytro Danylyk",
+            "image" : "http://localhost:4000/zeppelin/img/people/DmytroDanylyk.jpg",
+            "jobTitle" : "Android Developer",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Lemberg Solutions Limited"
+            },
+            "sameAs" : "https://plus.google.com/+DmytroDanylyk"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Mateusz Herych",
+            "image" : "http://localhost:4000/zeppelin/img/people/MateuszHerych.jpg",
+            "jobTitle" : "Software Engineer",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Base CRM, GDG Krakow"
+            },
+            "sameAs" : "https://plus.google.com/+MateuszHerych"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Roman Mazur",
+            "image" : "http://localhost:4000/zeppelin/img/people/RomanMazur.jpg",
+            "jobTitle" : "Head of Android/Java Unit",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Stanfy, GDG Kyiv"
+            },
+            "sameAs" : "https://plus.google.com/+RomanMazur/"
+        },
+        
+        {
+            "@type" : "Person",
+            "name" : "Valentyn Shybanov",
+            "image" : "http://localhost:4000/zeppelin/img/people/ValentynShybanov.jpg",
+            "jobTitle" : "Software engineer/country manager",
+            "worksFor" : {
+                "@type" : "Organization",
+                "name" : "Twinfield, GDG Kyiv"
+            },
+            "sameAs" : "https://google.com/+ValentynShybanov"
+        }
+          
+        ],
+        "eventStatus" : "EventScheduled",
+        "typicalAgeRange" : "16+"
+    }]
+    </script>
+</body>
+
+</html>
