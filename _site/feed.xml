@@ -3,8 +3,8 @@
   <channel>
     <title>Reality Virtually Hackathon</title>
     <description>Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA</description>
-    <link>http://localhost:4000/zeppelin/</link>
-    <atom:link href="http://localhost:4000/zeppelin/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Call for Papers</title>
@@ -82,8 +82,8 @@
 &lt;p&gt;Email organizers at &lt;a href=&quot;mailto:devfest@gdg.org.ua&quot;&gt;devfest@gdg.org.ua&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Jul 2014 05:00:00 -0400</pubDate>
-        <link>http://localhost:4000/zeppelin/blog/call-for-papers</link>
-        <guid isPermaLink="true">http://localhost:4000/zeppelin/blog/call-for-papers</guid>
+        <link>http://localhost:4000/blog/call-for-papers</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/call-for-papers</guid>
       </item>
     
       <item>
@@ -116,8 +116,8 @@ the final missing parts to the biggest Google related event in Ukraine - &lt;a h
 &lt;p&gt;More details about speakers, DevFest Hackathon and Lviv will appear in subsequent posts, meantime like us on &lt;a href=&quot;https://facebook.com/GDGLviv&quot;&gt;Facebook&lt;/a&gt;, follow on &lt;a href=&quot;https://twitter.com/intent/user?screen_name=GDGLviv&quot;&gt;Twitter&lt;/a&gt;, add to circles in &lt;a href=&quot;https://plus.google.com/b/102444623953913144164&quot;&gt;Google+&lt;/a&gt; or subcribe to our &lt;a href=&quot;http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;amp;id=ae0fb459fc&quot;&gt;mailing list&lt;/a&gt; and &lt;a href=&quot;http://devfest.gdg.org.ua/feed.xml&quot;&gt;RSS feed&lt;/a&gt; in order not to miss any cool stuff about festival.&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Jul 2014 04:00:00 -0400</pubDate>
-        <link>http://localhost:4000/zeppelin/blog/hello-world</link>
-        <guid isPermaLink="true">http://localhost:4000/zeppelin/blog/hello-world</guid>
+        <link>http://localhost:4000/blog/hello-world</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/hello-world</guid>
       </item>
     
   </channel>
