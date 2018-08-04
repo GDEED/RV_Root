@@ -42,7 +42,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "#", text: "Home"}
+# - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
  - {link: "http://www.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016" , 2017eventL: "#2017"}
