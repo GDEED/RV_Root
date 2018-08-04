@@ -5,7 +5,13 @@
 
 <style>
     .logo svg {
-        height:60px;
+        height:80px;
+
+
+
+
+
+
 
     }
     .logo-light svg {
@@ -18,6 +24,9 @@
         background:transparent;
     }
 
+    nav.st-menu {
+        float:right;
+    }
 
     #top-section-hero::after{
         content:"";
@@ -31,6 +40,16 @@
         background-color: rgba(0,0,0,0.7);
         /*box-shadow: 0 -5px 5px -5px #333;*/
     }
+
+    #top-header .logo svg {
+        transition:all 0.5s;
+    }
+
+
+    #top-header.after-scroll .logo svg {
+            height: 60px;
+    }
+
 
 
     @media screen and (max-width:768px)

@@ -1,12 +1,12 @@
 (function($) {
     $(document).ready(function() {
-        $(window).load(function() {
-            $('#st-container').removeClass('disable-scrolling');
-            $('#loading-animation').fadeOut();
-            $('#preloader').delay(350).fadeOut(800);
-            initGooglePlus();
-            equalheight('.same-height');
-        });
+        // $(window).load(function() {
+        //     $('#st-container').removeClass('disable-scrolling');
+        //     $('#loading-animation').fadeOut();
+        //     $('#preloader').delay(350).fadeOut(800);
+        //     initGooglePlus();
+        //     equalheight('.same-height');
+        // });
 
         if ($(window).width() > 1500) {
             $('.effect-wrapper').addClass('col-lg-3');
