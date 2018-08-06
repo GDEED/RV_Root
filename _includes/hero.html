@@ -7,22 +7,33 @@
 
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
             {% assign heroText = site.heroTitle | split:"<typeout></typeout>" %}
-            <h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
+
+            <!--Typeout text-->
+            <!--<h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>-->
+
+            <h1>{{ heroText[0] }} {{ heroText[1] }}</h1>
+
+
+
+
+
+
             <p>{{ site.eventDate }}</p>
             {% for button in site.heroButtons %}
             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endfor %}
 
 
-            <br>
-            <br>
-            <!--<span>TEST TEXT <span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>Description of the event-->
+
+            <h4>{{site.heroDescription}} </h4>
             <!--Description of the event Description of the event Description of the event Description of the event Description of the event Description of the event Description of the event Description of the event Description of the-->
                 <!--Description of the event Description of the event Description of the event Description of the event Description of the event-->
                 <!--Description of the event Description of the event Description of the event Description of the event Description of the event-->
 
 
             <!--</span>-->
+
+            <br>
             <button class="button btn-lg" type="text" style="text-shadow: 0 1px 5px rgba(0,0,0,0.5);font-weight: 300;color: white;background-color: #bb7c7c00;border: 2px solid white;" id="registrationButtonLG">NOTIFY ME WHEN APPLICATIONS OPEN</button>
             <br>
         </div>
