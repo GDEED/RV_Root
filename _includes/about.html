@@ -1,4 +1,17 @@
 <!-- About Section -->
+
+
+<style>
+
+    .img-circle {
+        overflow: hidden;
+        position: relative;
+        width: 124px;
+        height: 124px;
+        background-size:cover ;
+        margin: 0 auto;
+    }
+</style>
 <section id="about" class="about">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
@@ -39,7 +52,7 @@
                 <div class="col-md-{{ colWidth }} col-xs-6">  
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
-                        <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
+                        <div class="img-circle" style="background: url({{ site.baseurl }}/img/about-section/{{ about.image }})no-repeat center center; background-size: cover;"></div>
                         <p>{{ about.text }}</p>
                     </div>
                 </div>
