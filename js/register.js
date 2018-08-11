@@ -1,8 +1,6 @@
 (function($) {
     $(document).ready(function() {
-       //console.log("ready");
-
-
+       console.log("Ready to submit");
 
 
         // Get the modal
@@ -44,6 +42,14 @@
             }
         }
 
+
+        $('#submit-form').on('click', function(e) {
+            e.preventDefault();
+            register();
+
+        })
+
+
     });
 })(jQuery);
 
@@ -51,16 +57,39 @@
 function register()
 {
 
+    var $form = $('#test-form');
+    var url = 'https://script.google.com/macros/s/AKfycbzErhOszv3CoMat488Y8sZ8oyAKqE60vqGmYbE2aqGmZVvidaM/exec?';
+
+    // console.log("SUBMITTED");
+    // console.log($form.serialize());
+
+    var output_info = document.getElementById("test-form");
+    var display = document.getElementById("display");
+    var data = output_info.querySelectorAll("input:not([type=submit]), select");
+    for (var i = 0; i < data.length; i++) {
+        console.log( "name : " + data[i].name + " value:" + data[i].value );
+
+        var addition;
+        addition = data[i].name+"="+ data[i].value;
+        addition = encodeURIComponent(addition);
+        if(i == data.length-1)
+        {
+            url = url + addition;
+        } else {
+            url = url + addition +"&";
+        }
+    }
+    console.log(url);
 
 
-
-
-
-
-
-
-
-
+    var jqxhr = $.ajax({
+        url: url,
+        method: "GET",
+        dataType: "json",
+    }).success(
+        // do something
+        console.log("SENT")
+    );
 
 
 }
