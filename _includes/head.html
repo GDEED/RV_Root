@@ -53,83 +53,75 @@
       <![endif]-->
 
     <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 
     <!-- Trigger/Open The Modal -->
     <!--<button id="myBtn">Open Modal</button>-->
 
     <!-- The Modal -->
     <!--Todo:Move modal to respective place-->
-    <div id="registrationModal" class="modal" style="z-index:99999; display:none;">
-
+    <div id="registrationModal" class="modal" style="z-index:999; display:none;">
+        <span class="close" style="color:white">&times;</span>
         <!-- Modal content -->
         <div class="modal-content container-fluid">
-            <span class="close" style="color:black">&times;</span>
             <!--<p>Some text in the Modal..</p>-->
+            <form id="gform" method="POST" id="test-form">
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="firstname">First Name:</label>
+                    <input type="text" class="form-control" name="firstname">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="lastname">Last Name:</label>
+                    <input type="text" class="form-control" name="lastname">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="city">City:</label>
+                    <input type="text" class="form-control" name="city">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="state">State / Province:</label>
+                    <input type="text" class="form-control" name="state">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="country">Country:</label>
+                    <input type="text" class="form-control" name="country">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="student">Student Affiliation:</label>
+                    <input type="text" class="form-control" name="student">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="minority">Self identified minority group you represent:</label>
+                    <input type="text" class="form-control" name="minority">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="gender">Gender:</label>
+                    <select class="form-control" name="gender">
+                        <option></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Prefer not to specify</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="age">Age range:</label>
+                    <select class="form-control" name="age">
+                        <option></option>
+                        <option>0-24</option>
+                        <option>25-64</option>
+                        <option>65-74</option>
+                        <option>75+</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="email">Email Address:</label>
+                    <input type="text" class="form-control" name="email">
+                </div>
 
-            <form id="test-form">
-            <h3>Get Notifications</h3>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="firstname">First Name:</label>
-                <input type="text" class="form-control" name="firstname">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="lastname">Last Name:</label>
-                <input type="text" class="form-control" name="lastname">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="city">City:</label>
-                <input type="text" class="form-control" name="city">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="state">State / Province:</label>
-                <input type="text" class="form-control" name="state">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="country">Country:</label>
-                <input type="text" class="form-control" name="country">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="student">Student Affiliation:</label>
-                <input type="text" class="form-control" name"student">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="minority">Self identified minority group you represent:</label>
-                <input type="text" class="form-control" name="minority">
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="gender">Gender:</label>
-                <select class="form-control" name="gender">
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Prefer not to specify</option>
-                </select>
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="age">Age range:</label>
-                <select class="form-control" name="age">
-                    <option>0-24</option>
-                    <option>25-64</option>
-                    <option>65-74</option>
-                    <option>75+</option>
-                </select>
-            </div>
-            <div class="form-group col-md-4 col-xs-12 col-sm-6">
-                <label name="email">Email Address:</label>
-                <input type="text" class="form-control" name="email">
-            </div>
-
-            <!--b.1 First name, last name-->
-            <!--b.2. city, state/province, and country-->
-            <!--b.3 Student? University affiliation-->
-            <!--b.4 Gender M, F, NB, do not care to answer-->
-            <!--b.5 Age range - here is the standard that I found from wikimedia for age brackets-->
-            <!--https://meta.wikimedia.org/wiki/Survey_best_practices-->
-            <!--b.6 Self identified minority group you represent?-->
-            <!--b.7 Integrate with mailchimp to send confirmation that their request for notification of the opening of the opening of applications was received.-->
-            <!--b.8 on the data capture form, we should notify potential participants that they may require a Visa. If their country is not on the Visa Waiver Program (the "VWP") list https://www.dhs.gov/visa-waiver-program-requirements the accepted applicant will require a US Visa.-->
-            <!--b.9  here is the directory to store the non-GDPR data-->
+                <input class="btn btn-success center-block col-md-12 col-xs-12 col-sm-12" type="submit"/>
+                <!--<button class="btn btn-success center-block col-md-12 col-xs-12 col-sm-12" id="submit-form">Submit</button>-->
             </form>
-            <button class="btn btn-success center-block col-md-12 col-xs-12 col-sm-12" id="submit-form">Submit</button>
         </div>
     </div>
 
