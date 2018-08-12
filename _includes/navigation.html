@@ -110,7 +110,7 @@
         opacity: 0;
     }
 
-    .dropdown:after {
+    .after-scroll .dropdown:after {
         position: absolute;
         content: '';
         width: 100%;
@@ -149,6 +149,27 @@
     .after-scroll .dropdown ul {
         position: relative;
         top: -19px;
+    }
+
+    @media screen and (max-width: 768px) {
+        li .dropdown {
+            opacity: 1;
+        }
+        .dropdown ul {
+            margin: 0;
+        }
+        .dropdown {
+            position: relative;
+            left: 0;
+            width: 100%;
+            top: 100%;
+            opacity: 0;
+        }
+
+        .dropdown:after {
+            content: '';
+            box-shadow: none;
+        }
     }
 
 </style>
