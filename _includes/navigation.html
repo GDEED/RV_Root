@@ -98,6 +98,59 @@
         /*}*/
     /*}*/
 
+
+    ul li {
+        position: relative;
+    }
+    .dropdown {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        opacity: 0;
+    }
+
+    .dropdown:after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 50%;
+        top: 20px;
+        left: 0;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+        z-index: -1;
+    }
+
+    li:hover .dropdown {
+        opacity: 1;
+    }
+
+    .dropdown ul {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        float: none;
+        transform: none;
+
+    }
+
+    .dropdown ul li {
+        display: block;
+        margin: 3px 0;
+
+    }
+
+
+    .after-scroll .dropdown, .overlay.white-solid {
+        background-color: rgba(255,255,255,1);
+    }
+
+
+    .after-scroll .dropdown ul {
+        position: relative;
+        top: -19px;
+    }
+
 </style>
 
 
@@ -136,6 +189,16 @@
                 {% if navigationLink.calltoaction == null %}
                 <li>
                     <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li>
+                                <a href="https://pastevents.realityvirtuallyhack.com/">2017</a>
+                            </li>
+                            <li>
+                                <a href="https://pastevents.realityvirtuallyhack.com/about-2016/">2016</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 {% endif %}
                 {% if navigationLink.permalink != null and navigationLink.calltoaction != null %}
