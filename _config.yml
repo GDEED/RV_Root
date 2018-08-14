@@ -173,10 +173,13 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "#", icon: "google-plus"}
- - {link: "#", icon: "twitter"}
- - {link: "#", icon: "facebook"}
+# - {link: "#", icon: "google-plus"}
+ - {link: "https://twitter.com/realityvrhack", icon: "twitter" }
+ - {link: "https://www.facebook.com/realityvrhack/", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
+- {link: "https://www.instagram.com/realityvrhack/", icon: "instagram" , fontawesome: "instagram"}
+
+
 footerBlocks:
  -
   title: "Links"
