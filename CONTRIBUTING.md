@@ -11,10 +11,20 @@ This documents serves to outline:
 ## Developer Workflow
 
 Developers should use GitHub's project management tools (Projects, Issues, Pull Requests) generously, to track and assign work, as well as manage features and bugs. 
+
 For each feature, a new branch should be created, and in order to contribute that code to the master branch a pull request should be opened, where feedback and review can take place. 
+
 Issues should be created for both bugs and features, and Pull Requests should close the issues, or manually if for other circumstances.
+
 Issues should be tagged appropriately, to maintain order and other's sanity when trying to filter issues when looking for work. 
-Commits that fix issues should mention the issues themselves, and committing directly to master is discouraged, because it causes issues with colliding commits and prevents clean review.
+
+If you would like to start working on an issue, feel free to assign yourself to an issue, to let other people know that you are currently working on it.
+This is to make sure that multiple people don't work on the same issue at the same time, unknowingly.
+
+Commits that fix issues should mention and close the issues themselves, and committing directly to master is discouraged, because it causes issues with colliding commits and makes it difficult to do clean code review.
+
+Pull requests should outline broad changes in the code, and show usage of new features. 
+If you have specific thoughts about a pull request or issue, it is encouraged to use the comments section.
 
 ### Review
 
