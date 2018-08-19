@@ -12,7 +12,9 @@ This documents serves to outline:
 
 Developers should use GitHub's project management tools (Projects, Issues, Pull Requests) generously, to track and assign work, as well as manage features and bugs. 
 For each feature, a new branch should be created, and in order to contribute that code to the master branch a pull request should be opened, where feedback and review can take place. 
-Issues should be created for bugs and features, and Pull Requests should close the issues, or manually if for other circumstances.
+Issues should be created for both bugs and features, and Pull Requests should close the issues, or manually if for other circumstances.
+Issues should be tagged appropriately, to maintain order and other's sanity when trying to filter issues when looking for work. 
+Commits that fix issues should mention the issues themselves, and committing directly to master is discouraged, because it causes issues with colliding commits and prevents clean review.
 
 ### Review
 
@@ -39,5 +41,10 @@ Projects are also a great way to show project progress to non-developers.
 
 [GitHub Issues](https://guides.github.com/features/issues/) should be used for creating development tasks. 
 This includes both features to-do as well as bugs. Each GitHub Issue can have an assignee, as well as a description and comments for the issue. 
-Issues are [typically closed by pull requests](https://blog.github.com/2013-05-14-closing-issues-via-pull-requests/) and are also used in GitHub Projects. 
+Issues are [typically closed by pull requests](https://blog.github.com/2013-05-14-closing-issues-via-pull-requests/) or [commits](https://blog.github.com/2013-01-22-closing-issues-via-commit-messages/) and are also used in GitHub Projects. 
 Issues can also have [task lists](https://help.github.com/articles/about-task-lists/) to show what is the current progress on an issue.
+
+If you encounter a bug, an issue should be opened describing steps to reproduce the issue, as well as platform and other important information to the dev that would be fixing the issue. 
+If there is interest in creating an issue template for bugs, then one can be made.
+
+Issue tags should be used to separate bugs and features, as well as serve as imporant markers to developers looking for work to complete. 
