@@ -26,6 +26,9 @@ Commits that fix issues should mention and close the issues themselves, and comm
 Pull requests should outline broad changes in the code, and show usage of new features. 
 If you have specific thoughts about a pull request or issue, it is encouraged to use the comments section.
 
+If there are features that are planned, they should be put into issues as soon as possible so people can assign themselves. 
+If all of these guidelines are followed, many people should be able to work on the code efficiently, without getting in each others' way. 
+
 ### Review
 
 It's strongly encouraged to review pull requests to be merged. There are still many things to be decided on how review should be enforced and how it should take place. Things to discuss:
@@ -36,6 +39,8 @@ It's strongly encouraged to review pull requests to be merged. There are still m
 ### Discussion
 
 Pull Requests and Issues both have comment sections where changes can be proposed as well as discussed. People can be tagged, and questions can be asked about topics relevant to the issue or PR.
+
+Slack is also a good place for quick questions or technical questions, more important discussion that is important to everyone should happen in a comments section on GitHub though.
 
 ## Introduction to Project Management Tools
  
