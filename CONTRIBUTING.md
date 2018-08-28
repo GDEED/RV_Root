@@ -52,7 +52,7 @@ GitHub issues are used to track in-progress work on project boards.
 Notes can be created on boards as well, and can be turned into issues at a later date. 
 Projects are also a great way to show project progress to non-developers.
  
-### Issues
+### Issues 
 
 [GitHub Issues](https://guides.github.com/features/issues/) should be used for creating development tasks. 
 This includes both features to-do as well as bugs. Each GitHub Issue can have an assignee, as well as a description and comments for the issue. 
