@@ -14,7 +14,7 @@ title: "Reality Virtually Hackathon"
 email: "team@realityvirtuallyhack.com"
 description: "Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA"
 baseurl: ""
-url: "https://gdg-x.github.io"
+url: "https://realityvirtuallyhack.com"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
@@ -52,7 +52,7 @@ navigationLinks:
 
 
 # Hero Block
-heroImage: "abstract-virtual-1600-1050HD.jpg"
+heroImage: "abstract-virtual-reality.png"
 heroTitle: "Reality Virtually Hackathon"
 heroDescription: "@ the MIT Media Lab"
 eventDate: "January 17-21<sup>st</sup>, 2019"
