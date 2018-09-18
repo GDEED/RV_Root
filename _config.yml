@@ -45,10 +45,10 @@ navigationLinks:
 # - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
- - {link: "https://pastevents.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016" }
+ - {link: "https://pastevents.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016", hasDropdown: true }
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
- - {link: "/team/", text: "Team"}
+ - {link: "/team/", text: "Team", hasDropdown: false}
 
 
 # Hero Block
