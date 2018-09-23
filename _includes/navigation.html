@@ -217,7 +217,7 @@
             {% for navigationLink in site.navigationLinks %}
                 {% if navigationLink.calltoaction == null %}
                 <li>
-                    <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
+                    <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %} target="_self"{% endif %}>{{ navigationLink.text}}</a>
 
                     {% if navigationLink.hasDropdown %}
                     <div class="dropdown">
