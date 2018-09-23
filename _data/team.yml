@@ -176,7 +176,8 @@
   id: 17
   name: "PABLO"
   surname: "KROPILNICKI"
-  title: "DIGITAL OPERATIONS"
+  title: "DIGITAL OPERATIONS CO-LEAD"
+  thumbnailUrl: PabloKropilnicki.png
   team: true
   social: 
     - {name: "twitter", link: "https://www.instagram.com/pabzz_/"}
