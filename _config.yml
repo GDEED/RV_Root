@@ -58,6 +58,7 @@ heroDescription: "@ the MIT Media Lab"
 eventDate: "January 17-21<sup>st</sup>, 2019"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
+notifyMeButtonText: "Notify me when applications open"
 
 
 # About Block
