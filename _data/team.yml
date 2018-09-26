@@ -248,6 +248,16 @@
   social: 
     - {name: "twitter", link: ""}
   description: "Jenna is a graphic design major completing her bachelors degree at UMass Lowell in May of 2019. As a design lead, she helps the Reality Virtually Hackathon with it’s cohesive look and feel throughout all platforms including website, advertisements, and print. She attended and won the Circular Navigation Hackathon in the summer of 2018. Additionally, she’s an alumni to the NCAA Division 1 Track & Field program at UMass Lowell. Jenna also prides herself on being a service member for the Air National Guard."
+-
+  id: 25
+  name: "ZACH"
+  surname: "PERLMAN"
+  title: "LEAD FRONT END DEVELOPER"
+  thumbnailUrl: ZachPerlman.jpg
+  team: true
+  social:
+    - {name: "in", link: "https://www.linkedin.com/in/zachperlman/"}
+  description: "Zach is a “Zach of All Trades”. You can find this rugby playing, tall nerd, conquering front end development in the heart of sunny Miami Florida. As a Lead Front End Developer, Zach is able to create almost anything he wants in the digital world, with the web as his “playground”. Interested in Blockchain,  IoT, VR, AR, and almost anything technology related, he is always looking to learn new and modern ways of building technologies to help build a better tomorrow."
 # -
 #   id: 25
 #   name: "RUS"
