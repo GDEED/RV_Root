@@ -63,6 +63,7 @@ notifyMeButtonText: "Notify me when applications open"
 
 # About Block
 aboutTitle: "About Reality Virtually"
+aboutHeaderBody: "The Reality, Virtually, Hackathon brings together interdisciplinary minds to explore the application of virtual reality and augmented reality technologies for building new experiences. We encourage developers, designers, engineers, artists, coders, experts, sound designers, storytellers, students, creatives, and imaginative AR/VR enthusiasts to apply."
 aboutBlock:
  - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
  - {title: "Conference", image: "mitmedialab_outer.png", text: "We will be hosting some of the world’s brightest minds to present topics relevant to AR/VR in a series of lectures and panels.  You can check out last year’s conference program <a href=\"https://pastevents.realityvirtuallyhack.com/conference\">here</a>." }
