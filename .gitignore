@@ -1,5 +1,8 @@
 /RV_Root.iml
-
+/_site/*
+/_sass/*
+/.idea/
+.jekyll-metadata
 # CONTRIBUTING.html, generated from emacs
 
 CONTRIBUTING.html
