@@ -53,7 +53,7 @@
   company: "Coresecure Inc."
   title: "Software Engineer"
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: PabloKropilnicki.png
+  thumbnailUrl: ""
   rockstar: true
   ribbon: 
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
