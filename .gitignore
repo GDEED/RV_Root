@@ -1,5 +1,7 @@
 /RV_Root.iml
-
+/_site/*
+/_sass/*
+/.idea/
 # CONTRIBUTING.html, generated from emacs
 
 CONTRIBUTING.html
