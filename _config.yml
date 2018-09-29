@@ -86,12 +86,7 @@ quotesFromSponsors:
 
 
 #Last Years Winners
-lastYearsWinners:
- - { name: "GroupA" , title: "test", surname: "testSurname", company: "test" , thumbnailUrl: "statistic.jpg"}
- - { name: "GroupA" , title: "test", surname: "testSurname", company: "test" , thumbnailUrl: "statistic.jpg"}
- - { name: "GroupA" , title: "test", surname: "testSurname", company: "test" , thumbnailUrl: "statistic.jpg"}
- - { name: "GroupA" , title: "test", surname: "testSurname", company: "test" , thumbnailUrl: "statistic.jpg"}
-
+winnersTitle: "2017 Hackathon Grand Prize Winners"
 
 #PrizeCategories
 prizeCategoriesBackgroundImage: "statistic.jpg"
@@ -112,16 +107,16 @@ prizeCategories:
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "380", specialCharacter: "+", info: "participants", detail: "from all over the globe"}
- - {count: "35", specialCharacter: "+", info: "%", detail: "of pure AR/VR technologies"}
- - {count: "75", specialCharacter: "+", info: "project submissions", detail: "from country and beyond"}
+ - {count: "35", specialCharacter: "+", info: "%", detail: "diversity goal met"}
+ - {count: "75", specialCharacter: "+", info: "project submissions", detail: ""}
  - {count: "40", specialCharacter: "", info: "mentors", detail: "better than a 10:1 participant to mentor ratio"}
 
 
 statisticBlockImageB: "judges.jpg"
 statisticBlockB:
- - {count: "25", specialCharacter: "+", info: "judges"}
- - {count: "20", specialCharacter: "+", info: "workshop leads", detail: "of pure AR/VR technologies"}
- - {count: "5", specialCharacter: "+", info: "Days", detail: "from country and beyond"}
+ - {count: "25", specialCharacter: "", info: "judges"}
+ - {count: "20", specialCharacter: "+", info: "workshop leads", detail: ""}
+ - {count: "5", specialCharacter: "+", info: "Days", detail: "of hacking"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
