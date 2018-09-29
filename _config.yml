@@ -74,11 +74,11 @@ aboutMainBody: "The Reality Virtually Hackathon is a purpose-built hackathon com
 
 
 #Recap
-recapBackgroundImage: "schedule.jpg"
-recapText: "See the recap video on <b><a href='https://www.youtube.com/watch?v=ZhUzwCbe3bY'>the Reality Virtually website.</a></b>"
+recapBackgroundImage: ""
+recapText: "Watch last years recap"
 
 #Quotes from Sponsors
-quotesFromSponsorsBackground: "statistic.jpg"
+quotesFromSponsorsBackground: ""
 quotesFromSponsors:
  - { quote: "Many of the things that you saw created here you might see on a virtual store shelf next year or even sooner." , sponsor: "Richard Marks Head of PlayStation Magic Lab"}
  - { quote: "The quality of ideas, diversity, and scale of the Reality Virtually Hackathon has been impressive. It's a thrill to be supporting the VR and AR communities at the grassroots level.", sponsor: "Nick Nigam, Venture Investor at Samsung's Global InnovationCenter"}
@@ -104,10 +104,10 @@ prizeCategories:
 
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "statisticsB.jpg"
 statisticBlock:
  - {count: "380", specialCharacter: "+", info: "participants", detail: "from all over the globe"}
- - {count: "35", specialCharacter: "+", info: "%", detail: "diversity goal met"}
+ - {count: "35", specialCharacter: "", info: "%", detail: "diversity goal met"}
  - {count: "75", specialCharacter: "+", info: "project submissions", detail: ""}
  - {count: "40", specialCharacter: "", info: "mentors", detail: "better than a 10:1 participant to mentor ratio"}
 
