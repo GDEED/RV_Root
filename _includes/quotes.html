@@ -1,0 +1,17 @@
+<!-- Begin QUOTES Section -->
+<section id="statistic" class="statistic image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.quotesFromSponsorsBackground }});">
+	<div class="overlay solid-overlay"></div>
+	<div class="content-wrapper">
+		<div class="col-lg-10 col-lg-offset-1">
+            <div class="col-md-{{ colWidth }} col-xs-6">
+				<ul>
+					{% for quote in site.quotesFromSponsors %}
+					<li style="list-style:none;">{{ quote.quote }} <br> <b>{{ quote.sponsor}}</b></li>
+					{% endfor %}
+				</ul>
+
+            </div>
+		</div>
+	</div>
+</section>
+<!-- End QUOTES Section -->
