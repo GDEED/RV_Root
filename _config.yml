@@ -63,20 +63,60 @@ notifyMeButtonText: "Notify me when applications open"
 
 # About Block
 aboutTitle: "About Reality Virtually"
+aboutHeaderBody: "The Reality, Virtually, Hackathon brings together interdisciplinary minds to explore the application of virtual reality and augmented reality technologies for building new experiences. We encourage developers, designers, engineers, artists, coders, experts, sound designers, storytellers, students, creatives, and imaginative AR/VR enthusiasts to apply."
 aboutBlock:
  - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
  - {title: "Conference", image: "mitmedialab_outer.png", text: "We will be hosting some of the world’s brightest minds to present topics relevant to AR/VR in a series of lectures and panels.  You can check out last year’s conference program <a href=\"https://pastevents.realityvirtuallyhack.com/conference\">here</a>." }
  - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "The hackathon will lead with a full day of workshops to get people ready to contribute to their team’s project. Come and tame your favorite technology. You can check out last year’s workshop schedule here." }
+aboutMainBodyTitle: "Reality Virtually Hackathon returning to the MIT Media Lab, January 17–21, 2019"
+aboutMainBodyBold: "AR/VR designers, developers, sound engineers, graphic artists, domain experts, and enthusiasts  invited to apply"
+aboutMainBody: "The Reality Virtually Hackathon is a purpose-built hackathon community of 400 participants selected from approximately 1,600 applicants to create original cross reality (XR) work. The hackathon is a learning experience that deepens the extended community’s understanding of how immersive technology can be applied to solve real-world problems. It takes place in the iconic MIT Media Lab, overlooking the breathtaking Boston skyline in the heart of Cambridge’s tech scene-- a setting that inspires the most creative work. The guiding principles of the Reality, Virtually hackathon rest on interdisciplinary teams. Networking with new people, and exposure to new ideas and skill-building workshops set the stage for impassioned individuals to fuse into teams, with each team sharing a common vision to implement an impactful, original idea. The distillation of the approximately 400 unaffiliated people into teams of up to five individuals produces a creative dynamic, resulting in unique applications of immersive technologies to create ingenious, never-before-seen XR experiences and applications. The distribution of participants will be 50% students and 50% working practitioners. We will meet or exceed last year’s diversity and inclusion results of 43% female with 53 races/ethnicities and countries of origin represented. If the Reality, Virtually Hackathon holds true to past events, it will have life-changing impact. For example, Gautham Pasupuleti, a 2017 participant, developed his winning submission into a UNICEF-supported pediatric eye care and healthcare project for under-resourced geographies. Two-time hackathon winner Jackie Assar joined Google’s hardware team along with her teammate Anish Dhesikan, who is now a software engineer on the Google AR team. Companies formed from winning teams, such as 2016 winner Waypoint RX, have gone on to be acquired (Waypoint was recently acquired by PTC.) Last year’s hackathon–the largest ever immersive event–attracted sponsors such as Samsung, Microsoft, AT&T, Google, HTC VIVE, HP, Autodesk, and Ricoh’s Theta camera group. <a href='https://arvr-hackathon-2017.devpost.com/submissions'>Last year’s submissions</a> represented fields such as education, healthcare, entertainment and storytelling, commerce and industry, and human/social interaction."
 
 
+#Recap
+recapBackgroundImage: ""
+recapText: "Watch last years recap"
+
+#Quotes from Sponsors
+quotesFromSponsorsBackground: ""
+quotesFromSponsors:
+ - { quote: "Many of the things that you saw created here you might see on a virtual store shelf next year or even sooner." , sponsor: "Richard Marks Head of PlayStation Magic Lab"}
+ - { quote: "The quality of ideas, diversity, and scale of the Reality Virtually Hackathon has been impressive. It's a thrill to be supporting the VR and AR communities at the grassroots level.", sponsor: "Nick Nigam, Venture Investor at Samsung's Global InnovationCenter"}
+ - { quote: "Very interesting to walk around, great diversity, the most diverse hackathon I have ever been too.", sponsor: "Benjamin Nelson, Sr. Product Marketing Manager at AT&T"}
+
+
+#Last Years Winners
+winnersTitle: "2017 Hackathon Grand Prize Winners"
+
+#PrizeCategories
+prizeCategoriesBackgroundImage: "statistic.jpg"
+prizeCategoriesTitle: "Prize Categories"
+prizeCategoriesSub: "Possible hackathon prize categories"
+prizeCategories:
+# - { category: "AR and VR for good"}
+ - { category: "Architecture, Engineering, and Construction"}
+ - { category: "Automotive"}
+ - { category: "Healthcare and Medicine"}
+ - { category: "Gaming and Entertainment"}
+ - { category: "Advertising"}
+ - { category: "Education"}
+# - { category: "Other vertical or vertical AR or VR that participants are passionate about"}
 
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "statisticsB.jpg"
 statisticBlock:
- - {count: "400", specialCharacter: "+", info: "attendees", detail: "from all over the globe"}
- - {count: "72", specialCharacter: "+", info: "hours", detail: "of pure AR/VR technologies"}
- - {count: "30", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "380", specialCharacter: "+", info: "participants", detail: "from all over the globe"}
+ - {count: "35", specialCharacter: "", info: "%", detail: "diversity goal met"}
+ - {count: "75", specialCharacter: "+", info: "project submissions", detail: ""}
+ - {count: "40", specialCharacter: "", info: "mentors", detail: "better than a 10:1 participant to mentor ratio"}
+
+
+statisticBlockImageB: "judges.jpg"
+statisticBlockB:
+ - {count: "25", specialCharacter: "", info: "judges"}
+ - {count: "20", specialCharacter: "+", info: "workshop leads", detail: ""}
+ - {count: "5", specialCharacter: "+", info: "Days", detail: "of hacking"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -221,8 +261,8 @@ logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
-directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsImage: "medialab.png"
+directionDetailsTitle: ""
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="https://lwo.aero/en/transport">airport website</a>.'}
  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
@@ -258,11 +298,15 @@ hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
-aboutHackathonTitle: "Meet our themes"
+aboutHackathonTitle: ""
 hackathonRows:
- - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
- - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
- - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+ - {title: "New this year", image: "hackathon-0.png", details: "Participants in previous years have asked for more time to build, so we’ve added a fifth day to the schedule to expand creative time to almost 60 hours. Another request by participants was the opportunity to see the submissions built by other teams. On the last day of the hackathon, beginning right after the awards ceremony, the Insider Expo will begin, where participants can visit other teams’ tables to see their creative and original work. The hackathon will close with a public expo for the Boston/Cambridge AR/VR technology community at large."}
+ - {title: "Workshops", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+ - {title: "Mentors", image: "hackathon-2.png", details: "Skilled in XR design, development, and with domain expertise in verticals such as healthcare and medicine, 40 mentors will help teams throughout the hackathon, coalescing individuals into teams, ideating, creating, troubleshooting, debugging, and refining for submission to the judges."}
+ - {title: "Our Mission and Commitment to Diversity", image: "hackathon-2.png", details: "The Reality, Virtually Hackathon is a platform that cultivates unique innovations in the field of immersive technology. Our mission is the creation of a community of inclusion, where imaginative minds across all dimensions of diversity can collaborate to inspire innovation and build better together."}
+
+
+
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"

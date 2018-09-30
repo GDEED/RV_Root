@@ -15132,9 +15132,7 @@ img[data-src]:not([src]) {
     color: #fff
 }
 
-body {
-    background-color: #201a16
-}
+
 
 #siteWrapper {
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -15196,7 +15194,7 @@ h1,.entry-title {
     line-height: 1.2em
 }
 
-h1,.entry-title {
+.entry-title {
     color: #1c1c1c
 }
 

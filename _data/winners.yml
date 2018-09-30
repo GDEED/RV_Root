@@ -1,0 +1,34 @@
+- 
+  id: 0
+  name: "SpeakEasy"
+  surname: ""
+  company: "Grand Prize in VR"
+  title: "Sponsor: Hewlett Packard"
+  thumbnailUrl: SpeakEazy.jpg
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+- 
+  id: 1
+  name: "CosplayAR"
+  surname: ""
+  company: "Grand Prize in AR"
+  title: "Sponsor: AT&T"
+  thumbnailUrl: CosplayAR.jpg
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 2
+  name: "LeapMotion/Cultoure"
+  surname: ""
+  company: "Grand Prize in WebVR"
+  title: "Sponsor: Samsung NEXT"
+  thumbnailUrl: Coultoure.png
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+    - {name: "twitter", link: "https://twitter.com/p1f"}
+    - {name: "site", link: "http://andrusiv.com/"}
