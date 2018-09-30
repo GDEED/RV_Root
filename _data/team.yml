@@ -263,7 +263,7 @@
   name: "CARL"
   surname: "YANG"
   title: ""
-  thumbnailUrl: Carl.jpg 
+  thumbnailUrl:
   team: true
   social: 
     - {name: "twitter", link: ""}
