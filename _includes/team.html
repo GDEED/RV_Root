@@ -16,8 +16,8 @@
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"></h4>
             <div class="row" style=" display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;">
                 {% for teamMember in site.data.team %}
-                {% if teamMember.description != '' and teamMember.thumbnailUrl != null %}
-                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation" style="margin-bottom: 10px;">
+                {% if teamMember.thumbnailUrl != null %}
+                <div class="effect-wrapper col-md-3 col-sm-6 col-xs-12 cols-centered appear-animation" style="margin-bottom: 10px;">
                     <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                         <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: teamMember.thumbnailUrl }})">
                             <div class="overlay solid-overlay"></div>

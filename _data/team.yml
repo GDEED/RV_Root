@@ -10,7 +10,7 @@
   social: 
     - {name: "twitter", link: "https://twitter.com/stevep2007?lang=en"}
   description: "Steven is a project manager and journalist contributing to Ars Technica, Quartz, Fast Company and IDG. He is the president of non-profit Grassroots Developer Education, Inc. that provides free education in new technology to designers, developers and engineers. He has worked to bring AR and VR to the developer community since Google I/O 2014."
-- 
+-
   id: 1
   name: "SCOTT"
   surname: "GREENWALD"
@@ -22,8 +22,68 @@
   social: 
     - {name: "twitter", link: ""}
   description: ""
-- 
+-
   id: 2
+  name: "MARIA"
+  surname: "RICE"
+  title: "OUTREACH LEAD"
+  thumbnailUrl: MariaRice.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Maria is a Grammy-nominated sound engineer at Peerless Mastering in Boston, having mastered records of many genres and restored many acclaimed historical recordings. She excited to bring a new technology medium to the fore by attracting multi-disciplined creative talents. Outside of work, she re-watches episodes of Star Trek DS9 and studies classical piano at New England Conservatory. She earned her BA from Boston University."
+-
+  id: 3
+  name: "PRAVEEN"
+  surname: "ARAVAMUDHAM"
+  title: "JUDGING, RULES, DIGITAL OPERATIONS CO-LEAD"
+  thumbnailUrl: PRAVEENARAVAMUDHAM.jpeg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/Paravamu/"}
+  description: "Praveen has over 15 years software engineering industry experience in designing and implementing high-performance distributed software systems in various programming languages. Praveen is currently the Chief Technology Officer at Berkshire Hathaway Shoe Holdings Inc. Praveen is a hackathon “geek” ready to join a team, and frequently a contributor to a winning team. He mentors young developers and enjoys conversation about technology past/present/future. Praveen holds Masters in Information Technology and Computer Science from Syracuse University."
+-
+  id: 4
+  name: "DIANE"
+  surname: "WILLIAMS"
+  title: "DIVERSITY AND INCLUSION LEAD"
+  thumbnailUrl: DianeWilliams.jpeg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/dianeew/"}
+  description: "Diane is a Computer Scientist and serial Edtech entrepreneur, and STEM education advocate. She has been a mentor and/or judge for HackMIT, HackHarvard, Simmons Shark Hack, MIT Hacking Medicine Grand Hack, the Harvard WECode Hackathon, Harvard Astropreneurship and Space Medicine, and the MIT Mobile VR Development Challenge. She is an alumna of MIT and Harvard."
+-
+  id: 5
+  name: "PABLO"
+  surname: "KROPILNICKI"
+  title: "DIGITAL OPERATIONS CO-LEAD"
+  thumbnailUrl: PabloKropilnicki.png
+  team: true
+  social: 
+    - {name: "twitter", link: "https://www.instagram.com/pabzz_/"}
+  description: "A digital Swiss army knife and new to the Cambridge scene, Pablo is involved with many aspects of emerging technology. A software engineer at Coresecure Inc. by day, he primarily deals with international enterprise level system operations. By night, he is a developing electronic house music producer and an active maker. With interests in ethical hacking, blockchain development, self powered biomedicine and nanotechnology, he's always looking for a way to learn and give back to the community."
+-
+  id: 6
+  name: "SARAH"
+  surname: "PILLAI"
+  title: "OPERATIONS CO-LEAD, JUDGING / RULES"
+  thumbnailUrl: SarahEPillai.webp
+  team: true
+  social: 
+    - {name: "ig", link: "https://www.instagram.com/sarahepillai/?hl=en"}
+  description: "As a fashion editor by trade, Sarah knows the power of choosing the right word, the right format, the right connections, or the right outfit can make or break the future and develop a brighter path. Using her skills as a former cheerleader, as an alumna of Harvard and Boston University, and working as Teen Vogue’s fashion editor, Sarah’s mission is bridging, cheering, and evolving the fashion and technology industries by building empowering and fun systems for the overall betterment of the communities."
+-
+  id: 7
+  name: "MAX"
+  surname: "MCCLASKIE"
+  title: "DIGITAL OPERATIONS CO-LEAD"
+  thumbnailUrl: MAXMCCLASKIE.jpeg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://www.instagram.com/maxgeorgem/?hl=en"}
+  description: "Max joins the team as a hack-a-thon veteran and wearer of many hats when it comes to world of digital marketing. As a Creative Technologist at Hill Holliday, he is responsible for leading projects of all types including websites, mobile apps, chat bots, API integrations and more. On the side, Max is a freelance content creator with a focus on photography and social content for brands of all sizes."
+-
+  id: 8
   name: "ALICIA"
   surname: "HONG"
   title: "QUALITY AND PERFORMANCE LEAD"
@@ -35,7 +95,7 @@
     - {name: "twitter", link: "https://twitter.com/Allulhjn"}
   description: "Alicia is a data analyst at Amazon Alexa. She co-founded Boston University's first AR/VR club. Data nerd, VR enthusiast. She enjoys day-to-day observation of how data embodies and enables interactions. Her long-term vision in life is to explore and define a spiritual language in social interactions, in VR."
 -
-  id: 3
+  id: 9
   name: "ARPIT"
   surname: "GUPTA"
   title: "OPERATIONS CO-LEAD"
@@ -45,17 +105,7 @@
     - {name: "twitter", link: ""}
   description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual MIT Media Lab AR/VR Hackathon."
 -
-  id: 4
-  name: "SARAH"
-  surname: "PILLAI"
-  title: "OPERATIONS CO-LEAD, JUDGING / RULES"
-  thumbnailUrl: SarahEPillai.webp
-  team: true
-  social: 
-    - {name: "ig", link: "https://www.instagram.com/sarahepillai/?hl=en"}
-  description: "As a fashion editor by trade, Sarah knows the power of choosing the right word, the right format, the right connections, or the right outfit can make or break the future and develop a brighter path. Using her skills as a former cheerleader, as an alumna of Harvard and Boston University, and working as Teen Vogue’s fashion editor, Sarah’s mission is bridging, cheering, and evolving the fashion and technology industries by building empowering and fun systems for the overall betterment of the communities."
--
-  id: 5
+  id: 10
   name: "CINDY SHERMAN"
   surname: "BISHOP"
   title: "WORKSHOP LEAD"
@@ -65,7 +115,7 @@
     - {name: "twitter", link: ""}
   description: ""
 -
-  id: 6
+  id: 11
   name: "CONNOR"
   surname: "LARKIN"
   title: "VOLUNTEER LEAD"
@@ -75,171 +125,7 @@
     - {name: "twitter", link: ""}
   description: ""
 -
-  id: 7
-  name: "DIANE"
-  surname: "WILLIAMS"
-  title: "DIVERSITY AND INCLUSION LEAD"
-  thumbnailUrl: DianeWilliams.jpeg
-  team: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/dianeew/"}
-  description: "Diane is a Computer Scientist and serial Edtech entrepreneur, and STEM education advocate. She has been a mentor and/or judge for HackMIT, HackHarvard, Simmons Shark Hack, MIT Hacking Medicine Grand Hack, the Harvard WECode Hackathon, Harvard Astropreneurship and Space Medicine, and the MIT Mobile VR Development Challenge. She is an alumna of MIT and Harvard."
--
-  id: 8
-  name: "DIVYANSHU"
-  surname: "VARSHNEY"
-  title: "INTERNATIONAL OUTREACH"
-  thumbnailUrl: DIVYANSHUVARSHNEY.jpg
-  team: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/Div_Varshney/"}
-  description: "Divyanshu Varshney is the founder and CEO of Spiro Studios, a young company on a mission to provide physical rehabilitation services to the doorsteps inorder to help people get better in a fast, easy and fun way. He is also the founder and president of VR | AR | MR, India's first and now largest Virtual and Augmented Reality Community. Divyanshu holds a Bachelors in Information Technology from Manav Rachna College of Engineering."  
--
-  id: 9
-  name: "ILDAR"
-  surname: "IAKUBOV"
-  title: "TECHNICAL OPERATIONS"
-  thumbnailUrl: ildar_picture.jpg
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: ""
--
-  id: 10
-  name: "JASMINE"
-  surname: "ROBERTS"
-  title: ""
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: ""
--
-  id: 11
-  name: "JOHN"
-  surname: "DUFRESNE"
-  title: "PHYSICAL OPERATIONS LEAD"
-  thumbnailUrl: JohnDufrense.jpeg
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: ""
--
   id: 12
-  name: "MARIA"
-  surname: "RICE"
-  title: "OUTREACH LEAD"
-  thumbnailUrl: MariaRice.jpg
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "Maria is a Grammy-nominated sound engineer at Peerless Mastering in Boston, having mastered records of many genres and restored many acclaimed historical recordings. She excited to bring a new technology medium to the fore by attracting multi-disciplined creative talents. Outside of work, she re-watches episodes of Star Trek DS9 and studies classical piano at New England Conservatory. She earned her BA from Boston University."
--
-  id: 13
-  name: "MAX"
-  surname: "MCCLASKIE"
-  title: "DIGITAL OPERATIONS CO-LEAD"
-  thumbnailUrl: MAXMCCLASKIE.jpeg
-  team: true
-  social: 
-    - {name: "twitter", link: "https://www.instagram.com/maxgeorgem/?hl=en"}
-  description: "Max joins the team as a hack-a-thon veteran and wearer of many hats when it comes to world of digital marketing. As a Creative Technologist at Hill Holliday, he is responsible for leading projects of all types including websites, mobile apps, chat bots, API integrations and more. On the side, Max is a freelance content creator with a focus on photography and social content for brands of all sizes."
--
-  id: 14
-  name: "PRAVEEN"
-  surname: "ARAVAMUDHAM"
-  title: "JUDGING, RULES, DIGITAL OPERATIONS CO-LEAD"
-  thumbnailUrl: PRAVEENARAVAMUDHAM.jpeg
-  team: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/Paravamu/"}
-  description: "Praveen has over 15 years software engineering industry experience in designing and implementing high-performance distributed software systems in various programming languages. Praveen is currently the Chief Technology Officer at Berkshire Hathaway Shoe Holdings Inc. Praveen is a hackathon “geek” ready to join a team, and frequently a contributor to a winning team. He mentors young developers and enjoys conversation about technology past/present/future. Praveen holds Masters in Information Technology and Computer Science from Syracuse University."
--
-  id: 15
-  name: "JASON"
-  surname: "HURVITZ"
-  title: "CODE REVIEW LEAD"
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: ""
--
-  id: 16
-  name: "PAURIC"
-  surname: "O'CALLAGHAN"
-  title: "TEAM FORMATION LEAD"
-  thumbnailUrl: PAURICOCALLAGHAN.png
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: ""
--
-  id: 17
-  name: "PABLO"
-  surname: "KROPILNICKI"
-  title: "DIGITAL OPERATIONS CO-LEAD"
-  thumbnailUrl: PabloKropilnicki.png
-  team: true
-  social: 
-    - {name: "twitter", link: "https://www.instagram.com/pabzz_/"}
-  description: "A digital Swiss army knife and new to the Cambridge scene, Pablo is involved with many aspects of emerging technology. A software engineer at Coresecure Inc. by day, he primarily deals with international enterprise level system operations. By night, he is a developing electronic house music producer and an active maker. With interests in ethical hacking, blockchain development, self powered biomedicine and nanotechnology, he's always looking for a way to learn and give back to the community."
--
-  id: 18
-  name: "ANDREAS"
-  surname: "DIAS"
-  title: "OUTREACH & DIGITAL OPERATIONS"
-  thumbnailUrl: AndreasDias.jpg
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "Andreas is a graduate of Princeton University 2017. He has helped organize hackathons in the past and currently is working on a companion app for Hackathons, Professional Conferences, and Networking Events that allows attendees to exchange contact information using Computer Vision and Augmented Reality and event organizers to easily communicate with attendees. Currently he is between Pensacola, FL and San Francisco, CA."
--
-  id: 19
-  name: "SEHA"
-  surname: "GULNAR DALAY"
-  title: "DIGITAL OPERATIONS"
-  thumbnailUrl: SehaGulnarDalay.jpg
-  team: true
-  social: 
-    - {name: "in", link: "https://www.linkedin.com/in/seha-gulnar-dalay-03073415/"}
-  description: "Seha is a former commercial banker who changed her career by following her passion to build new things. She completed intense engineering immersive program and continues to learn and improve herself as a front end web developer. Seha holds an MBA from Radford University and BA in Economics from Bilkent University."
--
-  id: 20
-  name: "DANIEL"
-  surname: "CLINE"
-  title: "DIGITAL OPERATIONS"
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "Dan is a sophomore computer science student at UMass Amherst, and hackathon organizer for HackUMass. He's participated in (and won) many hackathons, and is now working to enrich the hacker community by organizing them."
--
-  id: 21
-  name: "ERIC"
-  surname: "BOEHLKE"
-  title: "SITE PLANNING LEAD"
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "cc "
--
-  id: 22
-  name: "CHANDLER"
-  surname: "ZHANG"
-  title: ""
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "Chandler loves holograms. Chandler co-founded BU AR/VR. Chandler loves to eat. Chandler works at PTC."
--
-  id: 23
-  name: "RYAN"
-  surname: "LEE"
-  title: "OPERATIONS AND PARTNERSHIPS"
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "Ryan is an AR developer at PTC Academic who works on building learning experiences for the K12 classroom using PTC’s Vuforia technology. Prior to PTC, he was a Masters student at the Harvard Graduate School of Education who also helped co-found Harvard’s AR/VR Student Alliance. He enjoys growing and learning from our vibrant Boston AR/VR community!"
--
-  id: 24
   name: "JENNA"
   surname: "OLANDER"
   title: "DESIGN LEAD"
@@ -249,7 +135,141 @@
     - {name: "twitter", link: ""}
   description: "Jenna is a graphic design major completing her bachelors degree at UMass Lowell in May of 2019. As a design lead, she helps the Reality Virtually Hackathon with it’s cohesive look and feel throughout all platforms including website, advertisements, and print. She attended and won the Circular Navigation Hackathon in the summer of 2018. Additionally, she’s an alumni to the NCAA Division 1 Track & Field program at UMass Lowell. Jenna also prides herself on being a service member for the Air National Guard."
 -
+  id: 13
+  name: "DIVYANSHU"
+  surname: "VARSHNEY"
+  title: "INTERNATIONAL OUTREACH"
+  thumbnailUrl: DIVYANSHUVARSHNEY.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/Div_Varshney/"}
+  description: "Divyanshu Varshney is the founder and CEO of Spiro Studios, a young company on a mission to provide physical rehabilitation services to the doorsteps inorder to help people get better in a fast, easy and fun way. He is also the founder and president of VR | AR | MR, India's first and now largest Virtual and Augmented Reality Community. Divyanshu holds a Bachelors in Information Technology from Manav Rachna College of Engineering."
+-
+  id: 14
+  name: "JASMINE"
+  surname: "ROBERTS"
+  title: ""
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: ""
+-
+  id: 15
+  name: "JOHN"
+  surname: "DUFRESNE"
+  title: "PHYSICAL OPERATIONS LEAD"
+  thumbnailUrl: JohnDufrense.jpeg
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: ""
+-
+  id: 16
+  name: "RUS"
+  surname: "GANT"
+  title: ""
+  thumbnailUrl: RusGant.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, and educator with four decades of experience in computer visualization, archaeology and museology for some of the world’s leading museums and universities. A member of the research staff at Harvard University where he also leads the Visualization Research and Teaching Laboratory and formerly was the lead technical artist for Harvard's Giza 3D project that is reconstructing the Egyptian monuments on the Giza Plateau in virtual reality. He is on the teaching faculty at Tokyo’s Showa Women's University and is a Fellow at the MIT Center for Advanced Visual Studies  at the Center for Creative Inquiry at Carnegie Mellon University"
+-
+  id: 17
+  name: "JASON"
+  surname: "HURVITZ"
+  title: "CODE REVIEW LEAD"
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: ""
+-
+  id: 18
+  name: "PAURIC"
+  surname: "O'CALLAGHAN"
+  title: "TEAM FORMATION LEAD"
+  thumbnailUrl: PAURICOCALLAGHAN.png
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: ""
+-
+  id: 19
+  name: "ANDREAS"
+  surname: "DIAS"
+  title: "OUTREACH & DIGITAL OPERATIONS"
+  thumbnailUrl: AndreasDias.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Andreas is a graduate of Princeton University 2017. He has helped organize hackathons in the past and currently is working on a companion app for Hackathons, Professional Conferences, and Networking Events that allows attendees to exchange contact information using Computer Vision and Augmented Reality and event organizers to easily communicate with attendees. Currently he is between Pensacola, FL and San Francisco, CA."
+-
+  id: 20
+  name: "SEHA"
+  surname: "GULNAR DALAY"
+  title: "DIGITAL OPERATIONS"
+  thumbnailUrl: SehaGulnarDalay.jpg
+  team: true
+  social: 
+    - {name: "in", link: "https://www.linkedin.com/in/seha-gulnar-dalay-03073415/"}
+  description: "Seha is a former commercial banker who changed her career by following her passion to build new things. She completed intense engineering immersive program and continues to learn and improve herself as a front end web developer. Seha holds an MBA from Radford University and BA in Economics from Bilkent University."
+-
+  id: 21
+  name: "DANIEL"
+  surname: "CLINE"
+  title: "DIGITAL OPERATIONS"
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Dan is a sophomore computer science student at UMass Amherst, and hackathon organizer for HackUMass. He's participated in (and won) many hackathons, and is now working to enrich the hacker community by organizing them."
+-
+  id: 22
+  name: "ERIC"
+  surname: "BOEHLKE"
+  title: "SITE PLANNING LEAD"
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "cc "
+-
+  id: 23
+  name: "CHANDLER"
+  surname: "ZHANG"
+  title: ""
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Chandler loves holograms. Chandler co-founded BU AR/VR. Chandler loves to eat. Chandler works at PTC."
+-
+  id: 24
+  name: "RYAN"
+  surname: "LEE"
+  title: "OPERATIONS AND PARTNERSHIPS"
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Ryan is an AR developer at PTC Academic who works on building learning experiences for the K12 classroom using PTC’s Vuforia technology. Prior to PTC, he was a Masters student at the Harvard Graduate School of Education who also helped co-found Harvard’s AR/VR Student Alliance. He enjoys growing and learning from our vibrant Boston AR/VR community!"
+-
   id: 25
+  name: "ILDAR"
+  surname: "IAKUBOV"
+  title: "TECHNICAL OPERATIONS"
+  thumbnailUrl: ildar_picture.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "" 
+-
+  id: 26
+  name: "CARL"
+  surname: "YANG"
+  title: ""
+  thumbnailUrl: Carl.jpg 
+  team: true
+  social: 
+    - {name: "twitter", link: ""}
+  description: "Carl is creative and methodical strategist committed to generating business value by helping enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His responsibilities leading R&D efforts at Fidelity Investments included developing concepts, prototypes, and pilot studies of emerging applications of evolving user interfaces - including work with blended and virtual reality platforms."
+-
+  id: 27
   name: "ZACH"
   surname: "PERLMAN"
   title: "LEAD FRONT END DEVELOPER"
@@ -269,4 +289,4 @@
 #     - {name: "twitter", link: ""}
 #    description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, film maker and educator. Currently on the Research staff at Harvard University and the teaching faculty at Tokyo’s Showa Women's University he is currently pursuing work in the future of real-time 3D computer graphics and virtual reality. He is currently running the Visualization Research and Teaching Laboratory at Harvard University and was formally the Lead Technical artist for the Giza 3D project at Harvard reconstructing the pyramids, temples and tombs on the Giza Plateau in Egypt in virtual reality. For more than 40 years he has applied his visualization skills to work in computer science, archaeology and museology for some of the world’s leading museums and universities. As a computer hardware and software engineer he has constantly been at the forefront of the science of computer visualization. As a Fellow at the MIT Center for Advanced Visual Studies for many years and as a Fellow at the Center for Creative Inquiry at Carnegie Mellon University he has created and developed new techniques in 3D graphics, virtual reality and digital archaeology. These techniques have often been applied to the reconstruction of the art and architecture of ancient cultures."
 
-  
+ 
