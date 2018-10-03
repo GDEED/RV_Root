@@ -1,13 +1,12 @@
-<form action="/test" method="POST">
-    <div class="form-group">
+<form method="POST" action="https://script.google.com/macros/s/AKfycbyaWiGh56mFtSNXcUMkj4vPjX9Y7TaU6N7toA53FVQTVDdkyX-5/exec">
         <label for="firstName">First Name</label>
-        <input type="firstName" class="form-control" id="firstName" aria-describedby="firstName" placeholder="Enter first name">
+        <input type="firstName" class="form-control" name="firstName" id="firstName" aria-describedby="firstName" placeholder="Enter first name">
 
         <label for="lastName">Last Name</label>
-        <input type="lastName" class="form-control" id="lastName" aria-describedby="emailHelp" placeholder="Enter last name">
+        <input type="lastName" class="form-control" name="lastName" id="lastName" aria-describedby="emailHelp" placeholder="Enter last name">
 
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
 
         <div class="form-group">
             <label for="sel1">How did you hear about the Reality Virtually hackathon?</label>
@@ -24,14 +23,14 @@
 
 
         <label for="teamName">If you attended an earlier Reality Virtually hackathon, what was your team name?</label>
-        <input type="teamName" class="form-control" id="teamName" aria-describedby="teamName" placeholder="Enter teamName">
+        <input type="teamName" class="form-control" name="teamName" id="teamName" aria-describedby="teamName" placeholder="Enter teamName">
 
         <label for="currentLocation">What is your current location</label>
-        <input type="currentLocation" class="form-control" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter email">
+        <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter email">
 
         <div class="form-group">
             <label for="=citizenship">Citizenship</label>
-            <select class="form-control" id="=citizenship">
+            <select class="form-control" id="=citizenship" name="=citizenship">
                 <option>AFGHANISTAN</option>
                 <option>ALBANIA</option>
                 <option>ALGERIA</option>
@@ -289,108 +288,106 @@
         <!--    Checkbox list / -->
         <div class="form-check form-check-inline">
             AR/VR Experience<br>
-            <input class="form-check-input" type="checkbox" id="360video" value="360video">
+            <input class="form-check-input" type="checkbox" id="360video" name="360video" value="360video">
             <label class="form-check-label" for="360video">360 Video</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="appleARKit" value="appleARKit">
+            <input class="form-check-input" type="checkbox" id="appleARKit" name="appleARKit" value="appleARKit">
             <label class="form-check-label" for="appleARKit">Apple ARKit</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="cryEngine" value="cryEngine">
+            <input class="form-check-input" type="checkbox" id="cryEngine" name="cryEngine" value="cryEngine">
             <label class="form-check-label" for="cryEngine">CryEngine</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="arCore" value="arCore">
+            <input class="form-check-input" type="checkbox" id="arCore" name="arCore" value="arCore">
             <label class="form-check-label" for="arCore">Google ARCore</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="googleTango" value="googleTango">
+            <input class="form-check-input" type="checkbox" id="googleTango" name="googleTango" value="googleTango">
             <label class="form-check-label" for="googleTango">Google Tango</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="googleVR" value="googleVR">
+            <input class="form-check-input" type="checkbox" id="googleVR" name="googleVR" value="googleVR">
             <label class="form-check-label" for="googleVR">Google VR (Cardboard / Daydream)</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="magicLeap" value="magicLeap">
+            <input class="form-check-input" type="checkbox" id="magicLeap" name="magicLeap" value="magicLeap">
             <label class="form-check-label" for="magicLeap">MagicLeap</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="meta2Ar" value="meta2Ar">
+            <input class="form-check-input" type="checkbox" id="meta2Ar" name="meta2Ar" value="meta2Ar">
             <label class="form-check-label" for="meta2Ar">Meta 2 AR</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="microsoftHololens" value="microsoftHololens">
+            <input class="form-check-input" type="checkbox" id="microsoftHololens" name="microsoftHololens" value="microsoftHololens">
             <label class="form-check-label" for="microsoftHololens">Microsoft HoloLens</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="nativeOpenGL" value="nativeOpenGL">
+            <input class="form-check-input" type="checkbox" id="nativeOpenGL" name="nativeOpenGL" value="nativeOpenGL">
             <label class="form-check-label" for="nativeOpenGL">Native (OpenGL Vulkan)</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="oculusGo" value="oculusGo">
+            <input class="form-check-input" type="checkbox" id="oculusGo" name="oculusGo" value="oculusGo">
             <label class="form-check-label" for="oculusGo">Oculus Go</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="oculusRift" value="oculusRift">
+            <input class="form-check-input" type="checkbox" id="oculusRift" name="oculusRift" value="oculusRift">
             <label class="form-check-label" for="oculusRift">Oculus Rift</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="samsungGearVr" value="samsungGearVr">
+            <input class="form-check-input" type="checkbox" id="samsungGearVr" name="samsungGearVr" value="samsungGearVr">
             <label class="form-check-label" for="samsungGearVr">Samsung Gear VR</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="sonyPlaystationVR" value="sonyPlaystationVR">
+            <input class="form-check-input" type="checkbox" id="sonyPlaystationVR" name="sonyPlaystationVR" value="sonyPlaystationVR">
             <label class="form-check-label" for="sonyPlaystationVR">Sony Playstation VR</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="steamOpenVR" value="steamOpenVR">
+            <input class="form-check-input" type="checkbox" id="steamOpenVR" name="steamOpenVR" value="steamOpenVR">
             <label class="form-check-label" for="steamOpenVR">Steam OpenVR (HTC Vive)</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="unity" value="unity">
+            <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity">
             <label class="form-check-label" for="unity">Unity</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="unrealEngine" value="unrealEngine">
+            <input class="form-check-input" type="checkbox" id="unrealEngine" name="unrealEngine" value="unrealEngine">
             <label class="form-check-label" for="unrealEngine">Unreal Engine</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="vive" value="vive">
+            <input class="form-check-input" type="checkbox" id="vive" name="vive" value="vive">
             <label class="form-check-label" for="vive">Vive</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="vivePro" value="vivePro">
+            <input class="form-check-input" type="checkbox" id="vivePro" name="vivePro" value="vivePro">
             <label class="form-check-label" for="vivePro">Vive Pro</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="vuforia" value="vuforia">
+            <input class="form-check-input" type="checkbox" id="vuforia" name="vuforia" value="vuforia">
             <label class="form-check-label" for="vuforia">Vuforia</label>
         </div>
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="webVR" value="webVR">
+            <input class="form-check-input" type="checkbox" id="webVR" name="webVR" value="webVR">
             <label class="form-check-label" for="webVR">WebVR / A-Frame</label>
         </div>
         <!--//Todo: text input for other-->
         <div class="form-check form-check-inline">
-            <input class="form-check-input" type="text" id="other" value="other">
+            <input class="form-check-input" type="text" id="other" name="other" value="other">
             <label class="form-check-label" for="other">Other</label>
         </div>
 
 
         <label for="Occupation">What is your occupation?</label>
-        <input type="occupation" class="form-control" id="occupation" aria-describedby="citizenship" placeholder="Enter occupation">
+        <input type="occupation" class="form-control" id="occupation" name="occupation" aria-describedby="citizenship" placeholder="Enter occupation">
 
         <label for="affiliation">Affiliation</label>
-        <input type="affiliation" class="form-control" id="affiliation" aria-describedby="affiliation" placeholder="Enter affiliation">
+        <input type="affiliation" class="form-control" id="affiliation" name="affiliation" aria-describedby="affiliation" placeholder="Enter affiliation">
 
         <label for="gender">Gender</label>
-        <input type="gender" class="form-control" id="gender" aria-describedby="gender" placeholder="Enter gender">
-
         <div class="form-group">
             <label for="gender">Gender</label>
-            <select class="form-control" id="gender">
+            <select class="form-control" id="gender" name="gender">
                 <option disabled>Choose</option>
                 <option>Female</option>
                 <option>Male</option>
@@ -401,31 +398,41 @@
         </div>
 
         <label for="ethnicity">Race/Ethnicity</label>
-        <input type="ethnicity" class="form-control" id="ethnicity" aria-describedby="ethnicity" placeholder="Enter ethnicity">
+        <input type="ethnicity" class="form-control" id="ethnicity" id="ethnicity" aria-describedby="ethnicity" placeholder="Enter ethnicity">
 
         <label for="motives">About you and why you want to join the Reality Virtually Community?</label>
         <span>In 300 words or less describe yourself and how you relate to immersive technologies</span>
-        <textarea class="form-control" rows="5" id="motives"></textarea>
+        <textarea class="form-control" rows="5" id="motives" name="motives"></textarea>
 
 
         <label for="degree">University Degrees and Fields of Study</label>
-        <input type="degree" class="form-control" id="degree" aria-describedby="degree" placeholder="Enter degree">
+        <input type="degree" class="form-control" id="degree" name="degree" aria-describedby="degree" placeholder="Enter degree">
 
         <label for="twitter">Twitter Handle</label>
-        <input type="twitter" class="form-control" id="twitter" aria-describedby="twitter" placeholder="Enter twitter">
+        <input type="twitter" class="form-control" id="twitter" name="twitter" aria-describedby="twitter" placeholder="Enter twitter">
 
         <label for="facebook">Facebook Page</label>
-        <input type="facebook" class="form-control" id="facebook" aria-describedby="facebook" placeholder="Enter facebook">
+        <input type="facebook" class="form-control" id="facebook" name="facebook" aria-describedby="facebook" placeholder="Enter facebook">
 
         <label for="website">Personal Website</label>
-        <input type="website" class="form-control" id="website" aria-describedby="website" placeholder="Enter website">
+        <input type="website" class="form-control" id="website" name="website" aria-describedby="website" placeholder="Enter website">
 
         <label for="github">Your Github Repo</label>
-        <input type="github" class="form-control" id="github" aria-describedby="github" placeholder="Enter github">
+        <input type="github" class="form-control" id="github" name="github" aria-describedby="github" placeholder="Enter github">
 
         <label for="app"> Link to AR/VR App that you created or contributed to creating</label>
-        <input type="app" class="form-control" id="app" aria-describedby="app" placeholder="Enter personal app">
+        <input type="app" class="form-control" id="app" name="app" aria-describedby="app" placeholder="Enter personal app">
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary registrationSubmit">Submit</button>
     </div>
 </form>
+
+
+<script>
+    $(".registrationSubmit").submit(function(data){
+       e.preventDefault;
+
+
+       console.log("submit");
+    });
+</script>
