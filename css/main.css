@@ -6286,7 +6286,9 @@ nav li a.current, nav li a:hover {
     }
 }
 
-
+button:focus, a:focus {
+    outline: none;
+}
 
 #about .about-details p{
     font-size: 13px;
@@ -6297,6 +6299,7 @@ nav li a.current, nav li a:hover {
     transition:max-height 0.7s ease-in-out;
     height:auto;
     max-height:25vh;
+    margin-bottom: 2rem;
 }
 
 #about .about-details-full.active {

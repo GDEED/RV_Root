@@ -9,8 +9,9 @@
         // Get the button that opens the modal
         var btn = document.getElementById("registrationButton");
 
+        console.log("THIS IS INIT");
         // Get the button that opens the modal
-        var btn_lg = document.getElementById("registrationButtonLG");
+        var btn_lg = $('[data-toggle-modal="register"]');
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
@@ -23,10 +24,14 @@
             $(modal).fadeIn();
         }
 
-        btn_lg.onclick = function() {
-            //modal.style.display = "block";
+        $(btn_lg).click(function(){
             $(modal).fadeIn();
-        }
+        });
+        // btn_lg.onclick = function() {
+        //     console.log("CLICKED");
+        //     //modal.style.display = "block";
+        //     $(modal).fadeIn();
+        // }
 
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() {
