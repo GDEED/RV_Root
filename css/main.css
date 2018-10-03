@@ -6285,3 +6285,33 @@ nav li a.current, nav li a:hover {
         display: none !important
     }
 }
+
+
+
+#about .about-details p{
+    font-size: 13px;
+}
+
+#about .about-details-full {
+    overflow: hidden;
+    transition:max-height 0.7s ease-in-out;
+    height:auto;
+    max-height:25vh;
+}
+
+#about .about-details-full.active {
+    max-height: 1500px;
+}
+#about .learn-more-link {
+    color: #03a9f4;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.active .active-hide, .active-show  {
+    display: none;
+}
+
+.active .active-show {
+    display: inline-block;
+}
