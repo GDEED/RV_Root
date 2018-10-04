@@ -126,3 +126,18 @@ function register(data)
 
 }
 
+$(".registrationSubmit").click(function(e){
+e.preventDefault;
+var action = $("#applicationForm").attr('action');
+
+console.log(action);
+    $.ajax({
+        url: action,
+        type:'POST',
+        data:$('#applicationForm').serialize(),
+        success:function(){
+            swal("Thank you!", "We'll keep you posted on your application", "success");
+        }
+    });
+
+});

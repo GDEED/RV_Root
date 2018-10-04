@@ -1,4 +1,4 @@
-<form method="POST" action="{{ site.applicationsEnpointTEST }}">
+<form method="POST" action="{{ site.applicationsEnpointTEST }}" id="applicationForm">
         <label for="firstName">First Name</label>
         <input type="firstName" class="form-control" name="firstName" id="firstName" aria-describedby="firstName" placeholder="Enter first name">
 
@@ -423,16 +423,8 @@
         <label for="app"> Link to AR/VR App that you created or contributed to creating</label>
         <input type="app" class="form-control" id="app" name="app" aria-describedby="app" placeholder="Enter personal app">
 
-        <button type="submit" class="btn btn-primary registrationSubmit">Submit</button>
+    <span class="btn btn-primary registrationSubmit">Submit</span>
     </div>
 </form>
 
-
-<script>
-    $(".registrationSubmit").submit(function(data){
-       e.preventDefault;
-
-
-       console.log("submit");
-    });
-</script>
+<script src="/js/register.js"></script>
