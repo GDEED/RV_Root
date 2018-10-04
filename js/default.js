@@ -24,3 +24,11 @@ a=350-(Date.now()-Number(c.getAttribute("data-hold")));0>a&&(a=0);setTimeout(fun
 0;d<a.length;d++){var b=a[d];if("input"===b.tagName.toLowerCase()){var c=b.parentNode;if("i"!==c.tagName.toLowerCase()||-1===c.className.indexOf("waves-effect")){var e=document.createElement("i");e.className=b.className+" waves-input-wrapper";var h=b.getAttribute("style");h||(h="");e.setAttribute("style",h);b.className="waves-button-input";b.removeAttribute("style");c.replaceChild(e,b);e.appendChild(b)}}}}},e={touches:0,allowEvent:function(a){var b=!0;return"touchstart"===a.type?e.touches+=1:"touchend"===
 a.type||"touchcancel"===a.type?setTimeout(function(){0<e.touches&&--e.touches},500):"mousedown"===a.type&&0<e.touches&&(b=!1),b},touchup:function(a){e.allowEvent(a)}};c.displayEffect=function(c){c=c||{};"duration"in c&&(b.duration=c.duration);b.wrapInput(l(".waves-effect"));"ontouchstart"in d&&document.body.addEventListener("touchstart",a,!1);document.body.addEventListener("mousedown",a,!1)};c.attach=function(c){"input"===c.tagName.toLowerCase()&&(b.wrapInput([c]),c=c.parentElement);"ontouchstart"in
 d&&c.addEventListener("touchstart",a,!1);c.addEventListener("mousedown",a,!1)};d.Waves=c}(window);
+
+
+$(document).ready(function () {
+    $('.learn-more-link').click(function () {
+        $('.about-details-full').toggleClass('active');
+        $(this).delay(1000).toggleClass('active');
+    });
+});

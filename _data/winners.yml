@@ -5,6 +5,7 @@
   company: "Grand Prize in VR"
   title: "Sponsor: Hewlett Packard"
   thumbnailUrl: SpeakEazy.jpg
+  link: "https://devpost.com/software/speakeasy-5wl7z2"
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
     - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
@@ -16,6 +17,7 @@
   company: "Grand Prize in AR"
   title: "Sponsor: AT&T"
   thumbnailUrl: CosplayAR.jpg
+  link: "https://devpost.com/software/cosplayar"
   social: 
     - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
     - {name: "twitter", link: "https://twitter.com/zasadnyy"}
@@ -28,6 +30,7 @@
   company: "Grand Prize in WebVR"
   title: "Sponsor: Samsung NEXT"
   thumbnailUrl: Coultoure.png
+  link: "https://devpost.com/software/cultoure"
   social: 
     - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
     - {name: "twitter", link: "https://twitter.com/p1f"}
