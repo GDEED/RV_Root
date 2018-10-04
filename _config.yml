@@ -106,9 +106,9 @@ prizeCategories:
 # Statistic Block
 statisticBlockImage: "statisticsB.jpg"
 statisticBlock:
- - {count: "380", specialCharacter: "+", info: "participants", detail: "from all over the globe"}
- - {count: "35", specialCharacter: "", info: "%", detail: "diversity goal met"}
- - {count: "75", specialCharacter: "+", info: "project submissions", detail: ""}
+ - {count: "400", specialCharacter: "+", info: "attendees", detail: ""}
+ - {count: "43", specialCharacter: "", info: "%", detail: "diversity goal met"}
+ - {count: "75", specialCharacter: "+", info: "", detail: "projects available under open source license"}
  - {count: "40", specialCharacter: "", info: "mentors", detail: "better than a 10:1 participant to mentor ratio"}
 
 
@@ -116,7 +116,7 @@ statisticBlockImageB: "judges.jpg"
 statisticBlockB:
  - {count: "25", specialCharacter: "", info: "judges"}
  - {count: "20", specialCharacter: "+", info: "workshop leads", detail: ""}
- - {count: "5", specialCharacter: "+", info: "Days", detail: "of hacking"}
+ - {count: "5", specialCharacter: "+", info: "Days", detail: "of learning, building, new people and new ideas"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
