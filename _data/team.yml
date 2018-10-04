@@ -20,8 +20,8 @@
   ribbon: 
     - {abbr: "team", title: "Our Team"}
   social: 
-    - {name: "twitter", link: ""}
-  description: ""
+    - {name: "twitter", link: "https://github.com/scottgwald"}
+  description: "Scott is a research scientist in the Fluid Interface Group of the MIT Media Lab. His dissertation on learning and education in virtual reality led to an interest in rapid-prototyping interactions in software making tool development both a byproduct and a focus of his research. He and his team are preparing to release an open-source toolkit for VR research (stay tuned!)"
 -
   id: 2
   name: "MARIA"
