@@ -8,13 +8,15 @@
                 {% assign animationDelay = 0 %} {% for judge in site.data.winners %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="judge col-md-{{ colWidth }} col-xs-6 animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                    <div class="flow-img img-circle judge-img" style="background-image: url({{ site.baseurl }}/img/winners/{{ judge.thumbnailUrl }})"></div>
-                    <p class="name">{{ judge.name }} {{ judge.surname }}</p>
-                    <span class="company">{{ judge.company }}</span>
-                    <span class="title">{{ judge.title }}</span>
+                    <a href="{{ judge.link }}">
+                        <div class="flow-img img-circle judge-img" style="background-image: url({{ site.baseurl }}/img/winners/{{ judge.thumbnailUrl }})"></div>
+                        <p class="name" style="color:white;">{{ judge.name }} {{ judge.surname }}</p>
+                        <span class="company" style="color:white;">{{ judge.company }}</span>
+                        <span class="title" style="color:white;">{{ judge.title }}</span>
+                    </a>
                 </div>
-                {% assign animationDelay = animationDelay | plus:500 %} 
-                {% assign check = forloop.index | modulo:2 %} 
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% assign check = forloop.index | modulo:2 %}
                 {% if check == 0 %}
                 <div class="clearfix visible-xs"></div>
                 {% endif %} 
