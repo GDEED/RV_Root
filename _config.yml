@@ -93,13 +93,12 @@ prizeCategoriesBackgroundImage: "statistic.jpg"
 prizeCategoriesTitle: "Prize Categories"
 prizeCategoriesSub: "Possible hackathon prize categories"
 prizeCategories:
-# - { category: "AR and VR for good"}
- - { category: "Architecture, Engineering, and Construction"}
- - { category: "Automotive"}
- - { category: "Healthcare and Medicine"}
- - { category: "Gaming and Entertainment"}
- - { category: "Advertising"}
- - { category: "Education"}
+ - { name: "Architecture, Engineering, and Construction"}
+ - { name: "Automotive"}
+ - { name: "Healthcare and Medicine"}
+ - { name: "Gaming and Entertainment"}
+ - { name: "Advertising"}
+ - { name: "Education"}
 # - { category: "Other vertical or vertical AR or VR that participants are passionate about"}
 
 
