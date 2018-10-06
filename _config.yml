@@ -42,13 +42,13 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
+ - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
 # - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
  - {link: "/about/", text: "About", hasDropdown: false}
  - {link: "https://pastevents.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016", hasDropdown: true }
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
- - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
  - {link: "/team/", text: "Team", hasDropdown: false}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
 
