@@ -1,0 +1,27 @@
+<!-- Begin Partners Section -->
+<section id="partners" class="partners">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <!--<h3>{{ site.partnersTitle }}</h3>-->
+            {% for organizer in site.data.rv_sponsors %}
+            <h5>{{ organizer.group }}</h5>
+            <a href="https://www.media.mit.edu/" target="_blank">
+                <img src="{{ site.baseurl }}/img/sponsors/MediaLabLogo.png" style="max-width:300px;" title="MIT MEDIA LAB" alt="The MIT Media Lab">
+            </a>
+            <ul class="list-inline">
+                {% for element in organizer.elements %}
+                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <a href="{{ element.link }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/sponsors/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+            <!--<h3>{{ site.partnersTitle }}</h3>-->
+            <!--<a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>-->
+        </div>
+    </div> 
+</section>
+<!-- End Partners Section -->
+
