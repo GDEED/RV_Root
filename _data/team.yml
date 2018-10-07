@@ -103,7 +103,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual MIT Media Lab AR/VR Hackathon."
+  description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual Virtually Reality Hackathon."
 -
   id: 10
   name: "CINDY SHERMAN"
@@ -279,7 +279,18 @@
   social:
     - {name: "in", link: "https://www.linkedin.com/in/zachperlman/"}
   description: "Zach is a “Zach of All Trades”. You can find this rugby playing, tall nerd, conquering front end development in the heart of sunny Miami Florida. As a Lead Front End Developer, Zach is able to create almost anything he wants in the digital world, with the web as his “playground”. Interested in Blockchain,  IoT, VR, AR, and almost anything technology related, he is always looking to learn new and modern ways of building technologies to help build a better tomorrow."
-# - 
+- 
+ id: 28
+  name: "PRATHMESH"
+  surname: "JAKKANWAR"
+  title: ""
+  thumbnailUrl: PrathmeshJakkanwar.jpeg
+  team: true
+  social:
+    - {name: "in", link: "https://www.instagram.com/prathmeshjakkanwar/"}
+    # - {name: "youtube", link: "https://www.youtube.com/user/prathjakk/"}
+  description: "Prathmesh has a Masters in Computer Science from Northeastern University and currently works at Cengage Learning as a Sofware Engineer. Primarily a backend engineer, Prathmesh is exploring the idea of being a full stack. He has been a cricketer for life and actively plays it professionally (he has also represented the USA in the American College Cricket tournament and played against Canada). When he is not coding or playing cricket, he likes to travel and fly drones. He is an aspiring YouTuber and carries his drone with him."
+# -
 #   id: 28
 #   name: "BRIAN"
 #   surname: "BURNS"
