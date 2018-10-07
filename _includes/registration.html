@@ -1,50 +1,3 @@
-
-<!--<script>-->
-
-
-
-    <!--function UploadFile() {-->
-
-        <!--var reader = new FileReader();-->
-        <!--var file = document.getElementById('SelectedFile').files[0];-->
-        <!--reader.onload = function() {-->
-            <!--//document.getElementById('fileContent').value = reader.result;-->
-            <!--var contentType = reader.result.substr(5, reader.result.indexOf(';') - 5);-->
-            <!--document.getElementById('fileContentType').value = contentType;-->
-            <!--alert (document.getElementById('fileContentType').value);-->
-
-            <!--document.getElementById('fileContent').value = reader.result.substr( reader.result.indexOf('base64,') + 7);-->
-            <!--var res = document.getElementById('fileContent').value.substring(0, 100);-->
-            <!--alert(res);-->
-
-            <!--document.getElementById('fileName').value = file.name;-->
-            <!--document.getElementById('fileSize').value = file.size;-->
-            <!--//document.getElementById('uploadForm').submit();-->
-
-            <!--var xhr = new XMLHttpRequest();-->
-            <!--xhr.open("POST", "https://script.google.com/macros/s/AKfycbwVpAmQO61uDKfii7EJY03dbQG-F7coLfCNPqULpgGCZy-HfM0/exec", true);-->
-            <!--xhr.onload = function(event){-->
-                <!--alert("The server responded with: " + event.target.response);-->
-            <!--};-->
-            <!--var formData = new FormData(document.getElementById("uploadForm"));-->
-            <!--xhr.send(formData);-->
-
-            <!--xhr.onreadystatechange = function() {-->
-                <!--if (xhr.readyState == XMLHttpRequest.DONE) {-->
-                    <!--alert(xhr.responseText);-->
-                <!--}-->
-            <!--}-->
-
-        <!--};-->
-        <!--reader.readAsDataURL(file);-->
-    <!--}-->
-
-
-
-<!--</script>-->
-
-
-
 <section id="registration-hackathon" class="registration-hachathon">
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
@@ -76,10 +29,10 @@
             <input type="teamName" class="form-control" name="teamName" id="teamName" aria-describedby="teamName" placeholder="Enter teamName">
 
             <label for="currentLocation">What is your current location</label>
-            <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter email">
+            <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter Current Location">
 
             <div class="form-group">
-                <label for="citizenship">Citizenship</label>
+                <label for="citizenship">Country of Citizenship</label>
                 <select class="form-control" id="citizenship" name="citizenship">
                     <option>AFGHANISTAN</option>
                     <option>ALBANIA</option>
@@ -493,46 +446,37 @@
 
     </form>
 
-            <form id="uploadForm" method="post" style="margin-top:10px; margin-bottom:10px;">
+            <form id="uploadForm" method="post" style="margin-top:10px;">
                 <div id="data"></div>
                 <input type="hidden" value="" name="fileContent" id="fileContent">
                 <input type="hidden" value="" name="fileName"  id="fileName">
                 <input type="hidden" value="" name="fileSize"  id="fileSize">
                 <input type="hidden" value="" name="fileContentType" id="fileContentType">
 
-                <b for="resume">Upload Resume</b>
-                <span style="margin-top:10px;">Note: You MUST submit a resume in order to submit an application</span>
+                <b id="resume">Upload Resume</b>
+                <span id="resumeWarning" style="margin-top:10px;">Note: You MUST submit a resume in order to submit an application</span>
 
                 <input name="SelectedFile" id="SelectedFile" type="file" class="btn btn-secondary">
                 <br>
-                <input value="Load resume" type="button" class="btn btn-primary"  style="width: 100%; background:#f0ad4e!important;" onclick="UploadFile()">
+                <input value="Load resume" type="button" id="loadResume" class="btn"  style="width: 100%; background:#f0ad4e; color:gray;" onclick="UploadFile()">
                 <!-- onclick="UploadFile();" -->
             </form>
 
-            <span class="btn btn registrationSubmit" id="registrationSubmit" disabled style="width: 100%;">Submit Application</span>
+            <b class="resume_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Resume Loaded</b>
+            <span class="btn btn registrationSubmit" id="registrationSubmit" disabled style="width: 100%; display:none;">Submit Application</span>
     </div>
 
 </div>
 </section>
 
 
-
-
-
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<section id="registration-thankyou" class="registration-thankyou" style="display:none;">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <img src="/img/about-section/mitmedialab_hackathon.png">
+            <h1>Thank you for your submission! <br>We'll keep you posted</h1>
+        </div>
+    </div>
+</section>
 
 

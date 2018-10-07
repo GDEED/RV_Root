@@ -128,18 +128,60 @@ function register(data)
 
 $(".registrationSubmit").click(function(e){
 e.preventDefault;
-var action = $("#applicationForm").attr('action');
+    var name = $("#firstName").val();
+    var action = $("#applicationForm").attr('action');
 
-console.log(action);
+swal("Are you registering from within the European Union?", {
+    buttons: {
+        gdpr: "Yes",
+        nongdpr: "No",
+        cancel: true,
+    },
+}).then((value) => {
+    switch (value) {
+
+    case "gdpr":
+        //EU
+        action = "https://script.google.com/macros/s/AKfycbwgAg3ZbuLvDsffaYTzSvjFkVx-JJcduK9HbCMtVKxk2FlIXO72/exec";
+        break;
+    case "nongdpr":
+        //US
+        action = "https://script.google.com/macros/s/AKfycbzDxZJjZSrxmmChAfu24sT6H5wsvknKu4G8ImIl4XnNrtU0kWlR/exec";
+        break;
+    default:
+        $(modal).fadeOut();
+        break;
+    }
+
+
+    // console.log("action: " + action);
+
+
+
     $.ajax({
         url: action,
         type:'POST',
         data:$('#applicationForm').serialize(),
         success:function(){
-            swal("Thank you!", "We'll keep you posted on your application", "success");
+            $("#registration-hackathon").fadeOut();
+            $("#registration-thankyou").fadeIn();
         }
     });
+
+
+
+
+
 });
+
+});
+
+
+
+
+
+
+
 
 
 
@@ -183,24 +225,27 @@ function UploadFile() {
                 console.log("data: " + response.data);
 
 
-                swal("Thank you!", response.data, "success");
+                swal("Nice!", "Your resume has been successfully submitted", "success");
 
 
                 $("#resumeDriveLocation").attr("value",response.data);
 
-                $("#uploadForm").fadeOut();
+                $("#resume").fadeOut();
+                $("#SelectedFile").fadeOut();
+                $("#resumeWarning").fadeOut();
+                $("#SelectedFile").fadeOut();
 
+                $("#loadResume").attr("background","#4cae4c");
+                $("#loadResume").attr("disabled",true);
+                $("#loadResume").css("background","green");
+                $("#loadResume").css("color","white");
+                $("#loadResume").fadeOut();
 
+                $("#registrationSubmit").show();
+                $(".resume_submitted").show();
                 $("#registrationSubmit").attr("disabled",false);
-
                 $("#registrationSubmit").toggleClass("btn-primary");
-
             }
-
-
-
-
-
 
         }
 
