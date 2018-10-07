@@ -955,7 +955,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 input[type="file"] {
-    display: block
+    /*display: block*/
 }
 
 input[type="range"] {

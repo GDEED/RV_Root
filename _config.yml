@@ -89,6 +89,10 @@ quotesFromSponsors:
 #Last Years Winners
 winnersTitle: "2017 Hackathon Grand Prize Winners"
 
+#VideoBanner
+videoBannerEmbedURL: "https://www.youtube.com/embed/jT_ti4HPC8s"
+
+
 #PrizeCategories
 prizeCategoriesBackgroundImage: "statistic.jpg"
 prizeCategoriesTitle: "Prize Categories"

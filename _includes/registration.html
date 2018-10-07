@@ -29,10 +29,10 @@
             <input type="teamName" class="form-control" name="teamName" id="teamName" aria-describedby="teamName" placeholder="Enter teamName">
 
             <label for="currentLocation">What is your current location</label>
-            <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter email">
+            <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter Current Location">
 
             <div class="form-group">
-                <label for="citizenship">Citizenship</label>
+                <label for="citizenship">Country of Citizenship</label>
                 <select class="form-control" id="citizenship" name="citizenship">
                     <option>AFGHANISTAN</option>
                     <option>ALBANIA</option>
@@ -384,6 +384,12 @@
                 </div>
             </div>
 
+                <!--TESTING UPLOAD RESUME-->
+
+
+
+
+
 
             <!--//Todo: text input for other-->
             <div class="form-check form-check-inline">
@@ -436,10 +442,41 @@
             <label for="app"> Link to AR/VR App that you created or contributed to creating</label>
             <input type="app" class="form-control" id="app" name="app" aria-describedby="app" placeholder="Enter personal app">
 
+            <input type="hidden" value="" name="resumeDriveLocation" id="resumeDriveLocation">
 
     </form>
-            <br>
-            <span class="btn btn-primary registrationSubmit" style="width: 100%;">Submit Application</span>
+
+            <form id="uploadForm" method="post" style="margin-top:10px;">
+                <div id="data"></div>
+                <input type="hidden" value="" name="fileContent" id="fileContent">
+                <input type="hidden" value="" name="fileName"  id="fileName">
+                <input type="hidden" value="" name="fileSize"  id="fileSize">
+                <input type="hidden" value="" name="fileContentType" id="fileContentType">
+
+                <b id="resume">Upload Resume</b>
+                <span id="resumeWarning" style="margin-top:10px;">Note: You MUST submit a resume in order to submit an application</span>
+
+                <input name="SelectedFile" id="SelectedFile" type="file" class="btn btn-secondary">
+                <br>
+                <input value="Load resume" type="button" id="loadResume" class="btn"  style="width: 100%; background:#f0ad4e; color:gray;" onclick="UploadFile()">
+                <!-- onclick="UploadFile();" -->
+            </form>
+
+            <b class="resume_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Resume Loaded</b>
+            <span class="btn btn registrationSubmit" id="registrationSubmit" disabled style="width: 100%; display:none;">Submit Application</span>
     </div>
+
 </div>
 </section>
+
+
+<section id="registration-thankyou" class="registration-thankyou" style="display:none;">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <img src="/img/about-section/mitmedialab_hackathon.png">
+            <h1>Thank you for your submission! <br>We'll keep you posted</h1>
+        </div>
+    </div>
+</section>
+
+
