@@ -1,3 +1,50 @@
+
+<!--<script>-->
+
+
+
+    <!--function UploadFile() {-->
+
+        <!--var reader = new FileReader();-->
+        <!--var file = document.getElementById('SelectedFile').files[0];-->
+        <!--reader.onload = function() {-->
+            <!--//document.getElementById('fileContent').value = reader.result;-->
+            <!--var contentType = reader.result.substr(5, reader.result.indexOf(';') - 5);-->
+            <!--document.getElementById('fileContentType').value = contentType;-->
+            <!--alert (document.getElementById('fileContentType').value);-->
+
+            <!--document.getElementById('fileContent').value = reader.result.substr( reader.result.indexOf('base64,') + 7);-->
+            <!--var res = document.getElementById('fileContent').value.substring(0, 100);-->
+            <!--alert(res);-->
+
+            <!--document.getElementById('fileName').value = file.name;-->
+            <!--document.getElementById('fileSize').value = file.size;-->
+            <!--//document.getElementById('uploadForm').submit();-->
+
+            <!--var xhr = new XMLHttpRequest();-->
+            <!--xhr.open("POST", "https://script.google.com/macros/s/AKfycbwVpAmQO61uDKfii7EJY03dbQG-F7coLfCNPqULpgGCZy-HfM0/exec", true);-->
+            <!--xhr.onload = function(event){-->
+                <!--alert("The server responded with: " + event.target.response);-->
+            <!--};-->
+            <!--var formData = new FormData(document.getElementById("uploadForm"));-->
+            <!--xhr.send(formData);-->
+
+            <!--xhr.onreadystatechange = function() {-->
+                <!--if (xhr.readyState == XMLHttpRequest.DONE) {-->
+                    <!--alert(xhr.responseText);-->
+                <!--}-->
+            <!--}-->
+
+        <!--};-->
+        <!--reader.readAsDataURL(file);-->
+    <!--}-->
+
+
+
+<!--</script>-->
+
+
+
 <section id="registration-hackathon" class="registration-hachathon">
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
@@ -384,6 +431,12 @@
                 </div>
             </div>
 
+                <!--TESTING UPLOAD RESUME-->
+
+
+
+
+
 
             <!--//Todo: text input for other-->
             <div class="form-check form-check-inline">
@@ -436,10 +489,50 @@
             <label for="app"> Link to AR/VR App that you created or contributed to creating</label>
             <input type="app" class="form-control" id="app" name="app" aria-describedby="app" placeholder="Enter personal app">
 
+            <input type="hidden" value="" name="resumeDriveLocation" id="resumeDriveLocation">
 
     </form>
-            <br>
-            <span class="btn btn-primary registrationSubmit" style="width: 100%;">Submit Application</span>
+
+            <form id="uploadForm" method="post" style="margin-top:10px; margin-bottom:10px;">
+                <div id="data"></div>
+                <input type="hidden" value="" name="fileContent" id="fileContent">
+                <input type="hidden" value="" name="fileName"  id="fileName">
+                <input type="hidden" value="" name="fileSize"  id="fileSize">
+                <input type="hidden" value="" name="fileContentType" id="fileContentType">
+
+                <b for="resume">Upload Resume</b>
+                <span style="margin-top:10px;">Note: You MUST submit a resume in order to submit an application</span>
+
+                <input name="SelectedFile" id="SelectedFile" type="file" class="btn btn-secondary">
+                <br>
+                <input value="Load resume" type="button" class="btn btn-primary"  style="width: 100%; background:#f0ad4e!important;" onclick="UploadFile()">
+                <!-- onclick="UploadFile();" -->
+            </form>
+
+            <span class="btn btn registrationSubmit" id="registrationSubmit" disabled style="width: 100%;">Submit Application</span>
     </div>
+
 </div>
 </section>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

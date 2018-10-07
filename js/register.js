@@ -139,5 +139,71 @@ console.log(action);
             swal("Thank you!", "We'll keep you posted on your application", "success");
         }
     });
-
 });
+
+
+
+function UploadFile() {
+
+        var reader = new FileReader();
+        var file = document.getElementById('SelectedFile').files[0];
+        reader.onload = function() {
+        //document.getElementById('fileContent').value = reader.result;
+        var contentType = reader.result.substr(5, reader.result.indexOf(';') - 5);
+        document.getElementById('fileContentType').value = contentType;
+        // alert (document.getElementById('fileContentType').value);
+        console.log(document.getElementById('fileContentType').value);
+
+        document.getElementById('fileContent').value = reader.result.substr( reader.result.indexOf('base64,') + 7);
+        var res = document.getElementById('fileContent').value.substring(0, 100);
+        // alert(res);
+
+        console.log("response: " + res);
+
+        document.getElementById('fileName').value = file.name;
+        document.getElementById('fileSize').value = file.size;
+        //document.getElementById('uploadForm').submit();
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://script.google.com/macros/s/AKfycbwVpAmQO61uDKfii7EJY03dbQG-F7coLfCNPqULpgGCZy-HfM0/exec", true);
+        xhr.onload = function(event){
+            // alert("The server responded with: " + event.target.response);
+            console.log("Responded With: " + event.target.response);
+        };
+        var formData = new FormData(document.getElementById("uploadForm"));
+        xhr.send(formData);
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                // alert(xhr.responseText);
+                console.log("xhr.responseText " + xhr.responseText.trim());
+
+                var response = JSON.parse(xhr.responseText);
+                console.log("result: " + response.result);
+                console.log("data: " + response.data);
+
+
+                swal("Thank you!", response.data, "success");
+
+
+                $("#resumeDriveLocation").attr("value",response.data);
+
+                $("#uploadForm").fadeOut();
+
+
+                $("#registrationSubmit").attr("disabled",false);
+
+                $("#registrationSubmit").toggleClass("btn-primary");
+
+            }
+
+
+
+
+
+
+        }
+
+    };
+    reader.readAsDataURL(file);
+}
