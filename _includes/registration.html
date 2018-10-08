@@ -453,17 +453,18 @@
                 <input type="hidden" value="" name="fileSize"  id="fileSize">
                 <input type="hidden" value="" name="fileContentType" id="fileContentType">
 
-                <b id="resume">Upload Resume</b>
-                <span id="resumeWarning" style="margin-top:10px;">Note: You MUST submit a resume in order to submit an application</span>
+                <b id="resume">Optional: Upload Resume</b>
+                <span id="resumeWarning" style="margin-top:10px;">Your current resume will help us evaluate your application. Please upload your resume.</span>
+
 
                 <input name="SelectedFile" id="SelectedFile" type="file" class="btn btn-secondary">
                 <br>
-                <input value="Load resume" type="button" id="loadResume" class="btn"  style="width: 100%; background:#f0ad4e; color:gray;" onclick="UploadFile()">
+                <input value="Load resume" type="button" id="loadResume" class="btn"  style="width: 100%; background:#1ea9e1; color:white;margin-top:10px; margin-bottom:10px;" onclick="UploadFile()">
                 <!-- onclick="UploadFile();" -->
             </form>
 
             <b class="resume_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Resume Loaded</b>
-            <span class="btn btn registrationSubmit" id="registrationSubmit" disabled style="width: 100%; display:none;">Submit Application</span>
+            <btn class="btn btn-primary registrationSubmit" id="registrationSubmit" style="width: 100%;">Submit Application</btn>
     </div>
 
 </div>

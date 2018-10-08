@@ -229,8 +229,9 @@ function UploadFile() {
 
 
                 $("#resumeDriveLocation").attr("value",response.data);
-
                 $("#resume").fadeOut();
+
+
                 $("#SelectedFile").fadeOut();
                 $("#resumeWarning").fadeOut();
                 $("#SelectedFile").fadeOut();
@@ -241,10 +242,10 @@ function UploadFile() {
                 $("#loadResume").css("color","white");
                 $("#loadResume").fadeOut();
 
-                $("#registrationSubmit").show();
+                // $("#registrationSubmit").show();
                 $(".resume_submitted").show();
-                $("#registrationSubmit").attr("disabled",false);
-                $("#registrationSubmit").toggleClass("btn-primary");
+                // $("#registrationSubmit").attr("disabled",false);
+                // $("#registrationSubmit").toggleClass("btn-primary");
             }
 
         }
