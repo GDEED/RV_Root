@@ -10,6 +10,12 @@ body {
     margin: 0
 }
 
+body.loading,
+body.loading input[type=button] {
+    cursor: wait !important;
+}
+
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
 }
