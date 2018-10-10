@@ -70,7 +70,7 @@
   thumbnailUrl: SarahEPillai.webp
   team: true
   social: 
-    - {name: "ig", link: "https://www.instagram.com/sarahepillai/?hl=en"}
+    - {name: "instagram", link: "https://www.instagram.com/sarahepillai/?hl=en"}
   description: "As a fashion editor by trade, Sarah knows the power of choosing the right word, the right format, the right connections, or the right outfit can make or break the future and develop a brighter path. Using her skills as a former cheerleader, as an alumna of Harvard and Boston University, and working as Teen Vogue’s fashion editor, Sarah’s mission is bridging, cheering, and evolving the fashion and technology industries by building empowering and fun systems for the overall betterment of the communities."
 -
   id: 7
@@ -80,7 +80,7 @@
   thumbnailUrl: MAXMCCLASKIE.jpeg
   team: true
   social: 
-    - {name: "twitter", link: "https://www.instagram.com/maxgeorgem/?hl=en"}
+    - {name: "instagram", link: "https://www.instagram.com/maxgeorgem/?hl=en"}
   description: "Max joins the team as a hack-a-thon veteran and wearer of many hats when it comes to world of digital marketing. As a Creative Technologist at Hill Holliday, he is responsible for leading projects of all types including websites, mobile apps, chat bots, API integrations and more. On the side, Max is a freelance content creator with a focus on photography and social content for brands of all sizes."
 -
   id: 8
