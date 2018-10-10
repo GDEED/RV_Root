@@ -1038,9 +1038,23 @@ input[type="search"] {
     -webkit-appearance: none
 }
 
+form label,
+form {
+    text-align: left;
+}
+
+form > label {
+    margin-top: 30px;
+}
+
 .form-group {
     margin-bottom: 15px;
     margin-top: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    text-align: left;
 }
 
 .radio, .checkbox {
@@ -1075,6 +1089,10 @@ input[type="search"] {
     vertical-align: middle;
     font-weight: normal;
     cursor: pointer
+}
+
+#SelectedFile {
+    margin-bottom: 30px;
 }
 
 .radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
@@ -6299,11 +6317,36 @@ button:focus, a:focus {
 }
 
 #about .about-details-full {
-    overflow: hidden;
-    transition:max-height 0.7s ease-in-out;
     height:auto;
-    max-height:25vh;
     margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.copy-block {
+    margin: 1em 0;
+    max-width: 40em;
+    padding: 0 1em;
+}
+
+.copy-block  h5 {
+    margin: 1em 0;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: left;
+}
+
+.copy-block p {
+    font-size: 1.4em;
+    line-height: 2em;
+    text-align: left;
+}
+
+@media all and (min-width: 900px) {
+    .copy-block {
+        width: 33.333333%;
+    }
 }
 
 #about .about-details-full.active {
