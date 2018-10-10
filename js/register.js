@@ -165,6 +165,7 @@ swal("Are you registering from within the European Union?", {
         success:function(){
             $("#registration-hackathon").fadeOut();
             $("#registration-thankyou").fadeIn();
+            ga('send', 'event', 'Application', 'app_submission', 'Event Application');
         }
     });
 
