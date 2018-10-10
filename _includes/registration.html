@@ -1,0 +1,483 @@
+<section id="registration-hackathon" class="registration-hachathon">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <form method="POST" action="{{ site.applicationsEnpointTEST }}" id="applicationForm">
+            <label for="firstName">First Name</label>
+            <input type="firstName" class="form-control" name="firstName" id="firstName" aria-describedby="firstName" placeholder="Enter first name">
+
+            <label for="lastName">Last Name</label>
+            <input type="lastName" class="form-control" name="lastName" id="lastName" aria-describedby="emailHelp" placeholder="Enter last name">
+
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+
+            <div class="form-group">
+                <label for="sel1">How did you hear about the Reality Virtually hackathon?</label>
+                <select class="form-control" id="sel1">
+                    <option>By Email</option>
+                    <option>I attended Reality Virtually 2016</option>
+                    <option>I attended Reality Virtually 2017</option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                    <option>A group I belong to</option>
+                    <option>Word of mouth</option>
+                </select>
+            </div>
+
+
+            <label for="teamName">If you attended an earlier Reality Virtually hackathon, what was your team name?</label>
+            <input type="teamName" class="form-control" name="teamName" id="teamName" aria-describedby="teamName" placeholder="Enter teamName">
+
+            <label for="currentLocation">What is your current location</label>
+            <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter Current Location">
+
+            <div class="form-group">
+                <label for="citizenship">Country of Citizenship</label>
+                <select class="form-control" id="citizenship" name="citizenship">
+                    <option>AFGHANISTAN</option>
+                    <option>ALBANIA</option>
+                    <option>ALGERIA</option>
+                    <option>AMERICAN SAMOA</option>
+                    <option>ANDORRA</option>
+                    <option>ANGOLA</option>
+                    <option>ANTARCTICA</option>
+                    <option>ANTIGUA AND BARBUDA</option>
+                    <option>ARGENTINA</option>
+                    <option>ARMENIA</option>
+                    <option>ARUBA</option>
+                    <option>AUSTRALIA</option>
+                    <option>AUSTRIA</option>
+                    <option>AZERBAIJAN</option>
+                    <option>BAHAMAS</option>
+                    <option>BAHRAIN</option>
+                    <option>BANGLADESH</option>
+                    <option>BARBADOS</option>
+                    <option>BELARUS</option>
+                    <option>BELGIUM</option>
+                    <option>BELIZE</option>
+                    <option>BENIN</option>
+                    <option>BERMUDA</option>
+                    <option>BHUTAN</option>
+                    <option>BOLIVIA</option>
+                    <option>BOSNIA AND HERZEGOVINA</option>
+                    <option>BOTSWANA</option>
+                    <option>BOUVET ISLAND</option>
+                    <option>BRAZIL</option>
+                    <option>BRITISH INDIAN OCEAN TERRITORY</option>
+                    <option>BRUNEI DARUSSALAM</option>
+                    <option>BULGARIA</option>
+                    <option>BURKINA FASO</option>
+                    <option>BURUNDI</option>
+                    <option>CAMBODIA</option>
+                    <option>CAMEROON</option>
+                    <option>CANADA</option>
+                    <option>CAPE VERDE</option>
+                    <option>CAYMAN ISLANDS</option>
+                    <option>CENTRAL AFRICAN REPUBLIC</option>
+                    <option>CHAD</option>
+                    <option>CHILE</option>
+                    <option>CHINA</option>
+                    <option>CHRISTMAS ISLAND</option>
+                    <option>COCOS (KEELING) ISLANDS</option>
+                    <option>COLOMBIA</option>
+                    <option>COMOROS</option>
+                    <option>CONGO</option>
+                    <option>CONGO, THE DEMOCRATIC REPUBLIC OF THE</option>
+                    <option>COOK ISLANDS</option>
+                    <option>COSTA RICA</option>
+                    <option>CÔTE D'IVOIRE</option>
+                    <option>CROATIA</option>
+                    <option>CUBA</option>
+                    <option>CYPRUS</option>
+                    <option>CZECH REPUBLIC</option>
+                    <option>DENMARK</option>
+                    <option>DJIBOUTI</option>
+                    <option>DOMINICA</option>
+                    <option>DOMINICAN REPUBLIC</option>
+                    <option>ECUADOR</option>
+                    <option>EGYPT</option>
+                    <option>EL SALVADOR</option>
+                    <option>EQUATORIAL GUINEA</option>
+                    <option>ERITREA</option>
+                    <option>ESTONIA</option>
+                    <option>ETHIOPIA</option>
+                    <option>FALKLAND ISLANDS (MALVINAS)</option>
+                    <option>FAROE ISLANDS</option>
+                    <option>FIJI</option>
+                    <option>FINLAND</option>
+                    <option>FRANCE</option>
+                    <option>FRENCH GUIANA</option>
+                    <option>FRENCH POLYNESIA</option>
+                    <option>FRENCH SOUTHERN TERRITORIES</option>
+                    <option>GABON</option>
+                    <option>GAMBIA</option>
+                    <option>GEORGIA</option>
+                    <option>GERMANY</option>
+                    <option>GHANA</option>
+                    <option>GIBRALTAR</option>
+                    <option>GREECE</option>
+                    <option>GREENLAND</option>
+                    <option>GRENADA</option>
+                    <option>GUADELOUPE</option>
+                    <option>GUAM</option>
+                    <option>GUATEMALA</option>
+                    <option>GUINEA</option>
+                    <option>GUINEA-BISSAU</option>
+                    <option>GUYANA</option>
+                    <option>HAITI</option>
+                    <option>HEARD ISLAND AND MCDONALD ISLANDS</option>
+                    <option>HONDURAS</option>
+                    <option>HONG KONG</option>
+                    <option>HUNGARY</option>
+                    <option>ICELAND</option>
+                    <option>INDIA</option>
+                    <option>INDONESIA</option>
+                    <option>IRAN, ISLAMIC REPUBLIC OF</option>
+                    <option>IRAQ</option>
+                    <option>IRELAND</option>
+                    <option>ISRAEL</option>
+                    <option>ITALY</option>
+                    <option>JAMAICA</option>
+                    <option>JAPAN</option>
+                    <option>JORDAN</option>
+                    <option>KAZAKHSTAN</option>
+                    <option>KENYA</option>
+                    <option>KIRIBATI</option>
+                    <option>KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option>
+                    <option>KOREA, REPUBLIC OF</option>
+                    <option>KUWAIT</option>
+                    <option>KYRGYZSTAN</option>
+                    <option>LAO PEOPLE'S DEMOCRATIC REPUBLIC (LAOS)</option>
+                    <option>LATVIA</option>
+                    <option>LEBANON</option>
+                    <option>LESOTHO</option>
+                    <option>LIBERIA</option>
+                    <option>LIBYAN ARAB JAMAHIRIYA</option>
+                    <option>LIECHTENSTEIN</option>
+                    <option>LITHUANIA</option>
+                    <option>LUXEMBOURG</option>
+                    <option>MACAO</option>
+                    <option>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
+                    <option>MADAGASCAR</option>
+                    <option>MALAWI</option>
+                    <option>MALAYSIA</option>
+                    <option>MALDIVES</option>
+                    <option>MALI</option>
+                    <option>MALTA</option>
+                    <option>MARSHALL ISLANDS</option>
+                    <option>MARTINIQUE</option>
+                    <option>MAURITANIA</option>
+                    <option>MAURITIUS</option>
+                    <option>MAYOTTE</option>
+                    <option>MEXICO</option>
+                    <option>MICRONESIA, FEDERATED STATES OF</option>
+                    <option>MOLDOVA, REPUBLIC OF</option>
+                    <option>MONACO</option>
+                    <option>MONGOLIA</option>
+                    <option>MONTENEGRO</option>
+                    <option>MONTSERRAT</option>
+                    <option>MOROCCO</option>
+                    <option>MOZAMBIQUE</option>
+                    <option>MYANMAR</option>
+                    <option>NAMIBIA</option>
+                    <option>NAURU</option>
+                    <option>NEPAL</option>
+                    <option>NETHERLANDS</option>
+                    <option>NETHERLANDS ANTILLES</option>
+                    <option>NEW CALEDONIA</option>
+                    <option>NEW ZEALAND</option>
+                    <option>NICARAGUA</option>
+                    <option>NIGER</option>
+                    <option>NIGERIA</option>
+                    <option>NIUE</option>
+                    <option>NORFOLK ISLAND</option>
+                    <option>NORTHERN MARIANA ISLANDS</option>
+                    <option>NORWAY</option>
+                    <option>OMAN</option>
+                    <option>PAKISTAN</option>
+                    <option>PALAU</option>
+                    <option>PALESTINIAN TERRITORY, OCCUPIED</option>
+                    <option>PANAMA</option>
+                    <option>PAPUA NEW GUINEA</option>
+                    <option>PARAGUAY</option>
+                    <option>PERU</option>
+                    <option>PHILIPPINES</option>
+                    <option>PITCAIRN</option>
+                    <option>POLAND</option>
+                    <option>PORTUGAL</option>
+                    <option>PUERTO RICO</option>
+                    <option>QATAR</option>
+                    <option>RÉUNION</option>
+                    <option>ROMANIA</option>
+                    <option>RUSSIAN FEDERATION</option>
+                    <option>RWANDA</option>
+                    <option>SAINT HELENA</option>
+                    <option>SAINT KITTS AND NEVIS</option>
+                    <option>SAINT LUCIA</option>
+                    <option>SAINT PIERRE AND MIQUELON</option>
+                    <option>SAINT VINCENT AND THE GRENADINES</option>
+                    <option>SAMOA</option>
+                    <option>SAN MARINO</option>
+                    <option>SAO TOME AND PRINCIPE</option>
+                    <option>SAUDI ARABIA</option>
+                    <option>SENEGAL</option>
+                    <option>SERBIA</option>
+                    <option>SEYCHELLES</option>
+                    <option>SIERRA LEONE</option>
+                    <option>SINGAPORE</option>
+                    <option>SLOVAKIA</option>
+                    <option>SLOVENIA</option>
+                    <option>SOLOMON ISLANDS</option>
+                    <option>SOMALIA</option>
+                    <option>SOUTH AFRICA</option>
+                    <option>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</option>
+                    <option>SPAIN</option>
+                    <option>SRI LANKA</option>
+                    <option>SUDAN</option>
+                    <option>SURINAME</option>
+                    <option>SVALBARD AND JAN MAYEN</option>
+                    <option>SWAZILAND</option>
+                    <option>SWEDEN</option>
+                    <option>SWITZERLAND</option>
+                    <option>SYRIAN ARAB REPUBLIC</option>
+                    <option>TAIWAN</option>
+                    <option>TAJIKISTAN</option>
+                    <option>TANZANIA, UNITED REPUBLIC OF</option>
+                    <option>THAILAND</option>
+                    <option>TIMOR-LESTE</option>
+                    <option>TOGO</option>
+                    <option>TOKELAU</option>
+                    <option>TONGA</option>
+                    <option>TRINIDAD AND TOBAGO</option>
+                    <option>TUNISIA</option>
+                    <option>TURKEY</option>
+                    <option>TURKMENISTAN</option>
+                    <option>TURKS AND CAICOS ISLANDS</option>
+                    <option>TUVALU</option>
+                    <option>UGANDA</option>
+                    <option>UKRAINE</option>
+                    <option>UNITED ARAB EMIRATES</option>
+                    <option>UNITED KINGDOM</option>
+                    <option>UNITED STATES</option>
+                    <option>UNITED STATES MINOR OUTLYING ISLANDS</option>
+                    <option>URUGUAY</option>
+                    <option>UZBEKISTAN</option>
+                    <option>VANUATU</option>
+                    <option>VENEZUELA</option>
+                    <option>VIET NAM</option>
+                    <option>VIRGIN ISLANDS, BRITISH</option>
+                    <option>VIRGIN ISLANDS, U.S.</option>
+                    <option>WALLIS AND FUTUNA</option>
+                    <option>WESTERN SAHARA</option>
+                    <option>YEMEN</option>
+                    <option>ZAMBIA</option>
+                    <option>ZIMBABWE</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="preferredRole">Preferred/Desired Hackathon Role</label>
+                <select class="form-control" id="preferredRole">
+                    <option disabled>Choose</option>
+                    <option>Developer</option>
+                    <option>Designer</option>
+                    <option>Graphic Artist</option>
+                    <option>Sound/Video</option>
+                    <option>Business/Product Management</option>
+                    <option>Domain Expert</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <h6><b>AR/VR Experience</b></h6>
+                <div class="col-md-6">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="360video" name="360video" value="360video">
+                        <label class="form-check-label" for="360video">360 Video</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="cryEngine" name="cryEngine" value="cryEngine">
+                        <label class="form-check-label" for="cryEngine">CryEngine</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="arCore" name="arCore" value="arCore">
+                        <label class="form-check-label" for="arCore">Google ARCore</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="googleTango" name="googleTango" value="googleTango">
+                        <label class="form-check-label" for="googleTango">Google Tango</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="googleVR" name="googleVR" value="googleVR">
+                        <label class="form-check-label" for="googleVR">Google VR (Cardboard / Daydream)</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="magicLeap" name="magicLeap" value="magicLeap">
+                        <label class="form-check-label" for="magicLeap">MagicLeap</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="vive" name="vive" value="vive">
+                        <label class="form-check-label" for="vive">Vive</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="vivePro" name="vivePro" value="vivePro">
+                        <label class="form-check-label" for="vivePro">Vive Pro</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="cryEngine" name="cryEngine" value="cryEngine">
+                        <label class="form-check-label" for="cryEngine">CryEngine</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="samsungGearVr" name="samsungGearVr" value="samsungGearVr">
+                        <label class="form-check-label" for="samsungGearVr">Samsung Gear VR</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="sonyPlaystationVR" name="sonyPlaystationVR" value="sonyPlaystationVR">
+                        <label class="form-check-label" for="sonyPlaystationVR">Sony Playstation VR</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="appleARKit" name="appleARKit" value="appleARKit">
+                        <label class="form-check-label" for="appleARKit">Apple ARKit</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="meta2Ar" name="meta2Ar" value="meta2Ar">
+                        <label class="form-check-label" for="meta2Ar">Meta 2 AR</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="microsoftHololens" name="microsoftHololens" value="microsoftHololens">
+                        <label class="form-check-label" for="microsoftHololens">Microsoft HoloLens</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="nativeOpenGL" name="nativeOpenGL" value="nativeOpenGL">
+                        <label class="form-check-label" for="nativeOpenGL">Native (OpenGL Vulkan)</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="oculusGo" name="oculusGo" value="oculusGo">
+                        <label class="form-check-label" for="oculusGo">Oculus Go</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="oculusRift" name="oculusRift" value="oculusRift">
+                        <label class="form-check-label" for="oculusRift">Oculus Rift</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="vuforia" name="vuforia" value="vuforia">
+                        <label class="form-check-label" for="vuforia">Vuforia</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="webVR" name="webVR" value="webVR">
+                        <label class="form-check-label" for="webVR">WebVR / A-Frame</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="steamOpenVR" name="steamOpenVR" value="steamOpenVR">
+                        <label class="form-check-label" for="steamOpenVR">Steam OpenVR (HTC Vive)</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity">
+                        <label class="form-check-label" for="unity">Unity</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="unrealEngine" name="unrealEngine" value="unrealEngine">
+                        <label class="form-check-label" for="unrealEngine">Unreal Engine</label>
+                    </div>
+                </div>
+            </div>
+
+                <!--TESTING UPLOAD RESUME-->
+
+
+
+
+
+
+            <!--//Todo: text input for other-->
+            <div class="form-check form-check-inline">
+                <label class="form-check-label" for="other">Other</label>
+                <input class="form-check-input" type="text" id="other" name="other" value="other">
+            </div>
+
+
+            <label for="Occupation">What is your occupation?</label>
+            <input type="occupation" class="form-control" id="occupation" name="occupation" aria-describedby="citizenship" placeholder="Enter occupation">
+
+            <label for="affiliation">Affiliation</label>
+            <input type="affiliation" class="form-control" id="affiliation" name="affiliation" aria-describedby="affiliation" placeholder="Enter affiliation">
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender" name="gender">
+                    <option disabled>Choose</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                    <option>Non Binary</option>
+                    <option>Other</option>
+                    <option>Prefer not to identify</option>
+                </select>
+            </div>
+
+            <label for="ethnicity">Race/Ethnicity</label>
+            <input type="ethnicity" class="form-control" id="ethnicity" id="ethnicity" aria-describedby="ethnicity" placeholder="Enter ethnicity">
+
+            <label for="motives">About you and why you want to join the Reality Virtually Community?</label>
+            <span>In 300 words or less describe yourself and how you relate to immersive technologies</span>
+            <textarea class="form-control" rows="5" id="motives" name="motives"></textarea>
+
+
+            <label for="degree">University Degrees and Fields of Study</label>
+            <input type="degree" class="form-control" id="degree" name="degree" aria-describedby="degree" placeholder="Enter degree">
+
+            <label for="twitter">Twitter Handle</label>
+            <input type="twitter" class="form-control" id="twitter" name="twitter" aria-describedby="twitter" placeholder="Enter twitter">
+
+            <label for="facebook">Facebook Page</label>
+            <input type="facebook" class="form-control" id="facebook" name="facebook" aria-describedby="facebook" placeholder="Enter facebook">
+
+            <label for="website">Personal Website</label>
+            <input type="website" class="form-control" id="website" name="website" aria-describedby="website" placeholder="Enter website">
+
+            <label for="github">Your Github Repo</label>
+            <input type="github" class="form-control" id="github" name="github" aria-describedby="github" placeholder="Enter github">
+
+            <label for="app"> Link to AR/VR App that you created or contributed to creating</label>
+            <input type="app" class="form-control" id="app" name="app" aria-describedby="app" placeholder="Enter personal app">
+
+            <input type="hidden" value="" name="resumeDriveLocation" id="resumeDriveLocation">
+
+    </form>
+
+            <form id="uploadForm" method="post" style="margin-top:10px;">
+                <div id="data"></div>
+                <input type="hidden" value="" name="fileContent" id="fileContent">
+                <input type="hidden" value="" name="fileName"  id="fileName">
+                <input type="hidden" value="" name="fileSize"  id="fileSize">
+                <input type="hidden" value="" name="fileContentType" id="fileContentType">
+
+                <b id="resume">Optional: Upload Resume</b>
+                <span id="resumeWarning" style="margin-top:10px;">Your current resume will help us evaluate your application. Please upload your resume.</span>
+
+
+                <input name="SelectedFile" id="SelectedFile" type="file" class="btn btn-secondary">
+                <br>
+                <input value="Load resume" type="button" id="loadResume" class="btn"  style="width: 100%; background:#1ea9e1; color:white;margin-top:10px; margin-bottom:10px;" onclick="UploadFile()">
+                <!-- onclick="UploadFile();" -->
+            </form>
+
+            <b class="resume_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Resume Loaded</b>
+            <btn class="btn btn-primary registrationSubmit" id="registrationSubmit" style="width: 100%;">Submit Application</btn>
+    </div>
+
+</div>
+</section>
+
+
+<section id="registration-thankyou" class="registration-thankyou" style="display:none;">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <img src="/img/about-section/mitmedialab_hackathon.png">
+            <h1>Thank you for your submission! <br>We'll keep you posted</h1>
+        </div>
+    </div>
+</section>
+
+

@@ -1,0 +1,14 @@
+- 
+  group: "Main Sponsors"
+  elements: 
+    - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "attlogo.png"}
+    - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "microsoft_logo.png"}
+    - {name: "Samsung Next", description: "Samsung Next", link: "https://samsungnext.com/", imageUrl: "snext.png"}
+
+
+#-
+#  group: "Co-organizers"
+#  elements:
+#    - {name: "GDG Lviv", description: "GDG Kyiv - Open and volunteer geek community", link: "http://kyiv.gdg.org.ua", imageUrl: "gdg-kyiv.svg"}
+#    - {name: "GDG Cherkassy", description: "GDG Cherkassy - Open and volunteer geek community", link: "http://cherkassy.gdg.org.ua", imageUrl: "gdg-cherkasy.svg"}
+#    - {name: "GDG Dnipropetrovsk", description: "GDG Dnipropetrovsk - Open and volunteer geek community", link: "http://dnipro.gdg.org.ua", imageUrl: "gdg-dnipropetrovsk.svg"}

@@ -1,0 +1,17 @@
+<!-- Prize Category Section -->
+<section id="prizeCategories" class="prizeCategories">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h4><b>{{ site.prizeCategoriesTitle }}</b></h4>
+            <div class="row about-details">
+                <ul>
+                    {% for category in site.prizeCategories %}
+                    <li style="list-style: none;"><a><h5>{{ category.name }}</h5></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->
+
