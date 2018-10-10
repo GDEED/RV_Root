@@ -207,7 +207,7 @@ function UploadFile() {
         //document.getElementById('uploadForm').submit();
 
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://script.google.com/macros/s/AKfycbzwVsS4UO6O6IZu55VjzDspvxOmWUilh3g7xhdRCbOfNeIUCGeF/exec", true);
+        xhr.open("POST", "https://script.google.com/macros/s/AKfycbytXrHVWPxhx4VJx2XMX_Q17WuQghvV-z1eX3pg_0kvnAbKxDs3/exec", true);
         xhr.onload = function(event){
             // alert("The server responded with: " + event.target.response);
             console.log("Responded With: " + event.target.response);
