@@ -36,7 +36,7 @@
   id: 3
   name: "PRAVEEN"
   surname: "ARAVAMUDHAM"
-  title: "WEBSITE, RULES AND APPLICATIONS"
+  title: "JUDGING, RULES, DIGITAL OPERATIONS CO-LEAD"
   thumbnailUrl: PRAVEENARAVAMUDHAM.jpeg
   team: true
   social: 
@@ -46,7 +46,7 @@
   id: 4
   name: "DIANE"
   surname: "WILLIAMS"
-  title: "OUTREACH, DIVERSITY AND APPLICATIONS"
+  title: "DIVERSITY AND INCLUSION LEAD"
   thumbnailUrl: DianeWilliams.jpeg
   team: true
   social: 
@@ -66,7 +66,7 @@
   id: 6
   name: "SARAH"
   surname: "PILLAI"
-  title: "OPERATIONS CO-LEAD AND RULES"
+  title: "OPERATIONS CO-LEAD AND JUDGING / RULES"
   thumbnailUrl: SarahEPillai.webp
   team: true
   social: 
@@ -103,7 +103,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual MIT Media Lab AR/VR Hackathon."
+  description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual Virtually Reality Hackathon."
 -
   id: 10
   name: "CINDY SHERMAN"
@@ -113,7 +113,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "Cindy is a multimedia artist and creative coder. She authored several webVR storytelling tools as a fellow at the MIT Open Doc including VRDoodler, a web-based 3D drawing program that renders in virtual and augmented reality. At the MIT Civic Media Lab on the Media Cloud team, her role as web developer is helping to build the next generation of web-based tools for journalists and researchers."
 -
   id: 11
   name: "CONNOR"
@@ -167,23 +167,14 @@
   id: 16
   name: "RUS"
   surname: "GANT"
-  title: ""
+  title: "ADVISOR"
   thumbnailUrl: RusGant.jpg
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, and educator with four decades of experience in computer visualization, archaeology and museology for some of the world’s leading museums and universities. A member of the research staff at Harvard University where he also leads the Visualization Research and Teaching Laboratory and formerly was the lead technical artist for Harvard's Giza 3D project that is reconstructing the Egyptian monuments on the Giza Plateau in virtual reality. He is on the teaching faculty at Tokyo’s Showa Women's University and is a Fellow at the MIT Center for Advanced Visual Studies  at the Center for Creative Inquiry at Carnegie Mellon University"
+  description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, and educator with four decades of experience in computer visualization, archaeology, and museology. A member of the research staff at Harvard University where he also leads the Visualization Research and Teaching Laboratory. Formerly the lead technical artist for Harvard's Giza 3D project reconstructing the Egyptian monuments on the Giza Plateau in virtual reality. He is on the teaching faculty at Tokyo’s Showa Women's University and a fellow at the MIT Center for Advanced Visual Studies and Carnegie Mellon's Center for Creative Inquiry."
 -
   id: 17
-  name: "JASON"
-  surname: "HURVITZ"
-  title: "CODE REVIEW LEAD"
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: ""
--
-  id: 18
   name: "PAURIC"
   surname: "O'CALLAGHAN"
   title: "TEAM FORMATION LEAD"
@@ -193,7 +184,7 @@
     - {name: "twitter", link: ""}
   description: ""
 -
-  id: 19
+  id: 18
   name: "ANDREAS"
   surname: "DIAS"
   title: "OUTREACH AND MOBILE APP"
@@ -203,7 +194,7 @@
     - {name: "twitter", link: ""}
   description: "Andreas is a graduate of Princeton University 2017. He has helped organize hackathons in the past and currently is working on a companion app for Hackathons, Professional Conferences, and Networking Events that allows attendees to exchange contact information using Computer Vision and Augmented Reality and event organizers to easily communicate with attendees. Currently he is between Pensacola, FL and San Francisco, CA."
 -
-  id: 20
+  id: 19
   name: "SEHA"
   surname: "GULNAR DALAY"
   title: "DIGITAL OPERATIONS"
@@ -213,25 +204,27 @@
     - {name: "in", link: "https://www.linkedin.com/in/seha-gulnar-dalay-03073415/"}
   description: "Seha is a former commercial banker who changed her career by following her passion to build new things. She completed intense engineering immersive program and continues to learn and improve herself as a front end web developer. Seha holds an MBA from Radford University and BA in Economics from Bilkent University."
 -
-  id: 21
+  id: 20
   name: "DANIEL"
   surname: "CLINE"
   title: "DEVOPS AND OUTREACH"
+  thumbnailUrl:
   team: true
   social: 
     - {name: "twitter", link: ""}
   description: "Dan is a sophomore computer science student at UMass Amherst, and hackathon organizer for HackUMass. He's participated in (and won) many hackathons, and is now working to enrich the hacker community by organizing them."
 -
-  id: 22
+  id: 21
   name: "ERIC"
   surname: "BOEHLKE"
   title: "SITE PLANNING LEAD"
+  thumbnailUrl:
   team: true
   social: 
     - {name: "twitter", link: ""}
   description: "cc "
 -
-  id: 23
+  id: 22
   name: "CHANDLER"
   surname: "ZHANG"
   title: "SPONSORSHIP AND OUTREACH"
@@ -241,26 +234,27 @@
     - {name: "twitter", link: ""}
   description: "Chandler loves holograms. Chandler co-founded BU AR/VR. Chandler loves to eat. Chandler works at PTC."
 -
-  id: 24
+  id: 23
   name: "RYAN"
   surname: "LEE"
   title: "OPERATIONS AND PARTNERSHIPS"
+  thumbnailUrl:
   team: true
   social: 
     - {name: "twitter", link: ""}
   description: "Ryan is an AR developer at PTC Academic who works on building learning experiences for the K12 classroom using PTC’s Vuforia technology. Prior to PTC, he was a Masters student at the Harvard Graduate School of Education who also helped co-found Harvard’s AR/VR Student Alliance. He enjoys growing and learning from our vibrant Boston AR/VR community!"
 -
-  id: 25
+  id: 24
   name: "ILDAR"
   surname: "IAKUBOV"
   title: "TECHNICAL OPERATIONS"
   thumbnailUrl: ildar_picture.jpg
   team: true
   social: 
-    - {name: "twitter", link: ""}
-  description: "" 
+    - {name: "instagram", link: "https://www.instagram.com/videoildar/"}
+  description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments." 
 -
-  id: 26
+  id: 25
   name: "CARL"
   surname: "YANG"
   title: "MARKETING"
@@ -270,7 +264,7 @@
     - {name: "twitter", link: ""}
   description: "Carl is creative and methodical strategist committed to generating business value by helping enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His responsibilities leading R&D efforts at Fidelity Investments included developing concepts, prototypes, and pilot studies of emerging applications of evolving user interfaces - including work with blended and virtual reality platforms."
 -
-  id: 27
+  id: 26
   name: "ZACH"
   surname: "PERLMAN"
   title: "LEAD FRONT END DEVELOPER"
@@ -279,23 +273,34 @@
   social:
     - {name: "in", link: "https://www.linkedin.com/in/zachperlman/"}
   description: "Zach is a “Zach of All Trades”. You can find this rugby playing, tall nerd, conquering front end development in the heart of sunny Miami Florida. As a Lead Front End Developer, Zach is able to create almost anything he wants in the digital world, with the web as his “playground”. Interested in Blockchain,  IoT, VR, AR, and almost anything technology related, he is always looking to learn new and modern ways of building technologies to help build a better tomorrow."
-# - 
-#   id: 28
-#   name: "BRIAN"
-#   surname: "BURNS"
-#   title: "MARKETING AND CONTENT CREATION"
-#   thumbnailUrl: 
-#   team: true
-#   social:
-#     - {name: "", link: ""}
-#   description: ""
-#   - 
-#   id: 29
-#   name: "MURALI"
-#   surname: "AYYAPILLAI"
-#   title: "WEBSITE"
-#   thumbnailUrl: 
-#   team: true
-#   social:
-#     - {name: "", link: ""}
-#   description: ""
+- 
+  id: 27
+  name: "PRATHMESH"
+  surname: "JAKKANWAR"
+  title: ""
+  thumbnailUrl: PrathmeshJakkanwar.jpeg
+  team: true
+  social:
+    - {name: "in", link: "https://www.instagram.com/prathmeshjakkanwar/"}
+    # - {name: "youtube", link: "https://www.youtube.com/user/prathjakk/"}
+  description: "Prathmesh has a Masters in Computer Science from Northeastern University and currently works at Cengage Learning as a Sofware Engineer. Primarily a backend engineer, Prathmesh is exploring the idea of being a full stack. He has been a cricketer for life and actively plays it professionally (he has also represented the USA in the American College Cricket tournament and played against Canada). When he is not coding or playing cricket, he likes to travel and fly drones. He is an aspiring YouTuber and carries his drone with him."
+-
+  id: 28
+  name: "BRIAN"
+  surname: "BURNS"
+  title: "MARKETING AND CONTENT CREATION"
+  thumbnailUrl: 
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: ""
+- 
+  id: 29
+  name: "MURALI"
+  surname: "AYYAPILLAI"
+  title: "WEBSITE"
+  thumbnailUrl: 
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: ""
