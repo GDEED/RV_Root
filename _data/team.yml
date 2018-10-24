@@ -182,7 +182,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "Pauric is a Principal User Experience Designer at MathWorks where he specializes in product vision and inventing new programming paradigms for STEM Students. He grew up on and off the West coast of Ireland but these days he can be found tinkering in a barn just outside of Boston."
 -
   id: 18
   name: "ANDREAS"
@@ -238,7 +238,7 @@
   name: "RYAN"
   surname: "LEE"
   title: "OPERATIONS AND PARTNERSHIPS"
-  thumbnailUrl:
+  thumbnailUrl: RyanLee.JPG
   team: true
   social: 
     - {name: "twitter", link: ""}
@@ -304,3 +304,13 @@
   social:
     - {name: "", link: ""}
   description: ""
+- 
+  id: 30
+  name: "ESWAR"
+  surname: "ANANDAPADMANABAN"
+  title: "MIT OUTREACH LEAD"
+  thumbnailUrl: Eswar.jpg 
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Eswar is a senior at MIT studying electrical engineering and computer science. He has been working on VR and AR for the past few years and has worked with a few companies such as Samsung, Intel, and most recently IDEO. At MIT he works at the Human Systems Lab focused on designing heads up displays for space suits. In his spare time Eswar can be found running events on campus, building something, or watching football. Eswar is also one of the presidents of VR/AR@MIT."
