@@ -1,0 +1,12 @@
+<!-- Frequently Asked Questions -->
+<section id="faq" class="faq">
+    <div class="content-wrapper">
+        {% for item in site.frequentlyAskedQuestions %}
+        <h1>{{ item.question }}</h1>
+        <p>{{ item.answer | markdownify }}</p>
+        {% unless item.image == "" %}
+        <img class="img-responsive" src="{{ site.baseurl }}/img/about-section/{{ item.image }}" alt="Hope this answered your question!">
+        {% endunless %}
+        {% endfor %}
+    </div>
+</section>
