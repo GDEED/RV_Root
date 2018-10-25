@@ -123,7 +123,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "Connor is currently an MBA/MS candidate at the Erb Institute for Sustainable Enterprise, a joint degree program between the Ross School of Business and the School for Environment and Sustainability at the University of Michigan. Prior to joining Erb, Connor led business development projects on behalf of several tech and social impact startups for six years and has professional working experience in over 10 countries. He loves biking, rock climbing, and brainstorming about how AI and machine learning will impact our society in the coming years."
 -
   id: 12
   name: "JENNA"
@@ -175,6 +175,16 @@
   description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, and educator with four decades of experience in computer visualization, archaeology, and museology. A member of the research staff at Harvard University where he also leads the Visualization Research and Teaching Laboratory. Formerly the lead technical artist for Harvard's Giza 3D project reconstructing the Egyptian monuments on the Giza Plateau in virtual reality. He is on the teaching faculty at Tokyo’s Showa Women's University and a fellow at the MIT Center for Advanced Visual Studies and Carnegie Mellon's Center for Creative Inquiry."
 -
   id: 17
+  name: "MISHA"
+  surname: "SRA"
+  title: "ADVISOR"
+  thumbnailUrl: MishaSra.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/pixelscanner"}
+  description: "Misha is a Research Affiliate working on natural interaction techniques for multiperson experiences in virtual and mixed reality in the Fluid Interfaces group at the MIT Media Lab. Her inspiration comes from the paragons of virtual reality like the Holodeck from Star Trek or William Gibson's cyberspace. She is looking forward to a VR future with Sword Art Online's NerveGear or Ernest Cline's robotic arms and doing her part to help build it."
+-
+  id: 18
   name: "PAURIC"
   surname: "O'CALLAGHAN"
   title: "TEAM FORMATION LEAD"
@@ -184,7 +194,7 @@
     - {name: "twitter", link: ""}
   description: "Pauric is a Principal User Experience Designer at MathWorks where he specializes in product vision and inventing new programming paradigms for STEM Students. He grew up on and off the West coast of Ireland but these days he can be found tinkering in a barn just outside of Boston."
 -
-  id: 18
+  id: 19
   name: "ANDREAS"
   surname: "DIAS"
   title: "OUTREACH AND MOBILE APP"
@@ -194,7 +204,7 @@
     - {name: "twitter", link: ""}
   description: "Andreas is a graduate of Princeton University 2017. He has helped organize hackathons in the past and currently is working on a companion app for Hackathons, Professional Conferences, and Networking Events that allows attendees to exchange contact information using Computer Vision and Augmented Reality and event organizers to easily communicate with attendees. Currently he is between Pensacola, FL and San Francisco, CA."
 -
-  id: 19
+  id: 20
   name: "SEHA"
   surname: "GULNAR DALAY"
   title: "DIGITAL OPERATIONS"
@@ -204,7 +214,7 @@
     - {name: "in", link: "https://www.linkedin.com/in/seha-gulnar-dalay-03073415/"}
   description: "Seha is a former commercial banker who changed her career by following her passion to build new things. She completed intense engineering immersive program and continues to learn and improve herself as a front end web developer. Seha holds an MBA from Radford University and BA in Economics from Bilkent University."
 -
-  id: 20
+  id: 21
   name: "DANIEL"
   surname: "CLINE"
   title: "DEVOPS AND OUTREACH"
@@ -214,7 +224,7 @@
     - {name: "twitter", link: ""}
   description: "Dan is a sophomore computer science student at UMass Amherst, and hackathon organizer for HackUMass. He's participated in (and won) many hackathons, and is now working to enrich the hacker community by organizing them."
 -
-  id: 21
+  id: 22
   name: "ERIC"
   surname: "BOEHLKE"
   title: "SITE PLANNING LEAD"
@@ -224,7 +234,7 @@
     - {name: "twitter", link: ""}
   description: "cc "
 -
-  id: 22
+  id: 23
   name: "CHANDLER"
   surname: "ZHANG"
   title: "SPONSORSHIP AND OUTREACH"
@@ -234,7 +244,7 @@
     - {name: "twitter", link: ""}
   description: "Chandler loves holograms. Chandler co-founded BU AR/VR. Chandler loves to eat. Chandler works at PTC."
 -
-  id: 23
+  id: 24
   name: "RYAN"
   surname: "LEE"
   title: "OPERATIONS AND PARTNERSHIPS"
@@ -244,7 +254,7 @@
     - {name: "twitter", link: ""}
   description: "Ryan is an AR developer at PTC Academic who works on building learning experiences for the K12 classroom using PTC’s Vuforia technology. Prior to PTC, he was a Masters student at the Harvard Graduate School of Education who also helped co-found Harvard’s AR/VR Student Alliance. He enjoys growing and learning from our vibrant Boston AR/VR community!"
 -
-  id: 24
+  id: 25
   name: "ILDAR"
   surname: "IAKUBOV"
   title: "TECHNICAL OPERATIONS"
@@ -254,7 +264,7 @@
     - {name: "instagram", link: "https://www.instagram.com/videoildar/"}
   description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments." 
 -
-  id: 25
+  id: 26
   name: "CARL"
   surname: "YANG"
   title: "MARKETING"
@@ -264,7 +274,7 @@
     - {name: "twitter", link: ""}
   description: "Carl is creative and methodical strategist committed to generating business value by helping enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His responsibilities leading R&D efforts at Fidelity Investments included developing concepts, prototypes, and pilot studies of emerging applications of evolving user interfaces - including work with blended and virtual reality platforms."
 -
-  id: 26
+  id: 27
   name: "ZACH"
   surname: "PERLMAN"
   title: "LEAD FRONT END DEVELOPER"
@@ -274,7 +284,7 @@
     - {name: "in", link: "https://www.linkedin.com/in/zachperlman/"}
   description: "Zach is a “Zach of All Trades”. You can find this rugby playing, tall nerd, conquering front end development in the heart of sunny Miami Florida. As a Lead Front End Developer, Zach is able to create almost anything he wants in the digital world, with the web as his “playground”. Interested in Blockchain,  IoT, VR, AR, and almost anything technology related, he is always looking to learn new and modern ways of building technologies to help build a better tomorrow."
 - 
-  id: 27
+  id: 28
   name: "PRATHMESH"
   surname: "JAKKANWAR"
   title: ""
@@ -285,7 +295,7 @@
     # - {name: "youtube", link: "https://www.youtube.com/user/prathjakk/"}
   description: "Prathmesh has a Masters in Computer Science from Northeastern University and currently works at Cengage Learning as a Sofware Engineer. Primarily a backend engineer, Prathmesh is exploring the idea of being a full stack. He has been a cricketer for life and actively plays it professionally (he has also represented the USA in the American College Cricket tournament and played against Canada). When he is not coding or playing cricket, he likes to travel and fly drones. He is an aspiring YouTuber and carries his drone with him."
 -
-  id: 28
+  id: 29
   name: "BRIAN"
   surname: "BURNS"
   title: "MARKETING AND CONTENT CREATION"
@@ -295,7 +305,7 @@
     - {name: "", link: ""}
   description: ""
 - 
-  id: 29
+  id: 30
   name: "MURALI"
   surname: "AYYAPILLAI"
   title: "WEBSITE"
@@ -305,7 +315,7 @@
     - {name: "", link: ""}
   description: ""
 - 
-  id: 30
+  id: 31
   name: "ESWAR"
   surname: "ANANDAPADMANABAN"
   title: "MIT OUTREACH LEAD"
