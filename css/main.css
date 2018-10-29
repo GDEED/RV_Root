@@ -6364,6 +6364,14 @@ button:focus, a:focus {
     white-space: nowrap;
 }
 
+#faq a {
+    color: #b1bb06;
+}
+
+#faq a:hover{
+    color: #03a9f4;
+}
+
 .active .active-hide, .active-show  {
     display: none;
 }
