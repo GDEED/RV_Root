@@ -298,12 +298,12 @@
   id: 29
   name: "BRIAN"
   surname: "BURNS"
-  title: "MARKETING AND CONTENT CREATION"
-  thumbnailUrl: 
+  title: "EDITOR, WRITER CONTENT CREATION LEAD"
+  thumbnailUrl: Brian.png
   team: true
   social:
     - {name: "", link: ""}
-  description: ""
+  description: "Brian Burns is the Integrated Marketing Manager for the Mass General Research Institute, and a freelance writer and web content producer. He is intrigued by the potential of AR and VR technologies to change the way we think about science, medicine and education."
 - 
   id: 30
   name: "MURALI"
