@@ -49,8 +49,23 @@ navigationLinks:
 # - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
- - {link: "/about/", text: "About", hasDropdown: false}
- - {link: "https://pastevents.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016", hasDropdown: true }
+ - link: "/about/"
+   text: "About"
+   hasDropdown: true
+   subNav:
+    - link: "/faq/"
+      text: "FAQ"
+ - link: "https://pastevents.realityvirtuallyhack.com/"
+   text: "Past Events"
+   2016event: "#2016"
+   hasDropdown: true
+   subNav:
+    - link: "https://pastevents.realityvirtuallyhack.com/"
+      text: "2017"
+      target: "_blank"
+    - link: "https://pastevents.realityvirtuallyhack.com/about-2016/"
+      text: "2016"
+      target: "_blank"
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/team/", text: "Team", hasDropdown: false}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
