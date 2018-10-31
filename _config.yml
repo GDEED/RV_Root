@@ -238,9 +238,9 @@ footerBlocks:
   links:
    - {link: "mailto:team@realityvirtuallyhack.com", text: "team@realityvirtuallyhack.com"}
  -
-#  title: "FAQ"
+  title: "FAQ"
   links:
-#   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/faq/", text: "FAQ"}
 
 # Blog
 blogTitle: "Latest news"
