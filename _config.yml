@@ -345,7 +345,9 @@ frequentlyAskedQuestions:
   - {question: "Is there a deadline for application? When will I know whether I am accepted?", answer: "We will have rolling admissions. The first decision date is October 31. You will receive an emal from us to notify your acceptance status shortly thereafter. Applications are open until the time we are near our limit of 400 participants.", image: ""}
   - {question: "How do I get there?", answer: "The Media Lab (Building E14) is located on the Red Line at the \"Kendall/MIT\" stop of the subway. If you are traveling from the airport, take the Silver Line 1 to South Station and transfer to the Redline. If you are traveling from the train station, take the Redline straight to Kendall/MIT. For more information on parking, public transportation and facilities around the campus please refer to the website: [https://whereis.mit.edu/](https://whereis.mit.edu/)", image: ""}
   - {question: "What if this FAQ didn't answer my questions?", answer: "Please email us at team@realityvirtuallyhack.com if you’re in any way confused or concerned! We’d love to help you out :)", image: ""}
-
+  - {question: "Do you have my application? I didn’t receive an email confirmation.", answer: "When your application form goes through you will receive a confirmation of transmission on the website that reads: \"Thank you for your submission! We’ll keep you posted.\" You will not receive an email.", image: ""}
+  - {question: "Do I need to resubmit my application form again or just the resume?", answer: "Do not resubmit your application form. Just email your resume to us as an attachement. We will match it with your application. Please email your resume to team@realityvirtuallyhack.com using the same email included with your application. And please include your name in the filename of the resume.", image: ""}
+  - {question: "Do I have to submit a resume to be considered?", answer: "Including a resume is optional", image: ""}
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
