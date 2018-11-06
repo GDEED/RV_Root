@@ -8,13 +8,17 @@
             <label for="lastName">Last Name</label>
             <input type="lastName" class="form-control" name="lastName" id="lastName" aria-describedby="emailHelp" placeholder="Enter last name">
 
+            <div class="form-check form-check-inline" style="margin-bottom:10px; margin-top:15px;">
+                <input class="form-check-input" type="checkbox" id="student" name="student" value="student">
+                <label class="form-check-label" for="student">I am currently a student</label>
+            </div>
+
             <label for="email">Email address</label>
             <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
 
             <div class="form-group">
-                <label for="sel1">How did you hear about the Reality Virtually hackathon?</label>
-                <select class="form-control" id="sel1" required>
-                    <option value="">Select One</option>
+                <label for="referredFrom">How did you hear about the Reality Virtually hackathon?</label>
+                <select class="form-control" name="referredFrom" id="referredFrom">
                     <option>By Email</option>
                     <option>I attended Reality Virtually 2016</option>
                     <option>I attended Reality Virtually 2017</option>
@@ -383,6 +387,10 @@
                         <input class="form-check-input" type="checkbox" id="unrealEngine" name="unrealEngine" value="unrealEngine">
                         <label class="form-check-label" for="unrealEngine">Unreal Engine</label>
                     </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="WayRay" name="WayRay" value="WayRay">
+                        <label class="form-check-label" for="WayRay">WayRay</label>
+                    </div>
                 </div>
             </div>
 
@@ -419,7 +427,7 @@
             </div>
 
             <label for="ethnicity">Race/Ethnicity</label>
-            <input type="ethnicity" class="form-control" id="ethnicity" id="ethnicity" aria-describedby="ethnicity" placeholder="Enter ethnicity">
+            <input type="ethnicity" class="form-control" name="ethnicity" id="ethnicity" id="ethnicity" aria-describedby="ethnicity" placeholder="Enter ethnicity">
 
             <label for="motives">About you and why you want to join the Reality Virtually Community?</label>
             <span>In 300 words or less describe yourself and how you relate to immersive technologies</span>
