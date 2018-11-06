@@ -7,7 +7,7 @@
         var modal = document.getElementById('registrationModal');
 
         // Get the button that opens the modal
-        var btn = document.getElementById("registrationButton");
+        var btn = document.getElementById("registrationButton") || null;
 
         console.log("THIS IS INIT");
         // Get the button that opens the modal
@@ -17,12 +17,16 @@
         var span = document.getElementsByClassName("close")[0];
 
         // When the user clicks on the button, open the modal
-        btn.onclick = function() {
-            //modal.style.display = "block";
 
-
-            $(modal).fadeIn();
+        if (btn) {
+            btn.onclick = function() {
+                //modal.style.display = "block";
+    
+    
+                $(modal).fadeIn();
+            }
         }
+
 
         $(btn_lg).click(function(){
             $(modal).fadeIn();
