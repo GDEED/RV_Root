@@ -61,10 +61,10 @@
     - {
     	startTime: "11:30",
     	endTime: "14:00",
-    	sessionIds: [405]
+    	sessionIds: [404]
     }
     - {
     	startTime: "14:00",
     	endTime: "17:00",
-    	sessionIds: [406]
+    	sessionIds: [404]
     } 
