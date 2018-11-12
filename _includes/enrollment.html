@@ -1,0 +1,97 @@
+<section id="enrollment-hackathon" class="enrollment-hackathon">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <form method="POST" action="{{ site.enrollmentEnpointTEST }}" id="enrollmentForm">
+
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+
+            <label for="address">What is your Residential address?</label>
+            <input type="text" class="form-control" name="address" id="address" aria-describedby="addressHelp" placeholder="Residential Address">
+
+            <label for="contact">Mobile number (Available during the hackathon)</label>
+            <input type="text" class="form-control" name="contact" id="contact" aria-describedby="contactHelp" placeholder="Contact">
+
+            <label for="equipment">What equipment will you bring?</label>
+            <input type="equipment" class="form-control" name="equipment" id="equipment" aria-describedby="equipmentHelp" placeholder="Equipment">
+            
+            <div class="form-check form-check-inline" style="margin-bottom:10px; margin-top:15px;">
+                <input class="form-check-input" type="checkbox" id="student" name="student" value="student">
+                <label class="form-check-label" for="student">I am currently a student</label>
+            </div>
+
+            <div class="form-group">
+                <label for="dietaryNeeds">Special Dietary needs</label>
+                <select class="form-control" name="dietaryNeeds" id="dietaryNeeds">
+                    <option>Gluten-free</option>
+                    <option>Kosher</option>
+                    <option>Lactose intolerant</option>
+                    <option>Vegan</option>
+                    <option>Vegetarian</option>
+                    <option>None</option>
+                </select>
+            </div>
+
+
+            <label for="githubUser">GitHub email or username</label>
+            <input type="githubUser" class="form-control" name="githubUser" id="githubUser" aria-describedby="githubUser" placeholder="Github Username or Email">
+
+            <label for="currentLocation">What is your current location</label>
+            <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter Current Location">
+
+
+            <div class="form-group">
+                <label for="preferredRole">Do you require an invitation letter to obtain a visa?</label>
+                <select class="form-control" id="visaInformation">
+                    <option disabled>Choose</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="localStay">Are you local or booking a room that you would share with another hacker?</label>
+                <select class="form-control" id="localStay">
+                    <option disabled>Choose</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+                <!--TESTING UPLOAD RESUME-->
+    </form>
+
+        <form id="uploadRelease" method="post" style="margin-top:10px;">
+            <div id="data"></div>
+            <input type="hidden" value="" name="releaseContent" id="releaseContent">
+            <input type="hidden" value="" name="fileName"  id="fileName">
+            <input type="hidden" value="" name="fileSize"  id="fileSize">
+            <input type="hidden" value="" name="fileContentType" id="fileContentType">
+
+            <b id="release">Mandatory: Upload Release`</b>
+            <span id="resumeWarning" style="margin-top:10px;">Your current resume will help us evaluate your application. Please upload your resume.</span>
+
+
+            <input name="SelectedRelease" id="SelectedRelease" type="file" class="btn btn-secondary">
+            <br>
+            <input value="Load release" type="button" id="loadrelease" class="btn"  style="width: 100%; background:#1ea9e1; color:white;margin-top:10px; margin-bottom:10px;" onclick="UploadFile()">
+            <!-- onclick="UploadFile();" -->
+        </form>
+
+        <b class="release_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Release Loaded</b>
+        <btn class="btn btn-primary releaseSubmit" id="releaseSubmit" style="width: 100%;">Submit Application</btn>
+    </div>
+
+</div>
+</section>
+
+
+<section id="registration-thankyou" class="registration-thankyou" style="display:none;">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <img src="/img/about-section/mitmedialab_hackathon.png">
+            <h1>Thank you for your submission! <br>We'll keep you posted</h1>
+        </div>
+    </div>
+</section>
+
+
