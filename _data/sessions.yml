@@ -23,19 +23,19 @@
   service: true
   description: "Pencils down at 2:00 PM, Judging begins"
 -
-  id: 404
+  id: 504
   title: "Awards Ceremony"
   place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 0213"
   service: true
   description: "Pencils down at 2:00 PM, Judging begins"
 -
-  id: 405
+  id: 505
   title: "Exposition"
   place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
   service: true
   description: "Insider Expo Hackathon community expo – hackathon insider stroll through the 70 – 80 hackathon projects"
 -
-  id: 406
+  id: 506
   title: "Public Expo"
   place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
   service: true
