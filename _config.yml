@@ -55,6 +55,7 @@ navigationLinks:
    subNav:
     - link: "/faq/"
       text: "FAQ"
+ - {link: "/schedule/", text: "Schedule", hasDropdown: false}
  - link: "https://pastevents.realityvirtuallyhack.com/"
    text: "Past Events"
    2016event: "#2016"
