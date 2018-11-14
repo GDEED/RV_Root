@@ -182,7 +182,7 @@ function UploadRelease() {
 
         var reader = new FileReader();
         var email = document.getElementById('email').value;
-        var file = document.getElementById('SelectedFile').files[0];
+        var file = document.getElementById('SelectedRelease').files[0];
         reader.onload = function() {
         //document.getElementById('fileContent').value = reader.result;
         var contentType = reader.result.substr(5, reader.result.indexOf(';') - 5);
