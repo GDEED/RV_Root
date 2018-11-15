@@ -4,9 +4,9 @@
             <form method="POST" action="{{ site.enrollmentEnpointTEST }}" id="enrollmentForm">
 
             <label for="email">Email address (Should be same as the applciation email)</label>
-            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
 
-            <label for="address">What is your Residential address?</label>
+            <label for="address">What is your Residential address? (Address, City, State, Country, Zip)</label>
             <input type="text" class="form-control" name="address" id="address" aria-describedby="addressHelp" placeholder="Residential Address">
 
             <label for="contact">Mobile number (Available during the hackathon)</label>
@@ -19,6 +19,7 @@
             <div class="form-group">
                 <label for="dietaryNeeds">Special Dietary needs</label>
                 <select class="form-control" name="dietaryNeeds" id="dietaryNeeds">
+                    <option>-</option>
                     <option>Gluten-free</option>
                     <option>Kosher</option>
                     <option>Lactose intolerant</option>
@@ -32,14 +33,14 @@
             <label for="githubUser">GitHub email or username</label>
             <input type="githubUser" class="form-control" name="githubUser" id="githubUser" aria-describedby="githubUser" placeholder="Github Username or Email">
 
-            <label for="currentLocation">What is your current location</label>
+            <label for="currentLocation">What is your current location?</label>
             <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter Current Location">
 
 
             <div class="form-group">
                 <label for="preferredRole">Do you require an invitation letter to obtain a visa?</label>
                 <select class="form-control" id="visaInformation">
-                    <option disabled>Choose</option>
+                    <option >-</option>
                     <option>Yes</option>
                     <option>No</option>
                 </select>
@@ -48,7 +49,16 @@
             <div class="form-group">
                 <label for="localStay">Are you local or booking a room that you would share with another hacker?</label>
                 <select class="form-control" id="localStay">
-                    <option disabled>Choose</option>
+                    <option >-</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="childCare">Do you require childcare?</label>
+                <select class="form-control" id="childCare">
+                    <option>-</option>
                     <option>Yes</option>
                     <option>No</option>
                 </select>
@@ -76,14 +86,15 @@
             </form>
 
         <b class="release_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Release Loaded</b>
-        <btn class="btn btn-primary releaseSubmit" id="releaseSubmit" style="width: 100%;">Submit Application</btn>
+        <!-- <btn class="btn btn-primary releaseSubmit" id="releaseSubmit" style="width: 100%;">Submit Application</btn> -->
+        <input value="Submit Application" type="submit" id="releaseSubmit" class="btn btn-primary releaseSubmit" style="width: 100%;">
     </div>
 
 </div>
 </section>
 
 
-<section id="registration-thankyou" class="registration-thankyou" style="display:none;">
+<section id="enrollment-thankyou" class="enrollment-thankyou" style="display:none;">
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
             <img src="/img/about-section/mitmedialab_hackathon.png">
