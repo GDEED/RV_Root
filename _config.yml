@@ -75,6 +75,7 @@ navigationLinks:
 heroImage: "abstract-virtual-reality.png"
 heroTitle: "Reality Virtually Hackathon"
 heroDescription: "@ the MIT Media Lab"
+heroDescriptionLink: "#location-map"
 eventDate: "January 17-21<sup>st</sup>, 2019"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
