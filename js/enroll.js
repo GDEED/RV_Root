@@ -42,7 +42,7 @@ function UploadRelease() {
                 if(response.result == 'fail' && response.data == 'Invalid email for registration') {
                     swal("Error!", "Email you entered did not match your application email", "error");
                 } else {
-                    swal("Nice!", "Your enrollment has been successfully submitted", "success");
+                    swal("Nice!", "Your have successfully uploaded the release form. Go on to submit the registration information to complete your registration", "success");
 
                     $("#releaseDriveLocation").attr("value",response.data);
                     $("#resume").fadeOut();
