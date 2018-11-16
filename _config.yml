@@ -31,9 +31,9 @@ organizerLink: "http://lviv.gdg.org.ua/"
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: ""
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/rv-hack-social-photo.png"
+socialImageSrcTwitter: "/img/seo/rv-hack-social-photo.png"
+socialImageSrcFacebook: "/img/seo/rv-hack-social-photo.png"
 
 # Documents
 c4pUrl: "https://bit.ly/dfua-c4p"
@@ -43,14 +43,30 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
 # - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
- - {calltoaction: true, permalink: "/register", link: "/register/", text: "Apply", style: "color:#d5df2a;" }
+ - {calltoaction: true, permalink: "/apply", link: "/apply/", text: "Apply", style: "color:#d5df2a;" }
 
 
 # - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
- - {link: "/about/", text: "About", hasDropdown: false}
- - {link: "https://pastevents.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016", hasDropdown: true }
+ - link: "/about/"
+   text: "About"
+   hasDropdown: true
+   subNav:
+    - link: "/faq/"
+      text: "FAQ"
+ - {link: "/schedule/", text: "Schedule", hasDropdown: false}
+ - link: "https://pastevents.realityvirtuallyhack.com/"
+   text: "Past Events"
+   2016event: "#2016"
+   hasDropdown: true
+   subNav:
+    - link: "https://pastevents.realityvirtuallyhack.com/"
+      text: "2017"
+      target: "_blank"
+    - link: "https://pastevents.realityvirtuallyhack.com/about-2016/"
+      text: "2016"
+      target: "_blank"
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/team/", text: "Team", hasDropdown: false}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
@@ -59,6 +75,7 @@ navigationLinks:
 heroImage: "abstract-virtual-reality.png"
 heroTitle: "Reality Virtually Hackathon"
 heroDescription: "@ the MIT Media Lab"
+heroDescriptionLink: "#location-map"
 eventDate: "January 17-21<sup>st</sup>, 2019"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
@@ -71,10 +88,9 @@ aboutHeaderBody: "The Reality Virtually Hackathon brings together interdisciplin
 aboutBlock:
  - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
  - {title: "Conference", image: "mitmedialab_outer.png", text: "We will be hosting some of the world’s brightest minds to present topics relevant to AR/VR in a series of lectures and panels.  You can check out last year’s conference program <a href=\"https://pastevents.realityvirtuallyhack.com/conference\">here</a>." }
- - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "The hackathon will lead with a full day of workshops to get people ready to contribute to their team’s project. Come and tame your favorite technology. You can check out last year’s workshop schedule here." }
+ - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "The hackathon will lead with a full day of workshops to get people ready to contribute to their team’s project. Come and tame your favorite technology. You can check out last year’s workshop schedule <a href=\"https://pastevents.realityvirtuallyhack.com/workshops\">here</a>." }
 aboutMainBodyTitle: "Reality Virtually Hackathon returning to the MIT Media Lab, January 17–21, 2019"
-aboutMainBodyBold: "AR/VR designers, developers, sound engineers, graphic artists, domain experts, and enthusiasts  invited to apply"
-aboutMainBody: "<p>The Reality Virtually Hackathon is a purpose-built hackathon community of 400 participants selected from approximately 1,600 applicants to create original cross reality (XR) work. The hackathon is a learning experience that deepens the extended community’s understanding of how immersive technology can be applied to solve real-world problems. It takes place in the iconic MIT Media Lab, overlooking the breathtaking Boston skyline in the heart of Cambridge’s tech scene-- a setting that inspires the most creative work.</p><p> The guiding principles of the Reality, Virtually hackathon rest on interdisciplinary teams. Networking with new people, and exposure to new ideas and skill-building workshops set the stage for impassioned individuals to fuse into teams, with each team sharing a common vision to implement an impactful, original idea. The distillation of the approximately 400 unaffiliated people into teams of up to five individuals produces a creative dynamic, resulting in unique applications of immersive technologies to create ingenious, never-before-seen XR experiences and applications.</p><p> The distribution of participants will be 50% students and 50% working practitioners. We will meet or exceed last year’s diversity and inclusion results of 43% female with 53 races/ethnicities and countries of origin represented.</p><p> If the Reality, Virtually Hackathon holds true to past events, it will have life-changing impact. For example, Gautham Pasupuleti, a 2017 participant, developed his winning submission into a UNICEF-supported pediatric eye care and healthcare project for under-resourced geographies. Two-time hackathon winner Jackie Assar joined Google’s hardware team along with her teammate Anish Dhesikan, who is now a software engineer on the Google AR team. Companies formed from winning teams, such as 2016 winner Waypoint RX, have gone on to be acquired (Waypoint was recently acquired by PTC.)</p><p> Last year’s hackathon–the largest ever immersive event–attracted sponsors such as Samsung, Microsoft, AT&T, Google, HTC VIVE, HP, Autodesk, and Ricoh’s Theta camera group. <a href='https://arvr-hackathon-2017.devpost.com/submissions'>Last year’s submissions</a> represented fields such as education, healthcare, entertainment and storytelling, commerce and industry, and human/social interaction.</p>"
+aboutMainBodyHeading: "AR/VR designers, developers, sound engineers, graphic artists, domain experts, and enthusiasts  invited to apply"
 
 
 #Recap
@@ -239,9 +255,9 @@ footerBlocks:
   links:
    - {link: "mailto:team@realityvirtuallyhack.com", text: "team@realityvirtuallyhack.com"}
  -
-#  title: "FAQ"
+  title: "Information"
   links:
-#   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/faq/", text: "FAQ"}
 
 # Blog
 blogTitle: "Latest news"
@@ -312,8 +328,28 @@ hackathonRows:
  - {title: "Mentors", image: "Mentors.jpg", details: "Skilled in XR design, development, and with domain expertise in verticals such as healthcare and medicine, 40 mentors will help teams throughout the hackathon, coalescing individuals into teams, ideating, creating, troubleshooting, debugging, and refining for submission to the judges."}
  - {title: "Our Mission and Commitment to Diversity", image: "Diversity.png", details: "The Reality, Virtually Hackathon is a platform that cultivates unique innovations in the field of immersive technology. Our mission is the creation of a community of inclusion, where imaginative minds across all dimensions of diversity can collaborate to inspire innovation and build better together."}
 
-
-
+frequentlyAskedQuestions:
+  - {question: "Who should attend the hackathon?", answer: "Attendees from all backgrounds, skills, genders, and geographies are welcome. We accept a wide range of applicants, from beginners, to experienced AR/VR hackathon veterans. Prior AR/VR experience is also not a requirement.", image: ""}
+  - {question: "How much prior VR/AR development or design experience is required to participate in the event?", answer: "No prior experience is required! Any prior experience is always useful; however, we will have lots of helpful design, platform and vertical workshops for those new to VR/AR and for experienced designers and developers seeking to improve their skills.", image: ""}
+  - {question: "Who will own any IP produced during the hackathon?", answer: "All IP produced during the Hackathon is required to be registered in the public domain under an open source license without residual rights to the IP and available for public use. The spirit of the Hackathon is to encourage innovation and collaboration. We want any developments created during the Hackathon to be openly shared with other participants after the event to foster further development for the benefit of the greater good and to be available to the public to spread awareness and appreciation of the creations made during the Hackathon. Additionally, we would like to cut out the potential for any conflict resulting from the creations. We want participants, to meet new people, form interdisciplinary teams that create original work that deepens our understanding of how XR technology can be applied, and, at the same time avoid any potential for IP disputes. MIT also has IP policies regarding creations by its students. Open source licensing avoids potential conflicts arising from have an MIT student team member. Lastly, IP protection often covers creations which are more fully developed. We expect that most material created over the weekend to be in a preliminary phase which may not be suitable for IP protection.. If you object to registering your work made during the Hackathon in the public domain with no residual rights, please do not participate in the event.", image: ""}
+  - {question: "Can I use paid assets in the hackathon?", answer: "The Reality, Virtually Hackathon is different from many others in its requirement that project sources need to be licensed for redistribution. This prohibits, for example, the use of paid assets from the Unity asset store. The test of compliance is to ask, can anyone, anyplace in the world download the application and run, modify it and resubmit it without any license or copyright fees. Please refer to the “hackathon rule” section for important conducts that participants are required to follow.", image: ""}
+  - {question: "Can we participate as a team in this hackathon?", answer: "We prefer that you come as an individual and form a team with new people that you meet here! Last year, all the members on the winning team became acquainted at the hackathon. They created memorable experiences together and found lifetime friendships. It’s the spirit of the hackathon this year. All the members also have to register for the event individually. One participant cannot represent a group to register for the hackathon.", image: ""}
+  - {question: "What if I come with a team?", answer: "We discourage hackathon teams. Teams arrive and leave hackathons with the same ideas which limits creativity. Split up and join a team where you can meet new people and become exposed to new ideas, create original work! Again, the application does not include the option for team registration because the judges will value original work and original code over everything else. The best way to win is with original work. The best source of original work is new ideas, enrich yourself and the hackathon by meeting new people.", image: ""}
+  - {question: "What do I enter in the affiliation field on the registration form?", answer: "Please enter your current employer, university, graduation year etc. It is NOT to be confused with your hackathon team, which will be formed on the Day 1 of the hackathon.", image: ""}
+  - {question: "What is the cost to attend the event?", answer: "It's free, there are no fees to attend the event! You just need to cover your own travel and lodging. We will provide you with plenty of food and beverages.", image: ""}
+  - {question: "Will there be any hardware/equipment available for project development?", answer: "If you have any equipment and can bring it (desktops/laptops/monitors/HMDs), we would encourage you to bring it. We will have equipment from sponsors for participants who do not have any equipment or are unable to bring it. If the supply of a platform does not meet the demand we will ask teams to share this equipment. This has not been a problem in the past.", image: ""}
+  - {question: "What should I bring?", answer: "All attendees are required to bring a valid government ID (ex: driver’s license, passport) for admission. Also, bring your laptop, and any hardware you wish to use in your hack. As mentioned we will have sponsors loaning out tons of hardware as well!", image: ""}
+  - {question: "I am bringing my own HTC Vive, how do I avoid lighthouse interference?", answer: "The MIT Media Lab has been engineered to avoid this problem. There will be a number of VIVE locations with lighthouses set up ahead of time with one of the loaner VIVEs and space for additional VIVE teams to share the lighthouses. Teams with VIVES are asked to use the shared lighthouses to avoid interference.", image: ""}
+  - {question: "Is this an overnight hackathon?", answer: "The MIT Media Lab will only be open from 7am-1am Saturday and then will re-open again at 7am on Sunday.", image: ""}
+  - {question: "Where do I sleep?", answer: "Because of building policy, we have to close the hackathon during the night. There are [Airbnbs](https://zh.airbnb.com/s/Cambridge--MA?s_tag=hGvUGIxM&allow_override%5B%5D=) and [Hostels](https://www.tripadvisor.com/SmartDeals-g60890-Cambridge_Massachusetts-Hotel-Deals.html) in Cambridge for participants to take a rest and refresh themselves.", image: ""}
+  - {question: "Will travel reimbursements be available for those who travel from out of the area? Is there a travel scholarship?", answer: "The Reality Virtually Hackathon is free to participants so that the organizers can make the event as open and inclusive as possible. It is a non-profit event. We will have a limited budget to grant partial travel scholarships to students, based on need and merit. As we approach the date of the hackathon and know how much of the budget we can allocate to travel scholarships you will be able to apply for the travel scholarships. However, if you want to attend, you should not count on an award of these funds.", image: ""}
+  - {question: "What platforms do participants build upon?", answer: "Participants can build on any hardware and software platform the team choose. We do not want to limit your creativity and as long as you follow the rules, go ahead and build.", image: ""}
+  - {question: "Is there a deadline for application? When will I know whether I am accepted?", answer: "We will have rolling admissions. The first decision date is October 31. You will receive an emal from us to notify your acceptance status shortly thereafter. Applications are open until the time we are near our limit of 400 participants.", image: ""}
+  - {question: "How do I get there?", answer: "The Media Lab (Building E14) is located on the Red Line at the \"Kendall/MIT\" stop of the subway. If you are traveling from the airport, take the Silver Line 1 to South Station and transfer to the Redline. If you are traveling from the train station, take the Redline straight to Kendall/MIT. For more information on parking, public transportation and facilities around the campus please refer to the website: [https://whereis.mit.edu/](https://whereis.mit.edu/)", image: ""}
+  - {question: "What if this FAQ didn't answer my questions?", answer: "Please email us at team@realityvirtuallyhack.com if you’re in any way confused or concerned! We’d love to help you out :)", image: ""}
+  - {question: "Do you have my application? I didn’t receive an email confirmation.", answer: "When your application form goes through you will receive a confirmation of transmission on the website that reads: \"Thank you for your submission! We’ll keep you posted.\" You will not receive an email.", image: ""}
+  - {question: "Do I need to resubmit my application form again or just the resume?", answer: "Do not resubmit your application form. Just email your resume to us as an attachement. We will match it with your application. Please email your resume to team@realityvirtuallyhack.com using the same email included with your application. And please include your name in the filename of the resume.", image: ""}
+  - {question: "Do I have to submit a resume to be considered?", answer: "Including a resume is optional", image: ""}
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"

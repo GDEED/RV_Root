@@ -1,134 +1,70 @@
 - 
-  date: "2019-10-24"
-  dateReadable: "October 24"
+  date: "2019-1-17"
+  dateReadable: "Thursday, January 17"
   tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-    - {title: "Community", color: "#e91e63"}
+    - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [002, 003, 004]
+    	startTime: "9:00",
+    	endTime: "17:00",
+    	sessionIds: [400]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [003, 404, 004]
-    }
-    - {
-    	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [307]
+        startTime: "18:00",
+        endTime: "",
+        sessionIds: [401]
     }
 - 
-  date: "2019-10-25"
-  dateReadable: "October 25"
+  date: "2019-1-18"
+  dateReadable: "Friday January 16"
   tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
+    - {title: "Hackathon", color: "#90be4e"}
   timeslots: 
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
+    	startTime: "7:00",
+    	endTime: "24:00",
+    	sessionIds: [402]
     }
-    - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
-    }
-
 -
-  date: "2019-10-26"
-  dateReadable: "October 26"
+  date: "2019-1-19"
+  dateReadable: "Saturday January 19"
   tracks:
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
+    - {title: "Hackathon", color: "#90be4e"}
+  timeslots:
+    - {
+    	startTime: "7:00",
+    	endTime: "24:00",
+    	sessionIds: [402]
+    }
+-
+  date: "2019-1-20"
+  dateReadable: "Sunday January 20"
+  tracks:
+    - {title: "Hackathon", color: "#90be4e"}
+  timeslots:
+    - {
+    	startTime: "7:00",
+    	endTime: "24:00",
+    	sessionIds: [403]
+    }
+-
+  date: "2019-1-21"
+  dateReadable: "Monday January 21"
+  tracks:
+    - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
     	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
+    	endTime: "11:30",
+    	sessionIds: [504]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
+    	startTime: "11:30",
+    	endTime: "14:00",
+    	sessionIds: [505]
     }
     - {
     	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
-    }
-
--
-  date: "2019-10-27"
-  dateReadable: "October 27"
-  tracks:
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-  timeslots:
-    - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
-    }
-    - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
-    }
-
--
-  date: "2019-10-28"
-  dateReadable: "October 28"
-  tracks:
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-  timeslots:
-    - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
-    }
-    - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
-    }
+    	endTime: "17:00",
+    	sessionIds: [506]
+    } 

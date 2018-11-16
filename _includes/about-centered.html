@@ -4,15 +4,15 @@
         <div class="col-lg-10 col-lg-offset-1">
             <h4>{{ site.aboutMainBodyTitle }}</h4>
             <div class="row about-details">
-                <b>{{ site.aboutMainBodyBold }}</b>
+                <b>{{ site.aboutMainBodyHeading }}</b>
                 <div class="about-details-full">
-                    {{ site.aboutMainBody }}
+                    {% for block in site.data.about_copy %}
+                        <div class="copy-block">
+                            <h5>{{ block.heading }}</h5>
+                            <p>{{block.text}}</p>
+                        </div>
+                    {% endfor %}
                 </div>
-                <a class="learn-more-link" href="javascript:void(0);">
-                    Show
-                    <span class="active-hide">More</span>
-                    <span class="active-show">Less</span>
-                </a>
             </div>
         </div>
     </div>

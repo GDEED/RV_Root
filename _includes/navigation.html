@@ -230,14 +230,14 @@
                     <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %} target="_self"{% endif %}>{{ navigationLink.text}}</a>
 
                     {% if navigationLink.hasDropdown %}
+                        
                     <div class="dropdown">
                         <ul>
+                            {% for subLink in navigationLink.subNav %}
                             <li>
-                                <a href="https://pastevents.realityvirtuallyhack.com/" target="_blank">2017</a>
+                                <a href="{{subLink.link}}" {% if subLink.target == "_blank" %}target="_blank"{% endif %}>{{subLink.text}}</a>
                             </li>
-                            <li>
-                                <a href="https://pastevents.realityvirtuallyhack.com/about-2016/" target="_blank">2016</a>
-                            </li>
+                            {% endfor %}
                         </ul>
                     </div>
                     {% endif %}

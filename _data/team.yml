@@ -36,7 +36,7 @@
   id: 3
   name: "PRAVEEN"
   surname: "ARAVAMUDHAM"
-  title: "WEBSITE, RULES AND APPLICATIONS"
+  title: "JUDGING, RULES, DIGITAL OPERATIONS CO-LEAD"
   thumbnailUrl: PRAVEENARAVAMUDHAM.jpeg
   team: true
   social: 
@@ -46,7 +46,7 @@
   id: 4
   name: "DIANE"
   surname: "WILLIAMS"
-  title: "OUTREACH, DIVERSITY AND APPLICATIONS"
+  title: "DIVERSITY AND INCLUSION LEAD"
   thumbnailUrl: DianeWilliams.jpeg
   team: true
   social: 
@@ -66,11 +66,11 @@
   id: 6
   name: "SARAH"
   surname: "PILLAI"
-  title: "OPERATIONS CO-LEAD AND RULES"
+  title: "OPERATIONS CO-LEAD AND JUDGING / RULES"
   thumbnailUrl: SarahEPillai.webp
   team: true
   social: 
-    - {name: "ig", link: "https://www.instagram.com/sarahepillai/?hl=en"}
+    - {name: "instagram", link: "https://www.instagram.com/sarahepillai/?hl=en"}
   description: "As a fashion editor by trade, Sarah knows the power of choosing the right word, the right format, the right connections, or the right outfit can make or break the future and develop a brighter path. Using her skills as a former cheerleader, as an alumna of Harvard and Boston University, and working as Teen Vogue’s fashion editor, Sarah’s mission is bridging, cheering, and evolving the fashion and technology industries by building empowering and fun systems for the overall betterment of the communities."
 -
   id: 7
@@ -80,7 +80,7 @@
   thumbnailUrl: MAXMCCLASKIE.jpeg
   team: true
   social: 
-    - {name: "twitter", link: "https://www.instagram.com/maxgeorgem/?hl=en"}
+    - {name: "instagram", link: "https://www.instagram.com/maxgeorgem/?hl=en"}
   description: "Max joins the team as a hack-a-thon veteran and wearer of many hats when it comes to world of digital marketing. As a Creative Technologist at Hill Holliday, he is responsible for leading projects of all types including websites, mobile apps, chat bots, API integrations and more. On the side, Max is a freelance content creator with a focus on photography and social content for brands of all sizes."
 -
   id: 8
@@ -103,7 +103,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual MIT Media Lab AR/VR Hackathon."
+  description: "Arpit has worked over a decade leading products within the banking, healthcare, advertising, and e-commerce industries. He specializes in mobile, growth and Augmented Reality (AR). He currently works as Senior Vice President, Product Innovation at Bank of America, where he is responsible for bringing digital innovation to the physical bank locations. Before moving to the west coast, he ran the iOS mobile product team at Wayfair. Arpit is also a co-organizer of the annual Virtually Reality Hackathon."
 -
   id: 10
   name: "CINDY SHERMAN"
@@ -113,7 +113,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "Cindy is a multimedia artist and creative coder. She authored several webVR storytelling tools as a fellow at the MIT Open Doc including VRDoodler, a web-based 3D drawing program that renders in virtual and augmented reality. At the MIT Civic Media Lab on the Media Cloud team, her role as web developer is helping to build the next generation of web-based tools for journalists and researchers."
 -
   id: 11
   name: "CONNOR"
@@ -123,7 +123,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "Connor is currently an MBA/MS candidate at the Erb Institute for Sustainable Enterprise, a joint degree program between the Ross School of Business and the School for Environment and Sustainability at the University of Michigan. Prior to joining Erb, Connor led business development projects on behalf of several tech and social impact startups for six years and has professional working experience in over 10 countries. He loves biking, rock climbing, and brainstorming about how AI and machine learning will impact our society in the coming years."
 -
   id: 12
   name: "JENNA"
@@ -162,26 +162,27 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "John is an who loves AR and VR and believes in the future of these technologies. The diversity of the technology industries in the greater Boston area we lead to AR and VR progress according to him. Companies operating in vertical industries will lead to AR and VR innovations expanding the field from niche businesses to global enterprises."
 -
   id: 16
   name: "RUS"
   surname: "GANT"
-  title: ""
+  title: "ADVISOR"
   thumbnailUrl: RusGant.jpg
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, and educator with four decades of experience in computer visualization, archaeology and museology for some of the world’s leading museums and universities. A member of the research staff at Harvard University where he also leads the Visualization Research and Teaching Laboratory and formerly was the lead technical artist for Harvard's Giza 3D project that is reconstructing the Egyptian monuments on the Giza Plateau in virtual reality. He is on the teaching faculty at Tokyo’s Showa Women's University and is a Fellow at the MIT Center for Advanced Visual Studies  at the Center for Creative Inquiry at Carnegie Mellon University"
+  description: "Rus Gant is a well-regarded international 3D artist, computer visualization engineer, and educator with four decades of experience in computer visualization, archaeology, and museology. A member of the research staff at Harvard University where he also leads the Visualization Research and Teaching Laboratory. Formerly the lead technical artist for Harvard's Giza 3D project reconstructing the Egyptian monuments on the Giza Plateau in virtual reality. He is on the teaching faculty at Tokyo’s Showa Women's University and a fellow at the MIT Center for Advanced Visual Studies and Carnegie Mellon's Center for Creative Inquiry."
 -
   id: 17
-  name: "JASON"
-  surname: "HURVITZ"
-  title: "CODE REVIEW LEAD"
+  name: "MISHA"
+  surname: "SRA"
+  title: "ADVISOR"
+  thumbnailUrl: MishaSra.jpg
   team: true
   social: 
-    - {name: "twitter", link: ""}
-  description: ""
+    - {name: "twitter", link: "https://twitter.com/pixelscanner"}
+  description: "Misha is a Research Affiliate working on natural interaction techniques for multiperson experiences in virtual and mixed reality in the Fluid Interfaces group at the MIT Media Lab. Her inspiration comes from the paragons of virtual reality like the Holodeck from Star Trek or William Gibson's cyberspace. She is looking forward to a VR future with Sword Art Online's NerveGear or Ernest Cline's robotic arms and doing her part to help build it."
 -
   id: 18
   name: "PAURIC"
@@ -191,7 +192,7 @@
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: ""
+  description: "Pauric is a Principal User Experience Designer at MathWorks where he specializes in product vision and inventing new programming paradigms for STEM Students. He grew up on and off the West coast of Ireland but these days he can be found tinkering in a barn just outside of Boston."
 -
   id: 19
   name: "ANDREAS"
@@ -217,6 +218,7 @@
   name: "DANIEL"
   surname: "CLINE"
   title: "DEVOPS AND OUTREACH"
+  thumbnailUrl:
   team: true
   social: 
     - {name: "twitter", link: ""}
@@ -226,6 +228,7 @@
   name: "ERIC"
   surname: "BOEHLKE"
   title: "SITE PLANNING LEAD"
+  thumbnailUrl:
   team: true
   social: 
     - {name: "twitter", link: ""}
@@ -245,6 +248,7 @@
   name: "RYAN"
   surname: "LEE"
   title: "OPERATIONS AND PARTNERSHIPS"
+  thumbnailUrl: RyanLee.JPG
   team: true
   social: 
     - {name: "twitter", link: ""}
@@ -257,8 +261,8 @@
   thumbnailUrl: ildar_picture.jpg
   team: true
   social: 
-    - {name: "twitter", link: ""}
-  description: "" 
+    - {name: "instagram", link: "https://www.instagram.com/videoildar/"}
+  description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments." 
 -
   id: 26
   name: "CARL"
@@ -279,23 +283,44 @@
   social:
     - {name: "in", link: "https://www.linkedin.com/in/zachperlman/"}
   description: "Zach is a “Zach of All Trades”. You can find this rugby playing, tall nerd, conquering front end development in the heart of sunny Miami Florida. As a Lead Front End Developer, Zach is able to create almost anything he wants in the digital world, with the web as his “playground”. Interested in Blockchain,  IoT, VR, AR, and almost anything technology related, he is always looking to learn new and modern ways of building technologies to help build a better tomorrow."
-# - 
-#   id: 28
-#   name: "BRIAN"
-#   surname: "BURNS"
-#   title: "MARKETING AND CONTENT CREATION"
-#   thumbnailUrl: 
-#   team: true
-#   social:
-#     - {name: "", link: ""}
-#   description: ""
-#   - 
-#   id: 29
-#   name: "MURALI"
-#   surname: "AYYAPILLAI"
-#   title: "WEBSITE"
-#   thumbnailUrl: 
-#   team: true
-#   social:
-#     - {name: "", link: ""}
-#   description: ""
+- 
+  id: 28
+  name: "PRATHMESH"
+  surname: "JAKKANWAR"
+  title: ""
+  thumbnailUrl: PrathmeshJakkanwar.jpeg
+  team: true
+  social:
+    - {name: "in", link: "https://www.instagram.com/prathmeshjakkanwar/"}
+    # - {name: "youtube", link: "https://www.youtube.com/user/prathjakk/"}
+  description: "Prathmesh has a Masters in Computer Science from Northeastern University and currently works at Cengage Learning as a Sofware Engineer. Primarily a backend engineer, Prathmesh is exploring the idea of being a full stack. He has been a cricketer for life and actively plays it professionally (he has also represented the USA in the American College Cricket tournament and played against Canada). When he is not coding or playing cricket, he likes to travel and fly drones. He is an aspiring YouTuber and carries his drone with him."
+-
+  id: 29
+  name: "BRIAN"
+  surname: "BURNS"
+  title: "EDITOR, WRITER CONTENT CREATION LEAD"
+  thumbnailUrl: Brian.png
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Brian Burns is the Integrated Marketing Manager for the Mass General Research Institute, and a freelance writer and web content producer. He is intrigued by the potential of AR and VR technologies to change the way we think about science, medicine and education."
+- 
+  id: 30
+  name: "MURALI"
+  surname: "AYYAPILLAI"
+  title: "WEBSITE"
+  thumbnailUrl: 
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: ""
+- 
+  id: 31
+  name: "ESWAR"
+  surname: "ANANDAPADMANABAN"
+  title: "MIT OUTREACH LEAD"
+  thumbnailUrl: Eswar.jpg 
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Eswar is a senior at MIT studying electrical engineering and computer science. He has been working on VR and AR for the past few years and has worked with a few companies such as Samsung, Intel, and most recently IDEO. At MIT he works at the Human Systems Lab focused on designing heads up displays for space suits. In his spare time Eswar can be found running events on campus, building something, or watching football. Eswar is also one of the presidents of VR/AR@MIT."
