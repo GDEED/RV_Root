@@ -6405,3 +6405,8 @@ button:focus, a:focus {
 #top-section .gradient-overlay {
     opacity: 1;
 }
+
+
+.hover-green:hover {
+    color: #078000 !important;
+}
