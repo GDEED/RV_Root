@@ -33,12 +33,13 @@
             <label for="teamName">If you attended an earlier Reality Virtually hackathon, what was your team name?</label>
             <input type="teamName" class="form-control" name="teamName" id="teamName" aria-describedby="teamName" placeholder="Enter teamName">
 
-            <label for="currentLocation">What is your current location</label>
+            <label for="currentLocation">What is your current location (City, State/County, Country)</label>
             <input type="currentLocation" class="form-control" name="currentLocation" id="currentLocation" aria-describedby="currentLocation" placeholder="Enter Current Location">
 
             <div class="form-group">
                 <label for="citizenship">Country of Citizenship</label>
-                <select class="form-control" id="citizenship" name="citizenship">
+                <select class="form-control" id="citizenship" name="citizenship" required>
+                    <option value="">Select a Country</option>
                     <option>AFGHANISTAN</option>
                     <option>ALBANIA</option>
                     <option>ALGERIA</option>
@@ -282,8 +283,8 @@
 
             <div class="form-group">
                 <label for="preferredRole">Preferred/Desired Hackathon Role</label>
-                <select class="form-control" id="preferredRole">
-                    <option disabled>Choose</option>
+                <select class="form-control" id="preferredRole" required>
+                    <option value="">Select Role</option>
                     <option>Developer</option>
                     <option>Designer</option>
                     <option>Graphic Artist</option>
@@ -410,13 +411,13 @@
             <label for="Occupation">What is your occupation?</label>
             <input type="occupation" class="form-control" id="occupation" name="occupation" aria-describedby="citizenship" placeholder="Enter occupation">
 
-            <label for="affiliation">Affiliation</label>
+            <label for="affiliation">Affiliation (i.e. university name, employer name, institution name)</label>
             <input type="affiliation" class="form-control" id="affiliation" name="affiliation" aria-describedby="affiliation" placeholder="Enter affiliation">
 
             <div class="form-group">
                 <label for="gender">Gender</label>
-                <select class="form-control" id="gender" name="gender">
-                    <option disabled>Choose</option>
+                <select class="form-control" id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
                     <option>Female</option>
                     <option>Male</option>
                     <option>Non Binary</option>
@@ -426,15 +427,14 @@
             </div>
 
             <label for="ethnicity">Race/Ethnicity</label>
-            <input type="ethnicity" class="form-control" name="ethnicity" id="ethnicity" id="ethnicity" placeholder="Enter ethnicity">
-
+            <input type="ethnicity" class="form-control" name="ethnicity" id="ethnicity" id="ethnicity" aria-describedby="ethnicity" placeholder="Enter ethnicity">
 
             <label for="motives">About you and why you want to join the Reality Virtually Community?</label>
             <span>In 300 words or less describe yourself and how you relate to immersive technologies</span>
             <textarea class="form-control" rows="5" id="motives" name="motives"></textarea>
 
 
-            <label for="degree">University Degrees and Fields of Study</label>
+            <label for="degree">Please list the universities you attended, fields of study and degrees (BS, AB, MS Ph.D.) received.</label>
             <input type="degree" class="form-control" id="degree" name="degree" aria-describedby="degree" placeholder="Enter degree">
 
             <label for="twitter">Twitter Handle</label>
@@ -463,7 +463,7 @@
                 <input type="hidden" value="" name="fileSize"  id="fileSize">
                 <input type="hidden" value="" name="fileContentType" id="fileContentType">
 
-                <b id="resume">Optional: Upload Resume</b>
+                <label><b id="resume">Optional: Upload Resume</b></label>
                 <span id="resumeWarning" style="margin-top:10px;">Your current resume will help us evaluate your application. Please upload your resume.</span>
 
 
@@ -473,7 +473,7 @@
                 <!-- onclick="UploadFile();" -->
             </form>
 
-            <b class="resume_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Resume Loaded</b>
+            <label><b class="resume_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Resume Loaded</b></label>
             <btn class="btn btn-primary registrationSubmit" id="registrationSubmit" style="width: 100%;">Submit Application</btn>
     </div>
 

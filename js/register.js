@@ -2,12 +2,23 @@
     $(document).ready(function() {
        console.log("Ready to submit");
 
+       $('input:submit').attr('disabled',true);
+       $('input:file').change(
+           function(){
+               if ($(this).val()){
+                   $('input:submit').removeAttr('disabled'); 
+               }
+               else {
+                   $('input:submit').attr('disabled',true);
+               }
+        });
+
 
         // Get the modal
         var modal = document.getElementById('registrationModal');
 
         // Get the button that opens the modal
-        var btn = document.getElementById("registrationButton");
+        var btn = document.getElementById("registrationButton") || null;
 
         console.log("THIS IS INIT");
         // Get the button that opens the modal
@@ -17,12 +28,16 @@
         var span = document.getElementsByClassName("close")[0];
 
         // When the user clicks on the button, open the modal
-        btn.onclick = function() {
-            //modal.style.display = "block";
 
-
-            $(modal).fadeIn();
+        if (btn) {
+            btn.onclick = function() {
+                //modal.style.display = "block";
+    
+    
+                $(modal).fadeIn();
+            }
         }
+
 
         $(btn_lg).click(function(){
             $(modal).fadeIn();
@@ -165,6 +180,7 @@ swal("Are you registering from within the European Union?", {
         success:function(){
             $("#registration-hackathon").fadeOut();
             $("#registration-thankyou").fadeIn();
+            ga('send', 'event', 'Application', 'app_submission', 'Event Application');
         }
     });
 
@@ -200,7 +216,9 @@ function UploadFile() {
         var res = document.getElementById('fileContent').value.substring(0, 100);
         // alert(res);
 
-        console.log("response: " + res);
+        //console.log("response: " + res);
+
+        $('body').addClass('loading');
 
         document.getElementById('fileName').value = file.name;
         document.getElementById('fileSize').value = file.size;
@@ -244,6 +262,7 @@ function UploadFile() {
 
                 // $("#registrationSubmit").show();
                 $(".resume_submitted").show();
+                $('body').removeClass('loading');
                 // $("#registrationSubmit").attr("disabled",false);
                 // $("#registrationSubmit").toggleClass("btn-primary");
             }
