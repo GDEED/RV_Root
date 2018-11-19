@@ -1,31 +1,31 @@
 -
   id: 400
-  title: "Workshop"
+  title: "Workshops"
   place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
   service: true
   description: "The hackathon starts with a full day of enabling workshops. Design, development, and platform talks by experts and code labs, and talks by domain experts prepare participants to compete. During the workshop day, sponsors and participants interact at sponsor tables situated in the high-traffic area"
 -
   id: 401
-  title: "Team Formation"
-  place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
+  title: "Team Formation Dinner"
+  place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
   service: true
   description: "Team formation follows dinner and inspirational talks. The unaffiliated 400 participants distill into teams of five or fewer through a process designed to expose the best project ideas and convene teams with the capabilities to create impactful demonstrations of meaningful, immersive ideas.The hackathon begins as each team coeleces on a core concept, registers with the judges, and starts implementing their idea."
 -
   id: 402
   title: ""
-  place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
   service: true
   description: "Ideate, create, code"
 -
   id: 403
   title: "Finish building"
-  place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
   service: true
   description: "Pencils down at 2:00 PM, Judging begins"
 -
   id: 504
   title: "Awards Ceremony"
-  place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 0213"
+  place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
   service: true
   description: "Pencils down at 2:00 PM, Judging begins"
 -
