@@ -43,8 +43,8 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "7:00",
-    	endTime: "24:00",
+    	startTime: "7:00am",
+    	endTime: "12:00am",
     	sessionIds: [403]
     }
 -
