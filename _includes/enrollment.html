@@ -60,6 +60,7 @@
             </div>
                 <!--TESTING UPLOAD RESUME-->
                 <input type="hidden" value="" name="releaseDriveLocation" id="releaseDriveLocation">
+
             </form>
 
             <form id="uploadRelease" method="post" style="margin-top:10px;">
@@ -68,7 +69,7 @@
                 <input type="hidden" value="" name="releaseFileName"  id="releaseFileName">
                 <input type="hidden" value="" name="releaseFileSize"  id="releaseFileSize">
                 <input type="hidden" value="" name="releaseFileContentType" id="releaseFileContentType">
-                <input type="hidden" value="" name="applicantEmail" id="applicantEmail"
+                <input type="hidden" value="" name="applicantEmail" id="applicantEmail">
 
                 <b id="release">Mandatory: Upload Release</b>
                 <span id="releaseWarning" style="margin-top:10px;">You must complete and sign the <a href="https://docs.google.com/document/d/1nEdxvDFuoMbat0JKzbRdpxuUJwIleZwxLblwpajUNsI/edit?usp=sharing" target="_blank"></a>Reality Virtually Hackathon Release</a> to complete your registration and to participate in the hackathon</span>
@@ -76,8 +77,8 @@
 
                 <input name="SelectedRelease" id="SelectedRelease" type="file" class="btn btn-secondary">
                 <br>
-                <input value="Load release" type="button" id="loadRelease" class="btn"  style="width: 100%; background:#1ea9e1; color:white;margin-top:10px; margin-bottom:10px;" onclick="UploadRelease()">
-                <!-- onclick="UploadFile();" -->
+                <!-- <input value="Load release" type="button" id="loadRelease" class="btn"  style="width: 100%; background:#1ea9e1; color:white;margin-top:10px; margin-bottom:10px;"> -->
+                <!-- onclick="UploadRelease()" -->
             </form>
 
         <b class="release_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Release Loaded</b>
