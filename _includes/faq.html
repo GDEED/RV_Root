@@ -7,7 +7,7 @@
             {% assign check = forloop.index0 | modulo:2 %}
             <div class="hackathon-row {% if check == 0 %}float-left{% else %}float-right{% endif %} col-md-12">
                 <div class="hackathon-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
-                    <h4>{{ item.question }}</h4>
+                    <h4 class="slot-title">{{ item.question }}</h4>
                     <p>{{ item.answer | markdownify }}</p>
                 </div>
             </div>

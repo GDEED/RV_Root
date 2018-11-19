@@ -116,6 +116,7 @@ videoBannerEmbedURL: "https://www.youtube.com/embed/jT_ti4HPC8s"
 prizeCategoriesBackgroundImage: "statistic.jpg"
 prizeCategoriesTitle: "Prize Categories"
 prizeCategoriesSub: "Possible hackathon prize categories"
+prizeCategoriesListStyleClass: "hover-green"
 prizeCategories:
  - { name: "Architecture, Engineering, and Construction"}
  - { name: "Automotive"}

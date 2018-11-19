@@ -5,12 +5,12 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "9:00",
-    	endTime: "17:00",
+    	startTime: "9:00am",
+    	endTime: "5:00pm",
     	sessionIds: [400]
     }
     - {
-        startTime: "18:00",
+        startTime: "6:00pm",
         endTime: "",
         sessionIds: [401]
     }
@@ -21,8 +21,8 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots: 
     - {
-    	startTime: "7:00",
-    	endTime: "24:00",
+    	startTime: "7:00am",
+    	endTime: "12:00am",
     	sessionIds: [402]
     }
 -
@@ -32,8 +32,8 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "7:00",
-    	endTime: "24:00",
+    	startTime: "7:00am",
+    	endTime: "12:00am",
     	sessionIds: [402]
     }
 -
@@ -43,8 +43,8 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "7:00",
-    	endTime: "24:00",
+    	startTime: "7:00am",
+    	endTime: "12:00am",
     	sessionIds: [403]
     }
 -
@@ -54,17 +54,17 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "11:30",
+    	startTime: "10:00am",
+    	endTime: "11:30am",
     	sessionIds: [504]
     }
     - {
-    	startTime: "11:30",
-    	endTime: "14:00",
+    	startTime: "11:30am",
+    	endTime: "2:00pm",
     	sessionIds: [505]
     }
     - {
-    	startTime: "14:00",
-    	endTime: "17:00",
+    	startTime: "2:00pm",
+    	endTime: "5:00pm",
     	sessionIds: [506]
     } 

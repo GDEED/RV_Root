@@ -6,7 +6,7 @@
             <div class="row about-details">
                 <ul>
                     {% for category in site.prizeCategories %}
-                    <li style="list-style: none;"><a><h5>{{ category.name }}</h5></a></li>
+                    <li style="list-style: none;"><a><h5 class="{{ site.prizeCategoriesListStyleClass }}">{{ category.name }}</h5></a></li>
                     {% endfor %}
                 </ul>
             </div>
