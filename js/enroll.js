@@ -44,7 +44,7 @@ function UploadRelease() {
                 if(response.result == 'fail' && response.data == 'Invalid email for registration') {
                     swal("Error!", "Your email may be different than the one you used to apply. Please contact team@realityvirtuallyhack.com.", "error");
                 } else {
-                    swal("Nice!", "You have successfully uploaded the release form and completed your registration. We look forward to seeing you at the hackathon", "success");
+                    swal("Success!", "You have successfully uploaded the release form and completed your registration. We look forwad to seeing you at the hackathon", "success");
 
                     document.getElementById('releaseDriveLocation').value = response.data;
                     $("#resume").fadeOut();
