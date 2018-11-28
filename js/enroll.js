@@ -22,6 +22,7 @@ function UploadRelease() {
         document.getElementById('applicantEmail').value = email;
 
         var googleDriveLink = "";
+        $('body').addClass('loading');
 
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "https://script.google.com/macros/s/AKfycbzlShSlDCP0-8Ih0ig2s1wPgY9HmrpvRbzHL4hGrtN_Sv0avW-L/exec", true);
@@ -43,12 +44,12 @@ function UploadRelease() {
 
                 if(response.result == 'fail' && response.data == 'Invalid email for registration') {
                     swal("Error!", "Your email may be different than the one you used to apply. Please contact team@realityvirtuallyhack.com.", "error");
+                    $('body').removeClass('loading');
                 } else {
                     swal("Nice!", "You have successfully uploaded the release form and completed your registration. We look forward to seeing you at the hackathon", "success");
 
                     document.getElementById('releaseDriveLocation').value = response.data;
                     $("#resume").fadeOut();
-
 
                     $("#SelectedRelease").fadeOut();
                     $("#resumeWarning").fadeOut();
@@ -61,6 +62,7 @@ function UploadRelease() {
                     $("#loadRelease").fadeOut();
 
                     $(".release_submitted").show();
+                    $('body').removeClass('loading');
                     $.ajax({
                         url: "https://script.google.com/macros/s/AKfycbyVPtaXDqPc4xNChZLcY-jsS9Mzi-7g3p_YfrDNqKx32MmnM861/exec",
                         type:'POST',
