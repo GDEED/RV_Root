@@ -16,7 +16,7 @@
     }
 - 
   date: "2019-1-18"
-  dateReadable: "Friday January 16"
+  dateReadable: "Friday January 18"
   tracks: 
     - {title: "Hackathon", color: "#90be4e"}
   timeslots: 
