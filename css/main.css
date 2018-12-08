@@ -4571,6 +4571,15 @@ nav li a.current, nav li a:hover {
     padding-right: 20px
 }
 
+
+
+.allow-selection{
+    user-select:all!important;
+}
+
+
+
+
 .track-header-slot, .slot {
     padding: 10px 15px 10px;
     text-align: left;
