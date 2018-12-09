@@ -270,10 +270,6 @@ img {
     border-radius: 50%
 }
 
-.img-sponsor-founder {
-    width: 400px;
-}
-
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -6225,7 +6221,6 @@ nav li a.current, nav li a:hover {
     .prize-img-wrapper img {
         max-width: 110px
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
