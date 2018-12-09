@@ -1,10 +1,23 @@
 - 
-  group: "Main Sponsors"
+  group: "Founding Sponsors"
   elements: 
-    - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "attlogo.png"}
-    - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "microsoft_logo.png"}
-    - {name: "Samsung Next", description: "Samsung Next", link: "https://samsungnext.com/", imageUrl: "snext.png"}
+    - {name: "MIT Media Lab", description: "MIT Media Lab", link: "https://www.media.mit.edu/", imageUrl: "logo_medialab.png", width: "100%", newline: true}
+    - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "logo_att.png", width: "100%"}
+    - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "logo_microsoft.png", width: "100%"}
+    - {name: "Samsung Next", description: "Samsung Next", link: "https://samsungnext.com/", imageUrl: "logo_snext.png", width: "100%"}
 
+- 
+  group: "Platinum Sponsors"
+  elements: 
+    - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "85%"}
+
+- 
+  group: "Community Sponsors"
+  elements: 
+    - {name: "Boston VR", description: "Boton VR", link: "https://www.meetup.com/Boston-Virtual-Reality/", imageUrl: "logo_bostonvr.png", width: "65%"}
+    - {name: "Boston Unity Group", description: "Boston Unity Group", link: "https://www.meetup.com/B-U-G-Boston-Unity-Group/", imageUrl: "logo_bug.png", width: "30%"}
+    - {name: "AR/VR Alliance at Harvard", description: "AR/VR Alliance at Harvard", link: "https://innovationlabs.harvard.edu/arvr-alliance/", imageUrl: "logo_harvard.png", width: "65%"}
+    - {name: "VR/AR MIT", description: "VR/AR MIT", link: "http://vratmit.com/", imageUrl: "logo_vrarmit.jpg", width: "65%"}
 
 #-
 #  group: "Co-organizers"
