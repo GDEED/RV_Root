@@ -116,16 +116,18 @@ videoBannerEmbedURL: "https://www.youtube.com/embed/jT_ti4HPC8s"
 
 #PrizeCategories
 prizeCategoriesBackgroundImage: "statistic.jpg"
-prizeCategoriesTitle: "Prize Categories"
+prizeCategoriesTitle: ""
 prizeCategoriesSub: "Possible hackathon prize categories"
 prizeCategoriesListStyleClass: "hover-green"
 prizeCategories:
- - { name: "Architecture, Engineering, and Construction"}
- - { name: "Automotive"}
- - { name: "Healthcare and Medicine"}
- - { name: "Gaming and Entertainment"}
- - { name: "Advertising"}
- - { name: "Education"}
+ - { name: "Social Good" , example: "Sustainability, Accessibility, Conflict Resolution, Civic Duty, Safety, Security"}
+ - { name: "Mobility and Communications", example: "Automotive, Conferencing/Chat, Travel, Navigation, "}
+ - { name: "Health and Wellness", example: "Healthcare, Medicine, Therapy, Mindfulness, Fitness"}
+ - { name: "Art, Media and Entertainment", example: "Music, Visual Art, News/Journalism, Advertising"}
+ - { name: "Games and Learning", example: "K-12 Education, Distance Learning, Job Training, Academic Topics (e.g. History, Science, etc.), Reference, Museums, games and application of game UX/UI and agency to other domains."}
+ - { name: "Productivity", example: "Finance, Data Visualization, Engineering Design, Construction Design, Manufacturing Design, Utilities"}
+ - { name: "Industrial and Commercial ", example: "Immersive technology and IoT, Construction, manufacturing, field service and eCommerce"}
+
 # - { category: "Other vertical or vertical AR or VR that participants are passionate about"}
 
 
