@@ -49,6 +49,9 @@ navigationLinks:
 # - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
+ - link: "/"
+   text: "Home"
+    
  - link: "/about/"
    text: "About"
    hasDropdown: true
@@ -89,7 +92,7 @@ aboutTitle: "About Reality Virtually"
 aboutHeaderBody: "The Reality Virtually Hackathon brings together interdisciplinary minds to explore the application of virtual reality and augmented reality technologies for building new experiences. We encourage developers, designers, engineers, artists, coders, experts, sound designers, storytellers, students, creatives, and imaginative AR/VR enthusiasts to apply."
 aboutBlock:
  - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications. There will be very skilled mentors to help out along the way. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
- - {title: "Conference", image: "mitmedialab_outer.png", text: "We will be hosting some of the world’s brightest minds to present topics relevant to AR/VR in a series of lectures and panels.  You can check out last year’s conference program <a href=\"https://pastevents.realityvirtuallyhack.com/conference\">here</a>." }
+ - {title: "Expo", image: "expo.png", text: "On the last day, there will be an Insider Expo beginning at 11:30 AM when participants will see and experience other teams XR projects. From 2:00 PM to 5:00 PM the Expo will be opened to the MIT and Boston/Cambridge AR/VR technology community at large." }
  - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "The hackathon will lead with a full day of workshops to get people ready to contribute to their team’s project. Come and tame your favorite technology. You can check out last year’s workshop schedule <a href=\"https://pastevents.realityvirtuallyhack.com/workshops\">here</a>." }
 aboutMainBodyTitle: "Reality Virtually Hackathon returning to the MIT Media Lab, January 17–21, 2019"
 aboutMainBodyHeading: "AR/VR designers, developers, sound engineers, graphic artists, domain experts, and enthusiasts  invited to apply"
