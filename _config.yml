@@ -43,14 +43,15 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
 # - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
+ - link: "/"
+   text: "Home"
  - {calltoaction: true, permalink: "/apply", link: "/apply/", text: "Apply", style: "color:#d5df2a;" }
 
 
 # - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
- - link: "/"
-   text: "Home"
+
     
  - link: "/about/"
    text: "About"
