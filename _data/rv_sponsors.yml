@@ -1,7 +1,7 @@
 - 
   group: "Founding Sponsors"
   elements: 
-    - {name: "MIT Media Lab", description: "MIT Media Lab", link: "https://www.media.mit.edu/", imageUrl: "logo_medialab.png", width: "100%", newline: true}
+    - {name: "MIT Media Lab", description: "MIT Media Lab", link: "https://www.media.mit.edu/", imageUrl: "logo_medialab.png", width: "120%", newline: true}
     - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "logo_att.png", width: "100%"}
     - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "logo_microsoft.png", width: "100%"}
     - {name: "Samsung", description: "Samsung", link: "https://samsung.com/", imageUrl: "logo_samsung.png", width: "100%"}
@@ -9,7 +9,7 @@
 - 
   group: "Platinum Sponsors"
   elements: 
-    - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "85%"}
+    - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "70%"}
 
 - 
   group: "Community Sponsors"

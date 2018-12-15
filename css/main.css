@@ -3633,12 +3633,11 @@ nav li a.current, nav li a:hover {
 
 .partners .list-inline li {
     width: 16%;
-    max-width: 180px;
+    max-width: 300px;
     margin: 13px 7px
 }
 
 .partners img {
-    width: 100%;
     -webkit-filter: grayscale(0);
     filter: grayscale(0)
 }
