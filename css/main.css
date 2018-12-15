@@ -3639,10 +3639,8 @@ nav li a.current, nav li a:hover {
 
 .partners img {
     width: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1)
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
 }
 
 .partners img:hover {
