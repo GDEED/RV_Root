@@ -15,6 +15,11 @@ body.loading input[type=button] {
     cursor: wait !important;
 }
 
+body.loading input[type=button],
+body.loading button, {
+    pointer-events: none;
+}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
