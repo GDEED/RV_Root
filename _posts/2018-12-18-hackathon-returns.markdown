@@ -1,12 +1,10 @@
 ---
 layout: post
 image: boston-overhead.jpg
-title:  "First Post"
+title:  "Past Hackathon Participants Returning as Mentors to Share Google Technology and AR Expertise"
 date:   2018-12-18 09:00:00
 isStaticPost: false
 ---
-
-Past Hackathon Participants Returning as Mentors to Share Google Technology and AR Expertise
 
 Two immersive technology experts from Google who were past participants and winners in the in the Virtually Reality Hackathon are returning this year as mentors—and bringing some of the latest technology along with them. 
  
