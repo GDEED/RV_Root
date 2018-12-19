@@ -1,10 +1,15 @@
 ---
 layout: post
-image: boston-overhead.jpg
-title:  "Past Hackathon Participants Returning as Mentors to Share Google Technology and AR Expertise"
+image: banner-image-post-1.jpg
+title: ""
 date:   2018-12-18 09:00:00
 isStaticPost: false
+socialImageSrcFacebook: "/img/posts/post-1/facebook-image-post-1.jpg"
+socialImageSrcTwitter: "/img/posts/post-1/twitter-image-post-1.jpg"
+description: "Giving back – Reality Virtually hackathon alumni and Googlers Louis DeScioli and Anish Dhesikan return to teach workshops and mentor teams building with Google and open source immersive technology"
 ---
+
+# Past Hackathon Participants Returning as Mentors to Share Google Technology and AR Expertise
 
 Two immersive technology experts from Google who were past participants and winners in the in the Virtually Reality Hackathon are returning this year as mentors—and bringing some of the latest technology along with them. 
  
@@ -30,5 +35,5 @@ DeScioli went into the 2017 hackathon thinking he would just be there to learn a
  
 “It was this aspect of it that made me want to continue, seeing how interdisciplinary this future of software was going to be.”
 
-#### Any questions? 
+###### Any questions? 
 Email organizers at [team@realityvirtuallyhack.com](mailto:team@realityvirtuallyhack.com)
