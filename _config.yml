@@ -62,6 +62,7 @@ navigationLinks:
     - link: "/hackathon-rules/"
       text: "Rules"
  - {link: "/schedule/", text: "Schedule", hasDropdown: false}
+ - {link: "/blog/", text: "Blog", hasDropdown: false}
  - link: "https://pastevents.realityvirtuallyhack.com/"
    text: "Past Events"
    2016event: "#2016"
