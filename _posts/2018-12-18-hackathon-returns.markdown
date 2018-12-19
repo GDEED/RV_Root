@@ -1,12 +1,14 @@
 ---
 layout: post
 image: banner-image-post-1.jpg
-title: ""
+title: "Past Hackathon Participants Returning as Mentors..."
 date:   2018-12-18 09:00:00
 isStaticPost: false
 socialImageSrcFacebook: "/img/posts/post-1/facebook-image-post-1.jpg"
 socialImageSrcTwitter: "/img/posts/post-1/twitter-image-post-1.jpg"
 description: "Giving back – Reality Virtually hackathon alumni and Googlers Louis DeScioli and Anish Dhesikan return to teach workshops and mentor teams building with Google and open source immersive technology"
+permalink: "/blog/hackathon-returns"
+hideHeading: true
 ---
 
 # Past Hackathon Participants Returning as Mentors to Share Google Technology and AR Expertise
