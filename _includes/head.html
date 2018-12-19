@@ -30,9 +30,9 @@
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="{{ site.url }}" />
     {% if page.socialImageSrcFacebook %}
-        <meta name="og:image" content="{{ page.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}">  
+        <meta property="og:image" content="{{ page.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}">  
     {% else %}
-        <meta name="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}">
+        <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
 
     {% if page.description %}
