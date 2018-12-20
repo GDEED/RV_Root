@@ -12,15 +12,20 @@
     - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "70%"}
 
 - 
+  group: "Gold Sponsors"
+  elements: 
+    - {name: "Alienware", description: "Alienware", link: "https://www.dell.com/en-us/gaming/alienware", imageUrl: "logo_alienware.png", width: "100%"}
+
+- 
   group: "Community Sponsors"
   elements: 
-    - {name: "Boston VR", description: "Boton VR", link: "http://www.bostonvr.org/", imageUrl: "logo_bostonvr.png", width: "65%"}
-    - {name: "Boston Unity Group", description: "Boston Unity Group", link: "https://www.meetup.com/B-U-G-Boston-Unity-Group/", imageUrl: "logo_bug.png", width: "30%"}
-    - {name: "AR/VR Alliance at Harvard", description: "AR/VR Alliance at Harvard", link: "https://innovationlabs.harvard.edu/arvr-alliance/", imageUrl: "logo_harvard.png", width: "65%"}
-    - {name: "VR/AR MIT", description: "VR/AR MIT", link: "http://vratmit.com/", imageUrl: "logo_vrarmit.jpg", width: "65%"}
-    - {name: "Boston New Technology", description: "Boston New Technology", link: "https://bostonnewtechnology.com/", imageUrl: "logo_boston_newtech.png", width: "65%"}
-    - {name: "Boston AR", description: "Boston AR", link: "https://www.bostonar.org/", imageUrl: "logo_bostonar.png", width: "65%"}
-    - {name: "Public VR Lab", description: "Public VR Lab", link: "http://publicvrlab.com/", imageUrl: "logo_public_vrlab.jpg", width: "65%"}
+    - {name: "Boston VR", description: "Boton VR", link: "http://www.bostonvr.org/", imageUrl: "logo_bostonvr.png", width: "50%"}
+    - {name: "Boston Unity Group", description: "Boston Unity Group", link: "https://www.meetup.com/B-U-G-Boston-Unity-Group/", imageUrl: "logo_bug.png", width: "25%"}
+    - {name: "AR/VR Alliance at Harvard", description: "AR/VR Alliance at Harvard", link: "https://innovationlabs.harvard.edu/arvr-alliance/", imageUrl: "logo_harvard.png", width: "50%"}
+    - {name: "VR/AR MIT", description: "VR/AR MIT", link: "http://vratmit.com/", imageUrl: "logo_vrarmit.jpg", width: "50%"}
+    - {name: "Boston New Technology", description: "Boston New Technology", link: "https://bostonnewtechnology.com/", imageUrl: "logo_boston_newtech.png", width: "50%"}
+    - {name: "Boston AR", description: "Boston AR", link: "https://www.bostonar.org/", imageUrl: "logo_bostonar.png", width: "50%"}
+    - {name: "Public VR Lab", description: "Public VR Lab", link: "http://publicvrlab.com/", imageUrl: "logo_public_vrlab.jpg", width: "50%"}
 
 
 #-
