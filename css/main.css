@@ -4002,6 +4002,17 @@ nav li a.current, nav li a:hover {
     text-align: center
 }
 
+.mentor h3 {
+    margin-bottom: 26px
+}
+
+.mentor h4 {
+    margin: 50px 0 20px;
+    text-align: center
+}
+
+
+
 .zoe-effect {
     margin-bottom: 26px;
     height: 250px;

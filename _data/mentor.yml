@@ -1,0 +1,13 @@
+-
+  id: 0
+  name: ""
+  surname: ""
+  title: ""
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "twitter", link: ""}
+  description: ""
+-
