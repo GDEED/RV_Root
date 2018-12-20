@@ -23,7 +23,7 @@ WayRay’s mentors will be there to lead a workshop on the key functionalities a
  
 The mentors will also be available throughout the hackathon to assist teams in applying the technology to their projects.
  
-# About WayRay
+### About WayRay
  
 WayRay was founded in 2012 and is headquartered in Zurich. As a deep-tech startup, WayRay creates fundamental innovations in holography, optics, design, hardware, and software engineering to develop breakthrough technologies like new lasers, new materials and tools for prototyping and production.
  
@@ -32,7 +32,7 @@ In keeping the full R&D process under control — from product concept to protot
 The company has also won prestigious industry awards — the Grand Prize at the 2017 AutoMobility LA Top Ten Automotive Startups Competition, the People’s Choice Award, and the AR category at Startup Autobahn 2018. 
  
  
-# True AR SDK
+### True AR SDK
  
 The True Augmented Reality Software Development Kit is a set of libraries and tools for third-party developers to build, test, and debug AR apps that run on holographic AR displays and deliver a true augmented reality experience.
  
