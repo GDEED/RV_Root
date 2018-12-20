@@ -15,6 +15,11 @@ body.loading input[type=button] {
     cursor: wait !important;
 }
 
+body.loading input[type=button],
+body.loading button, {
+    pointer-events: none;
+}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
@@ -1698,6 +1703,11 @@ tbody.collapse.in {
 
 .jumbotron .container {
     max-width: 100%
+}
+
+.notification-list li {
+    font-size: 15px;
+    margin: 1px 0;
 }
 
 .thumbnail {
@@ -3633,16 +3643,13 @@ nav li a.current, nav li a:hover {
 
 .partners .list-inline li {
     width: 16%;
-    max-width: 180px;
+    max-width: 300px;
     margin: 13px 7px
 }
 
 .partners img {
-    width: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1)
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
 }
 
 .partners img:hover {
