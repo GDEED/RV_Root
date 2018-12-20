@@ -1,12 +1,12 @@
 ---
 layout: post
-image: banner-image-post-1.jpg
+image: alienware-blog-post.jpg
 title: "Reality Virtually Hackathon will run on Alienware"
 date:   2018-12-19 09:00:00
 isStaticPost: false
 socialImageSrcFacebook: "/img/posts/post-2/facebook-image-post-2.png"
 socialImageSrcTwitter: "/img/posts/post-2/twitter-image-post-2.png"
-description: "Giving back – Reality Virtually hackathon alumni and Googlers Louis DeScioli and Anish Dhesikan return to teach workshops and mentor teams building with Google and open source immersive technology"
+description: "Alienware is shipping a couple dozen beefy systems on loan to the hackathon. These machines are built to drive high-end headsets that will also be available for hackathon participants to check out for the hackathon."
 permalink: "/blog/AlienWare"
 hideHeading: true
 ---
