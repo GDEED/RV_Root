@@ -4,8 +4,8 @@ image: alienware-blog-post.jpg
 title: "Reality Virtually Hackathon will run on Alienware"
 date:   2018-12-19 09:00:00
 isStaticPost: false
-socialImageSrcFacebook: "/img/posts/post-2/facebook-image-post-2.png"
-socialImageSrcTwitter: "/img/posts/post-2/twitter-image-post-2.png"
+socialImageSrcFacebook: "/img/posts/post-3/alienware-facebook.jpg"
+socialImageSrcTwitter: "/img/posts/post-3/alienware-twitter.jpg"
 description: "Alienware is shipping a couple dozen beefy systems on loan to the hackathon. These machines are built to drive high-end headsets that will also be available for hackathon participants to check out for the hackathon."
 permalink: "/blog/AlienWare"
 hideHeading: true
