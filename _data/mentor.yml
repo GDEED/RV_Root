@@ -130,21 +130,21 @@
   description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments."
 -
   id: 8
-  name: ""
-  surname: ""
-  organizaton: ""
-  title: ""
-  skills: ""
-  tools: "O"
+  name: "Brett"
+  surname: "Phares"
+  organizaton: "General Anxiety llc"
+  title: "Founder/CxO"
+  skills: "Software Development and Prototyping, 3D Artist (Modeling, Shading, Etc.)"
+  tools: "Unity / Windows MR"
   thumbnailUrl: 
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
   social: 
-    - {name: "linkedin", link: ""}
-    - {name: "website", link: ""}
-    - {name: "other", link: ""}
-  description: ""
+    - {name: "linkedin", link: "https://www.linkedin.com/in/brettphares"}
+    - {name: "website", link: "https://genanxiety.com"}
+    - {name: "other", link: "http://brettphares.org"}
+  description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
 -
   id: 9
   name: ""
