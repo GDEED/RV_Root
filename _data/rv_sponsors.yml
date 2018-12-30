@@ -1,7 +1,7 @@
 - 
   group: "Founding Sponsors"
   elements: 
-    - {name: "MIT Media Lab", description: "MIT Media Lab", link: "https://www.media.mit.edu/", imageUrl: "logo_medialab.png", width: "120%", newline: true}
+    - {name: "MIT Media Lab", description: "MIT Media Lab", link: "https://www.media.mit.edu/", imageUrl: "logo_medialab.png", width: "100%", newline: true}
     - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "logo_att.png", width: "100%"}
     - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "logo_microsoft.png", width: "100%"}
     - {name: "Samsung", description: "Samsung", link: "https://samsung.com/", imageUrl: "logo_samsung.png", width: "100%"}
@@ -9,7 +9,8 @@
 - 
   group: "Platinum Sponsors"
   elements: 
-    - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "70%"}
+    - {name: "PTC", description: "PTC", link: "https://www.ptc.com", imageUrl: "logo_ptc.jpg", width: "80%"}
+    - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "65%"}
 
 - 
   group: "Gold Sponsors"
@@ -26,6 +27,8 @@
     - {name: "Boston New Technology", description: "Boston New Technology", link: "https://bostonnewtechnology.com/", imageUrl: "logo_boston_newtech.png", width: "50%"}
     - {name: "Boston AR", description: "Boston AR", link: "https://www.bostonar.org/", imageUrl: "logo_bostonar.png", width: "50%"}
     - {name: "Public VR Lab", description: "Public VR Lab", link: "http://publicvrlab.com/", imageUrl: "logo_public_vrlab.jpg", width: "50%"}
+    - {name: "VR First", description: "VR First", link: "http://vrfirst.com/", imageUrl: "logo_vrfirst.png", width: "50%"}
+
 
 
 #-
