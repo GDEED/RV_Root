@@ -1,4 +1,10 @@
 -
+  id: 399
+  title: "Registration"
+  place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
+  service: true
+  description: "Registration opens"
+-
   id: 400
   title: "Workshops"
   place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
