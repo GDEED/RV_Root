@@ -1712,6 +1712,12 @@ tbody.collapse.in {
     color:#d5df2a;
 }
 
+span.field-sub-title {
+    font-weight: 300;
+    font-size: 13px;
+    font-style: italic;
+}
+
 .thumbnail {
     display: block;
     padding: 4px;
