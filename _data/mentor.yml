@@ -1,13 +1,215 @@
 -
   id: 0
-  name: ""
-  surname: ""
-  title: ""
+  name: "David"
+  surname: "Goligorsky"
+  organizaton: "IDEO"
+  title: "Sr. Design Director"
+  skills: "Product/Interaction Design, 3D Artist (Modeling, Shading, Etc.)"
+  tools: "Blender, SolidWorks, Sketch, HTML/CSS, some three.js"
+  thumbnailUrl: Goligorsky.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/davidgoligorsky/"}
+    - {name: "website", link: "https://davidgoligorsky.com"}
+  description: "David Goligorsky is a Sr. Design Director at IDEO New York focused on Digital & Emerging Technology. He has a background in Aerospace Engineering and has worked in advanced R&D before pursuing a graduate degree in Product Design at Stanford University. David had previously worked at IDEO Cambridge leading project teams and lecturing on Design, Manufacturing, and Strategy at Harvard, Yale, and other institutions. Before making a return to IDEO, David spent several years running Design at a Google Ventures portfolio startup in the mobile media space and then as a private practice, working with startups on all aspects of Design and Product at their organizations. Clients included Artsy, Sonder, Octave, and others. David is keen to help individuals and organization in balancing culture and creativity with technology and commerce."
+-
+  id: 1
+  name: "Vik"
+  surname: "Parthiban"
+  organizaton: "MIT"
+  title: "Researcher"
+  skills: "Product / Interaction Design, Software Development and Prototyping, Project Manager / Producer"
+  tools: "Unity, Arduino, Optics"
   thumbnailUrl: 
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
   social: 
-    - {name: "twitter", link: ""}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/vikparthiban/"}
+    - {name: "website", link: "https://www.media.mit.edu/people/vparth/overview/"}
+  description: "Vik Parthiban is passionate about teams and technologies that shape how people interact with digital information and the physical world. He helped build the Magic Leap One AR headset released in December 2017 and led an R&D project for the advanced photonics team. Currently a researcher and graduate student at the MIT Media Lab, Vik is building new human-computer interfaces and holographic technology that hope to push AR/VR technology forward."
+-
+  id: 2
+  name: "Casey"
+  surname: "Pugh"
+  organizaton: "Vimeo"
+  title: "Head of Creator Labs"
+  skills: "Software Development and Prototyping, Project Manager / Producer"
+  tools: "Web backend stuff: Ruby, PHP, Rails, Sinatra, Heroku, automated testing, continuous deployment, CDNs, scaling, micro services, APIs, OAuth, data scraping, databases (mysql, postgres), Docker"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/caseypugh/"}
+    - {name: "website", link: "https://caseypugh.com"}
+    - {name: "vimeo", link: "https://labs.vimeo.com"}
+  description: "Casey Pugh is an Emmy-winning creative technologist immersed in the online video industry for the past 11 years. As Head of Creator Labs at Vimeo, Casey leads the vision, strategy and execution for pushing the video platform beyond its existing storytelling boundaries. In 2009, he created Star Wars Uncut, a crowd-sourced remake of classic Star Wars movies that won a 2010 Primetime Emmy. Casey was an early employee of Vimeo and co-founder of VHX, a technology solution for creators building and distributing premium over-the-top (OTT) video channels, which was acquired by Vimeo in May 2016."
+-
+  id: 3
+  name: "Jonathan"
+  surname: "Linowes"
+  organizaton: "Parkerhill Reality Labs"
+  title: "Founder/CEO"
+  skills: "Product / Interaction Design, Software Development and Prototyping, Project Manager / Producer"
+  tools: "Unity"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/linojon/"}
+    - {name: "website", link: "http://www.parkerhill.com"}
+    - {name: "facebook", link: "https://www.facebook.com/parkerhillvr/"}
+  description: "Jonathan is a VR/AR evangelist, Unity developer, entrepreneur, and teacher. His company, Parkerhill Reality Labs, is an immersive media indie studio and developer of the BridgeXR toolkit, Power Solitaire VR game, and other projects.  Jonathan holds an MS degree from the MIT Media Lab, a BFA degree from Syracuse University, and held technical leadership positions at Autodesk and other companies. He is author of books including 'Unity Virtual Reality Projects' (second edition June 2018) and 'Augmented Reality for Developers' (2017)."
+-
+  id: 4
+  name: "Lisa"
+  surname: "Tacoronte"
+  organizaton: "IDEO"
+  title: "Business Designer"
+  skills: "Project Manager / Producer"
+  tools: "Sketch, Figma"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/lisataco/"}
+    - {name: "website", link: "www.lisataco.com"}
+  description: "Lisa Tacoronte is a Business Designer at IDEO, where she designs and prototypes creative, new entrepreneurial ventures founded on human needs. She hails from IDEO coLab where she explored the potential for emerging technology to create impact on social systems through interactive prototypes."
+-
+  id: 5
+  name: "Mona"
+  surname: "Hakky"
+  organizaton: "Wayfair"
+  title: "Design Director, Native App/AR/VR"
+  skills: "Product / Interaction Design"
+  tools: "UX tools"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/monahakky/"}
+  description: "With foundation rooted in Architecture, Mona’s passion for human-centered design connecting digital & physical environments has been a life-long passion. With over 16 years of experience working in the digital space across multiple industries, she had the opportunity to leverage mobile & emerging technologies to drive innovative thinking in retail, healthcare, travel, automotive, and sports. Mona now leads design for native App & AR/VR at Wayfair."
+-
+  id: 6
+  name: "Yasaman"
+  surname: "Sheri"
+  organizaton: "Indepenant"
+  title: "Creative Director"
+  skills: "Unity"
+  tools: "Open VR, Arduino, TouchDesigner"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/yeahs"}
+    - {name: "website", link: "http://yeahsnos.com"}
+  description: "Yasaman Sheri is a designer and creative director who works with sensing and perception. She has led design interactions at Microsoft Hololens Operating System team for 5 years designing interfaces using gesture, machine vision and spacial interactions. Her work with Mixed Reality has inspired her to expand sensory interactions designing for the \"other senses\" in sound, haptics and smell and the design of perception. These explorations have led her to collaborations with Toyota, Mozilla XR Studio, Google (X), Sissel Tolaas, Yeast Lab. Yasaman is also an educator, teaching Sensory Design at Copenhagen Institute for Interaction Design and graduate studies at RISD. She is also frequent visiting lecturer at Art Center College of Design, Columbia GSAPP and Stanford."
+-
+  id: 7
+  name: "ildar"
+  surname: "iakubov"
+  organizaton: "www.ildar.io"
+  title: "Prof."
+  skills: "Product / Interaction Design, Software Development and Prototyping, Project Manager / Producer"
+  tools: "Open VR, Arduino, TouchDesigner"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "instagram", link: "https://www.instagram.com/videoildar/"}
+    - {name: "website", link: "www.ildar.io"}
+    - {name: "other", link: ""}
+  description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments."
+-
+  id: 8
+  name: "Brett"
+  surname: "Phares"
+  organizaton: "General Anxiety llc"
+  title: "Founder/CxO"
+  skills: "Software Development and Prototyping, 3D Artist (Modeling, Shading, Etc.)"
+  tools: "Unity / Windows MR"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/brettphares"}
+    - {name: "website", link: "https://genanxiety.com"}
+    - {name: "other", link: "http://brettphares.org"}
+  description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
+-
+  id: 9
+  name: ""
+  surname: ""
+  organizaton: ""
+  title: ""
+  skills: ""
+  tools: "O"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "website", link: ""}
+    - {name: "other", link: ""}
   description: ""
 -
+  id: 10
+  name: ""
+  surname: ""
+  organizaton: ""
+  title: ""
+  skills: ""
+  tools: "O"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "website", link: ""}
+    - {name: "other", link: ""}
+  description: ""
+-
+  id: 11
+  name: ""
+  surname: ""
+  organizaton: ""
+  title: ""
+  skills: ""
+  tools: "O"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "website", link: ""}
+    - {name: "other", link: ""}
+  description: ""
+-
+  id: 12
+  name: ""
+  surname: ""
+  organizaton: ""
+  title: ""
+  skills: ""
+  tools: "O"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "website", link: ""}
+    - {name: "other", link: ""}
+  description: ""
