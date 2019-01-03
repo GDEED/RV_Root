@@ -22,7 +22,7 @@
   title: "Researcher"
   skills: "Product / Interaction Design, Software Development and Prototyping, Project Manager / Producer"
   tools: "Unity, Arduino, Optics"
-  thumbnailUrl: 
+  thumbnailUrl: VikParthiban.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -38,7 +38,7 @@
   title: "Head of Creator Labs"
   skills: "Software Development and Prototyping, Project Manager / Producer"
   tools: "Web backend stuff: Ruby, PHP, Rails, Sinatra, Heroku, automated testing, continuous deployment, CDNs, scaling, micro services, APIs, OAuth, data scraping, databases (mysql, postgres), Docker"
-  thumbnailUrl: 
+  thumbnailUrl: CaseyPugh.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -55,7 +55,7 @@
   title: "Founder/CEO"
   skills: "Product / Interaction Design, Software Development and Prototyping, Project Manager / Producer"
   tools: "Unity"
-  thumbnailUrl: 
+  thumbnailUrl: JonathanLinowes.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -72,7 +72,7 @@
   title: "Business Designer"
   skills: "Project Manager / Producer"
   tools: "Sketch, Figma"
-  thumbnailUrl: 
+  thumbnailUrl: LisaTacoronte.png
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -88,7 +88,7 @@
   title: "Design Director, Native App/AR/VR"
   skills: "Product / Interaction Design"
   tools: "UX tools"
-  thumbnailUrl: 
+  thumbnailUrl: MonaHakky.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -103,7 +103,7 @@
   title: "Creative Director"
   skills: "Unity"
   tools: "Open VR, Arduino, TouchDesigner"
-  thumbnailUrl: 
+  thumbnailUrl: YasamanSheri.jpeg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -119,7 +119,7 @@
   title: "Prof."
   skills: "Product / Interaction Design, Software Development and Prototyping, Project Manager / Producer"
   tools: "Open VR, Arduino, TouchDesigner"
-  thumbnailUrl: 
+  thumbnailUrl: ildar.JPG
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -130,13 +130,98 @@
   description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments."
 -
   id: 8
+  name: "Jeff"
+  surname: "Bail"
+  organizaton: "Boston VR"
+  title: "Co-organizer"
+  skills: "Software Development and Prototyping"
+  tools: "Unity /  C#"
+  thumbnailUrl: JeffBail.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jeff-bail-1a11088/"}
+    - {name: "site", link: "www.bostonvr.org"}
+    - {name: "other", link: ""}
+  description: "I've been involved with Boston VR since our very first meeting in 2014. I'm currently working as a VR developer at Vicarious Surgical."
+-
+  id: 9
+  name: "Alexander"
+  surname: "Chou"
+  organizaton: "Wayfair"
+  title: "Software Engineer"
+  skills: "Software Development and Prototyping"
+  tools: "BabylonJS, ReactJS"
+  thumbnailUrl: AlexChou.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/alexanderchou/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  description: "Alex is a senior software engineer at Wayfair, leading a team that builds a 3D room planning tool on the web. He's particularly excited about the opportunities WebVR opens up to make apps of today fully immersive. Alex is also an alumnus from Brown University where he studied computer science and economics."
+-
+  id: 10
+  name: "DULCE"
+  surname: "BAERGA"
+  organizaton: "Dulce Dotcom"
+  title: "CEO"
+  skills: "Product / Interaction Design, Software Development and Prototyping, 3D Artist (Modeling, Shading, Etc.), Project Manager / Producer"
+  tools: "Blender, Unity, JavaScript, NodeJS, webXR"
+  thumbnailUrl: DulceBaerga.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/dulce303/"}
+    - {name: "site", link: ""}
+    - {name: "instagram", link: "https://www.instagram.com/dulce303/"}
+  description: "Since 1996, I have spent the majority of my career wearing many different hats from a LAMP developer to team leader to as Chief Executive Officer of River Studios. In 2017, I was hand-picked by the executive leadership of River Ecosystem to not only bring upon the rebirth of River Studios, but to serve as the catalyst of elevating VR/AR content including our flagship product Quarterback Snap. My technical background, being a full stack engineer and avid multi stack developer allows me a unique insight in which I understand the potential and limitations of technologies from an engineering level that few other futurists without such technical experience can match."
+-
+  id: 11
+  name: "Michael"
+  surname: "Schenck"
+  organizaton: "Wayfair"
+  title: "Senior Software Engineer XR"
+  skills: "Software Development and Prototyping"
+  tools: "Unity on ML1, Rift, Vive etc."
+  thumbnailUrl: MichaelSchenck.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/michaelpschenck"}
+    - {name: "site", link: "wayfair.com"}
+    - {name: "other", link: ""}
+  description: "Part of the Wayfair Next R&D team developing applications utilizing virtual, augmented, and mixed reality that will revolutionize how customers 'visualize' Wayfair's vast collection of products.  Working with technologies including Unity, C#, and leading XR headsets and devices."
+-
+  id: 12
+  name: "Steve"
+  surname: "Curran"
+  organizaton: "ROAR"
+  title: "CEO"
+  skills: "Product / Interaction Design, Project Manager / Producer"
+  tools: "ROAR Augmented Reality Platform for AR prototyping "
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/stevecurran/"}
+    - {name: "site", link: "www.theroar.io "}
+    - {name: "other", link: ""}
+  description: "Entrepreneur and Creative Director with extensive experience in the development of online and mobile games, virtual reality, augmented reality, mobile applications, viral media, and interactive entertainment. Creative Director on the development and/or marketing of consumer game, multimedia and educational products. Author of two books on design, including MOTION GRAPHICS Design for Broadcast and Film (Rockport, 2000) and CONVERGENCE DESIGN, Design for Interactive Television, Broadband and Wireless. Contributing author to one of the first books on Social Media, CONNECTED MARKETING - writing on the topic of branded entertainment. Specialties: Augmented Reality, Creative Direction, Graphic Design, Social Media, Video and Film, User Interface Design, Online Game Design and Development, Virtual Reality, Brand Development, Online Viral Marketing.To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash."
+-
+  id: 13
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
   title: "Founder/CxO"
   skills: "Software Development and Prototyping, 3D Artist (Modeling, Shading, Etc.)"
   tools: "Unity / Windows MR"
-  thumbnailUrl: 
+  thumbnailUrl: BrettPhares.png
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -145,23 +230,6 @@
     - {name: "site", link: "https://genanxiety.com"}
     - {name: "other", link: "http://brettphares.org"}
   description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
-# -
-#   id: 9
-#   name: ""
-#   surname: ""
-#   organizaton: ""
-#   title: ""
-#   skills: ""
-#   tools: "O"
-#   thumbnailUrl: 
-#   mentor: true
-#   ribbon: 
-#     - {abbr: "mentor", title: "Mentors"}
-#   social: 
-#     - {name: "linkedin", link: ""}
-#     - {name: "site", link: ""}
-#     - {name: "other", link: ""}
-#   description: ""
 # -
 #   id: 10
 #   name: ""
