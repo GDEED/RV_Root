@@ -299,58 +299,7 @@
     - {name: "other", link: ""}
   description: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics."
 -
-#   id: 17
-#   name: ""
-#   surname: ""
-#   organizaton: ""
-#   title: ""
-#   skills: ""
-#   tools: "O"
-#   thumbnailUrl: 
-#   mentor: true
-#   ribbon: 
-#     - {abbr: "mentor", title: "Mentors"}
-#   social: 
-#     - {name: "linkedin", link: ""}
-#     - {name: "site", link: ""}
-#     - {name: "other", link: ""}
-#   description: ""
--
-#   id: 17
-#   name: ""
-#   surname: ""
-#   organizaton: ""
-#   title: ""
-#   skills: ""
-#   tools: "O"
-#   thumbnailUrl: 
-#   mentor: true
-#   ribbon: 
-#     - {abbr: "mentor", title: "Mentors"}
-#   social: 
-#     - {name: "linkedin", link: ""}
-#     - {name: "site", link: ""}
-#     - {name: "other", link: ""}
-#   description: ""
--
-#   id: 17
-#   name: ""
-#   surname: ""
-#   organizaton: ""
-#   title: ""
-#   skills: ""
-#   tools: "O"
-#   thumbnailUrl: 
-#   mentor: true
-#   ribbon: 
-#     - {abbr: "mentor", title: "Mentors"}
-#   social: 
-#     - {name: "linkedin", link: ""}
-#     - {name: "site", link: ""}
-#     - {name: "other", link: ""}
-#   description: ""
--
-  id: 16
+  id: 18
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
@@ -367,41 +316,7 @@
     - {name: "other", link: "http://brettphares.org"}
   description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
 # -
-#   id: 10
-#   name: ""
-#   surname: ""
-#   organizaton: ""
-#   title: ""
-#   skills: ""
-#   tools: "O"
-#   thumbnailUrl: 
-#   mentor: true
-#   ribbon: 
-#     - {abbr: "mentor", title: "Mentors"}
-#   social: 
-#     - {name: "linkedin", link: ""}
-#     - {name: "site", link: ""}
-#     - {name: "other", link: ""}
-#   description: ""
-# -
-#   id: 11
-#   name: ""
-#   surname: ""
-#   organizaton: ""
-#   title: ""
-#   skills: ""
-#   tools: "O"
-#   thumbnailUrl: 
-#   mentor: true
-#   ribbon: 
-#     - {abbr: "mentor", title: "Mentors"}
-#   social: 
-#     - {name: "linkedin", link: ""}
-#     - {name: "site", link: ""}
-#     - {name: "other", link: ""}
-#   description: ""
-# -
-#   id: 12
+#   id: 19
 #   name: ""
 #   surname: ""
 #   organizaton: ""
