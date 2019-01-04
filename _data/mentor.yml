@@ -215,13 +215,149 @@
   description: "Entrepreneur and Creative Director with extensive experience in the development of online and mobile games, virtual reality, augmented reality, mobile applications, viral media, and interactive entertainment. Creative Director on the development and/or marketing of consumer game, multimedia and educational products. Author of two books on design, including MOTION GRAPHICS Design for Broadcast and Film (Rockport, 2000) and CONVERGENCE DESIGN, Design for Interactive Television, Broadband and Wireless. Contributing author to one of the first books on Social Media, CONNECTED MARKETING - writing on the topic of branded entertainment. Specialties: Augmented Reality, Creative Direction, Graphic Design, Social Media, Video and Film, User Interface Design, Online Game Design and Development, Virtual Reality, Brand Development, Online Viral Marketing.To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash."
 -
   id: 13
+  name: "Patrick"
+  surname: "Clark"
+  organizaton: "Wayfair"
+  title: "Senior Technical Artist"
+  skills: "3D Artist (Modeling, Shading, Etc.)"
+  tools: "Unreal Engine, 3D Studio Max, Photoshop"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/patrick-clark-1752861b/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  description: For the past three years, I've worked at Wayfair on various projects that include automated photogrammetry, rendered 3D imagery, and realtime 3D for VR/AR/XR on the Magic Leap, Holo Lens, Vive, and more. Previously, I spent nearly a decade at Rockstar Games where I worked on the art, and technical performance, of games such as Grand Theft Auto 5, and Red Dead Redemption 2. I specialize in 3D content production for rendered and realtime applications.
+-
+  id: 14
+  name: "Eric"
+  surname: "Chadwick"
+  organizaton: "Wayfair"
+  title: 3D Viz Art Manager
+  skills: "3D Artist (Modeling, Shading, Etc.)"
+  tools: "Unity, 3ds Max, Photoshop"
+  thumbnailUrl: EricChadwick.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ericchadwick/"}
+    - {name: "site", link: "http://ericchadwick.com"}
+    - {name: "other", link: ""}
+  description: "I combine more than 20 years experience in real-time 3D art development with a background in traditional art. I love finding solutions to difficult art problems and helping create exceptional teams."
+-
+  id: 15
+  name: "Kunal"
+  surname: "Khona"
+  organizaton: "Wayfair"
+  title: "AR | Android Developer"
+  skills: "Software Development and Prototyping"
+  tools: "Android, AR, ARCore, Sceneform"
+  thumbnailUrl: KunalKhona.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/kunalkhona/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  description: "Kunal works with the Wayfair Next team to help create next generation experiences in AR. He has built AR experiences using Google Tango and ARCore and has been working on features like `View in Room 3D`, allowing users to easily try out furniture in their space."
+-
+  id: 16
+  name: "Max"
+  surname: "Fosque"
+  organizaton: "Wayfair"
+  title: "Product Manager"
+  skills: "Product / Interaction Design, Project Manager / Producer"
+  tools: ""
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  description: "I am a product manager with experience across a range of disciplines, from health tech to (most recently) 3D visualization. "
+- 
+  id: 17
+  name: "Caglar"
+  surname: "Yildirim"
+  organizaton: "State University of New York at Oswego"
+  title: "Assistant Professor of Human Computer Interaction"
+  skills: "Product / Interaction Design"
+  tools: "Human computer interaction, 3D Interaction and Interface Design, Usability, Presence in VR, VR gaming UX, Mindfulness Training, Cognition, Statistics"
+  thumbnailUrl: CaglarYildirim.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  description: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics."
+-
+#   id: 17
+#   name: ""
+#   surname: ""
+#   organizaton: ""
+#   title: ""
+#   skills: ""
+#   tools: "O"
+#   thumbnailUrl: 
+#   mentor: true
+#   ribbon: 
+#     - {abbr: "mentor", title: "Mentors"}
+#   social: 
+#     - {name: "linkedin", link: ""}
+#     - {name: "site", link: ""}
+#     - {name: "other", link: ""}
+#   description: ""
+-
+#   id: 17
+#   name: ""
+#   surname: ""
+#   organizaton: ""
+#   title: ""
+#   skills: ""
+#   tools: "O"
+#   thumbnailUrl: 
+#   mentor: true
+#   ribbon: 
+#     - {abbr: "mentor", title: "Mentors"}
+#   social: 
+#     - {name: "linkedin", link: ""}
+#     - {name: "site", link: ""}
+#     - {name: "other", link: ""}
+#   description: ""
+-
+#   id: 17
+#   name: ""
+#   surname: ""
+#   organizaton: ""
+#   title: ""
+#   skills: ""
+#   tools: "O"
+#   thumbnailUrl: 
+#   mentor: true
+#   ribbon: 
+#     - {abbr: "mentor", title: "Mentors"}
+#   social: 
+#     - {name: "linkedin", link: ""}
+#     - {name: "site", link: ""}
+#     - {name: "other", link: ""}
+#   description: ""
+-
+  id: 16
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
   title: "Founder/CxO"
   skills: "Software Development and Prototyping, 3D Artist (Modeling, Shading, Etc.)"
   tools: "Unity / Windows MR"
-  thumbnailUrl: BrettPhares.png
+  thumbnailUrl: BrettPhares1.png
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}

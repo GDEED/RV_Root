@@ -76,6 +76,7 @@ navigationLinks:
       target: "_blank"
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/team/", text: "Team", hasDropdown: false}
+ - {link: "/mentors/", text: "Mentors", hasDropdown: false}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
 
 # Hero Block
