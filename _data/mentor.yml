@@ -4,7 +4,7 @@
   surname: "Goligorsky"
   organizaton: "IDEO"
   title: "Sr. Design Director"
-  skills: "Product/Interaction Design, 3D Artist (Modeling, Shading, Etc.)"
+  #skills: "Product/Interaction Design, 3D Artist (Modeling, Shading, Etc.)"
   tools: "Blender, SolidWorks, Sketch, HTML/CSS, some three.js"
   thumbnailUrl: Goligorsky.jpg
   mentor: true
@@ -13,6 +13,9 @@
   social: 
     - {name: "linkedin", link: "https://www.linkedin.com/in/davidgoligorsky/"}
     - {name: "site", link: "https://davidgoligorsky.com"}
+  skills:
+    - {name: "Product/Interaction Design",}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
   description: "David Goligorsky is a Sr. Design Director at IDEO New York focused on Digital & Emerging Technology. He has a background in Aerospace Engineering and has worked in advanced R&D before pursuing a graduate degree in Product Design at Stanford University. David had previously worked at IDEO Cambridge leading project teams and lecturing on Design, Manufacturing, and Strategy at Harvard, Yale, and other institutions. Before making a return to IDEO, David spent several years running Design at a Google Ventures portfolio startup in the mobile media space and then as a private practice, working with startups on all aspects of Design and Product at their organizations. Clients included Artsy, Sonder, Octave, and others. David is keen to help individuals and organization in balancing culture and creativity with technology and commerce."
 -
   id: 1
