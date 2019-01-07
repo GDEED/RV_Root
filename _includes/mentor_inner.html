@@ -43,6 +43,14 @@
                         {{mentorMember.description}}
                     </p>
                     {% endif %}
+                    {% if mentorMember.skills.size > 0 %}
+                        <h6>Skills:</h6>
+                        <ul>
+                            {% for skill in mentorMember.skills %}
+                                <li>{{skill.name}}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
 
                 {% endfor %}
