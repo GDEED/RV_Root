@@ -179,7 +179,7 @@
   name: "JASMINE"
   surname: "ROBERTS"
   title: "Creative Technologist"
-  thumbnailUrl: JasmineRoberts.png
+  thumbnailUrl: JasmineRoberts.jpg
   team: true
   social: 
     - {name: "twitter", link: ""}

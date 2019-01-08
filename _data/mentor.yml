@@ -478,7 +478,7 @@
   id: 27
   name: "Jasmine"
   surname: "Roberts"
-  thumbnailUrl: JasmineRoberts.png
+  thumbnailUrl: JasmineRoberts.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
