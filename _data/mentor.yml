@@ -338,7 +338,7 @@
   id: 18
   name: "Liz"
   surname: "Lehtonen"
-  thumbnailUrl: 
+  thumbnailUrl: ElizabethLehtonen.JPG
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -355,7 +355,7 @@
   id: 19
   name: "Jesse"
   surname: "McCulloch"
-  thumbnailUrl: 
+  thumbnailUrl: JesseMcCulloch.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -372,7 +372,7 @@
   id: 20
   name: "Ron"
   surname: "Rosenman"
-  thumbnailUrl: 
+  thumbnailUrl: RonRosenman.jpg
   mentor: true
   ribbon: 
     - {abbr: "mentor", title: "Mentors"}
@@ -386,6 +386,238 @@
   description: "15+ years designing and building products, services, tools, and simulations; weaving storytelling, software development, and product design principles across ideation, research, and engineering activities. I work with stakeholders and teams to conduct user research, identify opportunity areas, develop and refine concepts, and define product requirements. I leverage tools and custom code to communicate the experience of a product. I bring interactions to life in order to test usability and validate technical assumptions. Career milestones spanning design agencies (frog, Method), architecture firms (Rockwell Group, Gensler), and engineering companies (Buro Happold, UTC) "
 -
   id: 21
+  name: "Carl"
+  surname: "Yang"
+  thumbnailUrl: cyang.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/cyang"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Project Manager / Producer"}
+  description: "Carl is creative and methodical strategist committed to generating business value by helping startups and established enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His experience includes strategy, design research, new product development & service design spanning over 20 years of developing B2B, B2C, and B2B2C solutions in health & wellness and financial service verticals."
+-
+  id: 22
+  name: "Leonid"
+  surname: "Striga"
+  thumbnailUrl: Leonid.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: "www.wayray.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: As the product owner of WayRay's True AR SDK, Leonid has seen each development stage through — from defining toolset functionality to improving the API. As a trained software development engineer with over 12 years’ experience in software architecture and UI development, Leonid brings his in-depth knowledge to advancing WayRay’s solutions.
+-
+  id: 23
+  name: "Gergely"
+  surname: "Kis"
+  thumbnailUrl: Gergely.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: "www.wayray.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "An IT professional and entrepreneur with over 14 years’ experience in mobile, embedded and enterprise technologies, Gergely joined WayRay to help developers build AR apps with the best tools. Gergely has a master’s degree in Information Technology Engineering from the Budapest University of Technology and Economics."
+-
+  id: 24
+  name: "Paul"
+  surname: "Yun"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/yunpaul"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Paul works on creating next generation experiences for the modern world. His current project on NEXT is spatial AR using photogrammetry and real world surfaces as UI."
+-  
+  id: 25
+  name: "Shuya"
+  surname: "Gong"
+  thumbnailUrl: ShuyaGong.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: "www.shuyagong.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Shuya Gong is a designer at IDEO CoLab, where she explores the intersection of emerging technology and system shifts to design the future. The CoLab brings together companies excited to create impact on the world through collaboration and enabling technology. With a background in mechanical engineering, Shuya spends a lot of her time in the workshop, going back and forth between 2D and 3D spaces. She's particularly interested in how new interfaces augment the way we experience the world around us, and believes that visual stimuli is just a peek of how virtual and augmented reality will change our sensory experience of the world."
+-  
+  id: 26
+  name: "Xin"
+  surname: "Liu"
+  thumbnailUrl: XinLIU.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "site", link: "xxxxxxxxxinliu.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}  
+    - {name: "Project Manager / Producer"}
+  description: "Xin Liu (b. 1991, Xinjiang/China) is an artist and engineer, whose research-based projects range from performances, apparatus, installations to scientific experiments and academic papers. She is the the Arts Curator in Space Exploration Initiative in MIT Media Lab and a member of New INC in New Museum. She is recipient of numerous awards and residencies, including the Van Lier Fellowship from Museum of Arts and Design, Huayu Youth Award Finalist, Queens Museum studio program and Pioneer Works Tech Residency. Her projects have received awards in SXSW, FastCoDesign, Core77 and her academic publications were nominated for best papers in ACM conferences. She has shown her work internationally at events and venues including Ars Electronica, Boston MFA, Sundance Film Festival, The Walker Art Center, OCAT Shanghai, ISEA and Music Tech Festival Berlin. As a researcher, Xin has worked in institutions including Microsoft Research NYC & Asia and Google ATAP."
+-  
+  id: 27
+  name: "Jasmine"
+  surname: "Roberts"
+  thumbnailUrl: JasmineRoberts.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jasmine-roberts"}
+    - {name: "site", link: "jasmineroberts.org"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Jasmine is a researcher, engineer and designer currently working as a software engineer on the Authoring Tools Group in Unity Labs.  Previously, Jasmine was a graduate student studying in Cambridge at the Harvard Graduate School of Design and MIT Media Lab. Additionally Jasmine holds degrees in Applied Physics and Electrical Engineering. Her research centers on emotion and perception in spatial computing and identity representation in virtual human avatars."
+
+-  
+  id: 28
+  name: "Charity"
+  surname: "Everett"
+  thumbnailUrl: CharityEverett.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/charity-everett-80551a4a/"}
+    - {name: "site", link: "www.gobackfetchit.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Charity Everett is a Creative Technologist and storyteller who is interested in exploring the connection between humanity and technology."
+-  
+  id: 29
+  name: "Johan"
+  surname: "Ospina"
+  thumbnailUrl: johanOspina.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/johanos"}
+    - {name: "site", link: "www.johanos.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Johan is a Software Engineer at Wayfair Next. His work aims to utilize emerging technologies to change the home buying experience. He's helped Wayfair release numerous AR features for their customers."
+-  
+  id: 30
+  name: "Rachana"
+  surname: "Sreedhar"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Rachana is currently working at Wayfair Next - Wayfair’s R&D group focusing on computer vision and Image processing projects. She has worked in areas such as 2D and 3D Computer Vision and machine learning"
+-  
+  id: 31
+  name: "Michael"
+  surname: "Hazani"
+  thumbnailUrl: MichaelH.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/michaelhazani/"}
+    - {name: "site", link: "www.magicleap.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Formerly 3D engineer, currently Grassroots Evangelist at Magic Leap. These days my weapons of choice primarily include Unity and the Magic Leap One. Excited about sharing bleeding edge XR hardware with creators and watching the brilliant stuff they come up with."
+-  
+  id: 32
+  name: "Shane"
+  surname: "Engelman"
+  thumbnailUrl: ShaneEngelman.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/singlerider"}
+    - {name: "site", link: ""}
+    - {name: "twitter", link: "https://twitter.com/shaneengelman"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+    - {name: "Project Manager / Producer"}
+  description: "Full-stack engineer at Magic Leap, frequent hackathon participant, early adopter of all tech. I'll help with SDK setup, setting up servers, and scope management."
+-  
+  id: 33
+  name: "Alicia"
+  surname: "Avril"
+  thumbnailUrl: AliciaAvril.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Alicia is here for the weekend from South Florida and is absolutely freezing, but excited to help introduce Magic Leap technology and programming to the creators and innovators of MIT and the community! She's excited and enthralled by virtual and augmented reality, and has a soft spot for games and experiences to assist the disabled. Reach out if you need someone to test your app, and for any Magic Leap related questions!"
+-
+  id: 34
+  name: "Steve"
+  surname: "Lukas"
+  thumbnailUrl: SteveLukas.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "http://www.linkedin.com/in/stevelukas"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Creative problem solver & AR / VR evangelist. Primarily Magic Leap focused. Past: Qualcomm Ventures, Sony."
+-
+  id: 35
+  name: "Jordan"
+  surname: "Cazamias"
+  thumbnailUrl: JordanCazamias.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jacazamias/"}
+    - {name: "site", link: "https://jaycaz.carbonmade.com/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Jordan is an Interaction Prototyper on Magic Leap's UX Team.  He's particularly excited about VR & AR as a way to make tech that bends to people rather than the other way around.  He can help solve your 3D transform issues but will definitely end up Googling the answer.  You'll probably find him somewhere ranting about game design."
+-
+  id: 36
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
@@ -405,7 +637,7 @@
     - {name: "3D Artist (Modeling, Shading, Etc."}
   description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
 # -
-#   id: 19
+#   id: 
 #   name: ""
 #   surname: ""
 #   thumbnailUrl: 
