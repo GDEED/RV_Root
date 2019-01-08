@@ -61,6 +61,10 @@ navigationLinks:
       text: "FAQ"
     - link: "/hackathon-rules/"
       text: "Rules"
+# - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
+ - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
+ - {link: "/team/", text: "Team", hasDropdown: false}
+ - {link: "/mentors/", text: "Mentors", hasDropdown: false}
  - {link: "/schedule/", text: "Schedule", hasDropdown: false}
  - {link: "/blog/", text: "Blog", hasDropdown: false}
  - link: "https://pastevents.realityvirtuallyhack.com/"
@@ -74,10 +78,6 @@ navigationLinks:
     - link: "https://pastevents.realityvirtuallyhack.com/about-2016/"
       text: "2016"
       target: "_blank"
-# - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
- - {link: "/team/", text: "Team", hasDropdown: false}
- - {link: "/mentors/", text: "Mentors", hasDropdown: false}
- - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
 
 # Hero Block
 heroImage: "abstract-virtual-reality.png"
