@@ -42,6 +42,7 @@
   group: "Food and Beverage Sponsors"
   elements: 
     - {name: "Hint Water", description: "Hint Water", link: "https://www.drinkhint.com/", imageUrl: "logo_hintwater.jpg", width: "60%"}
+    - {name: "Lord Hobo", description: "Lord Hobo", link: "https://lordhobobrewing.com/#index", imageUrl: "logo_lordhobo.png", width: "50%"}
 
 #-
 #  group: "Co-organizers"
