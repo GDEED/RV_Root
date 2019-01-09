@@ -1,6 +1,6 @@
 ---
 layout: post
-image: banner-image-post-1.jpg
+image: medical.png
 title: "Invitation to the Greater Boston Medical Community..."
 date:   2019-01-02 09:00:00
 isStaticPost: false

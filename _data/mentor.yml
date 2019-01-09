@@ -617,7 +617,114 @@
     - {name: "Software Development and Prototyping"}
   description: "Jordan is an Interaction Prototyper on Magic Leap's UX Team.  He's particularly excited about VR & AR as a way to make tech that bends to people rather than the other way around.  He can help solve your 3D transform issues but will definitely end up Googling the answer.  You'll probably find him somewhere ranting about game design."
 -
-  id: 36
+  id: 36 
+  name: "Winston"
+  surname: "Chen"
+  thumbnailUrl: WinstonChen.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/winstonc94"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Winston is a senior engineer at Samsung working on Samsung Internet. He worked on the WebVR API (changed to WebXR now) for Samsung Internet and Samsung Internet for GearVR. He also experimented a lot with using current web APIs to build AR experiences for the web."
+-
+  id: 37
+  name: "Or "
+  surname: "Fleisher "
+  thumbnailUrl: OrFleisher.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/orfleisher/"}
+    - {name: "site", link: "https://orfleisher.com"}
+    - {name: "twitter", link: "https://twitter.com/juniorxsound"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Or Fleisher is an award winning creative technologist, developer, artist working at the intersection of technology and storytelling. Combining computer graphics, machine learning and immersive experience development in virtual, augmented and mixed realities."
+-
+  id: 38
+  name: "Taylor"
+  surname: "Freeman"
+  thumbnailUrl: TaylorFreeman.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/taylorpfreeman/"}
+    - {name: "site", link: "uploadvr.com"}
+    - {name: "twitter", link: "twitter.com/taylorpfreeman"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Taylor Freeman is focused on pioneering the next generation education using new technology like XR and AI to enhance and personalize learning at a global scale. Taylor was Co-Founder and CEO at UploadVR, where he built two incubation spaces in LA and SF that house over 150 XR and AI startups, hosted 500+ XR focused events across the US, Europe and Asia, trained hundreds of students on XR development and reached over 200M people online through UploadVR.com's daily news coverage of the XR industry. He is currently building another company purely focused on XR education. He was awarded Forbes 30 under 30 in 2017 and can regularly be found exploring VRChat and slashing cubes in Beat Saber. "
+- 
+  id: 39
+  name: "Kat"
+  surname: "Schneider"
+  thumbnailUrl: KatherineSchneider.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ohkatschneider/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Kat Schneider is an architect and UI/UX Designer with a deep research interest in computational design and VR/AR. She has facilitated the development of Arrowstreet’s Innovation and Research practice, centered around mixed reality technologies for design visualization and future impacts on the built environment. She has a range of knowledge related to designing XR interfaces and experiences for retail, ed-tech, art installations, and architectural projects."
+-
+  id: 40
+  name: "Todd"
+  surname: "Vanderlin"
+  thumbnailUrl: ToddVanderlin.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/vanderlin/"}
+    - {name: "site", link: "https://www.vanderlin.cc/"}
+    - {name: "instagram", link: "https://www.instagram.com/vanderlin/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Todd Vanderlin is an artist and developer. His work is a mix of complex interactive systems, real-time motion graphics, and generative art. Todd uses a variety of programming languages to create everything from mobile and web applications to large scale interactive installations."
+-
+  id: 41
+  name: "Scott J"
+  surname: "Slagsvol"
+  thumbnailUrl: ScottSlagsvol.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/scottslagsvol/"}
+    - {name: "site", link: "http://scottslagsvol.com"}
+    - {name: "other", link: "https://dribbble.com/scottslags"}
+  skills:
+    - {name: "Product/Interaction Design"}
+  description: "Scott Slagsvol is a Senior Interaction and Communications Designer at IDEO Boston, where his unique blend of traditional graphic and digital skills serve as a bridge between the physical and digital worlds of design. Scott earned his BFA in Graphic Design from Rochester Institute of Technology. His work has been awarded by London International Awards, AICP Awards, OMMA, MITX, and Hatch. He has also had work featured in Creativity, AdWeek, and Communication Arts."
+-
+  id: 42
+  name: "Ralph"
+  surname: "Bishop"
+  thumbnailUrl: RalphBishop.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/takesthingsapart/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+  description: "Ralph is a veteran product designer who loves to bring a sense of play to his work. He is currently a Design Director at GIPHY contributing to the overall UX on many products. He also leads an internal team called Arts & Crafts which focuses on creating experimental products using new and emerging tech such as AR and VR. His teams work includes the recently released GIPHY World VR, GIPHY Cam, GIPHY Says and GIPHY Booth. In a previous life he also worked at MTV designing the backstage live stream experience for the VMAs and a few snowboards for Rome SDS."
+-
+
+  id: 43
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
