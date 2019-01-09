@@ -266,14 +266,14 @@
   description: "Carl is creative and methodical strategist committed to generating business value by helping enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His responsibilities leading R&D efforts at Fidelity Investments included developing concepts, prototypes, and pilot studies of emerging applications of evolving user interfaces - including work with blended and virtual reality platforms."
 -
   id: 26
-  name: "DANIEL"
-  surname: "CLINE"
-  title: "DEVOPS AND OUTREACH"
-  thumbnailUrl:
+  name: "ALEXANDER"
+  surname: "LAIMAN"
+  title: "MIT AR/VR Community Lead"
+  thumbnailUrl: Alexander.jpg
   team: true
   social: 
     - {name: "twitter", link: ""}
-  description: "Dan is a sophomore computer science student at UMass Amherst, and hackathon organizer for HackUMass. He's participated in (and won) many hackathons, and is now working to enrich the hacker community by organizing them."
+  description: "Alexander is an experienced undergraduate researcher at the MIT Media Lab with a demonstrated history of working in Unity. He is also skilled in Photography, Python (Programming Language), C++, and VR development, He is the president of President of VR/AR MIT."
 -
   id: 27
   name: "PRATHMESH"
