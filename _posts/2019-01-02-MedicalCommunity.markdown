@@ -9,6 +9,7 @@ socialImageSrcTwitter: "/img/posts/post-1/twitter-image-post-1.jpg"
 description: "The Reality Virtually AR/VR hackathon at the MIT Media Lab invites members of greater Boston’s healthcare and medicine community to apply to participate in the hackathon. The healthcare and medicine category has produced innovative submissions during the last two hackthons."
 permalink: "/blog/MedicalCommunity"
 hideHeading: true
+customStyle: 'background-size: contain !important; background-repeat: no-repeat;'
 ---
 
 # Invitation to the Greater Boston Medical Community to participate in the Reality Virtually Hackathon 
