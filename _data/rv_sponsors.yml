@@ -17,13 +17,15 @@
   elements: 
     - {name: "Wayfair", description: "Wayfair", link: "https://www.wayfair.com", imageUrl: "logo_wayfair.png", width: "90%"}
     - {name: "Alienware", description: "Alienware", link: "https://www.dell.com/en-us/gaming/alienware", imageUrl: "logo_alienware.png", width: "90%"}
-    - {name: "Magic Leap", description: "Magic Leap", link: "https://www.magicleap.com/", imageUrl: "logo_magicleap.png", width: "90%"}
+    - {name: "Magic Leap", description: "Magic Leap", link: "https://www.magicleap.com/", imageUrl: "logo_magicleap.png", width: "95%"}
     - {name: "Autodesk", description: "Autodesk", link: "https://forge.autodesk.com/", imageUrl: "logo_autodesk.png", width: "90%"}
+    - {name: "HTC Vive", description: "HTC Vive", link: "https://www.vive.com/us/", imageUrl: "logo_htcvive.png", width: "55%"}
 
 - 
   group: "Silver Sponsors"
   elements: 
-    - {name: "Fidelity", description: "Fidelity", link: "https://www.fidelity.com/", imageUrl: "logo_fidelity.png", width: "80%"}
+    - {name: "Fidelity", description: "Fidelity", link: "https://www.fidelity.com/", imageUrl: "logo_fidelity.png", width: "70%"}
+    - {name: "GitHub", description: "GitHub", link: "https://www.github.com/", imageUrl: "logo_github.png", width: "65%"}
 
 - 
   group: "Community Sponsors"
