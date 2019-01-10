@@ -1,7 +1,8 @@
 -
   id: 01
   title: "XR at the speed of Web. Publish or perish in 10 minutes or less"
-  description: ""
+  description: "A-Frame, Glitch, ShaderFrog, Sketchfab and Google Poly let you develop, collaborate on, and publish worlds in a short time. Learn how to amaze people fast, and give them the tools to amaze others.
+WebVR offers a different working and publishing flow than a Unity or Unreal project. There are massive downsides and upsides. The two worlds can intermix very fluidly. That and more in the workshop."
   subtype: workshop
   workshop_leaders: [0]
   language: en
@@ -17,7 +18,7 @@
 -
   id: 03
   title: "Creating VR with and for Humans"
-  description: ""
+  description: "As VR/AR and XR technologies get pushed to their limits, technical creativity and imagination must work closer then ever to concoct inventive and surprising experiences. This 60min workshop explores the aesthetics and narrative opportunities of immersive and interactive storytelling. It offers participants a step-by-step check-list of some the fundamentals of immersive/interactive production cues: establishing visual languages and grammars, pace and transitions, storyboarding, UX and Human-centered design, as well as new forms of  gesture-based storytelling techniques."
   subtype: workshop
   workshop_leaders: [2]
   language: en
@@ -41,7 +42,7 @@
 -
   id: 06
   title: "Defense Against the Dark VR Arts: 3D Interaction Design for VR"
-  description: ""
+  description: "Virtual reality (VR) has become a new form of human-computer interaction, which is often attributed “magical” powers. With the numerous potential uses and applications of VR comes a multitude of challenges with respect to user experience and interaction design. The wizards of the VR world (aka VR designers and developers) need to consider these challenges when deciding on the interaction paradigms to be used in their VR apps, so as not to inflict poor VR experiences on the Muggles of the VR world (aka users). Designed with the VR Muggles in mind, this workshop provides an overview of common 3D interaction paradigms for VR and highlights evidence-based best practices in the design and development of various aspects of 3D interaction in virtual environments, including selection, manipulation, travel, and system control. "
   subtype: workshop
   workshop_leaders: [5]
   language: en
@@ -57,7 +58,7 @@
 -
   id: 08
   title: "GoogleVR/Daydream"
-  description: ""
+  description: "Learn to use Google’s VR platform with Unity Game Engine to build experiences for Google Cardboard and Daydream View headsets. We will cover everything from setting up the development environment to building and running the demo scenes and writing simple scripts in C#. By the end of the workshop, you will have a working VR game!"
   subtype: workshop
   workshop_leaders: [7]
   language: en
@@ -81,7 +82,9 @@
 -
   id: 11
   title: "Cross platform VR Development with Unity and VIU"
-  description: ""
+  description: "This hands on lecture and workshop will show you how to get started with Unity and the Vive Input Utility (VIU) Unity plugin for developing VR that will work across many of the current and upcoming HMDs. Even if you are a seasoned developer we will cover advanced topics like managing input devices, porting from PC to mobile and also visit best practices from http://xra.org
+ 
+We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus (Wave platform) but using VIU you will be able to target over a dozen PC and mobile VR devices (and not just Vive devices). To prepare you can take a look at the following blog, https://community.viveport.com/t5/Developer-Blog/bg-p/devblog and also visit http://developer.vive.com for additional resources. If attending please arrive with the Unity 2018.2 (and the Android development tools for Unity) already installed."
   subtype: workshop
   workshop_leaders: [11, 12]
   language: en
@@ -97,7 +100,7 @@
 -
   id: 13
   title: "Autodesk Forge for AR or VR experiences"
-  description: ""
+  description: "Autodesk Forge is a cloud platform for web developers that allow you to easily translate and view CAD and 3D data. In addition to the Forge Viewer’s capability for WebVR, Autodesk also has a toolkit in beta, that allows a similar workflow into Unity which then allows publishing the interactive experience to many of the popular AR and VR devices on the market today. This class will give an introduction to the Forge web services including the viewer’s WebVR functionality, and the Forge Unity toolkit. After the workshop, you will be able to translate your own 3D assets and use them via the Forge workflow into Unity."
   subtype: workshop
   workshop_leaders: [14]
   language: en
@@ -153,7 +156,7 @@
 -
   id: 20
   title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
-  description: ""
+  description: "The True AR SDK by WayRay makes it easy to create AR experiences for drivers and passengers. The introductory workshop will get participants up to speed on the SDK toolset and how to jump-start AR app development right on the spot. WayRay’s mentors, aka True AR Kids, will be there to cover key functionalities and components of the True AR SDK beta (API, emulator, simulator, toolset), AR application structure and lifecycle as well as the operating principles of WayRay’s in-car holographic AR displays."
   subtype: workshop
   workshop_leaders: [17]
   language: en

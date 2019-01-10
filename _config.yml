@@ -61,12 +61,14 @@ navigationLinks:
       text: "FAQ"
     - link: "/hackathon-rules/"
       text: "Rules"
- - link: "/schedule/"
-   text: "Schedule"
+ - link: "/workshops/"
+   text: "Workshops"
    hasDropdown: true
    subNav:
-    - link: "/workshop/"
-      text: "Workshops"
+    - link: "/workshops/"
+      text: "Thursday Schedule"
+    - link: "/leads/"
+      text: "Workshop Leaders"
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
  - {link: "/team/", text: "Team", hasDropdown: false}
