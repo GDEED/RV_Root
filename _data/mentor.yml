@@ -723,8 +723,22 @@
     - {name: "Product/Interaction Design"}
   description: "Ralph is a veteran product designer who loves to bring a sense of play to his work. He is currently a Design Director at GIPHY contributing to the overall UX on many products. He also leads an internal team called Arts & Crafts which focuses on creating experimental products using new and emerging tech such as AR and VR. His teams work includes the recently released GIPHY World VR, GIPHY Cam, GIPHY Says and GIPHY Booth. In a previous life he also worked at MTV designing the backstage live stream experience for the VMAs and a few snowboards for Rome SDS."
 -
-
   id: 43
+  name: "Bruno"
+  surname: "Olmedo"
+  thumbnailUrl: BrunoOlmedo.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Project Manager / Producer"}
+  description: "Bruno Olmedo is a Design Researcher at IDEO Cambridge, where his passion to understand people drives him to take on any challenge with a human-centered approach. Bruno’s curious, collaborative, and energetic spirit brings a contagious energy to identifying user needs, problem-solving, and communicating user insights through stories. Bruno has a specific interest in making emerging technologies more human, enabling faster, positive impact in the world."
+-
+  id: 44
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
