@@ -1,7 +1,7 @@
 <!-- Begin Sessions Modals -->
 <div class="modals" class="modals">
 	{% for session in site.data.workshop_sessions %}
-		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
+		<div class="modal fade text-left modal-workshops" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-body">
@@ -29,9 +29,9 @@
 						{% endif %}
 						<hr>
 						<div class="people-details">
-							{% for speaker in site.data.workshop_leaders %}
+							{% for leader in site.data.workshop_leaders %}
 								{% for session_speaker in session.workshop_leaders %}
-									{% if session_speaker == speaker.id %}
+									{% if session_speaker == leader.id %}
 									<div class="row">
 										<div class="col-md-2 col-sm-2">
 											<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
