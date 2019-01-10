@@ -16,7 +16,7 @@
   complexity: "Beginner" 
 -
   id: 03
-  title: "Storytelling in XR"
+  title: "Creating VR with and for Humans"
   description: ""
   subtype: workshop
   workshop_leaders: [2]
@@ -53,7 +53,7 @@
   subtype: workshop
   workshop_leaders: [6]
   language: en
-  complexity: "Intermediate"
+  complexity: "Beginner"
 -
   id: 08
   title: "GoogleVR/Daydream"
@@ -64,7 +64,7 @@
   complexity: "Intermediate" 
 -
   id: 09
-  title: "Spatial Computing 101: Onboarding on the Magic Leap One/Daydream"
+  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
   description: ""
   subtype: workshop
   workshop_leaders: [8]
@@ -101,5 +101,70 @@
   subtype: workshop
   workshop_leaders: [14]
   language: en
+  complexity: "Beginner"
+-
+  id: 14
+  title: "Microsoft -OpenVR, Mixed Reality Toolkit, and you"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [15]
+  language: en
+  complexity: "Beginner"
+-
+  id: 15
+  title: "Rapid Prototyping for Non-Developers with Simmetri"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [16]
+  language: en
+  complexity: "Beginner"
+-
+  id: 16
+  title: "Data Vis with Geometric"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [9, 10]
+  language: en
+  complexity: "Beginner"
+-
+  id: 17
+  title: "Oculus"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner"
+-
+  id: 18
+  title: "Creating an IoT Project using ThingWorx"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner"
+-
+  id: 19
+  title: "Google: ARCORE: Unity and SceneForm"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 20
+  title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 20
+  title: "WebXR and Augmented Reality. In other words, Give Me The Camera."
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
   complexity: "Beginner"  
+ 
   
