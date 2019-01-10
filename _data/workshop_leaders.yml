@@ -109,6 +109,7 @@
   surname: "Laverde"
   company: "HTC"
   title: "senior developer evangelist"
+  bio: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
   thumbnailUrl: DarioLaverde.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -118,6 +119,7 @@
   surname: "Boniface"
   company: "HTC"
   title: "Director, developer relations & partnerships"
+  bio: "Jad is Director, developer relations & partnerships at HTC. Prior to joining HTC, Jad was a senior mobile computing specialist at Ford Motor Co., and a consulting engineer at AvantGo. Jad received his BA in management information systems from Oakland University."
   thumbnailUrl: JadBoniface.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -135,7 +137,7 @@
   name: "Kevin"
   surname: "Vandecar"
   company: "AutoDesk"
-  title: "CTO"
+  title: ""
   thumbnailUrl: KevinVandecar.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -144,7 +146,8 @@
   name: "Jesse"
   surname: "McColloch"
   company: "Microsoft"
-  title: ""
+  title: "Mixed Reality Developer Relations Program Manager"
+  bio: "Jesse McCulloch is a Mixed Reality Developer Relations Program Manager at Microsoft. Starting as a Mixed Reality Developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space."
   thumbnailUrl: JesseMcColloch.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -182,6 +185,7 @@
   company: "WayRay"
   title: ""
   thumbnailUrl: LeonidStriga.jpg
+  bio: "As the product owner of WayRay’s True AR SDK, Leonid Striga has played a key role in each stage of its development—from defining toolset functionality to improving the API. A trained software development engineer with more than 12 years experience in software architecture and UI development, Striga will bring his in-depth knowledge to the hackathon to help in advancing WayRay’s solutions."
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -190,6 +194,7 @@
   surname: "Kis"
   company: "WayRay"
   title: ""
+  bio: "Gergely Kis is an IT professional and entrepreneur with 14+ years of experience in mobile, embedded and enterprise technology. He joined WayRay to help developers build AR apps with the best tools."
   thumbnailUrl: GergelyKis.jpg
   social: 
     - {name: "github", link: "https://"}
