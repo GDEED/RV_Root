@@ -18,3 +18,120 @@
   thumbnailUrl: WileyCorning.jpg
   social: 
     - {name: "github", link: "https://"}
+- 
+  id: 2
+  name: "Sandra"
+  surname: "Rodriguez"
+  company: "MIT Media Lab"
+  title: "PHD, Creative Director, EyeSteelFilms"
+  thumbnailUrl: SandraRodriguez.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 3
+  name: "Louis"
+  surname: "DeScioli"
+  company: "Google"
+  title: "Team Lead, Google"
+  thumbnailUrl: LouisDescioli.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 4
+  name: "Jasmine"
+  surname: "Roberts"
+  company: "Unity"
+  title: "Team Lead, Unity 3D Developer"
+  thumbnailUrl: JasmineRoberts.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 5
+  name: "Calgar"
+  surname: "Yildirim"
+  company: "SUNY Oswego"
+  title: "PHD"
+  thumbnailUrl: CalgorYildirim.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 6
+  name: "Joanne"
+  surname: "Bacharach"
+  company: "PTC"
+  title: "Team Lead, PTC"
+  thumbnailUrl: JoanneBacharach.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 7
+  name: "Anish"
+  surname: "Dhesikan"
+  company: "PTC"
+  title: "Team Lead, PTC"
+  thumbnailUrl: AnishDhesikan.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 8
+  name: "Michael"
+  surname: "Hazani"
+  company: "MagicLeap"
+  title: "Team Lead, PTC"
+  thumbnailUrl: JoanneBacharach.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 9
+  name: "Brian"
+  surname: "Chirls"
+  company: "Datavized"
+  title: "CFO Datavized"
+  thumbnailUrl: BrianChirls.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 10
+  name: "Debra"
+  surname: "Anderson"
+  company: "Datavized"
+  title: "CFO Datavized"
+  thumbnailUrl: DebraAnderson.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 11
+  name: "Dario"
+  surname: "Laverde"
+  company: "HTC"
+  title: "CFO Datavized"
+  thumbnailUrl: DarioLaverde.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 12
+  name: "Jad"
+  surname: "Boniface"
+  company: "HTC"
+  title: "CFO Datavized"
+  thumbnailUrl: JadBoniface.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 13
+  name: "Marky"
+  surname: "Markenson"
+  company: "PTC"
+  title: "CFO Datavized"
+  thumbnailUrl: JadBoniface.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 14
+  name: "Kevin"
+  surname: "Vandecar"
+  company: "AutoDesk"
+  title: "CTO"
+  thumbnailUrl: JadBoniface.jpg
+  social: 
+    - {name: "github", link: "https://"}

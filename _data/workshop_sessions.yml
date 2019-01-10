@@ -1,0 +1,105 @@
+-
+  id: 01
+  title: "XR at the speed of Web. Publish or perish in 10 minutes or less"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [0]
+  language: en
+  complexity: "Beginner"
+-
+  id: 02
+  title: "Intro to Unity"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [1]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 03
+  title: "Storytelling in XR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [2]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 04
+  title: "Google WebXR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [3]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 05
+  title: "Intermediate Unity"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [4]
+  language: en
+  complexity: "Intermediate" 
+-
+  id: 06
+  title: "Defense Against the Dark VR Arts: 3D Interaction Design for VR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [5]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 07
+  title: "Designing UI/UX for AR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [6]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 08
+  title: "GoogleVR/Daydream"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [7]
+  language: en
+  complexity: "Intermediate" 
+-
+  id: 09
+  title: "Spatial Computing 101: Onboarding on the Magic Leap One/Daydream"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [8]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 10
+  title: "Intro to open-source/WebVR/WebAR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [9, 10]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 11
+  title: "Cross platform VR Development with Unity and VIU"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [11, 12]
+  language: en
+  complexity: "Beginner"
+-
+  id: 12
+  title: "Rapid AR Development with Vuforia Studio"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [13]
+  language: en
+  complexity: "Beginner"
+-
+  id: 13
+  title: "Autodesk Forge for AR or VR experiences"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [14]
+  language: en
+  complexity: "Beginner"  
+  

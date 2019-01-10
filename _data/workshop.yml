@@ -7,30 +7,25 @@
     - {
     	startTime: "9:30am",
     	endTime: "10:30am",
-    	sessionIds: [1]
-    }
-    - {
-    	startTime: "9:30am",
-    	endTime: "10:30am",
-    	sessionIds: [2]
+    	sessionIds: [1, 2, 3]
     }
     - {
     	startTime: "10:30am",
     	endTime: "11:30am",
-    	sessionIds: [401]
+    	sessionIds: [4, 5, 6]
     }
     - {
     	startTime: "11:30am",
     	endTime: "12:30pm",
-    	sessionIds: [402]
+    	sessionIds: [7, 8, 9]
     } 
     - {
     	startTime: "1:30pm",
     	endTime: "2:30pm",
-    	sessionIds: [403]
+    	sessionIds: [10, 11, 12]
     }
     - {
     	startTime: "2:30pm",
     	endTime: "3:30pm",
-    	sessionIds: [403]
+    	sessionIds: [13]
     }
