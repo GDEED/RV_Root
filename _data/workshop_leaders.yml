@@ -4,6 +4,7 @@
   surname: "Lowery"
   company: "Fasility"
   title: "Developer"
+  bio: "I'm head of User Experience at Fasility. My focus is on maximizing the experience that can be delivered through a typical smartphone or tablet, extending upwards to Vive and Oculus with the same codebase. I research device capabilities, sensor fusion, heterogeneous processing, and augmented reality. Lately I have mentored folks from artistic backgrounds to help them seize the means of production in XR. Seeing someone take off with running code in their hand is strangely more satisfying than doing it myself."
   thumbnailUrl: ChrisLowery.jpg
   social: 
     - {name: "google-plus", link: "https://"}
@@ -24,6 +25,7 @@
   surname: "Rodriguez"
   company: "MIT Media Lab"
   title: "PHD, Creative Director, EyeSteelFilms"
+  bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. Over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. She has written a book, articles and academic papers on networked cultures, public engagement and interactive arts, and has acted as UX consultant for public and private media. She has been invited to speak and show immersive work in high visibility events, including: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production. She remains fascinated by the platforms and tools through which we share stories – and currently pursues a new creative exploration at the crossroad of artificial intelligence and human creativity."
   thumbnailUrl: SandraRodriguez.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -51,7 +53,8 @@
   surname: "Yildirim"
   company: "SUNY Oswego"
   title: "PHD"
-  thumbnailUrl: CalgorYildirim.jpg
+  bio: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics. "
+  thumbnailUrl: CalgarYildirim.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -78,7 +81,8 @@
   surname: "Hazani"
   company: "MagicLeap"
   title: "Team Lead, PTC"
-  thumbnailUrl: JoanneBacharach.jpg
+  bio: "Michael was born in Israel, and spatial computing has held a place in his heart ever since discovering VR at a shopping mall arcade in the early 90s.  After relocating to the US to study at Berklee College of Music (his other passion), Michael spent the next half-decade writing and producing music for artists, films and TV shows. In 2017, after having transitioned from writing songs to writing code and working as a freelance XR developer for several years since, Michael spent an exhilarating year working as a Creative 3D Engineer at Magic Leap. He has recently transitioned to the role of Grassroots Evangelist, in which he gets to share his passion for Magic Leap, spatial computing and digital creativity with amazing creators worldwide. "
+  thumbnailUrl: MichaelHazani.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -86,7 +90,7 @@
   name: "Brian"
   surname: "Chirls"
   company: "Datavized"
-  title: "CFO Datavized"
+  title: "CTO Datavized"
   thumbnailUrl: BrianChirls.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -95,7 +99,7 @@
   name: "Debra"
   surname: "Anderson"
   company: "Datavized"
-  title: "CFO Datavized"
+  title: "CTO Datavized"
   thumbnailUrl: DebraAnderson.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -104,7 +108,8 @@
   name: "Dario"
   surname: "Laverde"
   company: "HTC"
-  title: "CFO Datavized"
+  title: "senior developer evangelist"
+  bio: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
   thumbnailUrl: DarioLaverde.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -113,7 +118,8 @@
   name: "Jad"
   surname: "Boniface"
   company: "HTC"
-  title: "CFO Datavized"
+  title: "Director, developer relations & partnerships"
+  bio: "Jad is Director, developer relations & partnerships at HTC. Prior to joining HTC, Jad was a senior mobile computing specialist at Ford Motor Co., and a consulting engineer at AvantGo. Jad received his BA in management information systems from Oakland University."
   thumbnailUrl: JadBoniface.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -123,7 +129,7 @@
   surname: "Markenson"
   company: "PTC"
   title: "CFO Datavized"
-  thumbnailUrl: JadBoniface.jpg
+  thumbnailUrl: MarkyMarkenson.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -131,7 +137,83 @@
   name: "Kevin"
   surname: "Vandecar"
   company: "AutoDesk"
-  title: "CTO"
-  thumbnailUrl: JadBoniface.jpg
+  title: ""
+  thumbnailUrl: KevinVandecar.jpg
   social: 
     - {name: "github", link: "https://"}
+- 
+  id: 15
+  name: "Jesse"
+  surname: "McColloch"
+  company: "Microsoft"
+  title: "Mixed Reality Developer Relations Program Manager"
+  bio: "Jesse McCulloch is a Mixed Reality Developer Relations Program Manager at Microsoft. Starting as a Mixed Reality Developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space."
+  thumbnailUrl: JesseMcColloch.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 16
+  name: "Max"
+  surname: "Harper"
+  company: "Simmetri"
+  title: "CEO"
+  thumbnailUrl: MaxHarper.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 17
+  name: "Amedeo"
+  surname: "Mapelli"
+  company: "Simmetri"
+  title: "CTO"
+  thumbnailUrl: AmedeoMapelli.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 18
+  name: "Laura"
+  surname: "Procter"
+  company: "PTC"
+  title: ""
+  thumbnailUrl: LauraProcter.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 19
+  name: "Leonid"
+  surname: "Striga"
+  company: "WayRay"
+  title: ""
+  thumbnailUrl: LeonidStriga.jpg
+  bio: "As the product owner of WayRay’s True AR SDK, Leonid Striga has played a key role in each stage of its development—from defining toolset functionality to improving the API. A trained software development engineer with more than 12 years experience in software architecture and UI development, Striga will bring his in-depth knowledge to the hackathon to help in advancing WayRay’s solutions."
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 20
+  name: "Gergely"
+  surname: "Kis"
+  company: "WayRay"
+  title: ""
+  bio: "Gergely Kis is an IT professional and entrepreneur with 14+ years of experience in mobile, embedded and enterprise technology. He joined WayRay to help developers build AR apps with the best tools."
+  thumbnailUrl: GergelyKis.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 21
+  name: "Esri"
+  surname: ""
+  company: "Esri"
+  title: ""
+  thumbnailUrl: esri.jpg
+  social: 
+    - {name: "github", link: "https://"}
+- 
+  id: 22
+  name: "Alex"
+  surname: ""
+  company: "Github"
+  title: ""
+  thumbnailUrl: alex.jpg
+  social: 
+    - {name: "github", link: "https://"}
+
