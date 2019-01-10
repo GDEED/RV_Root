@@ -5,6 +5,11 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
+    	startTime: "8:00am",
+    	endTime: "",
+    	sessionIds: [399]
+    }
+    - {
     	startTime: "9:00am",
     	endTime: "5:00pm",
     	sessionIds: [400]

@@ -1,0 +1,121 @@
+<section id="enrollment-hackathon" class="enrollment-hackathon">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <form method="POST" action="{{ site.international }}" id="enrollmentForm">
+
+            <label for="email">Email address (Should be same as the applciation email)</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+
+            <label for="firstName">First Name</label>
+            <input type="firstName" class="form-control" name="firstName" id="firstName" aria-describedby="firstNameHelp" placeholder="First Name" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="lastName" class="form-control" name="lastName" id="lastName" aria-describedby="lastNameHelp" placeholder="Last Name" required>
+
+            <label for="address">Residential Address</label>
+            <br/><label for="street">Street</label>
+            <input type="text" class="form-control" name="street" id="street" aria-describedby="streetHelp" placeholder="Street" required>
+
+            <label for="street">City</label>
+            <input type="text" class="form-control" name="city" id="city" aria-describedby="cityHelp" placeholder="City" required>
+
+            <label for="state">State/County/Province</label>
+            <input type="text" class="form-control" name="state" id="state" aria-describedby="stateHelp" placeholder="state" required>
+            
+            <label for="postalCode">Postal Code</label>
+            <input type="text" class="form-control" name="code" id="code" aria-describedby="codeHelp" placeholder="code" required>
+
+            <label for="country">Country</label>
+            <input type="country" class="form-control" name="country" id="country" aria-describedby="countryHelp" placeholder="country" required>
+
+            <label for="contact">Mobile number (Available during the hackathon)</label>
+            <input type="tel" class="form-control" name="contact" id="contact" aria-describedby="contactHelp" placeholder="Contact" required>
+
+            <label for="equipment">What equipment will you bring?</label>
+            <input type="equipment" class="form-control" name="equipment" id="equipment" aria-describedby="equipmentHelp" placeholder="Equipment" required>
+        
+
+            <div class="form-group">
+                <label for="dietaryNeeds">Special Dietary needs</label>
+                <select class="form-control" name="dietaryNeeds" id="dietaryNeeds" required>
+                    <option>-</option>
+                    <option>None</option>
+                    <option>Gluten Free</option>
+                    <option>Lactose Intolerant</option>
+                    <option>Vegetarian</option>
+                    <option>Vegan</option>
+                </select>
+            </div>
+
+
+            <label for="githubUser">GitHub email or username</label>
+            <input type="githubUser" class="form-control" name="githubUser" id="githubUser" aria-describedby="githubUser" placeholder="Github Username or Email" required>
+
+            <div class="form-group">
+                <label for="preferredRole">Do you require an invitation letter to obtain a visa?</label>
+                <select class="form-control" id="visaInformation" name="visaInformation"  required>
+                    <option >-</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="roomshare">Are you local or booking a room that you would share with another hacker?</label>
+                <select class="form-control" id="roomshare"  name="roomshare" required>
+                    <option >-</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="childcare">Would childcare enable you to attend the hackathon?</label>
+                <select class="form-control" id="childcare" name="childcare" required>
+                    <option>-</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+                <!--TESTING UPLOAD RESUME-->
+                <input type="hidden" value="" name="releaseDriveLocation" id="releaseDriveLocation">
+
+            </form>
+
+            <form id="uploadRelease" method="post" style="margin-top:10px;">
+                <div id="data"></div>
+                <input type="hidden" value="" name="releaseFileContent" id="releaseFileContent">
+                <input type="hidden" value="" name="releaseFileName"  id="releaseFileName">
+                <input type="hidden" value="" name="releaseFileSize"  id="releaseFileSize">
+                <input type="hidden" value="" name="releaseFileContentType" id="releaseFileContentType">
+                <input type="hidden" value="" name="applicantEmail" id="applicantEmail">
+
+                <b id="release">Mandatory: Upload Release</b>
+                <span id="releaseWarning" style="margin-top:10px;">You must complete and sign the <a href="https://docs.google.com/document/d/1nEdxvDFuoMbat0JKzbRdpxuUJwIleZwxLblwpajUNsI/edit?usp=sharing" target="_blank"></a>Reality Virtually Hackathon Release</a> to complete your registration and to participate in the hackathon</span>
+
+
+                <input name="SelectedRelease" id="SelectedRelease" type="file" class="btn btn-secondary">
+                <br>
+                <!-- <input value="Load release" type="button" id="loadRelease" class="btn"  style="width: 100%; background:#1ea9e1; color:white;margin-top:10px; margin-bottom:10px;"> -->
+                <!-- onclick="UploadRelease()" -->
+            </form>
+
+        <b class="release_submitted" style="display:none;margin-bottom:10px; margin-top:10px;">Release Loaded</b>
+        <!-- <btn class="btn btn-primary releaseSubmit" id="releaseSubmit" style="width: 100%;">Submit Application</btn> -->
+        <input value="Submit Registration" type="submit" id="releaseSubmit" class="btn btn-primary releaseSubmit" style="width: 100%;">
+    </div>
+
+</div>
+</section>
+
+
+<section id="enrollment-thankyou" class="enrollment-thankyou" style="display:none;">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <img src="/img/about-section/mitmedialab_hackathon.png">
+            <h1>Thank you for your submission! <br>We'll keep you posted</h1>
+        </div>
+    </div>
+</section>
+
+

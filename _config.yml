@@ -1,7 +1,7 @@
 # Plugins
 gems:
 - jekyll-sitemap
-safe: false
+safe: true
 
 # Build Settings
 markdown: kramdown
@@ -67,6 +67,12 @@ navigationLinks:
    subNav:
     - link: "/workshop/"
       text: "Workshops"
+# - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
+ - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
+ - {link: "/team/", text: "Team", hasDropdown: false}
+ - {link: "/mentors/", text: "Mentors", hasDropdown: false}
+ - {link: "/schedule/", text: "Schedule", hasDropdown: false}
+ - {link: "/blog/", text: "Blog", hasDropdown: false}
  - link: "https://pastevents.realityvirtuallyhack.com/"
    text: "Past Events"
    2016event: "#2016"
@@ -78,9 +84,6 @@ navigationLinks:
     - link: "https://pastevents.realityvirtuallyhack.com/about-2016/"
       text: "2016"
       target: "_blank"
-# - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
- - {link: "/team/", text: "Team", hasDropdown: false}
- - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
 
 # Hero Block
 heroImage: "abstract-virtual-reality.png"
@@ -285,6 +288,10 @@ showSessions: true
 teamBlockTitle: "Organizing Team"
 aboutUs: "The Creating Reality Hackathon is organized by a dynamic team of industry experts, developers, executives, and students, reaching many facets of the VR|AR community."
 
+# Mentor Block
+mentorBlockTitle: "Mentors"
+
+
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
 findWayDistance: "Distance"
@@ -353,9 +360,9 @@ frequentlyAskedQuestions:
   - {question: "What is the cost to attend the event?", answer: "It's free, there are no fees to attend the event! You just need to cover your own travel and lodging. We will provide you with plenty of food and beverages.", image: ""}
   - {question: "Will there be any hardware/equipment available for project development?", answer: "If you have any equipment and can bring it (desktops/laptops/monitors/HMDs), we would encourage you to bring it. We will have equipment from sponsors for participants who do not have any equipment or are unable to bring it. If the supply of a platform does not meet the demand we will ask teams to share this equipment. This has not been a problem in the past.", image: ""}
   - {question: "What should I bring?", answer: "All attendees are required to bring a valid government ID (ex: driver’s license, passport) for admission. Also, bring your laptop, and any hardware you wish to use in your hack. As mentioned we will have sponsors loaning out tons of hardware as well!", image: ""}
-  - {question: "I am bringing my own HTC Vive, how do I avoid lighthouse interference?", answer: "The MIT Media Lab has been engineered to avoid this problem. There will be a number of VIVE locations with lighthouses set up ahead of time with one of the loaner VIVEs and space for additional VIVE teams to share the lighthouses. Teams with VIVES are asked to use the shared lighthouses to avoid interference.", image: ""}
+  - {question: "I am bringing my own HTC Vive, how do I avoid lighthouse interference?", answer: "The MIT Media Lab has been engineered to avoid this problem. We will set up one large room for Tracker 2 Vive Pros which can be configured not to interfere with one another. There will also be a number of conference rooms that will serve 2 to five Vive teams using one team's shared lighthouses to avoid interference. If additional space is required for teams using Vives, we will direct you where to put up your lighthouses.", image: ""}
   - {question: "Is this an overnight hackathon?", answer: "The MIT Media Lab will only be open from 7am-1am and re-opens again at 7am on Sunday.", image: ""}
-  - {question: "Where do I sleep?", answer: "Because of building policy, we have to close the hackathon at night. There are <a href=\"https://zh.airbnb.com/s/Cambridge--MA/all?s_tag=hGvUGIxM&allow_override%5B%5D=&refinement_paths%5B%5D=%2Ffor_you\">Airbnbs</a> and <a href=\"https://www.yelp.com/search?cflt=hostels&find_loc=Cambridge%2C+MA\">Hostels in Cambridge</a> for participants to take a rest and refresh themselves. There are many hotels in the area, the closest is a Marriot. Here is a <a href=\"https://institute-events.mit.edu/visit/where-to-stay\">list of hotels</a> near the institute.<br><br><b>Note:</b> Driving in Greater Boston can be difficult. Roads are hard to navigate, traffic is as abundant as can be found in Los Angeles, free street parking is limited and parking lots are expensive.", image: ""}
+  - {question: "Where do I sleep?", answer: "Because of building policy, we have to close the hackathon at night. There are <a href=\"https://zh.airbnb.com/s/Cambridge--MA/all?s_tag=hGvUGIxM&allow_override%5B%5D=&refinement_paths%5B%5D=%2Ffor_you\">Airbnbs</a> and <a href=\"https://www.yelp.com/search?cflt=hostels&find_loc=Cambridge%2C+MA\">Hostels in Cambridge</a> for participants to take a rest and refresh themselves. There are many hotels in the area, the closest is a Marriot. Here is a <a href=\"https://institute-events.mit.edu/visit/where-to-stay\">list of hotels</a> near the institute. If you wish to share a room with another hacker, please join <a href=\"https://www.facebook.com/groups/362472424332578\"> FB group </a> and post inquiries. <br><br><b>Note:</b> Driving in Greater Boston can be difficult. Roads are hard to navigate, traffic is as abundant as can be found in Los Angeles, free street parking is limited and parking lots are expensive.", image: ""}
   - {question: "Will travel reimbursements be available for those who travel from out of the area? Is there a travel scholarship?", answer: "The Reality Virtually Hackathon is free to participants so that the organizers can make the event as open and inclusive as possible. It is a non-profit event. We will have a limited budget to grant partial travel scholarships to students, based on need and merit. As we approach the date of the hackathon and know how much of the budget we can allocate to travel scholarships you will be able to apply for the travel scholarships. However, if you want to attend, you should not count on an award of these funds.", image: ""}
   - {question: "What platforms do participants build upon?", answer: "Participants can build on any hardware and software platform the team choose. We do not want to limit your creativity and as long as you follow the rules, go ahead and build.", image: ""}
   - {question: "Is there a deadline for application? When will I know whether I am accepted?", answer: "We will have rolling admissions. The first decision date is October 31. You will receive an emal from us to notify your acceptance status shortly thereafter. Applications are open until the time we are near our limit of 400 participants.", image: ""}

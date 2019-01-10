@@ -1,0 +1,777 @@
+-
+  id: 0
+  name: "David"
+  surname: "Goligorsky"
+  organizaton: "IDEO"
+  title: "Sr. Design Director"
+  #skills: "Product/Interaction Design, 3D Artist (Modeling, Shading, Etc.)"
+  tools: "Blender, SolidWorks, Sketch, HTML/CSS, some three.js"
+  thumbnailUrl: Goligorsky.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/davidgoligorsky/"}
+    - {name: "site", link: "https://davidgoligorsky.com"}
+  skills:
+    - {name: "Product/Interaction Design",}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "David Goligorsky is a Sr. Design Director at IDEO New York focused on Digital & Emerging Technology. He has a background in Aerospace Engineering and has worked in advanced R&D before pursuing a graduate degree in Product Design at Stanford University. David had previously worked at IDEO Cambridge leading project teams and lecturing on Design, Manufacturing, and Strategy at Harvard, Yale, and other institutions. Before making a return to IDEO, David spent several years running Design at a Google Ventures portfolio startup in the mobile media space and then as a private practice, working with startups on all aspects of Design and Product at their organizations. Clients included Artsy, Sonder, Octave, and others. David is keen to help individuals and organization in balancing culture and creativity with technology and commerce."
+-
+  id: 1
+  name: "Vik"
+  surname: "Parthiban"
+  organizaton: "MIT"
+  title: "Researcher"
+  tools: "Unity, Arduino, Optics"
+  thumbnailUrl: VikParthiban.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/vikparthiban/"}
+    - {name: "site", link: "https://www.media.mit.edu/people/vparth/overview/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Vik Parthiban is passionate about teams and technologies that shape how people interact with digital information and the physical world. He helped build the Magic Leap One AR headset released in December 2017 and led an R&D project for the advanced photonics team. Currently a researcher and graduate student at the MIT Media Lab, Vik is building new human-computer interfaces and holographic technology that hope to push AR/VR technology forward."
+-
+  id: 2
+  name: "Casey"
+  surname: "Pugh"
+  organizaton: "Vimeo"
+  title: "Head of Creator Labs"
+  skills: "Software Development and Prototyping, Project Manager / Producer"
+  tools: "Web backend stuff: Ruby, PHP, Rails, Sinatra, Heroku, automated testing, continuous deployment, CDNs, scaling, micro services, APIs, OAuth, data scraping, databases (mysql, postgres), Docker"
+  thumbnailUrl: CaseyPugh.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/caseypugh/"}
+    - {name: "site", link: "https://caseypugh.com"}
+    - {name: "vimeo", link: "https://labs.vimeo.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Casey Pugh is an Emmy-winning creative technologist immersed in the online video industry for the past 11 years. As Head of Creator Labs at Vimeo, Casey leads the vision, strategy and execution for pushing the video platform beyond its existing storytelling boundaries. In 2009, he created Star Wars Uncut, a crowd-sourced remake of classic Star Wars movies that won a 2010 Primetime Emmy. Casey was an early employee of Vimeo and co-founder of VHX, a technology solution for creators building and distributing premium over-the-top (OTT) video channels, which was acquired by Vimeo in May 2016."
+-
+  id: 3
+  name: "Jonathan"
+  surname: "Linowes"
+  organizaton: "Parkerhill Reality Labs"
+  title: "Founder/CEO"
+  tools: "Unity"
+  thumbnailUrl: JonathanLinowes.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/linojon/"}
+    - {name: "site", link: "http://www.parkerhill.com"}
+    - {name: "facebook", link: "https://www.facebook.com/parkerhillvr/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Jonathan is a VR/AR evangelist, Unity developer, entrepreneur, and teacher. His company, Parkerhill Reality Labs, is an immersive media indie studio and developer of the BridgeXR toolkit, Power Solitaire VR game, and other projects.  Jonathan holds an MS degree from the MIT Media Lab, a BFA degree from Syracuse University, and held technical leadership positions at Autodesk and other companies. He is author of books including 'Unity Virtual Reality Projects' (second edition June 2018) and 'Augmented Reality for Developers' (2017)."
+-
+  id: 4
+  name: "Lisa"
+  surname: "Tacoronte"
+  organizaton: "IDEO"
+  title: "Business Designer"
+  tools: "Sketch, Figma"
+  thumbnailUrl: LisaTacoronte.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/lisataco/"}
+    - {name: "site", link: "www.lisataco.com"}
+  skills:
+    - {name: "Project Manager / Producer"}
+  description: "Lisa Tacoronte is a Business Designer at IDEO, where she designs and prototypes creative, new entrepreneurial ventures founded on human needs. She hails from IDEO coLab where she explored the potential for emerging technology to create impact on social systems through interactive prototypes."
+-
+  id: 5
+  name: "Mona"
+  surname: "Hakky"
+  organizaton: "Wayfair"
+  title: "Design Director, Native App/AR/VR"
+  tools: "UX tools"
+  thumbnailUrl: MonaHakky.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/monahakky/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+  description: "With foundation rooted in Architecture, Mona’s passion for human-centered design connecting digital & physical environments has been a life-long passion. With over 16 years of experience working in the digital space across multiple industries, she had the opportunity to leverage mobile & emerging technologies to drive innovative thinking in retail, healthcare, travel, automotive, and sports. Mona now leads design for native App & AR/VR at Wayfair."
+-
+  id: 6
+  name: "Yasaman"
+  surname: "Sheri"
+  organizaton: "Indepenant"
+  title: "Creative Director"
+  tools: "Open VR, Arduino, TouchDesigner"
+  thumbnailUrl: YasamanSheri.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/yeahs"}
+    - {name: "site", link: "http://yeahsnos.com"}
+  skills:
+    - {name: "Unity"}
+    - {name: "Software Development and Prototyping"}
+  description: "Yasaman Sheri is a designer and creative director who works with sensing and perception. She has led design interactions at Microsoft Hololens Operating System team for 5 years designing interfaces using gesture, machine vision and spacial interactions. Her work with Mixed Reality has inspired her to expand sensory interactions designing for the \"other senses\" in sound, haptics and smell and the design of perception. These explorations have led her to collaborations with Toyota, Mozilla XR Studio, Google (X), Sissel Tolaas, Yeast Lab. Yasaman is also an educator, teaching Sensory Design at Copenhagen Institute for Interaction Design and graduate studies at RISD. She is also frequent visiting lecturer at Art Center College of Design, Columbia GSAPP and Stanford."
+-
+  id: 7
+  name: "ildar"
+  surname: "iakubov"
+  organizaton: "www.ildar.io"
+  title: "Prof."
+  tools: "Open VR, Arduino, TouchDesigner"
+  thumbnailUrl: ildar.JPG
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "instagram", link: "https://www.instagram.com/videoildar/"}
+    - {name: "site", link: "www.ildar.io"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments."
+-
+  id: 8
+  name: "Jeff"
+  surname: "Bail"
+  organizaton: "Boston VR"
+  title: "Co-organizer"
+  tools: "Unity /  C#"
+  thumbnailUrl: JeffBail.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jeff-bail-1a11088/"}
+    - {name: "site", link: "www.bostonvr.org"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "I've been involved with Boston VR since our very first meeting in 2014. I'm currently working as a VR developer at Vicarious Surgical."
+-
+  id: 9
+  name: "Alexander"
+  surname: "Chou"
+  organizaton: "Wayfair"
+  title: "Software Engineer"
+  tools: "BabylonJS, ReactJS"
+  thumbnailUrl: AlexChou.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/alexanderchou/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Alex is a senior software engineer at Wayfair, leading a team that builds a 3D room planning tool on the web. He's particularly excited about the opportunities WebVR opens up to make apps of today fully immersive. Alex is also an alumnus from Brown University where he studied computer science and economics."
+-
+  id: 10
+  name: "DULCE"
+  surname: "BAERGA"
+  organizaton: "Dulce Dotcom"
+  title: "CEO"
+  tools: "Blender, Unity, JavaScript, NodeJS, webXR"
+  thumbnailUrl: DulceBaerga.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/dulce303/"}
+    - {name: "site", link: ""}
+    - {name: "instagram", link: "https://www.instagram.com/dulce303/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+    - {name: "Project Manager / Producer"}
+  description: "Since 1996, I have spent the majority of my career wearing many different hats from a LAMP developer to team leader to as Chief Executive Officer of River Studios. In 2017, I was hand-picked by the executive leadership of River Ecosystem to not only bring upon the rebirth of River Studios, but to serve as the catalyst of elevating VR/AR content including our flagship product Quarterback Snap. My technical background, being a full stack engineer and avid multi stack developer allows me a unique insight in which I understand the potential and limitations of technologies from an engineering level that few other futurists without such technical experience can match."
+-
+  id: 11
+  name: "Michael"
+  surname: "Schenck"
+  organizaton: "Wayfair"
+  title: "Senior Software Engineer XR"
+  tools: "Unity on ML1, Rift, Vive etc."
+  thumbnailUrl: MichaelSchenck.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/michaelpschenck"}
+    - {name: "site", link: "wayfair.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Part of the Wayfair Next R&D team developing applications utilizing virtual, augmented, and mixed reality that will revolutionize how customers 'visualize' Wayfair's vast collection of products.  Working with technologies including Unity, C#, and leading XR headsets and devices."
+-
+  id: 12
+  name: "Steve"
+  surname: "Curran"
+  organizaton: "ROAR"
+  title: "CEO"
+  tools: "ROAR Augmented Reality Platform for AR prototyping "
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/stevecurran/"}
+    - {name: "site", link: "www.theroar.io "}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Project Manager / Producer"}
+  description: "Entrepreneur and Creative Director with extensive experience in the development of online and mobile games, virtual reality, augmented reality, mobile applications, viral media, and interactive entertainment. Creative Director on the development and/or marketing of consumer game, multimedia and educational products. Author of two books on design, including MOTION GRAPHICS Design for Broadcast and Film (Rockport, 2000) and CONVERGENCE DESIGN, Design for Interactive Television, Broadband and Wireless. Contributing author to one of the first books on Social Media, CONNECTED MARKETING - writing on the topic of branded entertainment. Specialties: Augmented Reality, Creative Direction, Graphic Design, Social Media, Video and Film, User Interface Design, Online Game Design and Development, Virtual Reality, Brand Development, Online Viral Marketing.To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash."
+-
+  id: 13
+  name: "Patrick"
+  surname: "Clark"
+  organizaton: "Wayfair"
+  title: "Senior Technical Artist"
+  tools: "Unreal Engine, 3D Studio Max, Photoshop"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/patrick-clark-1752861b/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: For the past three years, I've worked at Wayfair on various projects that include automated photogrammetry, rendered 3D imagery, and realtime 3D for VR/AR/XR on the Magic Leap, Holo Lens, Vive, and more. Previously, I spent nearly a decade at Rockstar Games where I worked on the art, and technical performance, of games such as Grand Theft Auto 5, and Red Dead Redemption 2. I specialize in 3D content production for rendered and realtime applications.
+-
+  id: 14
+  name: "Eric"
+  surname: "Chadwick"
+  organizaton: "Wayfair"
+  title: 3D Viz Art Manager
+  skills: "3D Artist (Modeling, Shading, Etc.)"
+  tools: "Unity, 3ds Max, Photoshop"
+  thumbnailUrl: EricChadwick.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ericchadwick/"}
+    - {name: "site", link: "http://ericchadwick.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "I combine more than 20 years experience in real-time 3D art development with a background in traditional art. I love finding solutions to difficult art problems and helping create exceptional teams."
+-
+  id: 15
+  name: "Kunal"
+  surname: "Khona"
+  organizaton: "Wayfair"
+  title: "AR | Android Developer"
+  tools: "Android, AR, ARCore, Sceneform"
+  thumbnailUrl: KunalKhona.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/kunalkhona/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Kunal works with the Wayfair Next team to help create next generation experiences in AR. He has built AR experiences using Google Tango and ARCore and has been working on features like `View in Room 3D`, allowing users to easily try out furniture in their space."
+-
+  id: 16
+  name: "Max"
+  surname: "Fosque"
+  organizaton: "Wayfair"
+  title: "Product Manager"
+  tools: ""
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Project Manager / Producer"}
+  description: "I am a product manager with experience across a range of disciplines, from health tech to (most recently) 3D visualization. "
+- 
+  id: 17
+  name: "Caglar"
+  surname: "Yildirim"
+  organizaton: "State University of New York at Oswego"
+  title: "Assistant Professor of Human Computer Interaction"
+  skills: "Product / Interaction Design"
+  tools: "Human computer interaction, 3D Interaction and Interface Design, Usability, Presence in VR, VR gaming UX, Mindfulness Training, Cognition, Statistics"
+  thumbnailUrl: CaglarYildirim.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+  description: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics."
+-
+  id: 18
+  name: "Liz"
+  surname: "Lehtonen"
+  thumbnailUrl: ElizabethLehtonen.JPG
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/elizabethlehtonen/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Liz has 7 years of Product experience which she compliments with 5 years in design. She specializes in customer focused innovation, team building & solving problems. As the Senior Product Manager for XR technology at Wayfair, she is responsible for the camera based buying experience. Before moving to Boston, she ran the world building team for Game of the Year 2014 (Dragon Age: Inquisition) and gameplay team for Anthem at BioWare in Canada. Earlier, she was a game designer in Oxford UK for Sony & EA, and started her career at a 10 employee startup called Rovio in Finland."
+-
+  id: 19
+  name: "Jesse"
+  surname: "McCulloch"
+  thumbnailUrl: JesseMcCulloch.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jessebmcculloch/"}
+    - {name: "site", link: "https://aka.ms/MR"}
+    - {name: "twitter", link: "https://twitter.com/jbmcculloch"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Jesse McCulloch is a Mixed Reality Developer Relations Program Manager at Microsoft. Starting as a Mixed Reality Developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space."
+-
+  id: 20
+  name: "Ron"
+  surname: "Rosenman"
+  thumbnailUrl: RonRosenman.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ronrosenman/"}
+    - {name: "site", link: "http://ronrosenman.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "15+ years designing and building products, services, tools, and simulations; weaving storytelling, software development, and product design principles across ideation, research, and engineering activities. I work with stakeholders and teams to conduct user research, identify opportunity areas, develop and refine concepts, and define product requirements. I leverage tools and custom code to communicate the experience of a product. I bring interactions to life in order to test usability and validate technical assumptions. Career milestones spanning design agencies (frog, Method), architecture firms (Rockwell Group, Gensler), and engineering companies (Buro Happold, UTC) "
+-
+  id: 21
+  name: "Carl"
+  surname: "Yang"
+  thumbnailUrl: cyang.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/cyang"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Project Manager / Producer"}
+  description: "Carl is creative and methodical strategist committed to generating business value by helping startups and established enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His experience includes strategy, design research, new product development & service design spanning over 20 years of developing B2B, B2C, and B2B2C solutions in health & wellness and financial service verticals."
+-
+  id: 22
+  name: "Leonid"
+  surname: "Striga"
+  thumbnailUrl: Leonid.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: "www.wayray.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: As the product owner of WayRay's True AR SDK, Leonid has seen each development stage through — from defining toolset functionality to improving the API. As a trained software development engineer with over 12 years’ experience in software architecture and UI development, Leonid brings his in-depth knowledge to advancing WayRay’s solutions.
+-
+  id: 23
+  name: "Gergely"
+  surname: "Kis"
+  thumbnailUrl: Gergely.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: "www.wayray.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "An IT professional and entrepreneur with over 14 years’ experience in mobile, embedded and enterprise technologies, Gergely joined WayRay to help developers build AR apps with the best tools. Gergely has a master’s degree in Information Technology Engineering from the Budapest University of Technology and Economics."
+-
+  id: 24
+  name: "Paul"
+  surname: "Yun"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/yunpaul"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Paul works on creating next generation experiences for the modern world. His current project on NEXT is spatial AR using photogrammetry and real world surfaces as UI."
+-  
+  id: 25
+  name: "Shuya"
+  surname: "Gong"
+  thumbnailUrl: ShuyaGong.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: "www.shuyagong.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Shuya Gong is a designer at IDEO CoLab, where she explores the intersection of emerging technology and system shifts to design the future. The CoLab brings together companies excited to create impact on the world through collaboration and enabling technology. With a background in mechanical engineering, Shuya spends a lot of her time in the workshop, going back and forth between 2D and 3D spaces. She's particularly interested in how new interfaces augment the way we experience the world around us, and believes that visual stimuli is just a peek of how virtual and augmented reality will change our sensory experience of the world."
+-  
+  id: 26
+  name: "Xin"
+  surname: "Liu"
+  thumbnailUrl: XinLIU.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "site", link: "xxxxxxxxxinliu.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}  
+    - {name: "Project Manager / Producer"}
+  description: "Xin Liu (b. 1991, Xinjiang/China) is an artist and engineer, whose research-based projects range from performances, apparatus, installations to scientific experiments and academic papers. She is the the Arts Curator in Space Exploration Initiative in MIT Media Lab and a member of New INC in New Museum. She is recipient of numerous awards and residencies, including the Van Lier Fellowship from Museum of Arts and Design, Huayu Youth Award Finalist, Queens Museum studio program and Pioneer Works Tech Residency. Her projects have received awards in SXSW, FastCoDesign, Core77 and her academic publications were nominated for best papers in ACM conferences. She has shown her work internationally at events and venues including Ars Electronica, Boston MFA, Sundance Film Festival, The Walker Art Center, OCAT Shanghai, ISEA and Music Tech Festival Berlin. As a researcher, Xin has worked in institutions including Microsoft Research NYC & Asia and Google ATAP."
+-  
+  id: 27
+  name: "Jasmine"
+  surname: "Roberts"
+  thumbnailUrl: JasmineRoberts.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jasmine-roberts"}
+    - {name: "site", link: "jasmineroberts.org"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Jasmine is a researcher, engineer and designer currently working as a software engineer on the Authoring Tools Group in Unity Labs.  Previously, Jasmine was a graduate student studying in Cambridge at the Harvard Graduate School of Design and MIT Media Lab. Additionally Jasmine holds degrees in Applied Physics and Electrical Engineering. Her research centers on emotion and perception in spatial computing and identity representation in virtual human avatars."
+
+-  
+  id: 28
+  name: "Charity"
+  surname: "Everett"
+  thumbnailUrl: CharityEverett.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/charity-everett-80551a4a/"}
+    - {name: "site", link: "www.gobackfetchit.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Charity Everett is a Creative Technologist and storyteller who is interested in exploring the connection between humanity and technology."
+-  
+  id: 29
+  name: "Johan"
+  surname: "Ospina"
+  thumbnailUrl: johanOspina.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/johanos"}
+    - {name: "site", link: "www.johanos.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Johan is a Software Engineer at Wayfair Next. His work aims to utilize emerging technologies to change the home buying experience. He's helped Wayfair release numerous AR features for their customers."
+-  
+  id: 30
+  name: "Rachana"
+  surname: "Sreedhar"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Rachana is currently working at Wayfair Next - Wayfair’s R&D group focusing on computer vision and Image processing projects. She has worked in areas such as 2D and 3D Computer Vision and machine learning"
+-  
+  id: 31
+  name: "Michael"
+  surname: "Hazani"
+  thumbnailUrl: MichaelH.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/michaelhazani/"}
+    - {name: "site", link: "www.magicleap.com"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Formerly 3D engineer, currently Grassroots Evangelist at Magic Leap. These days my weapons of choice primarily include Unity and the Magic Leap One. Excited about sharing bleeding edge XR hardware with creators and watching the brilliant stuff they come up with."
+-  
+  id: 32
+  name: "Shane"
+  surname: "Engelman"
+  thumbnailUrl: ShaneEngelman.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/singlerider"}
+    - {name: "site", link: ""}
+    - {name: "twitter", link: "https://twitter.com/shaneengelman"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+    - {name: "Project Manager / Producer"}
+  description: "Full-stack engineer at Magic Leap, frequent hackathon participant, early adopter of all tech. I'll help with SDK setup, setting up servers, and scope management."
+-  
+  id: 33
+  name: "Alicia"
+  surname: "Avril"
+  thumbnailUrl: AliciaAvril.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Alicia is here for the weekend from South Florida and is absolutely freezing, but excited to help introduce Magic Leap technology and programming to the creators and innovators of MIT and the community! She's excited and enthralled by virtual and augmented reality, and has a soft spot for games and experiences to assist the disabled. Reach out if you need someone to test your app, and for any Magic Leap related questions!"
+-
+  id: 34
+  name: "Steve"
+  surname: "Lukas"
+  thumbnailUrl: SteveLukas.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "http://www.linkedin.com/in/stevelukas"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Creative problem solver & AR / VR evangelist. Primarily Magic Leap focused. Past: Qualcomm Ventures, Sony."
+-
+  id: 35
+  name: "Jordan"
+  surname: "Cazamias"
+  thumbnailUrl: JordanCazamias.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jacazamias/"}
+    - {name: "site", link: "https://jaycaz.carbonmade.com/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Jordan is an Interaction Prototyper on Magic Leap's UX Team.  He's particularly excited about VR & AR as a way to make tech that bends to people rather than the other way around.  He can help solve your 3D transform issues but will definitely end up Googling the answer.  You'll probably find him somewhere ranting about game design."
+-
+  id: 36 
+  name: "Winston"
+  surname: "Chen"
+  thumbnailUrl: WinstonChen.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/winstonc94"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Winston is a senior engineer at Samsung working on Samsung Internet. He worked on the WebVR API (changed to WebXR now) for Samsung Internet and Samsung Internet for GearVR. He also experimented a lot with using current web APIs to build AR experiences for the web."
+-
+  id: 37
+  name: "Or "
+  surname: "Fleisher "
+  thumbnailUrl: OrFleisher.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/orfleisher/"}
+    - {name: "site", link: "https://orfleisher.com"}
+    - {name: "twitter", link: "https://twitter.com/juniorxsound"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Or Fleisher is an award winning creative technologist, developer, artist working at the intersection of technology and storytelling. Combining computer graphics, machine learning and immersive experience development in virtual, augmented and mixed realities."
+-
+  id: 38
+  name: "Taylor"
+  surname: "Freeman"
+  thumbnailUrl: TaylorFreeman.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "linkedin.com/in/taylorpfreeman/"}
+    - {name: "site", link: "uploadvr.com"}
+    - {name: "twitter", link: "twitter.com/taylorpfreeman"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Taylor Freeman is focused on pioneering the next generation education using new technology like XR and AI to enhance and personalize learning at a global scale. Taylor was Co-Founder and CEO at UploadVR, where he built two incubation spaces in LA and SF that house over 150 XR and AI startups, hosted 500+ XR focused events across the US, Europe and Asia, trained hundreds of students on XR development and reached over 200M people online through UploadVR.com's daily news coverage of the XR industry. He is currently building another company purely focused on XR education. He was awarded Forbes 30 under 30 in 2017 and can regularly be found exploring VRChat and slashing cubes in Beat Saber. "
+- 
+  id: 39
+  name: "Kat"
+  surname: "Schneider"
+  thumbnailUrl: KatherineSchneider.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ohkatschneider/"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Kat Schneider is an architect and UI/UX Designer with a deep research interest in computational design and VR/AR. She has facilitated the development of Arrowstreet’s Innovation and Research practice, centered around mixed reality technologies for design visualization and future impacts on the built environment. She has a range of knowledge related to designing XR interfaces and experiences for retail, ed-tech, art installations, and architectural projects."
+-
+  id: 40
+  name: "Todd"
+  surname: "Vanderlin"
+  thumbnailUrl: ToddVanderlin.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/vanderlin/"}
+    - {name: "site", link: "https://www.vanderlin.cc/"}
+    - {name: "instagram", link: "https://www.instagram.com/vanderlin/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Todd Vanderlin is an artist and developer. His work is a mix of complex interactive systems, real-time motion graphics, and generative art. Todd uses a variety of programming languages to create everything from mobile and web applications to large scale interactive installations."
+-
+  id: 41
+  name: "Scott J"
+  surname: "Slagsvol"
+  thumbnailUrl: ScottSlagsvol.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/scottslagsvol/"}
+    - {name: "site", link: "http://scottslagsvol.com"}
+    - {name: "other", link: "https://dribbble.com/scottslags"}
+  skills:
+    - {name: "Product/Interaction Design"}
+  description: "Scott Slagsvol is a Senior Interaction and Communications Designer at IDEO Boston, where his unique blend of traditional graphic and digital skills serve as a bridge between the physical and digital worlds of design. Scott earned his BFA in Graphic Design from Rochester Institute of Technology. His work has been awarded by London International Awards, AICP Awards, OMMA, MITX, and Hatch. He has also had work featured in Creativity, AdWeek, and Communication Arts."
+-
+  id: 42
+  name: "Ralph"
+  surname: "Bishop"
+  thumbnailUrl: RalphBishop.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/takesthingsapart/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+  description: "Ralph is a veteran product designer who loves to bring a sense of play to his work. He is currently a Design Director at GIPHY contributing to the overall UX on many products. He also leads an internal team called Arts & Crafts which focuses on creating experimental products using new and emerging tech such as AR and VR. His teams work includes the recently released GIPHY World VR, GIPHY Cam, GIPHY Says and GIPHY Booth. In a previous life he also worked at MTV designing the backstage live stream experience for the VMAs and a few snowboards for Rome SDS."
+-
+  id: 43
+  name: "Bruno"
+  surname: "Olmedo"
+  thumbnailUrl: BrunoOlmedo.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Project Manager / Producer"}
+  description: "Bruno Olmedo is a Design Researcher at IDEO Cambridge, where his passion to understand people drives him to take on any challenge with a human-centered approach. Bruno’s curious, collaborative, and energetic spirit brings a contagious energy to identifying user needs, problem-solving, and communicating user insights through stories. Bruno has a specific interest in making emerging technologies more human, enabling faster, positive impact in the world."
+-
+  id: 44
+  name: "Brett"
+  surname: "Phares"
+  organizaton: "General Anxiety llc"
+  title: "Founder/CxO"
+  skills: "Software Development and Prototyping, 3D Artist (Modeling, Shading, Etc.)"
+  tools: "Unity / Windows MR"
+  thumbnailUrl: BrettPhares1.png
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/brettphares"}
+    - {name: "site", link: "https://genanxiety.com"}
+    - {name: "other", link: "http://brettphares.org"}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
+# -
+#   id: 
+#   name: ""
+#   surname: ""
+#   thumbnailUrl: 
+#   mentor: true
+#   ribbon: 
+#     - {abbr: "mentor", title: "Mentors"}
+#   social: 
+#     - {name: "linkedin", link: ""}
+#     - {name: "site", link: ""}
+#     - {name: "other", link: ""}
+#   skills:
+#     - {name: "Product/Interaction Design"}
+#     - {name: "Software Development and Prototyping"}
+#     - {name: "3D Artist (Modeling, Shading, Etc."}
+#     - {name: "Project Manager / Producer"}
+#   description: ""
