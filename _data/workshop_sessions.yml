@@ -118,7 +118,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "Rapid Prototyping for Non-Developers with Simmetri"
   description: ""
   subtype: workshop
-  workshop_leaders: [17, 18]
+  workshop_leaders: [16, 17]
   language: en
   complexity: "Beginner"
 -
@@ -134,7 +134,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "Oculus"
   description: ""
   subtype: workshop
-  workshop_leaders: [18]
+  workshop_leaders: []
   language: en
   complexity: "Beginner"
 -
@@ -142,7 +142,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "Creating an IoT Project using ThingWorx"
   description: ""
   subtype: workshop
-  workshop_leaders: [19]
+  workshop_leaders: [18]
   language: en
   complexity: "Beginner"
 -
@@ -150,7 +150,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "Google: ARCORE: Unity and SceneForm"
   description: ""
   subtype: workshop
-  workshop_leaders: [17]
+  workshop_leaders: [3, 7]
   language: en
   complexity: "Beginner" 
 -
@@ -158,7 +158,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
   description: "The True AR SDK by WayRay makes it easy to create AR experiences for drivers and passengers. The introductory workshop will get participants up to speed on the SDK toolset and how to jump-start AR app development right on the spot. WayRay’s mentors, aka True AR Kids, will be there to cover key functionalities and components of the True AR SDK beta (API, emulator, simulator, toolset), AR application structure and lifecycle as well as the operating principles of WayRay’s in-car holographic AR displays."
   subtype: workshop
-  workshop_leaders: [17]
+  workshop_leaders: [19, 20]
   language: en
   complexity: "Beginner" 
 -
@@ -166,7 +166,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "WebXR and Augmented Reality. In other words, Give Me The Camera."
   description: ""
   subtype: workshop
-  workshop_leaders: [17]
+  workshop_leaders: [0]
   language: en
   complexity: "Beginner"  
  
