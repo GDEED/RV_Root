@@ -1,0 +1,170 @@
+-
+  id: 01
+  title: "XR at the speed of Web. Publish or perish in 10 minutes or less"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [0]
+  language: en
+  complexity: "Beginner"
+-
+  id: 02
+  title: "Intro to Unity"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [1]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 03
+  title: "Creating VR with and for Humans"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [2]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 04
+  title: "Google WebXR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [3]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 05
+  title: "Intermediate Unity"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [4]
+  language: en
+  complexity: "Intermediate" 
+-
+  id: 06
+  title: "Defense Against the Dark VR Arts: 3D Interaction Design for VR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [5]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 07
+  title: "Designing UI/UX for AR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [6]
+  language: en
+  complexity: "Beginner"
+-
+  id: 08
+  title: "GoogleVR/Daydream"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [7]
+  language: en
+  complexity: "Intermediate" 
+-
+  id: 09
+  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [8]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 10
+  title: "Intro to open-source/WebVR/WebAR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [9, 10]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 11
+  title: "Cross platform VR Development with Unity and VIU"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [11, 12]
+  language: en
+  complexity: "Beginner"
+-
+  id: 12
+  title: "Rapid AR Development with Vuforia Studio"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [13]
+  language: en
+  complexity: "Beginner"
+-
+  id: 13
+  title: "Autodesk Forge for AR or VR experiences"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [14]
+  language: en
+  complexity: "Beginner"
+-
+  id: 14
+  title: "Microsoft -OpenVR, Mixed Reality Toolkit, and you"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [15]
+  language: en
+  complexity: "Beginner"
+-
+  id: 15
+  title: "Rapid Prototyping for Non-Developers with Simmetri"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [16]
+  language: en
+  complexity: "Beginner"
+-
+  id: 16
+  title: "Data Vis with Geometric"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [9, 10]
+  language: en
+  complexity: "Beginner"
+-
+  id: 17
+  title: "Oculus"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner"
+-
+  id: 18
+  title: "Creating an IoT Project using ThingWorx"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner"
+-
+  id: 19
+  title: "Google: ARCORE: Unity and SceneForm"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 20
+  title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 20
+  title: "WebXR and Augmented Reality. In other words, Give Me The Camera."
+  description: ""
+  subtype: workshop
+  workshop_leaders: [17]
+  language: en
+  complexity: "Beginner"  
+ 
+  
