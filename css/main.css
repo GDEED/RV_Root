@@ -1869,6 +1869,10 @@ button.close {
     outline: 0
 }
 
+.modal-workshops {
+	z-index: 95;
+}
+
 .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -25%);
     transform: translate(0, -25%);
