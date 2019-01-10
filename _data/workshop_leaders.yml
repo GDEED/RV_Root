@@ -54,7 +54,7 @@
   company: "SUNY Oswego"
   title: "PHD"
   bio: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics. "
-  thumbnailUrl: CalgarYildirim.jpg
+  thumbnailUrl: caglarYildirim.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -63,7 +63,7 @@
   surname: "Bacharach"
   company: "PTC"
   title: "Team Lead, PTC"
-  thumbnailUrl: JoanneBacharach.jpg
+  thumbnailUrl: joanneBacharach.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -110,7 +110,7 @@
   company: "HTC"
   title: "senior developer evangelist"
   bio: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
-  thumbnailUrl: DarioLaverde.jpg
+  thumbnailUrl: darioLeverde.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -156,7 +156,8 @@
   name: "Max"
   surname: "Harper"
   company: "Simmetri"
-  title: "CEO"
+  title: "Product Design Lead"
+  bio: "Max drives the vision and product design intentions of Simmetri by drawing on a diverse set of academic, amateur and professional experiences: ranging from professional film-making, stage magic and choreography, to 3D design and architecture, scientific research, renewable energy social entrepreneurship, and enterprise visual strategy consulting.  Max the winner of two top-tier VR Hackathon Awards: MIT Hacking Arts and the SXSW VR Hackathon 2017 (along with co-founder Amedeo). Max is a former co-director and alumni advisory board member of MIT Hacking Arts.  Before Simmetri, Harper served the revolutionary digital media strategy for the Obama 2008 campaign as video producer. Max is the co-founder and former Innovation Director of Groundswell, a social enterprise that won over 5 national awards for social innovation"
   thumbnailUrl: MaxHarper.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -165,7 +166,8 @@
   name: "Amedeo"
   surname: "Mapelli"
   company: "Simmetri"
-  title: "CTO"
+  title: "Founder, Creator"
+  bio: "Creator of Simmetri, a unique sandbox application for creating XR experiences. Amedeo has been designing and writing applications since 1993; most of the time focused on writing native C++ graphics and audio engines and the creative front-ends built on top of the engines. He’s been working on Simmetri full time for over 10 years. In 2014 he added in support for VR. Before working on Simmetri, Mapelli was one of the original founders ofiZotope, a leading audio software company for the music industry, serving artists such as Trent Reznor, Nine-Inch Nails and Jay Z. In 2013, iZotope won the Emmy Award for Technology and Engineering."
   thumbnailUrl: AmedeoMapelli.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -175,7 +177,7 @@
   surname: "Procter"
   company: "PTC"
   title: ""
-  thumbnailUrl: LauraProcter.jpg
+  thumbnailUrl: LauraProctor.jpg
   social: 
     - {name: "github", link: "https://"}
 - 

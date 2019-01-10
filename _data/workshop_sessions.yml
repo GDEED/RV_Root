@@ -115,8 +115,8 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   complexity: "Beginner"
 -
   id: 15
-  title: "Rapid Prototyping for Non-Developers with Simmetri"
-  description: ""
+  title: "Create A VR Music Video (or VR Story) - In one hour"
+  description: "Maybe you're not a voracious coder... Maybe you don't code at all but you still want to create something magnificent in VR.  Come watch and learn as Simmetri co-founder Max Harper show how quickly you can unlock your Mixed-Reality imagination. Combining some of Simmetri's easy yet powerful features like: terrain, scene-building and atmosphere effects, spatial audio, timeline animation, real-time audio reactivity, physics effects, and optional simple scripting-- we'll create an immersive music video, story or educational experience in 1 hour. "
   subtype: workshop
   workshop_leaders: [16, 17]
   language: en
