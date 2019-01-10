@@ -1,0 +1,16 @@
+-
+  id: 001
+  title: "XR at the speed of Web. Publish or perish in 10 minutes or less"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [0]
+  language: en
+  complexity: "Beginner"
+-
+  id: 002
+  title: "Intro to Unity"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [1]
+  language: en
+  complexity: "Intermediate" 

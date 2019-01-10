@@ -1,0 +1,36 @@
+- 
+  date: "2019-1-17"
+  dateReadable: "Thursday, January 17"
+  tracks: 
+    - {title: "Hackathon", color: "#90be4e"}
+  timeslots:
+    - {
+    	startTime: "9:30am",
+    	endTime: "10:30am",
+    	sessionIds: [1]
+    }
+    - {
+    	startTime: "9:30am",
+    	endTime: "10:30am",
+    	sessionIds: [2]
+    }
+    - {
+    	startTime: "10:30am",
+    	endTime: "11:30am",
+    	sessionIds: [401]
+    }
+    - {
+    	startTime: "11:30am",
+    	endTime: "12:30pm",
+    	sessionIds: [402]
+    } 
+    - {
+    	startTime: "1:30pm",
+    	endTime: "2:30pm",
+    	sessionIds: [403]
+    }
+    - {
+    	startTime: "2:30pm",
+    	endTime: "3:30pm",
+    	sessionIds: [403]
+    }

@@ -1,0 +1,20 @@
+- 
+  id: 0
+  name: "Chris"
+  surname: "Lowery"
+  company: "Fasility"
+  title: "Developer"
+  thumbnailUrl: ChrisLowery.jpg
+  social: 
+    - {name: "google-plus", link: "https://"}
+    - {name: "twitter", link: "https://"}
+    - {name: "github", link: "https://"}
+- 
+  id: 1
+  name: "Wiley"
+  surname: "Corning"
+  company: "MIT Media Lab"
+  title: "Team Lead, Unity 3D Developer"
+  thumbnailUrl: WileyCorning.jpg
+  social: 
+    - {name: "github", link: "https://"}
