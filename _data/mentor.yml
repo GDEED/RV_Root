@@ -739,6 +739,21 @@
   description: "Bruno Olmedo is a Design Researcher at IDEO Cambridge, where his passion to understand people drives him to take on any challenge with a human-centered approach. Bruno’s curious, collaborative, and energetic spirit brings a contagious energy to identifying user needs, problem-solving, and communicating user insights through stories. Bruno has a specific interest in making emerging technologies more human, enabling faster, positive impact in the world."
 -
   id: 44
+  name: "Adrien"
+  surname: "Meriaux"
+  thumbnailUrl: AdrienMeriaux.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "www.linkedin.com/in/romeriaux"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "Adrien Meriaux has been a software developer for 15 years. He has been working on all the popular platforms and programming languages mostly to solve GIS (Geographical Information System) problems. For the past 4 years he has been working on AR VR experiences for GIS. He was one of the first to enable GIS experience inside the HoloLens and is now working on sets of APIs to let developers create their own experiences."
+-
+  id: 45
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
@@ -757,6 +772,22 @@
     - {name: "Software Development and Prototyping"}
     - {name: "3D Artist (Modeling, Shading, Etc."}
   description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
+-
+  id: 46
+  name: "Jeffrey"
+  surname: "Jacobson"
+  thumbnailUrl: JeffreyJacobson.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/jeffreyjacobsonvr/"}
+    - {name: "site", link: "http://simpeds.org"}
+    - {name: "other", link: "http://enterprisevr.com"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: Jeffrey brings over 25 years of experience in research, engineering, and applications of virtual and mixed reality technology. With a doctorate in Information Science from PITT, Jeff is expert on how people process information. He was one of the first researchers to use game technology for VR, conduct learning experiments in VR, and use AR in museums and educational theater. He consulted for years into several industries, especially education, architecture, construction, transportation, and medicine. Today, he is the SimEngineering Project Manager at SIMPeds, where he prototypes new training tools, oversees production of (XR) solutions at the simulation center, and investigates XR for medical training and treatment.
 # -
 #   id: 
 #   name: ""
