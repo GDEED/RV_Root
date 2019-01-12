@@ -15,7 +15,7 @@
   name: "Wiley"
   surname: "Corning"
   company: "MIT Media Lab"
-  title: "Team Lead, Unity 3D Developer"
+  title: "Unity 3D Developer"
   thumbnailUrl: WileyCorning.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -25,7 +25,7 @@
   surname: "Rodriguez"
   company: "MIT Media Lab"
   title: "PHD, Creative Director, EyeSteelFilms"
-  bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production. She remains fascinated by the platforms and tools through which we share stories – and currently pursues a new creative exploration at the crossroad of artificial intelligence and human creativity."
+  bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production."
   thumbnailUrl: SandraRodriguez.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -63,7 +63,8 @@
   name: "Joanne"
   surname: "Bacharach"
   company: "PTC"
-  title: "Team Lead, PTC"
+  title: "Curriculum Lead, PTC"
+  bio: "Joanne started her career as an electrical engineer. After spending time coding programs to test integrated circuits, she found a passion and pivoted to the software industry. To help sustain customers’ success with software, she developed training programs and traveled the world to show customers and partners how to get the most out of their software products. Now, Joanne manages curriculum development for all of PTC’s products, with a focus on augmented reality (AR). She is excited to share what she has learned about designing cutting-edge AR experiences!"
   thumbnailUrl: joanneBacharach.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -82,7 +83,7 @@
   name: "Michael"
   surname: "Hazani"
   company: "MagicLeap"
-  title: "Team Lead, PTC"
+  title: "Team Lead, Magic Leap"
   bio: "Michael was born in Israel, and spatial computing has held a place in his heart ever since discovering VR at a shopping mall arcade in the early 90s.  After relocating to the US to study at Berklee College of Music (his other passion), Michael spent the next half-decade writing and producing music for artists, films and TV shows. In 2017, after having transitioned from writing songs to writing code and working as a freelance XR developer for several years since, Michael spent an exhilarating year working as a Creative 3D Engineer at Magic Leap. He has recently transitioned to the role of Grassroots Evangelist, in which he gets to share his passion for Magic Leap, spatial computing and digital creativity with amazing creators worldwide. "
   thumbnailUrl: MichaelHazani.jpg
   social: 
@@ -93,6 +94,7 @@
   surname: "Chirls"
   company: "Datavized"
   title: "CTO Datavized"
+  bio: "Brian Chirls is the Chief Technology Officer at Datavized, a NYC-based company building tools and 3D experiences for the web (PlayLabs at MIT start-up). A recognized innovator in the independent film world, he was previously the Digital Technology Fellow at POV, a position funded by the Knight Foundation. He has developed innovative models for interaction, data visualization and content-authoring in virtual reality. Brian has helped to create a new genre of interactive video pieces and software libraries that demonstrate ways to combine the interactivity and connectivity of the web with the aesthetic power of cinema. His work has been presented at CPH:DOX, MIT, IDFA DocLab, SXSW and Tribeca Film Institute."
   thumbnailUrl: BrianChirls.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -102,6 +104,7 @@
   surname: "Anderson"
   company: "Datavized"
   title: "CSO Datavized"
+  bio: "Debra Anderson is the Co-founder & Chief Strategy Officer of Datavized Technologies, Inc., a NYC-based company specialized in building custom tools and 3D experiences for the mobile web (PlayLabs at MIT start-up). She is recognized for data-driven and researched based approaches to immersive experiences and emerging technologies. Applying her expertise in WebXR and data visualization, she designs innovative software solutions, has produced and directed groundbreaking interactive web experiences for clients (Google, Mozilla, EY, UN, and the NFB) and was selected by the Sundance Institute for the New Frontier Storytelling Lab. High profile exhibitions: the UN General Assembly, Data for Development Festival, World Bank, Fast Company Innovation Festival, MIT and Harvard WeCode. Debra is Adjunct Faculty at Parsons School of Design where she teaches Digital Development: WebXR, The New School's first course in WebXR. Organizer of the Immersive NYC, A-Frame-NYC and WebXR NYC Meetups."
   thumbnailUrl: DebraAnderson.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -130,7 +133,8 @@
   name: "Marky"
   surname: "Markenson"
   company: "PTC"
-  title: "CFO Datavized"
+  title: "Product Manager"
+  bio: "Marty Markenson is a product manager for PTC's augmented reality authoring tool Vuforia Studio. His journey into immersive technologies started with an Oculus DK1 demo at the South by South West conference. After graduating from the University of Illinois with a degree in mechanical engineering he lead prize winning hackathon teams on projects including a VR periodic table and a math based game set in an asteroid field. Today Marty is excited to share his knowledgeable from 4 years in the AR/VR industry with the Reality Virtually Hackathon community."
   thumbnailUrl: MarkyMarkenson.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -139,7 +143,8 @@
   name: "Kevin"
   surname: "Vandecar"
   company: "AutoDesk"
-  title: ""
+  title: "Forge Developer Advocate"
+  bio: "Kevin Vandecar is a Forge developer advocate and also the manager for the Media & Entertainment and Manufacturing Autodesk Developer Network Workgroups. His current specialty is 3ds Max software customization and programming areas. He is also working on web development skills and exploring areas in Three.js. He is based in Manchester, NH, US."
   thumbnailUrl: KevinVandecar.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -176,9 +181,10 @@
 - 
   id: 18
   name: "Laura"
-  surname: "Procter"
+  surname: "Proctor"
   company: "PTC"
   title: ""
+  bio: "Laura Proctor (MIT, SM, Course 2, SM, CDO) is the IoT and AR curriculum team lead at PTC. She has a love for learning, technology, and education. Prior to PTC, she worked at MathWorks developing curriculum around machine learning. While at MIT, her focus was on numerical simulation and prototyping. She was in the first wave of people to become familiar with 3D printing in the early part of the century. Now, it’s a household object! A native of Missouri, she has been living out east for nearly two decades, and loves the ocean and mountains. She can’t wait to share her passion for IoT and smart connected products with you!"
   thumbnailUrl: LauraProctor.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -209,7 +215,7 @@
   company: "Esri"
   title: "Product Manager"
   bio:  "Rex is a Product Manager for the ArcGIS Runtime SDKs at Esri.  He has over 25 years of experience in GIS, spatial analytics, and computer mapping.   He has helped guide the development of native solutions and technologies in the GIS industry to use authoritative geospatial data in augmented and virtual reality experiences. "
-  thumbnailUrl: esri.jpg
+  thumbnailUrl: RexHansen.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -219,7 +225,16 @@
   company: "Ro Network"
   title: "Founder, Ro Network"
   bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
-  thumbnailUrl: alex.jpg
+  thumbnailUrl: alexHiguera.jpg
   social: 
     - {name: "github", link: "https://"}
-
+- 
+  id: 22
+  name: "Lanh"
+  surname: "Hong"
+  company: "AutoDesk"
+  title: "Developer Technical Consultant "
+  bio: "Lanh Hong joined Autodesk as an intern in the summer of 2017 and knew she wanted to come back after graduation. Upon finishing a bachelor’s in Computer Science at the University of California, Davis in 2018, she took the opportunity to join Autodesk as a Developer Technical Consultant working closely with the Autodesk Maya API. Her primary focus is coming up to speed with Maya and support customers customizing and extending Maya’s functionalities using the C++ and Python API. She is constantly learning and helping others and is based in San Francisco, CA."
+  thumbnailUrl: lanhHong.jpg
+  social: 
+    - {name: "github", link: "https://"}
