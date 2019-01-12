@@ -48,30 +48,6 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   language: en
   complexity: "Intermediate"
 -
-  id: 07
-  title: "Designing UI/UX for AR"
-  description: ""
-  subtype: workshop
-  workshop_leaders: [6]
-  language: en
-  complexity: "Beginner"
--
-  id: 08
-  title: "GoogleVR/Daydream"
-  description: "Learn to use Google’s VR platform with Unity Game Engine to build experiences for Google Cardboard and Daydream View headsets. We will cover everything from setting up the development environment to building and running the demo scenes and writing simple scripts in C#. By the end of the workshop, you will have a working VR game!"
-  subtype: workshop
-  workshop_leaders: [7]
-  language: en
-  complexity: "Intermediate" 
--
-  id: 09
-  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
-  description: ""
-  subtype: workshop
-  workshop_leaders: [8]
-  language: en
-  complexity: "Beginner" 
--
   id: 10
   title: "Getting Started with WebXR"
   description: "Datavized co-founders Brian Chirls and Debra Anderson will present a workshop on WebXR and the immersive web, including an overview of the WebXR API, an introduction to building WebVR applications and practical tips for getting started. Topics covered will include an intro to open-source tools and frameworks like A-Frame, hosting, resources and use cases. Discussions on advanced uses of WebXR, design and technical considerations will be tailored during a live demo and Q&A session."
@@ -150,7 +126,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   subtype: workshop
   workshop_leaders: [3, 7]
   language: en
-  complexity: "Beginner" 
+  complexity: "Beginner - Intermediate" 
 -
   id: 20
   title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
@@ -181,6 +157,30 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   description: "Come learn how to geo-enable your data and create powerful VR/AR/MR experiences using Esri technology, the industry leader in digital mapping software and solutions.  First, we’ll discuss our existing data offerings and capabilities available as part of the ArcGIS Platform.  Next, we’ll show how to prepare and distribute your data for use in immersive augmented and virtual experiences.  Finally, we’ll show how AR/VR apps can be developed on native app frameworks using the ArcGIS Runtime."
   subtype: workshop
   workshop_leaders: [22]
+  language: en
+  complexity: "Beginner"
+-
+  id: 24
+  title: "Designing UI/UX for AR"
+  description: "This workshop will give you a beginner’s inventory of AR UI/UX design patterns and share some best practices. We will start by analyzing an AR experience and exploring its design. Then, we will discuss some principle design foundations as well as do’s and don’ts and see how those have been applied to the AR experience. Then we will dive deeper into concepts for designing in 3D and wrap up with a different AR experience and see if you can apply what you have learned to improve it!"
+  subtype: workshop
+  workshop_leaders: [6]
+  language: en
+  complexity: "Beginner"
+-
+  id: 25
+  title: "GoogleVR/Daydream"
+  description: "Learn to use Google’s VR platform with Unity Game Engine to build experiences for Google Cardboard and Daydream View headsets. We will cover everything from setting up the development environment to building and running the demo scenes and writing simple scripts in C#. By the end of the workshop, you will have a working VR game!"
+  subtype: workshop
+  workshop_leaders: [7]
+  language: en
+  complexity: "Beginner"
+-
+  id: 26
+  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
+  description: "The Magic Leap One offers an unprecedentedly powerful feature set for XR creators. In this workshop Michael Hazani and Tricia Katz, Grassroots Evangelists at Magic Leap, will introduce Magic Leap's hardware & software ecosystems and demonstrate the various pathways to developing with the Magic Leap One. Additionally, they will present a range of useful tools and helpful resources that will empower attendees to work with the device, take advantage of all it has to offer, and embark on a boundless spatial computing journey!"
+  subtype: workshop
+  workshop_leaders: [8]
   language: en
   complexity: "Beginner"
   
