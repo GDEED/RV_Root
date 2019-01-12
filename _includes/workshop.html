@@ -57,17 +57,6 @@
                                         </ul>
                                     </div>
                                 </div>
-                                {% elsif slot == session.id and session.service != null %}
-                                <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
-                                    <div class="color-line"></div>
-                                    <div class="slot-content">
-                                        <h5 class="slot-title allow-selection" itemprop="name">{{ session.title }}</h5>
-                                        {% if session.description != null %}
-                                        <p class="service-description allow-selection">{{ session.description }}</p>
-                                        <p class="service-description allow-selection">Location: {{ session.place }}</p>
-                                        {% endif %}
-                                    </div>
-                                </div>
                                 {% endif %}
                             {% endfor %}
                         {% else %}

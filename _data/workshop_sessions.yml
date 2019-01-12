@@ -48,33 +48,9 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   language: en
   complexity: "Intermediate"
 -
-  id: 07
-  title: "Designing UI/UX for AR"
-  description: ""
-  subtype: workshop
-  workshop_leaders: [6]
-  language: en
-  complexity: "Beginner"
--
-  id: 08
-  title: "GoogleVR/Daydream"
-  description: "Learn to use Google’s VR platform with Unity Game Engine to build experiences for Google Cardboard and Daydream View headsets. We will cover everything from setting up the development environment to building and running the demo scenes and writing simple scripts in C#. By the end of the workshop, you will have a working VR game!"
-  subtype: workshop
-  workshop_leaders: [7]
-  language: en
-  complexity: "Intermediate" 
--
-  id: 09
-  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
-  description: ""
-  subtype: workshop
-  workshop_leaders: [8]
-  language: en
-  complexity: "Beginner" 
--
   id: 10
-  title: "Intro to open-source/WebVR/WebAR"
-  description: ""
+  title: "Getting Started with WebXR"
+  description: "Datavized co-founders Brian Chirls and Debra Anderson will present a workshop on WebXR and the immersive web, including an overview of the WebXR API, an introduction to building WebVR applications and practical tips for getting started. Topics covered will include an intro to open-source tools and frameworks like A-Frame, hosting, resources and use cases. Discussions on advanced uses of WebXR, design and technical considerations will be tailored during a live demo and Q&A session."
   subtype: workshop
   workshop_leaders: [9, 10]
   language: en
@@ -82,9 +58,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 11
   title: "Cross platform VR Development with Unity and VIU"
-  description: "This hands on lecture and workshop will show you how to get started with Unity and the Vive Input Utility (VIU) Unity plugin for developing VR that will work across many of the current and upcoming HMDs. Even if you are a seasoned developer we will cover advanced topics like managing input devices, porting from PC to mobile and also visit best practices from http://xra.org
- 
-We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus (Wave platform) but using VIU you will be able to target over a dozen PC and mobile VR devices (and not just Vive devices). To prepare you can take a look at the following blog, https://community.viveport.com/t5/Developer-Blog/bg-p/devblog and also visit http://developer.vive.com for additional resources. If attending please arrive with the Unity 2018.2 (and the Android development tools for Unity) already installed."
+  description: "This hands on lecture and workshop will show you how to get started with Unity and the Vive Input Utility (VIU) Unity plugin for developing VR that will work across many of the current and upcoming HMDs. Even if you are a seasoned developer we will cover advanced topics like managing input devices, porting from PC to mobile and also visit best practices from http://xra.org. We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus (Wave platform) but using VIU you will be able to target over a dozen PC and mobile VR devices (and not just Vive devices). To prepare you can take a look at the following blog, https://community.viveport.com/t5/Developer-Blog/bg-p/devblog and also visit http://developer.vive.com for additional resources. If attending please arrive with the Unity 2018.2 (and the Android development tools for Unity) already installed."
   subtype: workshop
   workshop_leaders: [11, 12]
   language: en
@@ -102,7 +76,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   title: "Autodesk Forge for AR or VR experiences"
   description: "Autodesk Forge is a cloud platform for web developers that allow you to easily translate and view CAD and 3D data. In addition to the Forge Viewer’s capability for WebVR, Autodesk also has a toolkit in beta, that allows a similar workflow into Unity which then allows publishing the interactive experience to many of the popular AR and VR devices on the market today. This class will give an introduction to the Forge web services including the viewer’s WebVR functionality, and the Forge Unity toolkit. After the workshop, you will be able to translate your own 3D assets and use them via the Forge workflow into Unity."
   subtype: workshop
-  workshop_leaders: [14]
+  workshop_leaders: [14, 22]
   language: en
   complexity: "Beginner"
 -
@@ -115,16 +89,16 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   complexity: "Beginner"
 -
   id: 15
-  title: "Rapid Prototyping for Non-Developers with Simmetri"
-  description: ""
+  title: "Create A VR Music Video (or VR Story) - In one hour"
+  description: "Maybe you're not a voracious coder... Maybe you don't code at all but you still want to create something magnificent in VR.  Come watch and learn as Simmetri co-founder Max Harper show how quickly you can unlock your Mixed-Reality imagination. Combining some of Simmetri's easy yet powerful features like: terrain, scene-building and atmosphere effects, spatial audio, timeline animation, real-time audio reactivity, physics effects, and optional simple scripting-- we'll create an immersive music video, story or educational experience in 1 hour. "
   subtype: workshop
   workshop_leaders: [16, 17]
   language: en
   complexity: "Beginner"
 -
   id: 16
-  title: "Data Vis with Geometric"
-  description: ""
+  title: "Building Immersive WebXR Data Visualization with Geometric"
+  description: "Learn how to easily build and share immersive 3D experiences in minutes without coding using Geometric, a new software tool by Datavized Technologies. In this workshop participants will use the Geometric dashboard tool and learn the fundamentals of immersive data visualization and WebXR, how to prepare and clean location data sets, import and map geospatial data to a 3D globe for a 360° view of trends and insights, and customize a 3D project for presentation on the web and in virtual reality and mixed reality headsets. Each workshop participant will be given Early Adopter access to Geometric. Product Website: http://geometric.space/ "
   subtype: workshop
   workshop_leaders: [9, 10]
   language: en
@@ -152,7 +126,7 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   subtype: workshop
   workshop_leaders: [3, 7]
   language: en
-  complexity: "Beginner" 
+  complexity: "Beginner - Intermediate" 
 -
   id: 20
   title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
@@ -168,6 +142,45 @@ We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus 
   subtype: workshop
   workshop_leaders: [0]
   language: en
-  complexity: "Beginner"  
- 
+  complexity: "Beginner"
+-
+  id: 22
+  title: "Geo-enable your data with ESRI"
+  description: "Come learn how to geo-enable your data and create powerful VR/AR/MR experiences using Esri technology, the industry leader in digital mapping software and solutions.  First, we’ll discuss our existing data offerings and capabilities available as part of the ArcGIS Platform.  Next, we’ll show how to prepare and distribute your data for use in immersive augmented and virtual experiences.  Finally, we’ll show how AR/VR apps can be developed on native app frameworks using the ArcGIS Runtime."
+  subtype: workshop
+  workshop_leaders: [21]
+  language: en
+  complexity: "Beginner"
+-
+  id: 23
+  title: "Github"
+  description: "Come learn how to geo-enable your data and create powerful VR/AR/MR experiences using Esri technology, the industry leader in digital mapping software and solutions.  First, we’ll discuss our existing data offerings and capabilities available as part of the ArcGIS Platform.  Next, we’ll show how to prepare and distribute your data for use in immersive augmented and virtual experiences.  Finally, we’ll show how AR/VR apps can be developed on native app frameworks using the ArcGIS Runtime."
+  subtype: workshop
+  workshop_leaders: [22]
+  language: en
+  complexity: "Beginner"
+-
+  id: 24
+  title: "Designing UI/UX for AR"
+  description: "This workshop will give you a beginner’s inventory of AR UI/UX design patterns and share some best practices. We will start by analyzing an AR experience and exploring its design. Then, we will discuss some principle design foundations as well as do’s and don’ts and see how those have been applied to the AR experience. Then we will dive deeper into concepts for designing in 3D and wrap up with a different AR experience and see if you can apply what you have learned to improve it!"
+  subtype: workshop
+  workshop_leaders: [6]
+  language: en
+  complexity: "Beginner"
+-
+  id: 25
+  title: "GoogleVR/Daydream"
+  description: "Learn to use Google’s VR platform with Unity Game Engine to build experiences for Google Cardboard and Daydream View headsets. We will cover everything from setting up the development environment to building and running the demo scenes and writing simple scripts in C#. By the end of the workshop, you will have a working VR game!"
+  subtype: workshop
+  workshop_leaders: [7]
+  language: en
+  complexity: "Beginner"
+-
+  id: 26
+  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
+  description: "The Magic Leap One offers an unprecedentedly powerful feature set for XR creators. In this workshop Michael Hazani and Tricia Katz, Grassroots Evangelists at Magic Leap, will introduce Magic Leap's hardware & software ecosystems and demonstrate the various pathways to developing with the Magic Leap One. Additionally, they will present a range of useful tools and helpful resources that will empower attendees to work with the device, take advantage of all it has to offer, and embark on a boundless spatial computing journey!"
+  subtype: workshop
+  workshop_leaders: [8]
+  language: en
+  complexity: "Beginner"
   

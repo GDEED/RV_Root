@@ -34,22 +34,22 @@
 									{% if session_speaker == leader.id %}
 									<div class="row">
 										<div class="col-md-2 col-sm-2">
-											<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+											<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: leader.thumbnailUrl }})"></div>
 										</div>
 										<div class="col-md-10 col-sm-10 details">
-											<p class="name">{{ speaker.name }} {{ speaker.surname }}
-												<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
+											<p class="name">{{ leader.name }} {{ leader.surname }}
+												<span class="position">{{ leader.title }}, {{ leader.company }}</span>
 											</p>
-											{% if speaker.ribbon != null %}
+											{% if leader.ribbon != null %}
 											<div class="modal-ribbon-wrapper">
-					                            {% for ribbon in speaker.ribbon %}
+					                            {% for ribbon in leader.ribbon %}
 					                               <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>   
 					                            {% endfor %}
 					                        </div>
 					                        {% endif %}
-											<p class="about">{{ speaker.bio }}</p>
+											<p class="about">{{ leader.bio }}</p>
 											<ul class="social">
-												{% for social in speaker.social %}
+												{% for social in leader.social %}
 													<li>
 														<a href="{{ social["link"] }}" target="_blank">
 															<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
