@@ -754,6 +754,39 @@
   description: "Adrien Meriaux has been a software developer for 15 years. He has been working on all the popular platforms and programming languages mostly to solve GIS (Geographical Information System) problems. For the past 4 years he has been working on AR VR experiences for GIS. He was one of the first to enable GIS experience inside the HoloLens and is now working on sets of APIs to let developers create their own experiences."
 -
   id: 45
+  name: "Louis"
+  surname: "DeScioli"
+  thumbnailUrl: LouisDeScioli.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/louisdescioli/"}
+    - {name: "site", link: "https://www.descioli.design"}
+    - {name: "twitter", link: "https://twitter.com/louisdescioli"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+  description: "Louis is a designer and engineer at Google Daydream working to bring augmented and virtual reality to the masses. He got his start in VR and AR at this very hackathon and is excited to return as a mentor and pay it forward. Before entering the immersive industry, he was making smart indoor aquaponic gardens at Grove and autism therapy applications at Sidekicks. He holds a bachelor's degree in Electrical Engineering and Computer Science from MIT, and is on a mission to help bring people closer together to each other, their communities, and the natural world."
+-
+  id: 46
+  name: "Anish"
+  surname: "Dhesikan"
+  thumbnailUrl: AnishDhesikan.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/anishdhesikan/"}
+    - {name: "site", link: "https://anishdhesikan.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Anish Dhesikan is a Software Engineer at Google Daydream VR/AR. He is an avid hacker, having attended over 10 hackathons and winning awards at several, including the Grand Prize at the 2016 Reality Virtually Hackathon. Anish holds a degree in Computer Science and Game Design from Northeastern University. During his studies, he also co-founded 2 startups, Coresights and Subconscious, leading their technology teams. With the Reality Virtually Hackathon helping to launch his VR/AR career, he is excited to return as a mentor to share his knowledge and experience."
+-
+  id: 47
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
@@ -773,7 +806,7 @@
     - {name: "3D Artist (Modeling, Shading, Etc."}
   description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
 -
-  id: 46
+  id: 48
   name: "Jeffrey"
   surname: "Jacobson"
   thumbnailUrl: JeffreyJacobson.jpg
