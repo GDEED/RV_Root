@@ -25,7 +25,7 @@
   surname: "Rodriguez"
   company: "MIT Media Lab"
   title: "PHD, Creative Director, EyeSteelFilms"
-  bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. Over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. She has written a book, articles and academic papers on networked cultures, public engagement and interactive arts, and has acted as UX consultant for public and private media. She has been invited to speak and show immersive work in high visibility events, including: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production. She remains fascinated by the platforms and tools through which we share stories – and currently pursues a new creative exploration at the crossroad of artificial intelligence and human creativity."
+  bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production. She remains fascinated by the platforms and tools through which we share stories – and currently pursues a new creative exploration at the crossroad of artificial intelligence and human creativity."
   thumbnailUrl: SandraRodriguez.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -34,7 +34,8 @@
   name: "Louis"
   surname: "DeScioli"
   company: "Google"
-  title: "Team Lead, Google"
+  title: "Designer, Engineer, Google"
+  bio: "Louis is a designer and engineer at Google Daydream working to bring augmented and virtual reality to the masses. He got his start in VR and AR at this very hackathon and is excited to return as a mentor and pay it forward. Before entering the immersive industry, he was making smart indoor aquaponic gardens at Grove and autism therapy applications at Sidekicks. He holds a bachelor's degree in Electrical Engineering and Computer Science from MIT, and is on a mission to help bring people closer together to each other, their communities, and the natural world."
   thumbnailUrl: LouisDescioli.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -72,6 +73,7 @@
   surname: "Dhesikan"
   company: "PTC"
   title: "Team Lead, PTC"
+  bio: "Anish Dhesikan is a Software Engineer at Google Daydream VR/AR. He is an avid hacker, having attended over 10 hackathons and winning awards at several, including the Grand Prize at the 2016 Reality Virtually Hackathon. Anish holds a degree in Computer Science and Game Design from Northeastern University. During his studies, he also co-founded 2 startups, Coresights and Subconscious, leading their technology teams. With the Reality Virtually Hackathon helping to launch his VR/AR career, he is excited to return as a mentor to share his knowledge and experience."
   thumbnailUrl: AnishDhesikan.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -99,7 +101,7 @@
   name: "Debra"
   surname: "Anderson"
   company: "Datavized"
-  title: "CTO Datavized"
+  title: "CSO Datavized"
   thumbnailUrl: DebraAnderson.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -202,19 +204,21 @@
     - {name: "github", link: "https://"}
 - 
   id: 21
-  name: "Esri"
-  surname: ""
+  name: "Rex"
+  surname: "Hansen"
   company: "Esri"
-  title: ""
+  title: "Product Manager"
+  bio:  "Rex is a Product Manager for the ArcGIS Runtime SDKs at Esri.  He has over 25 years of experience in GIS, spatial analytics, and computer mapping.   He has helped guide the development of native solutions and technologies in the GIS industry to use authoritative geospatial data in augmented and virtual reality experiences. "
   thumbnailUrl: esri.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
   id: 22
   name: "Alex"
-  surname: ""
-  company: "Github"
-  title: ""
+  surname: "Higuera"
+  company: "Ro Network"
+  title: "Founder, Ro Network"
+  bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
   thumbnailUrl: alex.jpg
   social: 
     - {name: "github", link: "https://"}
