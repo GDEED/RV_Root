@@ -136,6 +136,16 @@
   description: "Seha is a former commercial banker who changed her career by following her passion to build new things. She completed intense engineering immersive program and continues to learn and improve herself as a front end web developer. Seha holds an MBA from Radford University and BA in Economics from Bilkent University."
 -
   id: 13
+  name: "VIK"
+  surname: "Parthiban"
+  title: ""
+  thumbnailUrl: VikParthiban.jpg
+  team: true
+  social: 
+    - {name: "in", link: "https://www.linkedin.com/in/vikparthiban/"}
+  description: "Vik is passionate about teams and technologies that shape how people interact with digital information and the physical world. He helped build the Magic Leap One AR headset and led an R&D project for the advanced photonics team. He currently runs the AR community at MIT and plans to launch new initiatives in this space. As a researcher and graduate student at the MIT Media Lab, Vik is building new human-computer interfaces and holographic technology that hope to push AR/VR technology forward. He received his Master of Science in Electrical Engineering, Bachelor of Science in Computer Engineering, and a Bachelor of Arts in Plan II Honors from The University of Texas at Austin." 
+- 
+  id: 14
   name: "ILDAR"
   surname: "IAKUBOV"
   title: "TECHNICAL OPERATIONS"
