@@ -76,7 +76,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   title: "Autodesk Forge for AR or VR experiences"
   description: "Autodesk Forge is a cloud platform for web developers that allow you to easily translate and view CAD and 3D data. In addition to the Forge Viewer’s capability for WebVR, Autodesk also has a toolkit in beta, that allows a similar workflow into Unity which then allows publishing the interactive experience to many of the popular AR and VR devices on the market today. This class will give an introduction to the Forge web services including the viewer’s WebVR functionality, and the Forge Unity toolkit. After the workshop, you will be able to translate your own 3D assets and use them via the Forge workflow into Unity."
   subtype: workshop
-  workshop_leaders: [14, 22]
+  workshop_leaders: [14, 23]
   language: en
   complexity: "Beginner"
 -
