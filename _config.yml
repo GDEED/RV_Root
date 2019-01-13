@@ -45,7 +45,7 @@ navigationLinks:
 # - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
  - link: "/"
    text: "Home"
- - {calltoaction: true, permalink: "/apply", link: "/apply/", text: "Waitlist", style: "color:#d5df2a;" }
+#  - {calltoaction: true, permalink: "/apply", link: "/apply/", text: "Waitlist", style: "color:#d5df2a;" }
 
 
 # - {permalink: "#", text: "Home"}
