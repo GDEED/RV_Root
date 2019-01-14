@@ -5,7 +5,7 @@
   company: "Fasility"
   title: "Developer"
   bio: "I'm head of User Experience at Fasility. My focus is on maximizing the experience that can be delivered through a typical smartphone or tablet, extending upwards to Vive and Oculus with the same codebase. I research device capabilities, sensor fusion, heterogeneous processing, and augmented reality. Lately I have mentored folks from artistic backgrounds to help them seize the means of production in XR. Seeing someone take off with running code in their hand is strangely more satisfying than doing it myself."
-  thumbnailUrl: ChrisLowery.jpg
+  thumbnailUrl: ChrisLowery-copy.jpg
   social: 
     - {name: "google-plus", link: "https://"}
     - {name: "twitter", link: "https://"}
@@ -16,7 +16,7 @@
   surname: "Corning"
   company: "MIT Media Lab"
   title: "Unity 3D Developer"
-  thumbnailUrl: WileyCorning.jpg
+  thumbnailUrl: WileyCorning-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -26,7 +26,7 @@
   company: "MIT Media Lab"
   title: "PHD, Creative Director, EyeSteelFilms"
   bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production."
-  thumbnailUrl: SandraRodriguez.jpg
+  thumbnailUrl: SandraRodriguez-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -36,7 +36,7 @@
   company: "Google"
   title: "Designer, Engineer, Google"
   bio: "Louis is a designer and engineer at Google Daydream working to bring augmented and virtual reality to the masses. He got his start in VR and AR at this very hackathon and is excited to return as a mentor and pay it forward. Before entering the immersive industry, he was making smart indoor aquaponic gardens at Grove and autism therapy applications at Sidekicks. He holds a bachelor's degree in Electrical Engineering and Computer Science from MIT, and is on a mission to help bring people closer together to each other, their communities, and the natural world."
-  thumbnailUrl: LouisDescioli.jpg
+  thumbnailUrl: LouisDescioli-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -45,7 +45,7 @@
   surname: "Roberts"
   company: "Unity"
   title: "Team Lead, Unity 3D Developer"
-  thumbnailUrl: JasmineRoberts.jpg
+  thumbnailUrl: JasmineRoberts-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -55,7 +55,7 @@
   company: "SUNY Oswego"
   title: "PHD"
   bio: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics. "
-  thumbnailUrl: CaglarYildirim.jpg
+  thumbnailUrl: CaglarYildirim-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -65,7 +65,7 @@
   company: "PTC"
   title: "Curriculum Lead, PTC"
   bio: "Joanne started her career as an electrical engineer. After spending time coding programs to test integrated circuits, she found a passion and pivoted to the software industry. To help sustain customers’ success with software, she developed training programs and traveled the world to show customers and partners how to get the most out of their software products. Now, Joanne manages curriculum development for all of PTC’s products, with a focus on augmented reality (AR). She is excited to share what she has learned about designing cutting-edge AR experiences!"
-  thumbnailUrl: JoanneBacharach.jpg
+  thumbnailUrl: JoanneBacharach-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -75,7 +75,7 @@
   company: "PTC"
   title: "Team Lead, PTC"
   bio: "Anish Dhesikan is a Software Engineer at Google Daydream VR/AR. He is an avid hacker, having attended over 10 hackathons and winning awards at several, including the Grand Prize at the 2016 Reality Virtually Hackathon. Anish holds a degree in Computer Science and Game Design from Northeastern University. During his studies, he also co-founded 2 startups, Coresights and Subconscious, leading their technology teams. With the Reality Virtually Hackathon helping to launch his VR/AR career, he is excited to return as a mentor to share his knowledge and experience."
-  thumbnailUrl: AnishDhesikan.jpg
+  thumbnailUrl: AnishDhesikan-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -85,7 +85,7 @@
   company: "MagicLeap"
   title: "Team Lead, Magic Leap"
   bio: "Michael was born in Israel, and spatial computing has held a place in his heart ever since discovering VR at a shopping mall arcade in the early 90s.  After relocating to the US to study at Berklee College of Music (his other passion), Michael spent the next half-decade writing and producing music for artists, films and TV shows. In 2017, after having transitioned from writing songs to writing code and working as a freelance XR developer for several years since, Michael spent an exhilarating year working as a Creative 3D Engineer at Magic Leap. He has recently transitioned to the role of Grassroots Evangelist, in which he gets to share his passion for Magic Leap, spatial computing and digital creativity with amazing creators worldwide. "
-  thumbnailUrl: MichaelHazani.jpg
+  thumbnailUrl: MichaelHazani-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -95,7 +95,7 @@
   company: "Datavized"
   title: "CTO Datavized"
   bio: "Brian Chirls is the Chief Technology Officer at Datavized, a NYC-based company building tools and 3D experiences for the web (PlayLabs at MIT start-up). A recognized innovator in the independent film world, he was previously the Digital Technology Fellow at POV, a position funded by the Knight Foundation. He has developed innovative models for interaction, data visualization and content-authoring in virtual reality. Brian has helped to create a new genre of interactive video pieces and software libraries that demonstrate ways to combine the interactivity and connectivity of the web with the aesthetic power of cinema. His work has been presented at CPH:DOX, MIT, IDFA DocLab, SXSW and Tribeca Film Institute."
-  thumbnailUrl: BrianChirls.jpg
+  thumbnailUrl: BrianChirls-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -105,7 +105,7 @@
   company: "Datavized"
   title: "CSO Datavized"
   bio: "Debra Anderson is the Co-founder & Chief Strategy Officer of Datavized Technologies, Inc., a NYC-based company specialized in building custom tools and 3D experiences for the mobile web (PlayLabs at MIT start-up). She is recognized for data-driven and researched based approaches to immersive experiences and emerging technologies. Applying her expertise in WebXR and data visualization, she designs innovative software solutions, has produced and directed groundbreaking interactive web experiences for clients (Google, Mozilla, EY, UN, and the NFB) and was selected by the Sundance Institute for the New Frontier Storytelling Lab. High profile exhibitions: the UN General Assembly, Data for Development Festival, World Bank, Fast Company Innovation Festival, MIT and Harvard WeCode. Debra is Adjunct Faculty at Parsons School of Design where she teaches Digital Development: WebXR, The New School's first course in WebXR. Organizer of the Immersive NYC, A-Frame-NYC and WebXR NYC Meetups."
-  thumbnailUrl: DebraAnderson.jpg
+  thumbnailUrl: DebraAnderson-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -115,7 +115,7 @@
   company: "HTC"
   title: "senior developer evangelist"
   bio: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
-  thumbnailUrl: DarioLeverde.jpg
+  thumbnailUrl: DarioLeverde-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -125,7 +125,7 @@
   company: "HTC"
   title: "Director, developer relations & partnerships"
   bio: "Jad is Director, developer relations & partnerships at HTC. Prior to joining HTC, Jad was a senior mobile computing specialist at Ford Motor Co., and a consulting engineer at AvantGo. Jad received his BA in management information systems from Oakland University."
-  thumbnailUrl: JadBoniface.jpg
+  thumbnailUrl: JadBoniface-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -135,7 +135,7 @@
   company: "PTC"
   title: "Product Manager"
   bio: "Marty Markenson is a product manager for PTC's augmented reality authoring tool Vuforia Studio. His journey into immersive technologies started with an Oculus DK1 demo at the South by South West conference. After graduating from the University of Illinois with a degree in mechanical engineering he lead prize winning hackathon teams on projects including a VR periodic table and a math based game set in an asteroid field. Today Marty is excited to share his knowledgeable from 4 years in the AR/VR industry with the Reality Virtually Hackathon community."
-  thumbnailUrl: MarkyMarkenson.jpg
+  thumbnailUrl: MarkyMarkenson-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -145,7 +145,7 @@
   company: "Autodesk"
   title: "Forge Developer Advocate"
   bio: "Kevin Vandecar is a Forge developer advocate and also the manager for the Media & Entertainment and Manufacturing Autodesk Developer Network Workgroups. His current specialty is 3ds Max software customization and programming areas. He is also working on web development skills and exploring areas in Three.js. He is based in Manchester, NH, US."
-  thumbnailUrl: KevinVandecar.jpg
+  thumbnailUrl: KevinVandecar-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -155,7 +155,7 @@
   company: "Microsoft"
   title: "Mixed Reality Developer Relations Program Manager"
   bio: "Jesse McCulloch is a Mixed Reality Developer Relations Program Manager at Microsoft. Starting as a Mixed Reality Developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space."
-  thumbnailUrl: JesseMcColloch.jpg
+  thumbnailUrl: JesseMcColloch-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -165,7 +165,7 @@
   company: "Simmetri"
   title: "Product Design Lead"
   bio: "Max drives the vision and product design intentions of Simmetri by drawing on a diverse set of academic, amateur and professional experiences: ranging from professional film-making, stage magic and choreography, to 3D design and architecture, scientific research, renewable energy social entrepreneurship, and enterprise visual strategy consulting.  Max the winner of two top-tier VR Hackathon Awards: MIT Hacking Arts and the SXSW VR Hackathon 2017 (along with co-founder Amedeo). Max is a former co-director and alumni advisory board member of MIT Hacking Arts.  Before Simmetri, Harper served the revolutionary digital media strategy for the Obama 2008 campaign as video producer. Max is the co-founder and former Innovation Director of Groundswell, a social enterprise that won over 5 national awards for social innovation"
-  thumbnailUrl: MaxHarper.jpg
+  thumbnailUrl: MaxHarper-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -175,7 +175,7 @@
   company: "Simmetri"
   title: "Founder, Creator"
   bio: "Creator of Simmetri, a unique sandbox application for creating XR experiences. Amedeo has been designing and writing applications since 1993; most of the time focused on writing native C++ graphics and audio engines and the creative front-ends built on top of the engines. He’s been working on Simmetri full time for over 10 years. In 2014 he added in support for VR. Before working on Simmetri, Mapelli was one of the original founders ofiZotope, a leading audio software company for the music industry, serving artists such as Trent Reznor, Nine-Inch Nails and Jay Z. In 2013, iZotope won the Emmy Award for Technology and Engineering."
-  thumbnailUrl: AmedeoMapelli.jpg
+  thumbnailUrl: AmedeoMapelli-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -185,7 +185,7 @@
   company: "PTC"
   title: ""
   bio: "Laura Proctor (MIT, SM, Course 2, SM, CDO) is the IoT and AR curriculum team lead at PTC. She has a love for learning, technology, and education. Prior to PTC, she worked at MathWorks developing curriculum around machine learning. While at MIT, her focus was on numerical simulation and prototyping. She was in the first wave of people to become familiar with 3D printing in the early part of the century. Now, it’s a household object! A native of Missouri, she has been living out east for nearly two decades, and loves the ocean and mountains. She can’t wait to share her passion for IoT and smart connected products with you!"
-  thumbnailUrl: LauraProctor.jpg
+  thumbnailUrl: LauraProctor-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -194,7 +194,7 @@
   surname: "Striga"
   company: "WayRay"
   title: ""
-  thumbnailUrl: LeonidStriga.jpg
+  thumbnailUrl: LeonidStriga-copy.jpg
   bio: "As the product owner of WayRay’s True AR SDK, Leonid Striga has played a key role in each stage of its development—from defining toolset functionality to improving the API. A trained software development engineer with more than 12 years experience in software architecture and UI development, Striga will bring his in-depth knowledge to the hackathon to help in advancing WayRay’s solutions."
   social: 
     - {name: "github", link: "https://"}
@@ -205,7 +205,7 @@
   company: "WayRay"
   title: ""
   bio: "Gergely Kis is an IT professional and entrepreneur with 14+ years of experience in mobile, embedded and enterprise technology. He joined WayRay to help developers build AR apps with the best tools."
-  thumbnailUrl: GergelyKis.jpg
+  thumbnailUrl: GergelyKis-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -215,7 +215,7 @@
   company: "Esri"
   title: "Product Manager"
   bio:  "Rex is a Product Manager for the ArcGIS Runtime SDKs at Esri.  He has over 25 years of experience in GIS, spatial analytics, and computer mapping.   He has helped guide the development of native solutions and technologies in the GIS industry to use authoritative geospatial data in augmented and virtual reality experiences. "
-  thumbnailUrl: RexHansen.jpg
+  thumbnailUrl: RexHansen-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -225,7 +225,7 @@
   company: "Ro Network"
   title: "Founder, Ro Network"
   bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
-  thumbnailUrl: AlexHiguera.jpg
+  thumbnailUrl: AlexHiguera-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -235,6 +235,6 @@
   company: "Autodesk"
   title: "Developer Technical Consultant "
   bio: "Lanh Hong joined Autodesk as an intern in the summer of 2017 and knew she wanted to come back after graduation. Upon finishing a bachelor’s in Computer Science at the University of California, Davis in 2018, she took the opportunity to join Autodesk as a Developer Technical Consultant working closely with the Autodesk Maya API. Her primary focus is coming up to speed with Maya and support customers customizing and extending Maya’s functionalities using the C++ and Python API. She is constantly learning and helping others and is based in San Francisco, CA."
-  thumbnailUrl: LanhHong.jpg
+  thumbnailUrl: LanhHong-copy.jpg
   social: 
     - {name: "github", link: "https://"}
