@@ -55,7 +55,7 @@
   company: "SUNY Oswego"
   title: "PHD"
   bio: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics. "
-  thumbnailUrl: caglarYildirim.jpg
+  thumbnailUrl: CaglarYildirim.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -65,7 +65,7 @@
   company: "PTC"
   title: "Curriculum Lead, PTC"
   bio: "Joanne started her career as an electrical engineer. After spending time coding programs to test integrated circuits, she found a passion and pivoted to the software industry. To help sustain customers’ success with software, she developed training programs and traveled the world to show customers and partners how to get the most out of their software products. Now, Joanne manages curriculum development for all of PTC’s products, with a focus on augmented reality (AR). She is excited to share what she has learned about designing cutting-edge AR experiences!"
-  thumbnailUrl: joanneBacharach.jpg
+  thumbnailUrl: JoanneBacharach.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -115,7 +115,7 @@
   company: "HTC"
   title: "senior developer evangelist"
   bio: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
-  thumbnailUrl: darioLeverde.jpg
+  thumbnailUrl: DarioLeverde.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -225,7 +225,7 @@
   company: "Ro Network"
   title: "Founder, Ro Network"
   bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
-  thumbnailUrl: alexHiguera.jpg
+  thumbnailUrl: AlexHiguera.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -235,6 +235,6 @@
   company: "Autodesk"
   title: "Developer Technical Consultant "
   bio: "Lanh Hong joined Autodesk as an intern in the summer of 2017 and knew she wanted to come back after graduation. Upon finishing a bachelor’s in Computer Science at the University of California, Davis in 2018, she took the opportunity to join Autodesk as a Developer Technical Consultant working closely with the Autodesk Maya API. Her primary focus is coming up to speed with Maya and support customers customizing and extending Maya’s functionalities using the C++ and Python API. She is constantly learning and helping others and is based in San Francisco, CA."
-  thumbnailUrl: lanhHong.jpg
+  thumbnailUrl: LanhHong.jpg
   social: 
     - {name: "github", link: "https://"}
