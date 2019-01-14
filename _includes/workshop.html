@@ -46,7 +46,7 @@
 											{% for leader in site.data.workshop_leaders %}
 												{% for session_speaker in session.workshop_leaders %}
 													{% if session_speaker == leader.id %}
-                                                    	<li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: leader.thumbnailUrl }})"></div>
+                                                    	<li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: leader.thumbnailUrl | downcase }})"></div>
                                                     	<p class="speaker-name allow-selection">{{ leader.name }} {{ leader.surname }}
                                                         	<span class="speaker-position">{{ leader.company }}</span>
                                                     	</p>
