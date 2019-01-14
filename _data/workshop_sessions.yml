@@ -154,7 +154,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 23
   title: "Github"
-  description: "Come learn how to geo-enable your data and create powerful VR/AR/MR experiences using Esri technology, the industry leader in digital mapping software and solutions.  First, we’ll discuss our existing data offerings and capabilities available as part of the ArcGIS Platform.  Next, we’ll show how to prepare and distribute your data for use in immersive augmented and virtual experiences.  Finally, we’ll show how AR/VR apps can be developed on native app frameworks using the ArcGIS Runtime."
+  description: "This workshop on Github will introduce participants to source control and best practices with Git.  Learn how to collaborate on a team and keep track of changes through a shared code repository.  The basics of GitHub will covered, such as file structure, code versioning, and branching off a main source. We'll go over how to pull, modify, commit, and merge code onto a master branch.  We'll also review how to manage large files (audio, video, hi-res images) through GitHub's Large File Storage (LFS) system.  Students will have the option of using a command-line interface or GitHub's user-friendly desktop application.  This workshop is for those new to source control and versioning, or looking to improve their git skills."
   subtype: workshop
   workshop_leaders: [22]
   language: en

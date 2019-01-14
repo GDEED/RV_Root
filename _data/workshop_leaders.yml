@@ -7,9 +7,7 @@
   bio: "I'm head of User Experience at Fasility. My focus is on maximizing the experience that can be delivered through a typical smartphone or tablet, extending upwards to Vive and Oculus with the same codebase. I research device capabilities, sensor fusion, heterogeneous processing, and augmented reality. Lately I have mentored folks from artistic backgrounds to help them seize the means of production in XR. Seeing someone take off with running code in their hand is strangely more satisfying than doing it myself."
   thumbnailUrl: ChrisLowery-copy.jpg
   social: 
-    - {name: "google-plus", link: "https://"}
-    - {name: "twitter", link: "https://"}
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "https://twitter.com/Fasility_VR"}
 - 
   id: 1
   name: "Wiley"
@@ -28,7 +26,7 @@
   bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production."
   thumbnailUrl: SandraRodriguez-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "https://twitter.com/rodriguezsand02"}
 - 
   id: 3
   name: "Louis"
@@ -36,7 +34,7 @@
   company: "Google"
   title: "Designer, Engineer, Google"
   bio: "Louis is a designer and engineer at Google Daydream working to bring augmented and virtual reality to the masses. He got his start in VR and AR at this very hackathon and is excited to return as a mentor and pay it forward. Before entering the immersive industry, he was making smart indoor aquaponic gardens at Grove and autism therapy applications at Sidekicks. He holds a bachelor's degree in Electrical Engineering and Computer Science from MIT, and is on a mission to help bring people closer together to each other, their communities, and the natural world."
-  thumbnailUrl: LouisDescioli-copy.jpg
+  thumbnailUrl: LouisDeScioli-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
@@ -45,6 +43,7 @@
   surname: "Roberts"
   company: "Unity"
   title: "Team Lead, Unity 3D Developer"
+  bio: "Jasmine Roberts is an incoming software engineer and creative technologist in the Unity Labs group."
   thumbnailUrl: JasmineRoberts-copy.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -97,7 +96,7 @@
   bio: "Brian Chirls is the Chief Technology Officer at Datavized, a NYC-based company building tools and 3D experiences for the web (PlayLabs at MIT start-up). A recognized innovator in the independent film world, he was previously the Digital Technology Fellow at POV, a position funded by the Knight Foundation. He has developed innovative models for interaction, data visualization and content-authoring in virtual reality. Brian has helped to create a new genre of interactive video pieces and software libraries that demonstrate ways to combine the interactivity and connectivity of the web with the aesthetic power of cinema. His work has been presented at CPH:DOX, MIT, IDFA DocLab, SXSW and Tribeca Film Institute."
   thumbnailUrl: BrianChirls-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "https://twitter.com/bchirls"}
 - 
   id: 10
   name: "Debra"
@@ -107,7 +106,7 @@
   bio: "Debra Anderson is the Co-founder & Chief Strategy Officer of Datavized Technologies, Inc., a NYC-based company specialized in building custom tools and 3D experiences for the mobile web (PlayLabs at MIT start-up). She is recognized for data-driven and researched based approaches to immersive experiences and emerging technologies. Applying her expertise in WebXR and data visualization, she designs innovative software solutions, has produced and directed groundbreaking interactive web experiences for clients (Google, Mozilla, EY, UN, and the NFB) and was selected by the Sundance Institute for the New Frontier Storytelling Lab. High profile exhibitions: the UN General Assembly, Data for Development Festival, World Bank, Fast Company Innovation Festival, MIT and Harvard WeCode. Debra is Adjunct Faculty at Parsons School of Design where she teaches Digital Development: WebXR, The New School's first course in WebXR. Organizer of the Immersive NYC, A-Frame-NYC and WebXR NYC Meetups."
   thumbnailUrl: DebraAnderson-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "https://twitter.com/debraeanderson"}
 - 
   id: 11
   name: "Dario"
@@ -166,8 +165,6 @@
   title: "Product Design Lead"
   bio: "Max drives the vision and product design intentions of Simmetri by drawing on a diverse set of academic, amateur and professional experiences: ranging from professional film-making, stage magic and choreography, to 3D design and architecture, scientific research, renewable energy social entrepreneurship, and enterprise visual strategy consulting.  Max the winner of two top-tier VR Hackathon Awards: MIT Hacking Arts and the SXSW VR Hackathon 2017 (along with co-founder Amedeo). Max is a former co-director and alumni advisory board member of MIT Hacking Arts.  Before Simmetri, Harper served the revolutionary digital media strategy for the Obama 2008 campaign as video producer. Max is the co-founder and former Innovation Director of Groundswell, a social enterprise that won over 5 national awards for social innovation"
   thumbnailUrl: MaxHarper-copy.jpg
-  social: 
-    - {name: "github", link: "https://"}
 - 
   id: 17
   name: "Amedeo"
@@ -227,7 +224,7 @@
   bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
   thumbnailUrl: AlexHiguera-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "github", link: "https://github.com/alexfigtree/"}
 - 
   id: 23
   name: "Lanh"
