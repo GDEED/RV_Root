@@ -21,7 +21,7 @@
   id: 2
   name: "Sandra"
   surname: "Rodriguez"
-  company: "MIT Media Lab"
+  company: "MIT CMS/W, EyeSteelFilms"
   title: "PHD, Creative Director, EyeSteelFilms"
   bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production."
   thumbnailUrl: SandraRodriguez-copy.jpg
@@ -88,7 +88,7 @@
   bio: "Michael was born in Israel, and spatial computing has held a place in his heart ever since discovering VR at a shopping mall arcade in the early 90s.  After relocating to the US to study at Berklee College of Music (his other passion), Michael spent the next half-decade writing and producing music for artists, films and TV shows. In 2017, after having transitioned from writing songs to writing code and working as a freelance XR developer for several years since, Michael spent an exhilarating year working as a Creative 3D Engineer at Magic Leap. He has recently transitioned to the role of Grassroots Evangelist, in which he gets to share his passion for Magic Leap, spatial computing and digital creativity with amazing creators worldwide. "
   thumbnailUrl: MichaelHazani-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "@michaelhazani"}
 - 
   id: 9
   name: "Brian"
@@ -247,3 +247,13 @@
   thumbnailUrl: DmitriZagidulin.jpg
   social: 
     - {name: "github", link: ""}
+-
+  id: 25
+  name: "Tricia"
+  surname: "Katz"
+  company: "MagicLeap"
+  title: "k"
+  bio: ""
+  thumbnailUrl: TriciaKatz.jpg
+  social: 
+    - {name: "twitter", link: "@triciaakatz"}
