@@ -71,12 +71,14 @@
   id: 7
   name: "Anish"
   surname: "Dhesikan"
-  company: "PTC"
-  title: "Team Lead, PTC"
+  company: "Google"
+  title: "Team Lead, Google"
   bio: "Anish Dhesikan is a Software Engineer at Google Daydream VR/AR. He is an avid hacker, having attended over 10 hackathons and winning awards at several, including the Grand Prize at the 2016 Reality Virtually Hackathon. Anish holds a degree in Computer Science and Game Design from Northeastern University. During his studies, he also co-founded 2 startups, Coresights and Subconscious, leading their technology teams. With the Reality Virtually Hackathon helping to launch his VR/AR career, he is excited to return as a mentor to share his knowledge and experience."
   thumbnailUrl: AnishDhesikan-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "website", link: "https://www.anishdhesikan.com/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/anishdhesikan/"}
+    - {name: "twitter", link: "https://www.twitter.com/AnishDhesikan"}
 - 
   id: 8
   name: "Michael"
@@ -235,3 +237,13 @@
   thumbnailUrl: LanhHong-copy.jpg
   social: 
     - {name: "github", link: "https://"}
+-
+  id: 24
+  name: "Dmitri"
+  surname: "Zagidulin"
+  company: "Ro Network"
+  title: "k"
+  bio: ""
+  thumbnailUrl: DmitriZagidulin.jpg
+  social: 
+    - {name: "github", link: ""}
