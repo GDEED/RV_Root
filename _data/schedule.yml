@@ -127,6 +127,11 @@
     	endTime: "7:00pm",
     	sessionIds: [310]
     }
+    - {
+    	startTime: "8:00pm",
+    	endTime: "9:30pm",
+    	sessionIds: [316]
+    }
 -
   date: "2019-1-21"
   dateReadable: "Monday January 21"
@@ -150,7 +155,7 @@
     }
     - {
     	startTime: "2:00pm",
-    	endTime: "5:00pm",
+    	endTime: "5:30pm",
     	sessionIds: [506]
     } 
     - {

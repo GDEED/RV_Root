@@ -119,6 +119,12 @@
   service: true
   description: "Last one returned is a rotten egg!"
 -
+  id: 316
+  title: "Hackathon Reception"
+  place: "E15 Wiesner Building. 20 AMES ST, Cambridge, MA 02139"
+  service: true
+  description: "Relax, Rest, Revive"
+-
   id: 001
   title: "Material design: Visual style and imagery"
   description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
