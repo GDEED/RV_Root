@@ -222,7 +222,7 @@
   name: "Alex"
   surname: "Higuera"
   company: "Ro Network"
-  title: "Founder, Ro Network"
+  title: "Co-Founder, Ro Network"
   bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
   thumbnailUrl: AlexHiguera-copy.jpg
   social: 
@@ -242,17 +242,17 @@
   name: "Dmitri"
   surname: "Zagidulin"
   company: "Ro Network"
-  title: "k"
-  bio: ""
+  title: "Co-Founder, Ro Network"
+  bio: "Dmitri is a software engineer and data rights activist, focusing on in distributed systems, decentralized identity and authentication. Formerly with the MIT Solid Project, he spends his time writing code for distributed ledgers and personal data stores, mentoring new developers, and co-founding Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
   thumbnailUrl: DmitriZagidulin.jpg
   social: 
-    - {name: "github", link: ""}
+    - {name: "website", link: "www.ro.network"}
 -
   id: 25
   name: "Tricia"
   surname: "Katz"
   company: "MagicLeap"
-  title: "k"
+  title: ""
   bio: ""
   thumbnailUrl: TriciaKatz.jpg
   social: 
