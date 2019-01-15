@@ -10,14 +10,19 @@
     	sessionIds: [399]
     }
     - {
-    	startTime: "9:00am",
-    	endTime: "5:00pm",
+    	startTime: "9:30am",
+    	endTime: "5:30pm",
     	sessionIds: [400]
     }
     - {
-        startTime: "6:00pm",
-        endTime: "",
-        sessionIds: [401]
+      startTime: "5:30pm",
+      endTime: "6:45pm",
+      sessionIds: [401]
+    }
+    - {
+      startTime: "7:00pm",
+      endTime: "11:00pm",
+      sessionIds: [512]
     }
 - 
   date: "2019-1-18"
@@ -30,6 +35,26 @@
     	endTime: "12:00am",
     	sessionIds: [402]
     }
+    - {
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [507]
+    }
+    - {
+    	startTime: "8:00am",
+    	endTime: "3:00am",
+    	sessionIds: [508]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [509]
+    }
+    - {
+    	startTime: "5:30pm",
+    	endTime: "7:00pm",
+    	sessionIds: [510]
+    }
 -
   date: "2019-1-19"
   dateReadable: "Saturday January 19"
@@ -40,6 +65,21 @@
     	startTime: "7:00am",
     	endTime: "12:00am",
     	sessionIds: [402]
+    }
+    - {
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [507]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [509]
+    }
+    - {
+    	startTime: "5:30pm",
+    	endTime: "7:00pm",
+    	sessionIds: [510]
     }
 -
   date: "2019-1-20"
@@ -52,12 +92,42 @@
     	endTime: "12:00am",
     	sessionIds: [403]
     }
+    - {
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [507]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [509]
+    }
+    - {
+    	startTime: "",
+    	endTime: "",
+    	sessionIds: [516]
+    }
+    - {
+    	startTime: "5:30pm",
+    	endTime: "7:00pm",
+    	sessionIds: [510]
+    }
+    - {
+    	startTime: "8:00pm",
+    	endTime: "9:30pm",
+    	sessionIds: [517]
+    }
 -
   date: "2019-1-21"
   dateReadable: "Monday January 21"
   tracks:
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
+    - {
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [513]
+    }
     - {
     	startTime: "10:00am",
     	endTime: "11:30am",
@@ -69,7 +139,17 @@
     	sessionIds: [505]
     }
     - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [515]
+    }
+    - {
     	startTime: "2:00pm",
-    	endTime: "5:00pm",
+    	endTime: "4:30pm",
     	sessionIds: [506]
+    } 
+    - {
+    	startTime: "4:30pm",
+    	endTime: "5:30pm",
+    	sessionIds: [514]
     } 
