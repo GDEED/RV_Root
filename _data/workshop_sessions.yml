@@ -154,7 +154,9 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 23
   title: "Github"
-  description: "This workshop on Github will introduce participants to source control and best practices with Git.  Learn how to collaborate on a team and keep track of changes through a shared code repository.  The basics of GitHub will covered, such as file structure, code versioning, and branching off a main source. We'll go over how to pull, modify, commit, and merge code onto a master branch.  We'll also review how to manage large files (audio, video, hi-res images) through GitHub's Large File Storage (LFS) system.  Students will have the option of using a command-line interface or GitHub's user-friendly desktop application.  This workshop is for those new to source control and versioning, or looking to improve their git skills."
+  description: "Intro to GitHub:
+
+This workshop on Github will introduce participants to source control and best practices with Git.  Learn how to collaborate on a team and keep track of changes through a shared code repository.  The basics of GitHub will covered, such as file structure, code versioning, and branching off a main source. We'll go over how to pull, modify, commit, and merge code onto a master branch.  We'll also review how to manage large files (audio, video, hi-res images) through GitHub's Large File Storage (LFS) system.  Students will have the option of using a command-line interface or GitHub's user-friendly desktop application.  This workshop is for those new to source control and versioning, or looking to improve their git skills.  Participants should download all pre-requisite software listed here: https://github.com/alexfigtree/reality-virtually-hackathon#pre-requisites"
   subtype: workshop
   workshop_leaders: [22, 24]
   language: en

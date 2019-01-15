@@ -21,7 +21,7 @@
   id: 2
   name: "Sandra"
   surname: "Rodriguez"
-  company: "MIT Media Lab"
+  company: "MIT CMS/W, EyeSteelFilms"
   title: "PHD, Creative Director, EyeSteelFilms"
   bio: "Sandra Rodriguez, Phd, is a creative director and a sociologist of new media technology. For over 16 years, she directs, produces and collaborates on documentary films, interactive docs and VR/MR projects, garnering multiple awards (including a Peabody). Her creative and research work focus on storytelling and emergent technology; human-centered design and tech uses and disruption for social change. Speaking engagements: Cannes Film Festival, the World Economic Forum in Davos, SXSW, Facebook/Oculus Education, IDFA, Sundance NewFrontiere, Phi Center, Sheffield DocFest, Taiwan, Busan and Singapore Film Festivals, IA arts, Frontieres IA and more. Sandra Rodriguez currently heads the Creative Reality Lab at EyeSteelFilm, an Emmy-Awarded production company based in Montreal, where she explores new forms of non-fiction storytelling in VR/AR/AI. She is a Visiting Scholar and a Lecturer at the Massachusetts Institute of Technology, where she teaches HackingXR, MIT’s first class in immersive media production."
   thumbnailUrl: SandraRodriguez-copy.jpg
@@ -88,7 +88,7 @@
   bio: "Michael was born in Israel, and spatial computing has held a place in his heart ever since discovering VR at a shopping mall arcade in the early 90s.  After relocating to the US to study at Berklee College of Music (his other passion), Michael spent the next half-decade writing and producing music for artists, films and TV shows. In 2017, after having transitioned from writing songs to writing code and working as a freelance XR developer for several years since, Michael spent an exhilarating year working as a Creative 3D Engineer at Magic Leap. He has recently transitioned to the role of Grassroots Evangelist, in which he gets to share his passion for Magic Leap, spatial computing and digital creativity with amazing creators worldwide. "
   thumbnailUrl: MichaelHazani-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "@michaelhazani"}
 - 
   id: 9
   name: "Brian"
@@ -135,7 +135,7 @@
   surname: "Markenson"
   company: "PTC"
   title: "Product Manager"
-  bio: "Marty Markenson is a product manager for PTC's augmented reality authoring tool Vuforia Studio. His journey into immersive technologies started with an Oculus DK1 demo at the South by South West conference. After graduating from the University of Illinois with a degree in mechanical engineering he lead prize winning hackathon teams on projects including a VR periodic table and a math based game set in an asteroid field. Today Marty is excited to share his knowledgeable from 4 years in the AR/VR industry with the Reality Virtually Hackathon community."
+  bio: "Marky Markenson is a product manager for PTC's augmented reality authoring tool Vuforia Studio. His journey into immersive technologies started with an Oculus DK1 demo at the South by South West conference. After graduating from the University of Illinois with a degree in mechanical engineering he lead prize winning hackathon teams on projects including a VR periodic table and a math based game set in an asteroid field. Today Marty is excited to share his knowledgeable from 4 years in the AR/VR industry with the Reality Virtually Hackathon community."
   thumbnailUrl: MarkyMarkenson-copy.jpg
   social: 
     - {name: "github", link: "https://"}
@@ -152,7 +152,7 @@
 - 
   id: 15
   name: "Jesse"
-  surname: "McColloch"
+  surname: "McCulloch"
   company: "Microsoft"
   title: "Mixed Reality Developer Relations Program Manager"
   bio: "Jesse McCulloch is a Mixed Reality Developer Relations Program Manager at Microsoft. Starting as a Mixed Reality Developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space."
@@ -222,7 +222,7 @@
   name: "Alex"
   surname: "Higuera"
   company: "Ro Network"
-  title: "Founder, Ro Network"
+  title: "Co-Founder, Ro Network"
   bio: "Alex was a judge at last year's Reality Virtually Hackathon.  Her background is in electrical engineering, neuroscience, and anthropology, and her main interests are in decentralization, XR, and neurotechnology.  Previously, she worked at the Human Dynamics Group and the Sociotechnical Systems Research Center, both at MIT, implementing design and web architecture on decentralized projects.  She currently develops software for the Brainwaves Group at NYU, enhancing the learning process via apps that read students' EEG signals.  Alex founded NeuroTechBOS (NTBOS), a network of engineers, designers, scientists, and hackers. With over 800 members in Boston, NTBOS hosts talks, panel discussions, and hack nights to engage the public with leaders of the neurotech community.  Currently, she is a founder at Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
   thumbnailUrl: AlexHiguera-copy.jpg
   social: 
@@ -242,8 +242,18 @@
   name: "Dmitri"
   surname: "Zagidulin"
   company: "Ro Network"
-  title: "k"
-  bio: ""
+  title: "Co-Founder, Ro Network"
+  bio: "Dmitri is a software engineer and data rights activist, focusing on in distributed systems, decentralized identity and authentication. Formerly with the MIT Solid Project, he spends his time writing code for distributed ledgers and personal data stores, mentoring new developers, and co-founding Ro Network (www.ro.network), a company augmenting communication by improving information sharing between people."
   thumbnailUrl: DmitriZagidulin.jpg
   social: 
-    - {name: "github", link: ""}
+    - {name: "website", link: "www.ro.network"}
+-
+  id: 25
+  name: "Tricia"
+  surname: "Katz"
+  company: "MagicLeap"
+  title: ""
+  bio: ""
+  thumbnailUrl: TriciaKatz.jpg
+  social: 
+    - {name: "twitter", link: "@triciaakatz"}

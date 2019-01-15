@@ -6,13 +6,19 @@
   description: "Registration opens"
 -
   id: 400
-  title: "Workshops"
+  title: "Morning Workshops"
   place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
   service: true
-  description: "The hackathon starts with a full day of enabling workshops. Design, development, and platform talks by experts and code labs, and talks by domain experts prepare participants to compete. During the workshop day, sponsors and participants interact at sponsor tables situated in the high-traffic area"
+  description: "The hackathon starts with a full morning of enabling workshops. Design, development, and platform talks by experts and code labs, and talks by domain experts prepare participants to compete. During the workshop day, sponsors and participants interact at sponsor tables situated in the high-traffic area"
+-
+  id: 406
+  title: "Afternoon Workshops"
+  place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
+  service: true
+  description: "The hackathon continues with a full afternoon of enabling workshops. Design, development, and platform talks by experts and code labs, and talks by domain experts prepare participants to compete. During the workshop day, sponsors and participants interact at sponsor tables situated in the high-traffic area"
 -
   id: 401
-  title: "Team Formation Dinner"
+  title: "Team Formation Dinner (Attendance Required)"
   place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
   service: true
   description: "Team formation follows dinner and inspirational talks. The unaffiliated 400 participants distill into teams of five or fewer through a process designed to expose the best project ideas and convene teams with the capabilities to create impactful demonstrations of meaningful, immersive ideas.The hackathon begins as each team coeleces on a core concept, registers with the judges, and starts implementing their idea."
@@ -28,6 +34,18 @@
   place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
   service: true
   description: "Pencils down at 2:00 PM, Judging begins"
+-
+  id: 407
+  title: "Lunch on your own"
+  place: "Cambridge"
+  service: false
+  description: "Local Lunch Suggestions: https://www.google.com/maps/d/u/2/embed?mid=1U-pV3T0Hr827d4rg4n4Yr8Nq7bBNdYxn"
+-
+  id: 405
+  title: "Team Formation (Attendance Required)"
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: ""
 -
   id: 504
   title: "Awards Ceremony"
@@ -48,15 +66,64 @@
   description: ""
 -
   id: 307
+  title: "Breakfast"
+  place: "Hall"
+  service: true
+  description: "Fuel up!"
+-
+  id: 308
   title: "Coffee Break"
   place: "Hall"
   service: true
   description: "The best time to talk with speakers and attendees"
 -
-  id: 503
+  id: 309
   title: "Lunch Break"
   place: "Dining room"
   service: true
+  description: "Don't forget to eat!"
+-
+  id: 310
+  title: "Dinner Break"
+  place: "Dining room"
+  service: true
+  description: "All work and no eating makes coders ...start...to...get...hazyyyyy"
+-
+  id: 311
+  title: "Loaner equipment checkout"
+  place: "Hall"
+  service: true
+  description: ""
+-
+  id: 312
+  title: "Loaner equipment checkout - accepting loaner returns 1:30 - 10pm"
+  place: "Hall"
+  service: true
+  description: ""
+-
+  id: 313
+  title: "Expo setup and Loaner equipment checkout"
+  place: "Hall"
+  service: true
+  description: ""
+-
+  id: 314
+  title: "Pencils Down!!"
+  place: "Everywhere"
+  service: true
+  description: "Time to relax, check out everyone else's cool work"
+-
+  id: 315
+  title: "Loaner equipment return"
+  place: "Hall"
+  service: true
+  description: "Last one returned is a rotten egg!"
+-
+  id: 316
+  title: "Hackathon Reception"
+  place: "E15 Wiesner Building. 20 AMES ST, Cambridge, MA 02139"
+  service: true
+  description: "Relax, Rest, Revive"
 -
   id: 001
   title: "Material design: Visual style and imagery"
