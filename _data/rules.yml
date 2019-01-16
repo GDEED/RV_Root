@@ -2,9 +2,9 @@
   ruleGroup: "Elegibility"
   disclaimer: ""
   rules:
-    - {description: "Attendees from all backgrounds, genders, and geographies are welcome. There is no age restriction to attend the hackathon. In case you are under 18, your parents/legal guardian should contact the hackathon to request a waiver authorizing you to attend the hackathon and submit their plan for your attendance and transportation to and from the hackathon."}
-    - {description: "Committee members are not eligible to participate in the hackathon. They may, however,, assist teams s mentors during the coding/development phase."
-    - {description: "There is no country restriction but you must be eligible to receive prizes (in case you win) and you are responsible for paying any taxes on the prize winnings."
+    - {description: "Attendees from all backgrounds, genders, and geographies are welcome. There is no age restriction to attend the hackathon. In case you are under 18, your parents/legal guardian should contact the hackathon to request a waiver authorizing you to attend the hackathon and submit their plan for your attendance and transportation to and from the hackathon." }
+    - {description: "Committee members are not eligible to participate in the hackathon. They may, however,, assist teams s mentors during the coding/development phase." }
+    - {description: "There is no country restriction but you must be eligible to receive prizes (in case you win) and you are responsible for paying any taxes on the prize winnings." }
 -
   ruleGroup: "Team Forming"
   disclaimer: "Participants who participated on the same team during the last year in design competitions and hackathons building for the same platform as that chosen by your hackathon team for this year’s submission or who participated on the same team during the 2016 or 2017 Reality Virtually Hackathon are not permitted to be team members on the same team competing in this year’s Reality VIrtually hackathon. Exceptions may be made.  Contact the hackathon committee to avail this exception. "
