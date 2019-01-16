@@ -23,17 +23,84 @@
   service: true
   description: "Team formation follows dinner and inspirational talks. The unaffiliated 400 participants distill into teams of five or fewer through a process designed to expose the best project ideas and convene teams with the capabilities to create impactful demonstrations of meaningful, immersive ideas.The hackathon begins as each team coeleces on a core concept, registers with the judges, and starts implementing their idea."
 -
+  id: 513
+  title: ""
+  place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
+  service: true
+  description: "Expo Setup and Loaner Equipment Check Out"
+-
+  id: 514
+  title: ""
+  place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
+  service: true
+  description: "Return loaner equipment"
+-
+  id: 515
+  title: ""
+  place: "MIT Building 32, Stata Center 32 Vassar St, Cambridge, MA 02139"
+  service: true
+  description: "Lunch at the conclusion of the Awards Ceremony in Building 32"
+
+-
+  id: 517
+  title: ""
+  place: "Hackathon Reception Building E15 Wiesner Building. 20 AMES ST, Cambridge, MA 02139"
+  service: true
+  description: ""
+-
+  id: 512
+  title: "Team Formation(Attendance Required)"
+  place: "MIT Building 26 50 Vassar Street, Cambridge MA 02139 (Adjacent to Building 32)"
+  service: true
+  description: ""
+-
   id: 402
   title: ""
   place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
   service: true
   description: "Ideate, create, code"
 -
+  id: 507
+  title: ""
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: "Breakfast"
+-
+  id: 508
+  title: ""
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: "Loaner Equipment Checkout, reopening at 7:00 PM until closing"
+-
+  id: 509
+  title: ""
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: "Lunch"
+-
+  id: 510
+  title: ""
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: "Dinner"
+-
+  id: 511
+  title: ""
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: "Loaner Equipment Checkout - See Posted Hours"
+-
+  id: 516
+  title: ""
+  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  service: true
+  description: "Loaner Equipment Checkout - accepting loaner returns 1:30 PM - 10:00 PM"
+-  
   id: 403
   title: "Finish building"
   place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
   service: true
-  description: "Pencils down at 2:00 PM, Judging begins"
+  description: "Pencils down at 1:00 PM, Judging begins"
 -
   id: 407
   title: "Lunch on your own"
@@ -172,3 +239,4 @@
   complexity: "Expert"
   presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
   video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+
