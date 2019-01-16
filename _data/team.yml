@@ -43,17 +43,7 @@
     - {name: "", link: ""}
   description: "David is a Sr. Design Director at IDEO New York focused on Digital & Emerging Technology. He worked in advanced R&D aerospace engineering before pursuing a graduate degree in Product Design at Stanford University. Previously he worked at IDEO leading project teams and lecturing on Design, Manufacturing, and Strategy at Harvard, Yale, and other institutions. Before he returned to IDEO, he ran design at a Google Ventures mobile media startup followed by a design and product private practice to startups like Artsy, Sonder, and Octave. David enjoys balancing culture and creativity with technology and commerce."
 -
-  id: 4
-  name: "SARAH"
-  surname: "PILLAI"
-  title: "OPERATIONS CO-LEAD AND JUDGING / RULES"
-  thumbnailUrl: SarahEPillai.webp
-  team: true
-  social: 
-    - {name: "instagram", link: "https://www.instagram.com/sarahepillai/?hl=en"}
-  description: "As a fashion editor by trade, Sarah knows the power of choosing the right word, the right format, the right connections, or the right outfit can make or break the future and develop a brighter path. Using her skills as a former cheerleader, as an alumna of Harvard and Boston University, and working as Teen Vogue’s fashion editor, Sarah’s mission is bridging, cheering, and evolving the fashion and technology industries by building empowering and fun systems for the overall betterment of the communities."
--
-  id: 5 
+  id: 4 
   name: "PRAVEEN"
   surname: "ARAVAMUDHAM"
   title: "JUDGING, RULES, DIGITAL OPERATIONS CO-LEAD"
@@ -62,6 +52,16 @@
   social: 
     - {name: "twitter", link: "https://twitter.com/Paravamu/"}
   description: "Praveen has over 15 years software engineering industry experience in designing and implementing high-performance distributed software systems in various programming languages. Praveen is currently the Chief Technology Officer at Berkshire Hathaway Shoe Holdings Inc. Praveen is a hackathon “geek” ready to join a team, and frequently a contributor to a winning team. He mentors young developers and enjoys conversation about technology past/present/future. Praveen holds Masters in Information Technology and Computer Science from Syracuse University."
+-
+  id: 5 
+  name: "Emily"
+  surname: "Bowen"
+  title: ""
+  thumbnailUrl: EmilyBowen.jpg
+  team: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/Paravamu/"}
+  description: "Emily has spent the last decade bringing order to chaos as a Producer in Practical Visual Effects, Stop Motion, Digital Visual Effects and Animation all over this great nation. A native Massachusettsian who happens to be back in the area just in time for Reality, Virtually Hackathon 2019, she finds herself offering up her Type A personality, Leatherman and ability to work without sleep for extended periods of time to her favorite hackathon for round 2. Proud Trojan (Fight On!), knitter, and wannabe runner, she hopes you don't ever notice she's there because thats when she knows she's done her job well."
 -
   id: 6
   name: "RUS"
@@ -116,6 +116,16 @@
   description: "Andreas is a graduate of Princeton University 2017. He has helped organize hackathons in the past and currently is working on a companion app for Hackathons, Professional Conferences, and Networking Events that allows attendees to exchange contact information using Computer Vision and Augmented Reality and event organizers to easily communicate with attendees. Currently he is between Pensacola, FL and San Francisco, CA."
 -
   id: 11
+  name: "SARAH"
+  surname: "PILLAI"
+  title: "OPERATIONS CO-LEAD AND JUDGING / RULES"
+  thumbnailUrl: SarahEPillai.webp
+  team: true
+  social: 
+    - {name: "instagram", link: "https://www.instagram.com/sarahepillai/?hl=en"}
+  description: "As a fashion editor by trade, Sarah knows the power of choosing the right word, the right format, the right connections, or the right outfit can make or break the future and develop a brighter path. Using her skills as a former cheerleader, as an alumna of Harvard and Boston University, and working as Teen Vogue’s fashion editor, Sarah’s mission is bridging, cheering, and evolving the fashion and technology industries by building empowering and fun systems for the overall betterment of the communities."
+-
+  id: 12
   name: "DIANE"
   surname: "WILLIAMS"
   title: "DIVERSITY AND INCLUSION LEAD"
@@ -125,7 +135,7 @@
     - {name: "twitter", link: "https://twitter.com/dianeew/"}
   description: "Diane is a Computer Scientist and serial Edtech entrepreneur, and STEM education advocate. She has been a mentor and/or judge for HackMIT, HackHarvard, Simmons Shark Hack, MIT Hacking Medicine Grand Hack, the Harvard WECode Hackathon, Harvard Astropreneurship and Space Medicine, and the MIT Mobile VR Development Challenge. She is an alumna of MIT and Harvard."
 -
-  id: 12
+  id: 13
   name: "SEHA"
   surname: "GULNAR DALAY"
   title: "DIGITAL OPERATIONS"
@@ -135,7 +145,7 @@
     - {name: "in", link: "https://www.linkedin.com/in/seha-gulnar-dalay-03073415/"}
   description: "Seha is a former commercial banker who changed her career by following her passion to build new things. She completed intense engineering immersive program and continues to learn and improve herself as a front end web developer. Seha holds an MBA from Radford University and BA in Economics from Bilkent University."
 -
-  id: 13
+  id: 14
   name: "VIK"
   surname: "Parthiban"
   title: ""
@@ -145,7 +155,7 @@
     - {name: "in", link: "https://www.linkedin.com/in/vikparthiban/"}
   description: "Vik is passionate about teams and technologies that shape how people interact with digital information and the physical world. He helped build the Magic Leap One AR headset and led an R&D project for the advanced photonics team. He currently runs the AR community at MIT and plans to launch new initiatives in this space. As a researcher and graduate student at the MIT Media Lab, Vik is building new human-computer interfaces and holographic technology that hope to push AR/VR technology forward. He received his Master of Science in Electrical Engineering, Bachelor of Science in Computer Engineering, and a Bachelor of Arts in Plan II Honors from The University of Texas at Austin." 
 - 
-  id: 14
+  id: 15
   name: "ILDAR"
   surname: "IAKUBOV"
   title: "TECHNICAL OPERATIONS"
@@ -155,7 +165,7 @@
     - {name: "instagram", link: "https://www.instagram.com/videoildar/"}
   description: "Ildar is an artist and educator from Saint Petersburg, where he curates one of the Russia’s biggest Art&Science festivals and manages local planetarium with a huge 37-meter projection dome of an enormous 12K resolution. He teaches Digiatal Art, VR and Interactive Media in different universities around the globe and also creates his own artworks - installations, live performances, VR environments." 
 -
-  id: 14
+  id: 16
   name: "MISHA"
   surname: "SRA"
   title: "ADVISOR"
@@ -165,7 +175,7 @@
     - {name: "twitter", link: "https://twitter.com/pixelscanner"}
   description: "Misha is a Research Affiliate working on natural interaction techniques for multiperson experiences in virtual and mixed reality in the Fluid Interfaces group at the MIT Media Lab. Her inspiration comes from the paragons of virtual reality like the Holodeck from Star Trek or William Gibson's cyberspace. She is looking forward to a VR future with Sword Art Online's NerveGear or Ernest Cline's robotic arms and doing her part to help build it."
 -
-  id: 15
+  id: 17
   name: "RYAN"
   surname: "LEE"
   title: "OPERATIONS AND PARTNERSHIPS"
