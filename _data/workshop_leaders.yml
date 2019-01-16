@@ -43,20 +43,21 @@
   surname: "Roberts"
   company: "Unity"
   title: "Team Lead, Unity 3D Developer"
-  bio: "Jasmine Roberts is an incoming software engineer and creative technologist in the Unity Labs group."
+  bio: "Jasmine Roberts is a software engineer and creative technologist in the Unity Labs group."
   thumbnailUrl: JasmineRoberts-copy.jpg
   social: 
     - {name: "github", link: "https://"}
 - 
   id: 5
-  name: "Calgar"
+  name: "Caglar"
   surname: "Yildirim"
   company: "SUNY Oswego"
   title: "PHD"
   bio: "Caglar Yildirim, PhD is a human-computer interaction (HCI) expert, specializing in the cognitive aspects of HCI and the design and evaluation of usable immersive interfaces and interactions for virtual reality (VR). As an assistant professor of HCI at SUNY Oswego, Caglar directs the VR First Lab, where he conducts research into human factors aspects of VR and 3D interaction, VR gaming user experience, and mindfulness training in VR. Caglar also teaches various courses in the HCI Master’s program, including Virtual Reality, Human-Centered Design, Human Factors, and Applied Research Methods and Statistics. "
   thumbnailUrl: CaglarYildirim-copy.jpg
   social: 
-    - {name: "github", link: "https://"}
+    - {name: "twitter", link: "https://twitter.com/caglar_yildirim"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/caglaryildirim/"}
 - 
   id: 6
   name: "Joanne"
