@@ -12,6 +12,25 @@
         margin: 0 auto;
     }
 </style>
+<section id="happenings" class="about">
+    <h4>{{ site.happeningsTitle }}</h4>
+    <div class="col-md-6">  
+        <div>
+            <h5>{{ site.happeningOneTitle }}</h5>
+            <img src="{{ site.happeningOneImage }}" style="width: 100%; height: auto; max-width: 600px; margin: 0 auto;" alt="Image of person giving talk in a large classroom">
+            <p style="max-width: 600px; margin: 15px auto;">{{ site.happeningOneText }}</p>
+            <a href="{{ site.happeningOneLink }}" target="_blank"><button class="button btn-lg" type="text" style="font-weight: bold;color: black;background-color: transparent;border: 2px solid black">{{ site.happeningOneLinkText }}</button></a>
+        </div>
+    </div>
+    <div class="col-md-6">  
+        <div>
+            <h5>{{ site.happeningTwoTitle }}</h5>
+            <img style="width: 100%; height: auto; max-width: 600px; margin: 0 auto;" src="{{ site.happeningTwoImage }}" alt="">
+            <p style="max-width: 600px; margin: 15px auto;">{{ site.happeningTwoText }}</p>
+            <a href="{{ site.happeningTwoLink }}" target="_blank"><button class="button btn-lg" type="text" style="font-weight: bold;color: black;background-color: transparent;border: 2px solid black">{{ site.happeningTwoLinkText }}</button></a>
+        </div>
+    </div>
+</section>
 <section id="about" class="about">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
