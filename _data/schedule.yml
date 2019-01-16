@@ -61,9 +61,14 @@
     	sessionIds: [310]
     }
     - {
-    	startTime: "7:00pm",
-    	endTime: "12:00am",
-    	sessionIds: [311]
+        startTime: "7:00pm",
+        endTime: "11:00pm",
+        sessionIds: [405]
+    }
+    - {
+        startTime: "12am",
+        endTime: "",
+        sessionIds: [317]
     }
 -
   date: "2019-1-19"
@@ -95,6 +100,11 @@
     	startTime: "7:00pm",
     	endTime: "12:00am",
     	sessionIds: [311]
+    }
+    - {
+        startTime: "12am",
+        endTime: "",
+        sessionIds: [317]
     }
 -
   date: "2019-1-20"

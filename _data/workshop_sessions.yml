@@ -33,8 +33,8 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   complexity: "Beginner" 
 -
   id: 05
-  title: "Intermediate Unity"
-  description: ""
+  title: "Unity Workshop: Working with Packages, SDKs, and APIs"
+  description: "**Please bring a laptop with the latest version of Unity installed--installing can take up to 40 minutes otherwise*** A great concept or experience does not always rely on being able to code or 3D model but the integration of tools. For mixed-reality experiences there are already standard pre-packaged tools that teams can use to develop their experiences. In this workshop, we will build a mini experience using no programming or modeling. We will build upon the fundamentals of Unity and introduce how to call APIs, import packages and SDKs from third-party developers and how to install and manage SDKs.. We will cover browsing and importing assets from Google Poly, Vuforia, Mapbox, and other toolkits.  This workshop is geared for both developers and creatives of all experience levels. We will also provide a copy of the IBM Watson SDK which is no longer publicly available. "
   subtype: workshop
   workshop_leaders: [4]
   language: en
