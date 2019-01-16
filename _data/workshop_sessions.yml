@@ -66,7 +66,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 12
   title: "Rapid AR Development with Vuforia Studio"
-  description: ""
+  description: "Vuforia'    s industry leading augmented reality technology is changing the enterprise landscape by enabling products and services to be experienced in a completely new way. This presentation will demonstrate how you can use Vuforia Studio to create scalable augmented reality experiences for a variety of enterprise use cases such as: • Empower service technicians with guided step-by-step work instructions • Improve assembly time and process efficiency in manufacturing workflows • Enhance sales and marketing efforts with 3D product visualizations and demonstrations • Facilitate collaborative design review and reduce the need for costly prototypes"
   subtype: workshop
   workshop_leaders: [13]
   language: en
@@ -76,7 +76,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
   title: "Autodesk Forge for AR or VR experiences"
   description: "Autodesk Forge is a cloud platform for web developers that allow you to easily translate and view CAD and 3D data. In addition to the Forge Viewer’s capability for WebVR, Autodesk also has a toolkit in beta, that allows a similar workflow into Unity which then allows publishing the interactive experience to many of the popular AR and VR devices on the market today. This class will give an introduction to the Forge web services including the viewer’s WebVR functionality, and the Forge Unity toolkit. After the workshop, you will be able to translate your own 3D assets and use them via the Forge workflow into Unity."
   subtype: workshop
-  workshop_leaders: [14, 22]
+  workshop_leaders: [14, 23]
   language: en
   complexity: "Beginner"
 -
@@ -114,7 +114,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 18
   title: "Creating an IoT Project using ThingWorx"
-  description: ""
+  description: "This introductory workshop will teach you how to model, connect, analyze, and build Internet of Things (IoT) applications using ThingWorx, an industry-class platform used by developers across the globe. You will learn the ThingWorx Development Process, the core framework for developing IoT applications. Using this framework, you will be given a hands-on opportunity to create a digital Mars Weather Rover entity that would be used to collect physical information from a physical agent in the field. In this workshop, you will also use Postman, a third-party application, to send RESTful calls to our ThingWorx server in order to see how to bring in connected data."
   subtype: workshop
   workshop_leaders: [18]
   language: en
@@ -138,7 +138,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 21
   title: "WebXR and Augmented Reality. In other words, Give Me The Camera."
-  description: ""
+  description: "Extra topics: Binding ARKit and ARCore to A-Frame, image processing, sensor fusion, F4 Phantom ultralight headsets An HTTPS website can do AR on modern iOS and Android devices. We’ll learn how to get ahold of the camera and put it underneath a VR layer made of THREE.js and A-Frame, then go further with in-VR camera reprojection. Everybody thinks Apple will come out with the Next Mass Innovation - beautiful AR-enabling glasses - sometime. The excitement we see today with ARCore and ARKit apps is just the first stepping stone.  So what will the future look like? Will websites go away? Will you have to code for iOS or Android to compete, meet and greet in 2020?  In a word, no. More words at the workshop."
   subtype: workshop
   workshop_leaders: [0]
   language: en
@@ -154,9 +154,11 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 23
   title: "Github"
-  description: "Come learn how to geo-enable your data and create powerful VR/AR/MR experiences using Esri technology, the industry leader in digital mapping software and solutions.  First, we’ll discuss our existing data offerings and capabilities available as part of the ArcGIS Platform.  Next, we’ll show how to prepare and distribute your data for use in immersive augmented and virtual experiences.  Finally, we’ll show how AR/VR apps can be developed on native app frameworks using the ArcGIS Runtime."
+  description: "Intro to GitHub:
+
+This workshop on Github will introduce participants to source control and best practices with Git.  Learn how to collaborate on a team and keep track of changes through a shared code repository.  The basics of GitHub will covered, such as file structure, code versioning, and branching off a main source. We'll go over how to pull, modify, commit, and merge code onto a master branch.  We'll also review how to manage large files (audio, video, hi-res images) through GitHub's Large File Storage (LFS) system.  Students will have the option of using a command-line interface or GitHub's user-friendly desktop application.  This workshop is for those new to source control and versioning, or looking to improve their git skills.  Participants should download all pre-requisite software listed here: https://github.com/alexfigtree/reality-virtually-hackathon#pre-requisites"
   subtype: workshop
-  workshop_leaders: [22]
+  workshop_leaders: [22, 24]
   language: en
   complexity: "Beginner"
 -

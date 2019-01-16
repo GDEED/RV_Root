@@ -22,12 +22,12 @@
     - {
     	startTime: "1:30pm",
     	endTime: "2:30pm",
-    	sessionIds: [10, 11, 12]
+    	sessionIds: [10, 11, 12, 23]
     }
     - {
     	startTime: "2:30pm",
     	endTime: "3:30pm",
-    	sessionIds: [13, 14, 15]
+    	sessionIds: [13, 14, 15, 22]
     }
     - {
     	startTime: "3:30pm",

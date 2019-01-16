@@ -11,18 +11,28 @@
     }
     - {
     	startTime: "9:30am",
-    	endTime: "5:30pm",
+    	endTime: "12:30pm",
     	sessionIds: [400]
     }
     - {
-      startTime: "5:30pm",
-      endTime: "6:45pm",
-      sessionIds: [401]
+    	startTime: "12:30pm",
+    	endTime: "1:30pm",
+    	sessionIds: [407]
     }
     - {
-      startTime: "7:00pm",
-      endTime: "11:00pm",
-      sessionIds: [512]
+    	startTime: "1:30pm",
+    	endTime: "5:30pm",
+    	sessionIds: [406]
+    }
+    - {
+        startTime: "5:30pm",
+        endTime: "7:00pm",
+        sessionIds: [401]
+    }
+    - {
+        startTime: "7:00pm",
+        endTime: "11:00pm",
+        sessionIds: [405]
     }
 - 
   date: "2019-1-18"
@@ -31,9 +41,29 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots: 
     - {
-    	startTime: "7:00am",
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "8:00am",
+    	endTime: "3:00pm",
+    	sessionIds: [311]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [309]
+    }
+    - {
+    	startTime: "5:30pm",
+    	endTime: "7:00pm",
+    	sessionIds: [310]
+    }
+    - {
+    	startTime: "7:00pm",
     	endTime: "12:00am",
-    	sessionIds: [402]
+    	sessionIds: [311]
     }
     - {
     	startTime: "7:30am",
@@ -62,9 +92,29 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "7:00am",
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "8:00am",
+    	endTime: "3:00pm",
+    	sessionIds: [311]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [309]
+    }
+    - {
+    	startTime: "5:30pm",
+    	endTime: "7:00pm",
+    	sessionIds: [310]
+    }
+    - {
+    	startTime: "7:00pm",
     	endTime: "12:00am",
-    	sessionIds: [402]
+    	sessionIds: [311]
     }
     - {
     	startTime: "7:30am",
@@ -88,9 +138,34 @@
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "7:00am",
-    	endTime: "12:00am",
-    	sessionIds: [403]
+    	startTime: "7:30am",
+    	endTime: "9:30am",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "8:00am",
+    	endTime: "3:00pm",
+    	sessionIds: [311]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:30pm",
+    	sessionIds: [309]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "",
+    	sessionIds: [314]
+    }
+    - {
+    	startTime: "5:30pm",
+    	endTime: "7:00pm",
+    	sessionIds: [310]
+    }
+    - {
+    	startTime: "8:00pm",
+    	endTime: "9:30pm",
+    	sessionIds: [316]
     }
     - {
     	startTime: "7:30am",
@@ -126,7 +201,7 @@
     - {
     	startTime: "7:30am",
     	endTime: "9:30am",
-    	sessionIds: [513]
+    	sessionIds: [313]
     }
     - {
     	startTime: "10:00am",
@@ -145,11 +220,11 @@
     }
     - {
     	startTime: "2:00pm",
-    	endTime: "4:30pm",
+    	endTime: "5:30pm",
     	sessionIds: [506]
     } 
     - {
     	startTime: "4:30pm",
     	endTime: "5:30pm",
-    	sessionIds: [514]
-    } 
+    	sessionIds: [315]
+    }
