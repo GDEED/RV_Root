@@ -43,8 +43,8 @@
                                         <h5 class="slot-title allow-selection" itemprop="name">{{ session.title }}</h5>
                                         <span class="slot-language">{{session.language | upcase}}</span>
                                         <ul class="slot-speakers">
-											{% for leader in site.data.community_talks %}
-												{% for session_speaker in session.speakers %}
+											{% for leader in site.data.community_speakers %}
+												{% for session_speaker in session.speaker %}
 													{% if session_speaker == leader.id %}
                                                     	<li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: leader.thumbnailUrl }})"></div>
                                                     	<p class="speaker-name allow-selection">{{ leader.name }} {{ leader.surname }}

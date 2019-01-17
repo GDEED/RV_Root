@@ -30,7 +30,7 @@
 						<hr>
 						<div class="people-details">
 							{% for leader in site.data.community_speakers %}
-								{% for session_speaker in session.community_speakers %}
+								{% for session_speaker in session.speaker %}
 									{% if session_speaker == leader.id %}
 									<div class="row">
 										<div class="col-md-2 col-sm-2">

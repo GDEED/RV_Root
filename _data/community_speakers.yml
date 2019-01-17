@@ -47,11 +47,19 @@
   bio: ""
   thumbnailUrl: KevinVandecar.jpg
 - 
-  id: 5
+  id: 6
   name: "Jesse"
   surname: "McCulloch"
   company: "Microsoft"
   title: "Developer"
   bio: ""
   thumbnailUrl: JesseMcCulloch.jpg
+- 
+  id: 7
+  name: "Dario"
+  surname: "Laverde"
+  company: "HTC"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: DarioLaverde-copy.jpg
 
