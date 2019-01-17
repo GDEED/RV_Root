@@ -787,6 +787,90 @@
   description: "Anish Dhesikan is a Software Engineer at Google Daydream VR/AR. He is an avid hacker, having attended over 10 hackathons and winning awards at several, including the Grand Prize at the 2016 Reality Virtually Hackathon. Anish holds a degree in Computer Science and Game Design from Northeastern University. During his studies, he also co-founded 2 startups, Coresights and Subconscious, leading their technology teams. With the Reality Virtually Hackathon helping to launch his VR/AR career, he is excited to return as a mentor to share his knowledge and experience."
 -
   id: 47
+  name: "Christopher"
+  surname: "Fridlington"
+  thumbnailUrl: ChristopherFridlington.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/cfridlington/"}
+    - {name: "site", link: "cfridlington.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+  description: "Christopher is a senior at New Hampton School. He has a creative approach to technology and is interested in how it can enrich our world through human-centered interfaces. He primarily works on iOS applications and web platforms to create augmented experiences for architectural models and interactive art installations."
+-
+  id: 48
+  name: "Marty"
+  surname: "Markenson"
+  thumbnailUrl: MartyMarkenson.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "www.linkedin.com/in/marty-markenson-08b79058"}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Marty Markenson is a product manager for PTC's augmented reality authoring tool Vuforia Studio. His journey into immersive technologies started with an Oculus DK1 demo at the South by South West conference. After graduating from the University of Illinois with a degree in mechanical engineering he lead prize winning hackathon teams on projects including a VR periodic table and a math based game set in an asteroid field. Today Marty is excited to share his knowledge from 4 years in the AR/VR industry with the Reality Virtually Hackathon community."
+-
+  id: 49
+  name: "Raphael"
+  surname: "Grossman, MD, FACS"
+  thumbnailUrl: RaphaelGrossmann.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/rafaelgrossmann"}
+    - {name: "site", link: "https://www.rafaelgrossmann.com/"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Dr. Rafael Grossmann is a full-time general, trauma, advanced laparoscopic, and robotic surgeon. Originally from Venezuela and trained as a surgeon in Ann Arbor, Michigan, he has practiced in the US for several years. He is deeply interested in the intersection of Innovation Technology in Healthcare and Medical Education. He is also an avid blogger, Healthcare Social Media user, global and TEDx speaker. It was at Exponential Medicine (FutureMed 2013)/Singularity University where his vision of a future, exponentially better care began to crystallize. He became one of the early GoogleGlass Explorers in the world, in early 2013 and was the first doctor to ever use Google Glass during live surgery. Being a healthcare futurist and a telemedicine-mHealth innovator, he is a strong believer on the power of technology to better connect providers and patients. He is convinced that innovation in healthcare technology along with the current developments in mobile and wearable platforms, AI and deep learning will exponentially disrupt and improve healthcare connectivity, communication and data flow and management, and result in a more efficient, intuitive, less expensive, and ultimately better patient care."
+-
+  id: 50
+  name: "Kate"
+  surname: "Donovan, PhD, MBA, MS"
+  thumbnailUrl: KateDonovan.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/kate-donovan-8b423821"}
+    - {name: "site", link: "www.bostonchildrens.org"}
+    - {name: "other", link: "https://twitter.com/_The_Kate_D, www.hackingpediatrics.health"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Dr. Kate Donovan is the Clinical Director of Immersive Technologies for the Innovation Digital Health Accelerator at Boston Children’s Hospital. She is also the Innovation Technology Coordinator for Medicine Patient Services at Boston Children’s Hospital and co-founder of Hacking Pediatrics, an annual pediatric focused healthcare hackathon held in Boston. Donovan is a serial idea generator and has a deep interest in exploring pain points to help deliver enchanting solutions to improve the patient and family experience as well as operational efficiency for clinicians. She has been instrumental in bringing immersive technologies to Boston Children’s Hospital and has been creating and designing solutions as well as researching its use with the pediatric patient population for the past 4 years. Donovan has focused her most recent clinical research in the digital health arena where she has studied the validity of wearables, clinical adoption and use of virtual reality and augmented reality and the use of voice technology in the pediatric clinical environment. She is also a member of VR-CORE, an international committee of Virtual Reality – Clinical Outcomes Research Experts who are working together to create guidelines for future VR clinical trials."
+-
+  id: 51
+  name: "Michael"
+  surname: "Wissner"
+  thumbnailUrl: mwissner@hotmail.com.jpeg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Michael is an MIT alum with a background as a software engineer, consultant, and entrepreneur. He was on the founding team of several successful startups, including Avid Technology, a pioneer in digital video and film editing for which he won an Emmy Award, and QuickBase, a leader in no-code database application systems.  He currently works in technology consulting.  Michael has participated in many hackathons, and his current interests include Internet of Things devices, and VR/AR applications.  "
+-
+  id: 52
   name: "Brett"
   surname: "Phares"
   organizaton: "General Anxiety llc"
@@ -806,7 +890,7 @@
     - {name: "3D Artist (Modeling, Shading, Etc."}
   description: "A survivor of RVH2017, Brett Phares is an artist and curator working in immersive art and the built environment. With 20+ years in interactive media, he has created innovative projects for both startups and international brands. He has exhibited internationally, curates an annual immersive art festival called Digital Graffiti (Smithsonian named it one of top five immersive art experiences in the world) and is primary instigator of General Anxiety llc, a digital  art consultancy."
 -
-  id: 48
+  id: 53
   name: "Jeffrey"
   surname: "Jacobson"
   thumbnailUrl: JeffreyJacobson.jpg
@@ -821,6 +905,121 @@
     - {name: "Product/Interaction Design"}
     - {name: "Software Development and Prototyping"}
   description: Jeffrey brings over 25 years of experience in research, engineering, and applications of virtual and mixed reality technology. With a doctorate in Information Science from PITT, Jeff is expert on how people process information. He was one of the first researchers to use game technology for VR, conduct learning experiments in VR, and use AR in museums and educational theater. He consulted for years into several industries, especially education, architecture, construction, transportation, and medicine. Today, he is the SimEngineering Project Manager at SIMPeds, where he prototypes new training tools, oversees production of (XR) solutions at the simulation center, and investigates XR for medical training and treatment.
+-
+  id: 54
+  name: "John"
+  surname: "Phi La"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "I am a software engineer at Facebook/Oculus. I am an MIT alum and I graduated in 2017 with a degree in Electrical Engineering and Computer Science (course 6-2). I enjoy developing games and building circuits."
+-
+  id: 55
+  name: "IULIAN"
+  surname: "RADU"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/iulian-radu/"}
+    - {name: "site", link: "http://iulianr.com/"}
+    - {name: "other", link: "https://lit.gse.harvard.edu/"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Iulian is a postdoctoral researcher at Harvard University’s Graduate School of Education, currently researching AR/VR for science education, maker spaces, empathy and bias understanding. He holds a PhD focused on AR for children’s K-12 education, and has previously worked on developing immersive educational technologies with PBS KIDS, MIT, Qualcomm, Samsung Research, WestEd Research. "
+-
+  id: 56
+  name: "Ryan"
+  surname: "Lee"
+  thumbnailUrl: RyanLee.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "www.linkedin.com/in/ryanchenlee"}
+    - {name: "site", link: "www.ryanchenlee.com"}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "Project Manager / Producer"}
+  description: "Ryan is an Academic Technology Associate at PTC where he helps manage the development of educational technologies involving Internet of Things, Augmented Reality, and Engineering use cases. Prior to PTC, he graduated as the Class Marshal of the Technology, Innovation, and Education Ed.M. cohort at the Harvard Graduate School of Education. His area of study at Harvard was in the developing of emerging educational technology solutions for classrooms with the aim that all students can have access to high-quality and transformative learning opportunities. "
+-
+  id: 57
+  name: "Kachina"
+  surname: "Studer"
+  thumbnailUrl: KachinaStuder.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/kachinastuder/"}
+    - {name: "site", link: "http://kachinastuder.io"}
+    - {name: "other", link: "https://twitter.com/kachinastuder?lang=en"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+    - {name: "Project Manager / Producer"}
+  description: "Kachina Studer is a Virtual & Augmented Reality UX | UI Strategist and Development Lead. With 15 years of work dedicated to the design field and experience in unity development for flexible environments, she leads a Mixed Reality Research practice for Arrowstreet’s Ideation + Research Lab. Her work focuses on the nexus of mixed reality and architectural domains and the future of design practices. Her work is dedicated to the importance of design thinking for Virtual & Augmented Reality environments. Her team has has been a two time winner of the Reality Virtually Hackathon."
+-
+  id: 58
+  name: "Andy"
+  surname: "Xu"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "I am a software engineer working on the Vuforia View App. Do a lot with C++ programming. Feedback is welcome on our product!"
+-
+  id: 59
+  name: "Martin"
+  surname: "Tobias"
+  thumbnailUrl: 
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: ""}
+    - {name: "site", link: ""}
+    - {name: "other", link: ""}
+  skills:
+    - {name: "Software Development and Prototyping"}
+  description: "22+yrs IOT Experience at PTC, AR/VR, Unity, javascript. Crossfitter and Photographer. Family + 3 "
+-
+  id: 60
+  name: "Scott"
+  surname: "Evernden"
+  thumbnailUrl: ScottEvernden.jpg
+  mentor: true
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/doctor3d/"}
+    - {name: "site", link: "infinitestores.com"}
+    - {name: "other", link: "https://stackoverflow.com/users/11397/scott-evernden"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+    - {name: "3D Artist (Modeling, Shading, Etc."}
+    - {name: "Project Manager / Producer"}
+  description: "40+ years programming everything. Virtual and shared online environments is my current focus. User-interface design and human-facing applications have been my main specialty for well over 30 years contributing core IP to several startups."
 # -
 #   id: 
 #   name: ""
@@ -839,3 +1038,4 @@
 #     - {name: "3D Artist (Modeling, Shading, Etc."}
 #     - {name: "Project Manager / Producer"}
 #   description: ""
+
