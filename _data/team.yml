@@ -345,3 +345,13 @@
   social:
     - {name: "", link: ""}
   description: "Eswar is a senior at MIT studying electrical engineering and computer science. He has been working on VR and AR for the past few years and has worked with a few companies such as Samsung, Intel, and most recently IDEO. At MIT he works at the Human Systems Lab focused on designing heads up displays for space suits. In his spare time Eswar can be found running events on campus, building something, or watching football. Eswar is also one of the presidents of VR/AR@MIT."
+  - 
+  id: 32
+  name: "Michael"
+  surname: "Wissner"
+  title: ""
+  thumbnailUrl: mwissner@hotmail.com.jpeg
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Michael is an MIT alum with a background as a software engineer, consultant, and entrepreneur. He was on the founding team of several successful startups, including Avid Technology, a pioneer in digital video and film editing for which he won an Emmy Award, and QuickBase, a leader in no-code database application systems.  He currently works in technology consulting.  Michael has participated in many hackathons, and his current interests include Internet of Things devices, and VR/AR applications. "
