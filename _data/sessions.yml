@@ -245,4 +245,39 @@
   complexity: "Expert"
   presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
   video: "//www.youtube.com/embed/v3SCiUqI1yQ"
-
+-
+  id: 900
+  title: "SAVANNAH NILES, Magic Leap"
+  place: "MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building E15, Cambridge, MA 02142)"
+  service: true
+  description: "Biased Reality - If you were given the opportunity to remix reality with your own values, biases, and aspirations, what would it look like? How would you negotiate serving the end user, society or your own fantasies? Mixed reality interfaces will be more powerful than interfaces today, but also gentler. The screen contains our digital experiences, separating us from the real world while we have them. The value proposition of spatial computing is to unify digital experience and the physical world, inherently promising interfaces with a lot more power over the individual and society. Our values, biases, and aspirations as designers and technologists will soon be unleashed from screens and take interactive, shape-shifting form in real-world contexts. Stories and insights from the past 3 years of creating a spatial computing operating system. One-part retrospective and one-part \"best/lest practices\" discussion with a generous dose of speculation."
+-
+  id: 901
+  title: "ALESSANDRO DINI & LEONID STRIGA, WayRay"
+  place: "MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building E15, Cambridge, MA 02142)"
+  service: true
+  description: "Our History, Capabilities, & Under The Hood"
+-
+  id: 902
+  title: "RYAN LEE, PTC & IULIAN RADU, Harvard"
+  place: "MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building E15, Cambridge, MA 02142)"
+  service: true
+  description: "AR in Education - Strategies for measuring efficacy and insights from the field."
+-
+  id: 903
+  title: "KEVIN VANDECAR, Autodesk"
+  place: "MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building E15, Cambridge, MA 02142)"
+  service: true
+  description: "Expo Setup and Loaner Equipment Check Out"
+-
+  id: 904
+  title: "REX HANSEN, ESRI"
+  place: "MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building E15, Cambridge, MA 02142)"
+  service: true
+  description: "Expo Setup and Loaner Equipment Check Out"
+-
+  id: 905
+  title: "JESSE MCCULLOUGH, Microsoft"
+  place: "MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building E15, Cambridge, MA 02142)"
+  service: true
+  description: "Mixed Reality, The Cloud, & The Future"
