@@ -87,6 +87,11 @@
     	sessionIds: [311]
     }
     - {
+    	startTime: "10:00am",
+    	endTime: "3:00pm",
+    	sessionIds: [318]
+    }
+    - {
     	startTime: "1:00pm",
     	endTime: "2:30pm",
     	sessionIds: [309]

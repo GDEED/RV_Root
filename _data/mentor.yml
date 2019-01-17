@@ -1004,6 +1004,21 @@
     - {name: "3D Artist (Modeling, Shading, Etc."}
     - {name: "Project Manager / Producer"}
   description: "40+ years programming everything. Virtual and shared online environments is my current focus. User-interface design and human-facing applications have been my main specialty for well over 30 years contributing core IP to several startups."
+- 
+  id: 61
+  name: "Dario"
+  surname: "Laverde"
+  company: "HTC"
+  mentor: true
+  title: "senior developer evangelist"
+  description: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
+  thumbnailUrl: DarioLeverde-copy.jpg
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
+
 # -
 #   id: 
 #   name: ""

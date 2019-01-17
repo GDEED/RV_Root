@@ -1,0 +1,73 @@
+- 
+  id: 0
+  name: "Savannah"
+  surname: "Niles"
+  company: ""
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: SavannahNiles.jpg
+- 
+  id: 1
+  name: "Alessandro"
+  surname: "Dini"
+  company: "WayRay"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: AlessandroDini.jpg
+- 
+  id: 2
+  name: "Leonid"
+  surname: "Striga"
+  company: "WayRay"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: LeonidStriga.jpg
+- 
+  id: 3
+  name: "Ryan"
+  surname: "Lee"
+  company: "PTC"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: RyanLee.jpg
+- 
+  id: 4
+  name: "Iulian"
+  surname: "Radu"
+  company: "PTC"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: IulianRadu.jpg
+- 
+  id: 5
+  name: "Kevin"
+  surname: "Vandecar"
+  company: "Autodesk"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: KevinVandecar.jpg
+- 
+  id: 6
+  name: "Jesse"
+  surname: "McCulloch"
+  company: "Microsoft"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: JesseMcCulloch.jpg
+- 
+  id: 7
+  name: "Dario"
+  surname: "Laverde"
+  company: "HTC"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: DarioLaverde-copy.jpg
+- 
+  id: 8
+  name: "Rex"
+  surname: "Hansen"
+  company: "ESRI"
+  title: "Developer"
+  bio: ""
+  thumbnailUrl: RexHansen-copy.jpg
+
