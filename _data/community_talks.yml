@@ -1,6 +1,7 @@
 - 
   date: "2019-1-17"
   dateReadable: "Saturday, January 19"
+  description: "Reality Virtually 2019 Community Talks 19 Jan 2018 – 10:00 AM  to 4:00 PM  Location, MIT Bartos Auditorium (Wiesner Building, Massachusetts Institute of Technology, Ames St Building e15, Cambridge, MA 02142). Join us on Saturday, January 19th, 2019, at the Bartos Theater in the Wiesner Building at MIT for this year's Reality Virtually Hackathon Community Talks from 10AM to 3PM.nSpeakers will share insights about their platforms and visions of the future of blended reality experiences with time for audience questions. Check back because there may be additions to the schedule"
   tracks: 
     - {title: "Hackathon", color: "#90be4e"}
   timeslots:
