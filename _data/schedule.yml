@@ -58,12 +58,17 @@
     - {
     	startTime: "5:30pm",
     	endTime: "7:00pm",
-    	sessionIds: [310]
+    	sessionIds: [401]
     }
     - {
-        startTime: "7:00pm",
-        endTime: "11:00pm",
+        startTime: "6:45pm",
+        endTime: "8:00pm",
         sessionIds: [405]
+    }
+    - {
+        startTime: "8:00pm",
+        endTime: "11:00pm",
+        sessionIds: [406]
     }
     - {
         startTime: "12am",

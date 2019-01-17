@@ -109,8 +109,14 @@
   description: "Local Lunch Suggestions: https://www.google.com/maps/d/u/2/embed?mid=1U-pV3T0Hr827d4rg4n4Yr8Nq7bBNdYxn"
 -
   id: 405
+  title: "Opening ceremonies (Attendance Required)"
+  place: "Building 26 room 100 - adjacent to building 32 (the latter is the Stata center)"
+  service: true
+  description: ""
+-
+  id: 406
   title: "Team Formation (Attendance Required)"
-  place: "MIT Media Lab - 75 Amherst Street, Cambridge MA 02139"
+  place: "hallway- Stata center)"
   service: true
   description: ""
 -
