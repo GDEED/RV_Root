@@ -11,7 +11,7 @@
   service: true
   description: "The hackathon starts with a full morning of enabling workshops. Design, development, and platform talks by experts and code labs, and talks by domain experts prepare participants to compete. During the workshop day, sponsors and participants interact at sponsor tables situated in the high-traffic area"
 -
-  id: 406
+  id: 410
   title: "Afternoon Workshops"
   place: "MIT Media Lab 75 Amherst Street, 6th Floor Cambridge MA 02139"
   service: true
