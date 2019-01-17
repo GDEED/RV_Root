@@ -1,0 +1,36 @@
+- 
+  date: "2019-1-17"
+  dateReadable: "Saturday, January 19"
+  tracks: 
+    - {title: "Hackathon", color: "#90be4e"}
+  timeslots:
+    - {
+    	startTime: "10am",
+    	endTime: "11am",
+    	sessionIds: [1],
+    }
+    - {
+    	startTime: "11am",
+    	endTime: "11:45am",
+    	sessionIds: [2]
+    }
+    - {
+    	startTime: "11:45am",
+    	endTime: "12:30pm",
+    	sessionIds: [3]
+    }
+    - {
+    	startTime: "12:30pm",
+    	endTime: "1:00pm",
+    	sessionIds: [4]
+    }
+    - {
+    	startTime: "1:00pm",
+    	endTime: "2:00pm",
+    	sessionIds: [5]
+    }
+    - {
+    	startTime: "2:00pm",
+    	endTime: "3:00pm",
+    	sessionIds: [6]
+    }

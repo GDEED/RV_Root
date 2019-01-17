@@ -1,0 +1,49 @@
+-
+  id: 01
+  title: "Biased Reality"
+  description: "If you were given the opportunity to remix reality with your own values, biases, and aspirations, what would it look like? How would you negotiate serving the end user, society or your own fantasies? Mixed reality interfaces will be more powerful than interfaces today, but also gentler. The screen contains our digital experiences, separating us from the real world while we have them. The value proposition of spatial computing is to unify digital experience and the physical world, inherently promising interfaces with a lot more power over the individual and society. Our values, biases, and aspirations as designers and technologists will soon be unleashed from screens and take interactive, shape-shifting form in real-world contexts. Stories and insights from the past 3 years of creating a spatial computing operating system. One-part retrospective and one-part 'best/lest practices' discussion with a generous dose of speculation."
+  subtype: workshop
+  speaker: [0]
+  language: en
+  complexity: "Beginner"
+-
+  id: 02
+  title: "Our History, Capabilities, & Under The Hood"
+  description: ""
+  subtype: workshop
+  speaker: [1, 2]
+  language: en
+  complexity: "Beginner"
+-
+  id: 03
+  title: "AR in Education - Strategies for measuring efficacy and insights from the field."
+  description: ""
+  subtype: workshop
+  speaker: [3, 4]
+  language: en
+  complexity: "Beginner"
+-
+  id: 04
+  title: "Autodesk Forge – what is it, and how can it help you?"
+  description: "Autodesk Forge is a cloud services platform with rich APIs to help you to work with your design data in web and mobile solutions. This talk will provide an overview of the services and APIs available, and give examples of how it can be used. Forge also allows you to integrate Autodesk SaaS products (such as Fusion Team and BIM 360 Docs) into custom workflows. The entire platform is designed around rich 3D data visualization and collaboration. We will demo some customer solutions, and also some example applications utilizing the Forge platform. Will also introduce the possibilities of this platform within the AR and VR realms."
+  subtype: workshop
+  speaker: [5]
+  language: en
+  complexity: "Beginner"
+-
+  id: 05
+  title: "Augmented and Virtual Reality for Immersive Spatial Exploration"
+  description: "Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR) represent a new opportunity to deliver unique and innovative experiences to customers for a variety of applications. From virtual training, pocket heads-up display for location-based services, or table top immersive experiences these new technologies touch a broad variety of industries. The talk introduces the concepts and terminology around these technologies, discusses the market potential of these new technologies, and shows example applications and discusses how they are being used now and in the future."
+  subtype: workshop
+  speaker: [5]
+  language: en
+  complexity: "Beginner"
+-
+  id: 06
+  title: "Mixed Reality, The Cloud, & The Future"
+  description: ""
+  subtype: workshop
+  speaker: [5]
+  language: en
+  complexity: "Beginner"
+

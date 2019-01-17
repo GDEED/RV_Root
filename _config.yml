@@ -69,6 +69,9 @@ navigationLinks:
       text: "Thursday Schedule"
     - link: "/leads/"
       text: "Workshop Leaders"
+ - link: "/community_day/"
+   text: "Community Day"
+   hasDropdown: false
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
  - {link: "/team/", text: "Team", hasDropdown: false}
