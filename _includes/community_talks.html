@@ -1,10 +1,10 @@
 <!-- Begin Schedule Section -->
 <section id="workshop" class="workshop">
     <div class="content-wrapper">
-    	<p class="slot-language">{{ site.data.community_talks.description }}</p>
         {% for day in site.data.community_talks %}
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
             <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
+            <p>{{ day.description }}</p>
             <div class="timeslot track-header stick-header">
                 <div class="track-header-label">Day {{ forloop.index }}</div>
                 <div class="timeslot-elements flexbox-wrapper">

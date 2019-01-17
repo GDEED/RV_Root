@@ -22,7 +22,7 @@
     - {
     	startTime: "1:30pm",
     	endTime: "5:30pm",
-    	sessionIds: [406]
+    	sessionIds: [410]
     }
     - {
         startTime: "5:30pm",
@@ -31,9 +31,15 @@
     }
     - {
         startTime: "7:00pm",
-        endTime: "11:00pm",
+        endTime: "8:00pm",
         sessionIds: [405]
     }
+    - {
+        startTime: "8:00pm",
+        endTime: "11:00pm",
+        sessionIds: [406]
+    }
+
 - 
   date: "2019-1-18"
   dateReadable: "Friday January 18"
@@ -61,9 +67,9 @@
     	sessionIds: [310]
     }
     - {
-        startTime: "7:00pm",
-        endTime: "11:00pm",
-        sessionIds: [405]
+    	startTime: "7:00pm",
+    	endTime: "12:00am",
+    	sessionIds: [311]
     }
     - {
         startTime: "12am",
@@ -147,31 +153,6 @@
     	endTime: "9:30pm",
     	sessionIds: [316]
     }
-    - {
-    	startTime: "7:30am",
-    	endTime: "9:30am",
-    	sessionIds: [507]
-    }
-    - {
-    	startTime: "1:00pm",
-    	endTime: "2:30pm",
-    	sessionIds: [509]
-    }
-    - {
-    	startTime: "",
-    	endTime: "",
-    	sessionIds: [516]
-    }
-    - {
-    	startTime: "5:30pm",
-    	endTime: "7:00pm",
-    	sessionIds: [510]
-    }
-    - {
-    	startTime: "8:00pm",
-    	endTime: "9:30pm",
-    	sessionIds: [517]
-    }
 -
   date: "2019-1-21"
   dateReadable: "Monday January 21"
@@ -200,7 +181,7 @@
     }
     - {
     	startTime: "2:00pm",
-    	endTime: "5:30pm",
+    	endTime: "4:30pm",
     	sessionIds: [506]
     } 
     - {
