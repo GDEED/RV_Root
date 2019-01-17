@@ -10,7 +10,7 @@ WebVR offers a different working and publishing flow than a Unity or Unreal proj
 -
   id: 02
   title: "Intro to Unity"
-  description: ""
+  description: "The Unity3D game engine a powerful and widely-used tool for creating AR and VR experiences. This workshop will cover the basics of building interactive media with Unity. Participants will learn to use the Unity Editor, organize a project, and write C# scripts to create custom logic. No prior programming experience is required; participants with a coding background will still benefit from our discussion of Unity-specific topics. Starting with an overview of the Unity Editor, we will discuss the building blocks of a Unity application. We will demonstrate asset workflows and the use of the Asset Store. The second half of the workshop will introduce Unity's scripting API and the basics of C#. Participants will learn how Unity components work, and create their own components to create a simple point-and-click user interface. Participants are encouraged to follow along on their personal laptops. You will need to have Unity 2018.3.1 and Visual Studio installed on your device before the start of the workshop. All instructional content will be made available to download after the workshop."
   subtype: workshop
   workshop_leaders: [1]
   language: en
