@@ -821,6 +821,20 @@
     - {name: "Product/Interaction Design"}
     - {name: "Software Development and Prototyping"}
   description: Jeffrey brings over 25 years of experience in research, engineering, and applications of virtual and mixed reality technology. With a doctorate in Information Science from PITT, Jeff is expert on how people process information. He was one of the first researchers to use game technology for VR, conduct learning experiments in VR, and use AR in museums and educational theater. He consulted for years into several industries, especially education, architecture, construction, transportation, and medicine. Today, he is the SimEngineering Project Manager at SIMPeds, where he prototypes new training tools, oversees production of (XR) solutions at the simulation center, and investigates XR for medical training and treatment.
+- 
+  id: 11
+  name: "Dario"
+  surname: "Laverde"
+  company: "HTC"
+  mentor: true
+  title: "senior developer evangelist"
+  description: "Dario is a senior developer evangelist at HTC with an EE background and 25+ years software development in mobile, embedded, Web, and enterprise. He has worked as an Android instructor, consultant, Java architect, author and entrepreneur, founding several developer communities."
+  thumbnailUrl: DarioLeverde-copy.jpg
+  ribbon: 
+    - {abbr: "mentor", title: "Mentors"}
+  skills:
+    - {name: "Product/Interaction Design"}
+    - {name: "Software Development and Prototyping"}
 # -
 #   id: 
 #   name: ""
