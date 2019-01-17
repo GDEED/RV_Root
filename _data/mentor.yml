@@ -854,22 +854,6 @@
     - {name: "Project Manager / Producer"}
   description: "Dr. Kate Donovan is the Clinical Director of Immersive Technologies for the Innovation Digital Health Accelerator at Boston Children’s Hospital. She is also the Innovation Technology Coordinator for Medicine Patient Services at Boston Children’s Hospital and co-founder of Hacking Pediatrics, an annual pediatric focused healthcare hackathon held in Boston. Donovan is a serial idea generator and has a deep interest in exploring pain points to help deliver enchanting solutions to improve the patient and family experience as well as operational efficiency for clinicians. She has been instrumental in bringing immersive technologies to Boston Children’s Hospital and has been creating and designing solutions as well as researching its use with the pediatric patient population for the past 4 years. Donovan has focused her most recent clinical research in the digital health arena where she has studied the validity of wearables, clinical adoption and use of virtual reality and augmented reality and the use of voice technology in the pediatric clinical environment. She is also a member of VR-CORE, an international committee of Virtual Reality – Clinical Outcomes Research Experts who are working together to create guidelines for future VR clinical trials."
 -
-  id: 51
-  name: "Michael"
-  surname: "Wissner"
-  thumbnailUrl: mwissner@hotmail.com.jpeg
-  mentor: true
-  ribbon: 
-    - {abbr: "mentor", title: "Mentors"}
-  social: 
-    - {name: "linkedin", link: ""}
-    - {name: "site", link: ""}
-    - {name: "other", link: ""}
-  skills:
-    - {name: "Software Development and Prototyping"}
-    - {name: "Project Manager / Producer"}
-  description: "Michael is an MIT alum with a background as a software engineer, consultant, and entrepreneur. He was on the founding team of several successful startups, including Avid Technology, a pioneer in digital video and film editing for which he won an Emmy Award, and QuickBase, a leader in no-code database application systems.  He currently works in technology consulting.  Michael has participated in many hackathons, and his current interests include Internet of Things devices, and VR/AR applications.  "
--
   id: 52
   name: "Brett"
   surname: "Phares"
