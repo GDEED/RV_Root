@@ -107,42 +107,6 @@
         sessionIds: [317]
     }
 -
-  date: "2019-1-19"
-  dateReadable: "Community Talks Schedule"
-  tracks:
-    - {title: "MIT Bartos Auditorium", color: "#90be4e"}
-  timeslots:
-    - {
-    	startTime: "10:00am",
-    	endTime: "11:00am",
-    	sessionIds: [900]
-    }
-    - {
-    	startTime: "11:00am",
-    	endTime: "11:45am",
-    	sessionIds: [901]
-    }
-    - {
-    	startTime: "11:45am",
-    	endTime: "12:30pm",
-    	sessionIds: [902]
-    }
-    - {
-    	startTime: "12:30pm",
-    	endTime: "1:00pm",
-    	sessionIds: [903]
-    }
-    - {
-    	startTime: "1:00pm",
-    	endTime: "2:00pm",
-    	sessionIds: [904]
-    }
-    - {
-        startTime: "2pm",
-        endTime: "3pm",
-        sessionIds: [905]
-    }
--
   date: "2019-1-20"
   dateReadable: "Sunday January 20"
   tracks:
