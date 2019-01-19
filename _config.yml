@@ -75,12 +75,32 @@ navigationLinks:
 # Hero Block
 heroImage: "abstract-virtual-reality.png"
 heroTitle: "Reality Virtually Hackathon"
-heroDescription: "@ the MIT Media Lab"
+heroDescription: "@ the MIT Media Lab <br><b>Public Expo on 1/21</b>"
 heroDescriptionLink: "#location-map"
 eventDate: "January 17-21<sup>st</sup>, 2019"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
 notifyMeButtonText: "Notify me when applications open"    
+
+#Other Happenings block
+happeningsTitle: "Other Happenings"
+happeningOneTitle: "Community Talks"
+happeningOneImage: "https://photos.smugmug.com/Events/Panel-on-the-Future-of-AR-VR/i-dHt7qzG/0/31a2a066/X3/DSC_6549-X3.jpg"
+happeningOneText: "Join us for this FREE Event on Saturday, January 19th, 2019, at the Bartos Theater in the Wiesner Building at MIT for this year's Reality Virtually Hackathon Community Talks from 10AM to 3PM.<br><br>
+We have so many talented people visiting the MIT Media Lab that we want to make them available to the greater Boston developer community at large."
+happeningOneLink: "https://www.meetup.com/Boston-Virtual-Reality/events/258056344/?rv=ea1_v2&_xtd=gatlbWFpbF9jbGlja9oAJGZiMzEyM2U5LTc5ZjMtNDc2Ni1iZTkwLTRlMzdkMjQ2YjQzMw"
+happeningOneLinkText: "More Info"
+happeningTwoTitle: "Public Expo"
+happeningTwoImage: "/img/hackathon/expo-hero-image.jpg"
+happeningTwoText: "The Reality Virtually Public Expo will showcase the most cutting-edge developments in augmented reality and virtual reality created over a five day period by the 400 developers, designers, and AR/VR storytellers participating in the hackathon.<br>
+<br>
+<strong>When:</strong> January 21, 2019<br>
+<strong>Time:</strong> 2 PM - 4:30 PM<br>
+<strong>Where:</strong> MIT Media Lab 6th Floor 75 Amerherst Street Cambridge MA 02139
+<br><br>
+This is a chance to interact with novel and original AR/VR innovation and experiences running on the most advanced hardware and software platforms. Met the teams that developed these amazing experiences and meet the winners."
+happeningTwoLink: "https://www.eventbrite.com/e/2019-public-expo-for-the-reality-virtually-hackathon-tickets-54512364951"
+happeningTwoLinkText: "Get Tickets"
 
 
 # About Block
