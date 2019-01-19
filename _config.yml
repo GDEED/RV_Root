@@ -70,6 +70,7 @@ navigationLinks:
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
  - {link: "/mentors/", text: "Mentors", hasDropdown: false}
+ - {link: "/prizes/", text: "Prizes", hasDropdown: false}
  - {link: "/schedule/", text: "Schedule", hasDropdown: false}
 
 # Hero Block
@@ -409,16 +410,15 @@ within an innovative, technological solution to the challenge of articulating th
 compelling format."}  
 
 
-prizesCategoriesTitle: ""
+prizesCategoriesTitle: "Category Prizes"
 prizesCategories:
-  - {title: }
-  - {title: }
-  - {title: }
-  - {title: }
-  - {title: }
-  - {title: }
-  - {title: }
-  - {title: }
+  - {title: "Social Good", info: "$1,000 Cash Prize <br> 4 Oculus Go (sponsored by Oculus)"}
+  - {title: "Mobility & Communications", info: "$1,000 Cash Prize"}
+  - {title: "Health & Wellness", info: "$1,000 Cash Prize"}
+  - {title: "Art, Media & Entertainment", info: "$1,000 Cash Prize"}
+  - {title: "Games & Learning", info: "$1,000 Cash Prize"}
+  - {title: "Productivity", info: "$1,000 Cash Prize"}
+  - {title: "Industrial & Commercial", info: "$1,000 Cash Prize"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
