@@ -70,6 +70,7 @@ navigationLinks:
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
  - {link: "/mentors/", text: "Mentors", hasDropdown: false}
+ - {link: "/prizes/", text: "Prizes", hasDropdown: false}
  - {link: "/schedule/", text: "Schedule", hasDropdown: false}
 
 # Hero Block
@@ -384,11 +385,40 @@ judgesImage: "judges.jpg"
 judgesTitle: "Judges"
 
 # Hackathon Prizes Block
-prizesTitle: "Prizes"
-prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+prizesOverallTitle: "Overall Prizes"
+prizesOverall:
+ - {title: "Top AR", image: "logo_att.png", info: "$5,000 Cash Prize"}
+ - {title: "Top VR", image: "logo_vrarmit.jpg", info: "$5,000 Cash Prize"}
+ - {title: "Best use of WayRay's True AR SDK", image: "logo_wayray.png", info: "$5,000 Cash Prize"}
+ - {title: "Best use of Vuforia", image: "logo_ptc.jpg", info: "$2,500 Cash Prize"}
+ - {title: "Best use of AR and IOT in industrial, Manufacturing and Field Service", image: "logo_ptc.jpg", info: "$2,500 Cash Prize"}
+ - {title: "Best use of Autodesk forge cloud platform", image: "logo_autodesk.png", info: "$2,500 Cash Prize"}
+ - {title: "Best use of ESRI's AR SDK", image: "logo_esri.png", info: "$2,500 Cash Prize"}
+ - {title: "Best use of Magic Leap", image: "logo_magicleap.png", info: "$2,500 Cash Prize"} 
+ - {title: "Way-more", image: "logo_wayfair.png", info: "$2,500 Cash Prize <br><br>", description: "For the Way-more valuable hack prize, we're looking for a thoughtful & practical application of immersive technology that adds value to the world - so potential to solve a real world problem. It should be obvious that your hack can make an impact if you continued working on it post the hackathon as a viable business / group. So think outside the box, and come up with something innovative, but be grounded to reality!!"} 
+ - {title: "Wayfair Social Media", image: "logo_wayfair.png", info: "Oculus Go", description: "Win one by following `@wayfairatwork` on instagram/twitter, post a photo and tag `@wayfairatwork` with hashtag `#wayfairnext`"}
+ - {title: "Data Visualization Challenge", image: "logo_fidelity.png", info: "$2,500 Cash Prize", description: "Fidelity Investments is best known as a financial services company dedicated to enabling our clients to
+achieve lifelong financial independence and peace of mind.
+Fidelity Investments is also a technology company. We’re exploring new technologies like Virtual and
+Augmented Reality, Blockchain, and AI, as well as unexpected applications of new hardware/software
+including (but certainly not limited to) immersive user interfaces, interactions with digital agents, and
+zero UI. 
+ 
+The Fidelity Data Visualization prize will be awarded to the project that evolves two-dimensional (2D)
+renderings of data into three dimensions (3D) and most effectively combines the following criteria
+within an innovative, technological solution to the challenge of articulating the value of data in a visually
+compelling format."}  
+
+
+prizesCategoriesTitle: "Category Prizes"
+prizesCategories:
+  - {title: "Social Good", info: "$1,000 Cash Prize <br> 4 Oculus Go (sponsored by Oculus)"}
+  - {title: "Mobility & Communications", info: "$1,000 Cash Prize"}
+  - {title: "Health & Wellness", info: "$1,000 Cash Prize"}
+  - {title: "Art, Media & Entertainment", info: "$1,000 Cash Prize"}
+  - {title: "Games & Learning", info: "$1,000 Cash Prize"}
+  - {title: "Productivity", info: "$1,000 Cash Prize"}
+  - {title: "Industrial & Commercial", info: "$1,000 Cash Prize"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
