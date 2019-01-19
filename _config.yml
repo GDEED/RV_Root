@@ -57,6 +57,8 @@ navigationLinks:
    text: "About"
    hasDropdown: true
    subNav:
+    - link: "/symposium/"
+      text: "Symposium"
     - link: "/faq/"
       text: "FAQ"
     - link: "/hackathon-rules/"
