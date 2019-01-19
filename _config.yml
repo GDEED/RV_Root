@@ -45,52 +45,32 @@ navigationLinks:
 # - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
  - link: "/"
    text: "Home"
- - {calltoaction: true, permalink: "/apply", link: "/apply/", text: "Waitlist", style: "color:#d5df2a;" }
-
-
-# - {permalink: "#", text: "Home"}
-# - {permalink: "/blog/", text: "Blog"}
-# - {permalink: "/hackathon/", text: "Hackathon"}
-
-    
  - link: "/about/"
    text: "About"
    hasDropdown: true
    subNav:
-    - link: "/symposium/"
-      text: "Symposium"
     - link: "/faq/"
       text: "FAQ"
     - link: "/hackathon-rules/"
       text: "Rules"
- - link: "/workshops/"
-   text: "Workshops"
-   hasDropdown: true
-   subNav:
+    - link: "/team/"
+      text: "Team"
     - link: "/workshops/"
-      text: "Thursday Schedule"
-    - link: "/leads/"
-      text: "Workshop Leaders"
+      text: "Workshops"
+    - link: "/blog/"
+      text: "Blog"
+    - link: "https://pastevents.realityvirtuallyhack.com/"
+      text: "Past Events"
+      target: "_blank"
  - link: "/community_day/"
    text: "Community Day"
    hasDropdown: false
+ - link: "/symposium"
+   text: "Symposium"
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
- - {link: "/team/", text: "Team", hasDropdown: false}
  - {link: "/mentors/", text: "Mentors", hasDropdown: false}
  - {link: "/schedule/", text: "Schedule", hasDropdown: false}
- - {link: "/blog/", text: "Blog", hasDropdown: false}
- - link: "https://pastevents.realityvirtuallyhack.com/"
-   text: "Past Events"
-   2016event: "#2016"
-   hasDropdown: true
-   subNav:
-    - link: "https://pastevents.realityvirtuallyhack.com/"
-      text: "2017"
-      target: "_blank"
-    - link: "https://pastevents.realityvirtuallyhack.com/about-2016/"
-      text: "2016"
-      target: "_blank"
 
 # Hero Block
 heroImage: "abstract-virtual-reality.png"

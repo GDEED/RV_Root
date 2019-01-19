@@ -3091,6 +3091,17 @@ nav li a {
     font-size: 14px;
 }
 
+@media all and (min-width: 767px) {
+    .sub-nav {
+        min-width: 200px;
+        transform: translateX(-36%);
+        background-color: rgba(0,0,0,0.4);     
+    }
+    .sub-nav li {
+        margin: 10px 0 !important;
+    }
+}
+
 nav li a.current, nav li a:hover {
     text-decoration: none;
     color: #cfcfcf
