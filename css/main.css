@@ -4747,16 +4747,28 @@ nav li a.current, nav li a:hover {
 }
 
 .prize {
-    margin-top: 50px
+    margin-top: 30px
 }
 
-.prize:nth-child(3) {
-    margin-top: 0
+.prize-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prize {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prize h4 {
+    margin-bottom: 30px; 
 }
 
 .prize-img-wrapper img {
     max-width: 250px;
-    margin: 0 auto
+    margin: 0 auto;
+    max-height: 80px;
 }
 
 .hackathon-location {

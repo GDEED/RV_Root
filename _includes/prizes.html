@@ -1,19 +1,26 @@
 <!-- Prizes Section -->
 <section id="prizes" class="prizes">
-    <div class="content-wrapper">
-        <div class="col-md-8 col-md-offset-2">
-            <h3>{{ site.prizesTitle }}</h3>
-            {% for prize in site.prizes %}
-            {% assign colWidth = 12 | divided_by: forloop.length %}
-            {% assign check = forloop.index | modulo:2 %}
-            <div class="prize col-md-{{ colWidth }} col-xs-{{ colWidth }} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
-                <h4>{{ prize.title }}</h4>
-                <div class="prize-img-wrapper">
-                    <img class="img-responsive" src="{{ site.baseurl }}/img/hackathon/{{ prize.image }}" alt="Hackathon">
+    <div class="content-wrapper ">
+        <div class=" col-md-8 col-md-offset-2">
+            <h3>{{ site.prizesOverallTitle }}</h3>
+            <div class="prize-container">
+            {% for prize in site.prizesOverall %}
+                {% assign check = forloop.index | modulo:2 %}
+                <div class="prize col-md-4 animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
+                    <h4>{{ prize.title }}</h4>
+                    <div class="prize-img-wrapper">
+                        <img class="img-responsive" src="{{ site.baseurl }}/img/sponsors/{{ prize.image }}" alt="Hackathon">
+                    </div>
+                    {% if prize.description %}
+                        <p>{{prize.description}}</p>
+                        <br>
+                    {% endif %}
+                    <br>
+                    <p><b>{{ prize.info }}</b></p>
+
                 </div>
-                <p>{{ prize.info }}</p>
-            </div>
             {% endfor %}
+            </div>
         </div>
     </div>
 </section>
