@@ -385,7 +385,7 @@ judgesImage: "judges.jpg"
 judgesTitle: "Judges"
 
 # Hackathon Prizes Block
-prizesOverallTitle: "Overall Prizes"
+prizesOverallTitle: "Overall Preliminary Prizes"
 prizesOverall:
  - {title: "Top AR", image: "logo_att.png", info: "$5,000 Cash Prize"}
  - {title: "Top VR", image: "logo_vrarmit.jpg", info: "$5,000 Cash Prize"}
