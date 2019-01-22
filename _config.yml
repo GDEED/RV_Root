@@ -59,18 +59,17 @@ navigationLinks:
       text: "Workshops"
     - link: "/blog/"
       text: "Blog"
+    - link: "/community_day/"
+      text: "Community Day"
+    - link: "/symposium/"
+      text: "Symposium"
     - link: "https://pastevents.realityvirtuallyhack.com/"
       text: "Past Events"
       target: "_blank"
- - link: "/community_day/"
-   text: "Community Day"
-   hasDropdown: false
- - link: "/symposium"
-   text: "Symposium"
 # - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
  - {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
  - {link: "/mentors/", text: "Mentors", hasDropdown: false}
- - {link: "/prizes/", text: "Prizes", hasDropdown: false}
+ - {link: "/winners/", text: "Winners", hasDropdown: false}
  - {link: "/schedule/", text: "Schedule", hasDropdown: false}
 
 # Hero Block
@@ -385,18 +384,20 @@ judgesImage: "judges.jpg"
 judgesTitle: "Judges"
 
 # Hackathon Prizes Block
-prizesOverallTitle: "Overall Preliminary Prizes"
+prizesOverallTitle: "Overall Preliminary Winners"
 prizesOverall:
- - {title: "Top AR", image: "logo_att.png", info: "$5,000 Cash Prize"}
- - {title: "Top VR", image: "logo_vrarmit.jpg", info: "$5,000 Cash Prize"}
-#  - {title: "Best use of WayRay's True AR SDK", image: "logo_wayray.png", info: "$5,000 Cash Prize"}
- - {title: "Best use of Vuforia", image: "logo_ptc.jpg", info: "$2,500 Cash Prize"}
- - {title: "Best use of AR and IOT in industrial, Manufacturing and Field Service", image: "logo_ptc.jpg", info: "$2,500 Cash Prize"}
- - {title: "Best use of Autodesk forge cloud platform", image: "logo_autodesk.png", info: "$2,500 Cash Prize"}
- - {title: "Best use of ESRI's AR SDK", image: "logo_esri.png", info: "$2,500 Cash Prize"}
- - {title: "Best use of Magic Leap", image: "logo_magicleap.png", info: "$2,500 Cash Prize"} 
- - {title: "Way-more", image: "logo_wayfair.png", info: "$2,500 Cash Prize <br><br>", description: "For the Way-more valuable hack prize, we're looking for a thoughtful & practical application of immersive technology that adds value to the world - so potential to solve a real world problem. It should be obvious that your hack can make an impact if you continued working on it post the hackathon as a viable business / group. So think outside the box, and come up with something innovative, but be grounded to reality!!"} 
- - {title: "Wayfair Social Media", image: "logo_wayfair.png", info: "Oculus Go", description: "Win one by following `@wayfairatwork` on instagram/twitter, post a photo and tag `@wayfairatwork` with hashtag `#wayfairnext`"}
+ - {title: "Best AR", image: "logo_att.png", info: "$3,000 Cash Prize", winner: "Bright", link: "https://rv2019.devpost.com/submissions/108832-bright"}
+ - {title: "Best VR", image: "logo_vrarmit.jpg", info: "$3,000 Cash Prize", winner: "Move 2 Improve", link: "https://rv2019.devpost.com/submissions/108835-move2improve"}
+ - {title: "Best MR", image: "logo_att.png", info: "$3,000 Cash Prize", winner: "gARden Cards", link: "https://rv2019.devpost.com/submissions/108799-garden-cards"}
+ - {title: "Best use of WayRay's True AR SDK", image: "logo_wayray.png", info: "$3,000 Cash Prize", winner: "Wayrider", link: "https://devpost.com/software/accudrive"}
+ - {title: "Best use of Vuforia", image: "logo_ptc.jpg", info: "$2,500 Cash Prize", winner: "Ideate AR", link: "https://rv2019.devpost.com/submissions/109593-ideate-ar"}
+ - {title: "Best use of AR and IOT in industrial, Manufacturing and Field Service", image: "logo_ptc.jpg", info: "$2,500 Cash Prize", winner: "Acessibild", link: 
+  "https://rv2019.devpost.com/submissions/108802-accessibild"}
+ - {title: "Best use of Autodesk forge cloud platform", image: "logo_autodesk.png", info: "$2,500 Cash Prize", winner: "Sound Space", link: "https://devpost.com/software/sound-space"}
+ - {title: "Best use of ESRI's AR SDK", image: "logo_esri.png", info: "$1,250 Cash Prize each", winner: "HighAR Ground", link: "https://devpost.com/software/highar-ground", winnerTwo: "Continuum", linkTwo: "https://devpost.com/software/continuum-dy1av0"}
+ - {title: "Best use of Magic Leap", image: "logo_magicleap.png", info: "$2,500 Cash Prize", winner: "CleARsight", link: "https://rv2019.devpost.com/submissions/109629-clear-sight"} 
+ - {title: "Way-more", image: "logo_wayfair.png", info: "$2,500 Cash Prize <br><br>", description: "For the Way-more valuable hack prize, we're looking for a thoughtful & practical application of immersive technology that adds value to the world - so potential to solve a real world problem. It should be obvious that your hack can make an impact if you continued working on it post the hackathon as a viable business / group. So think outside the box, and come up with something innovative, but be grounded to reality!!", winner: "CleARsight", link: "https://rv2019.devpost.com/submissions/109629-clear-sight", winnerTwo: "AccessibleLocomotionWebXR", linkTwo: "https://devpost.com/software/accessiblelocomotionwebxr"} 
+ #- {title: "Wayfair Social Media", image: "logo_wayfair.png", info: "Oculus Go", description: "Win one by following `@wayfairatwork` on instagram/twitter, post a photo and tag `@wayfairatwork` with hashtag `#wayfairnext`"}
  - {title: "Data Visualization Challenge", image: "logo_fidelity.png", info: "$2,500 Cash Prize", description: "Fidelity Investments is best known as a financial services company dedicated to enabling our clients to
 achieve lifelong financial independence and peace of mind.
 Fidelity Investments is also a technology company. We’re exploring new technologies like Virtual and
@@ -407,18 +408,22 @@ zero UI. 
 The Fidelity Data Visualization prize will be awarded to the project that evolves two-dimensional (2D)
 renderings of data into three dimensions (3D) and most effectively combines the following criteria
 within an innovative, technological solution to the challenge of articulating the value of data in a visually
-compelling format."}  
+compelling format.", winner: "Cosmos VR", link: "https://devpost.com/software/cosmovr"}
+ - {title: "Best Application for Accessibility", info: "$500", winner: "AccessibleLocomotionWebXR", link: "https://devpost.com/software/accessiblelocomotionwebxr"}
+ - {title: "Best use of AR in the Public Realm", info: "$500 Visa Gift Card", winner: "HighAR Ground", link: "https://devpost.com/software/ice-breakers-wa829m"}
+ - {title: "Best Use of HTC Utility Kit", image: "logo_htcvive.png", info: "$25 Steam Gift Card to each team member", winner: "Bird Box", link: "https://devpost.com/software/bird-box"}
+ - {title: "Best Use of HTC Trackers", image: "logo_htcvive.png",info: "HTC Vive Trackers", winner: "VR Fitness", link: "https://rv2019.devpost.com/submissions/108832-bright"}
+ - {title: "Best Use of HTC Trackers", image: "logo_htcvive.png",info: "HTC Vive Focus", winner: "AccessibleLocomotionWebXR", link: "https://devpost.com/software/accessiblelocomotionwebxr"}
 
-
-prizesCategoriesTitle: "Category Prizes"
+prizesCategoriesTitle: "Category Winners"
 prizesCategories:
-  - {title: "Social Good", info: "$1,000 Cash Prize <br> 4 Oculus Go (sponsored by Oculus)"}
-  - {title: "Mobility & Communications", info: "$1,000 Cash Prize"}
-  - {title: "Health & Wellness", info: "$1,000 Cash Prize"}
-  - {title: "Art, Media & Entertainment", info: "$1,000 Cash Prize"}
-  - {title: "Games & Learning", info: "$1,000 Cash Prize"}
-  - {title: "Productivity", info: "$1,000 Cash Prize"}
-  - {title: "Industrial & Commercial", info: "$1,000 Cash Prize"}
+  - {title: "Social Good", info: "$1,000 Cash Prize <br> 4 Oculus Go (sponsored by Oculus)", winner: "HighAR Ground", link: "https://devpost.com/software/highar-ground"}
+  - {title: "Mobility & Communications", info: "$1,000 Cash Prize", winner: "heAR", link: "https://devpost.com/software/hear"}
+  - {title: "Health & Wellness", info: "$1,000 Cash Prize", winner: "Bright", link: "https://devpost.com/software/bright"}
+  - {title: "Art, Media & Entertainment", info: "$1,000 Cash Prize", winner: "Bird Box", link: "https://devpost.com/software/bird-box"}
+  - {title: "Games & Learning", info: "$1,000 Cash Prize", winner: "Together", link: "https://devpost.com/software/together-gi26w9"}
+  - {title: "Productivity", info: "$1,000 Cash Prize", winner: "PresentXR", link: "https://devpost.com/software/iron-man"}
+  - {title: "Industrial & Commercial", info: "$1,000 Cash Prize", winner: "Sound Space", link: "https://devpost.com/software/sound-space"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"

@@ -231,7 +231,8 @@ a {
 
 a:hover, a:focus {
     color: #0275a8;
-    text-decoration: underline
+    text-decoration: underline;
+    border-color:#0275a8;
 }
 
 a:focus {
@@ -2388,7 +2389,8 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color: #60ccfd
+    color: #60ccfd;
+    border-color: #60ccfd;
 }
 
 a:hover, a:active, a:focus {
