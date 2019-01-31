@@ -1,0 +1,80 @@
+<!-- Begin mentor List-->
+<section id="workshopLeads" class="workshopLeads" style="background-color:white;">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h4>{{ site.workshopLeadsBlockTitle }}</h4>
+            <p class="text-center animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
+        </div>
+
+        <style>
+            .zoe-effect {
+                margin-bottom: 5px;
+            }
+        </style>
+        <!--mentor Section with Descriptions-->
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"></h4>
+            <div class="row" style=" display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;">
+                {% for workshopLead in site.data.workshop_leaders %}
+
+                <div class="effect-wrapper col-md-3 col-sm-6 col-xs-12 cols-centered appear-animation" style="margin-bottom: 10px;">
+                    <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ workshopLead.id }}">
+                        <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: workshopLead.thumbnailUrl }})">
+                            <div class="overlay solid-overlay"></div>
+                            <figcaption>
+                                <div class="col-md-8 col-xs-8 text-left">
+                                    <h2 class="name">{{ workshopLead.name }} <span>{{ workshopLead.surname }}</span></h2>
+                                    <div class="clearfix"></div>
+                                    <span class="position">{{ workshopLead.title }}</span>
+                                </div>
+                                {% for social in workshopLead.social %}
+                                <a href="{{ social["link"] }}" target="_blank">
+                                    <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                    </svg>
+                                </a>
+                                {% endfor %}
+
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {% if workshopLead.bio != null %}
+                    <p class="text-justify">
+                        {{workshopLead.bio}}
+                    </p>
+                    {% endif %}
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+
+        <!--<div class="col-lg-10 col-lg-offset-1 text-center">-->
+        <!--<h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizing mentor</h4>-->
+        <!--{% for mentorMember in site.data.mentor %} {% if mentorMember.mentor != null and mentorMember.thumbnailUrl != null %}-->
+        <!--<div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">-->
+        <!--<div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ mentorMember.id }}">-->
+        <!--<figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: mentorMember.thumbnailUrl }})">-->
+        <!--<div class="overlay solid-overlay"></div>-->
+        <!--<figcaption>-->
+        <!--<div class="col-md-8 col-xs-8 text-left">-->
+        <!--<h2 class="name">{{ mentorMember.name }} <span>{{ mentorMember.surname }}</span></h2>-->
+        <!--<div class="clearfix"></div>-->
+        <!--<span class="position">{{ mentorMember.title }}</span>-->
+        <!--</div>-->
+        <!--{% for social in mentorMember.social %}-->
+        <!--<a href="{{ social["link"] }}" target="_blank">-->
+        <!--<svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">-->
+        <!--<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>-->
+        <!--</svg>-->
+        <!--</a>-->
+        <!--{% endfor %}-->
+        <!--</figcaption>-->
+        <!--</figure>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--{% endif %} {% endfor %}-->
+        <!--</div>-->
+    </div>
+</section>
+<!-- End mentor List

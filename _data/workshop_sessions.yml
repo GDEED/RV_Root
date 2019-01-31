@@ -1,0 +1,188 @@
+-
+  id: 01
+  title: "XR at the speed of Web. Publish or perish in 10 minutes or less"
+  description: "A-Frame, Glitch, ShaderFrog, Sketchfab and Google Poly let you develop, collaborate on, and publish worlds in a short time. Learn how to amaze people fast, and give them the tools to amaze others.
+WebVR offers a different working and publishing flow than a Unity or Unreal project. There are massive downsides and upsides. The two worlds can intermix very fluidly. That and more in the workshop."
+  subtype: workshop
+  workshop_leaders: [0]
+  language: en
+  complexity: "Beginner"
+-
+  id: 02
+  title: "Intro to Unity"
+  description: "The Unity3D game engine a powerful and widely-used tool for creating AR and VR experiences. This workshop will cover the basics of building interactive media with Unity. Participants will learn to use the Unity Editor, organize a project, and write C# scripts to create custom logic. No prior programming experience is required; participants with a coding background will still benefit from our discussion of Unity-specific topics. Starting with an overview of the Unity Editor, we will discuss the building blocks of a Unity application. We will demonstrate asset workflows and the use of the Asset Store. The second half of the workshop will introduce Unity's scripting API and the basics of C#. Participants will learn how Unity components work, and create their own components to create a simple point-and-click user interface. Participants are encouraged to follow along on their personal laptops. You will need to have Unity 2018.3.1 and Visual Studio installed on your device before the start of the workshop. All instructional content will be made available to download after the workshop."
+  subtype: workshop
+  workshop_leaders: [1]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 03
+  title: "Creating VR with and for Humans"
+  description: "As VR/AR and XR technologies get pushed to their limits, technical creativity and imagination must work closer then ever to concoct inventive and surprising experiences. This 60min workshop explores the aesthetics and narrative opportunities of immersive and interactive storytelling. It offers participants a step-by-step check-list of some the fundamentals of immersive/interactive production cues: establishing visual languages and grammars, pace and transitions, storyboarding, UX and Human-centered design, as well as new forms of  gesture-based storytelling techniques."
+  subtype: workshop
+  workshop_leaders: [2]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 04
+  title: "Google WebXR"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [3]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 05
+  title: "Unity Workshop: Working with Packages, SDKs, and APIs"
+  description: "**Please bring a laptop with the latest version of Unity installed--installing can take up to 40 minutes otherwise*** A great concept or experience does not always rely on being able to code or 3D model but the integration of tools. For mixed-reality experiences there are already standard pre-packaged tools that teams can use to develop their experiences. In this workshop, we will build a mini experience using no programming or modeling. We will build upon the fundamentals of Unity and introduce how to call APIs, import packages and SDKs from third-party developers and how to install and manage SDKs.. We will cover browsing and importing assets from Google Poly, Vuforia, Mapbox, and other toolkits.  This workshop is geared for both developers and creatives of all experience levels. We will also provide a copy of the IBM Watson SDK which is no longer publicly available. "
+  subtype: workshop
+  workshop_leaders: [4]
+  language: en
+  complexity: "Intermediate" 
+-
+  id: 06
+  title: "Defense Against the Dark VR Arts: 3D Interaction Design for VR"
+  description: "Virtual reality (VR) has become a new form of human-computer interaction, which is often attributed “magical” powers. With the numerous potential uses and applications of VR comes a multitude of challenges with respect to user experience and interaction design. The wizards of the VR world (aka VR designers and developers) need to consider these challenges when deciding on the interaction paradigms to be used in their VR apps, so as not to inflict poor VR experiences on the Muggles of the VR world (aka users). Designed with the VR Muggles in mind, this workshop provides an overview of common 3D interaction paradigms for VR and highlights evidence-based best practices in the design and development of various aspects of 3D interaction in virtual environments, including selection, manipulation, travel, and system control. "
+  subtype: workshop
+  workshop_leaders: [5]
+  language: en
+  complexity: "Intermediate"
+-
+  id: 10
+  title: "Getting Started with WebXR"
+  description: "Datavized co-founders Brian Chirls and Debra Anderson will present a workshop on WebXR and the immersive web, including an overview of the WebXR API, an introduction to building WebVR applications and practical tips for getting started. Topics covered will include an intro to open-source tools and frameworks like A-Frame, hosting, resources and use cases. Discussions on advanced uses of WebXR, design and technical considerations will be tailored during a live demo and Q&A session."
+  subtype: workshop
+  workshop_leaders: [9, 10]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 11
+  title: "Cross platform VR Development with Unity and VIU"
+  description: "This hands on lecture and workshop will show you how to get started with Unity and the Vive Input Utility (VIU) Unity plugin for developing VR that will work across many of the current and upcoming HMDs. Even if you are a seasoned developer we will cover advanced topics like managing input devices, porting from PC to mobile and also visit best practices from http://xra.org. We'll be focusing on developing for the Vive/Vive Pro as well as the Vive Focus (Wave platform) but using VIU you will be able to target over a dozen PC and mobile VR devices (and not just Vive devices). To prepare you can take a look at the following blog, https://community.viveport.com/t5/Developer-Blog/bg-p/devblog and also visit http://developer.vive.com for additional resources. If attending please arrive with the Unity 2018.2 (and the Android development tools for Unity) already installed."
+  subtype: workshop
+  workshop_leaders: [11]
+  language: en
+  complexity: "Beginner"
+-
+  id: 12
+  title: "Rapid AR Development with Vuforia Studio"
+  description: "Vuforia's industry leading augmented reality technology is changing the enterprise landscape by enabling products and services to be experienced in a completely new way. This presentation will demonstrate how you can use Vuforia Studio to create scalable augmented reality experiences for a variety of enterprise use cases such as: • Empower service technicians with guided step-by-step work instructions • Improve assembly time and process efficiency in manufacturing workflows • Enhance sales and marketing efforts with 3D product visualizations and demonstrations • Facilitate collaborative design review and reduce the need for costly prototypes"
+  subtype: workshop
+  workshop_leaders: [13]
+  language: en
+  complexity: "Beginner"
+-
+  id: 13
+  title: "Autodesk Forge for AR or VR experiences"
+  description: "Autodesk Forge is a cloud platform for web developers that allow you to easily translate and view CAD and 3D data. In addition to the Forge Viewer’s capability for WebVR, Autodesk also has a toolkit in beta, that allows a similar workflow into Unity which then allows publishing the interactive experience to many of the popular AR and VR devices on the market today. This class will give an introduction to the Forge web services including the viewer’s WebVR functionality, and the Forge Unity toolkit. After the workshop, you will be able to translate your own 3D assets and use them via the Forge workflow into Unity."
+  subtype: workshop
+  workshop_leaders: [14, 23]
+  language: en
+  complexity: "Beginner"
+-
+  id: 14
+  title: "Microsoft -OpenVR, Mixed Reality Toolkit, and you"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [15]
+  language: en
+  complexity: "Beginner"
+-
+  id: 15
+  title: "Create A VR Music Video (or VR Story) - In one hour"
+  description: "Maybe you're not a voracious coder... Maybe you don't code at all but you still want to create something magnificent in VR.  Come watch and learn as Simmetri co-founder Max Harper show how quickly you can unlock your Mixed-Reality imagination. Combining some of Simmetri's easy yet powerful features like: terrain, scene-building and atmosphere effects, spatial audio, timeline animation, real-time audio reactivity, physics effects, and optional simple scripting-- we'll create an immersive music video, story or educational experience in 1 hour. "
+  subtype: workshop
+  workshop_leaders: [16, 17]
+  language: en
+  complexity: "Beginner"
+-
+  id: 16
+  title: "Building Immersive WebXR Data Visualization with Geometric"
+  description: "Learn how to easily build and share immersive 3D experiences in minutes without coding using Geometric, a new software tool by Datavized Technologies. In this workshop participants will use the Geometric dashboard tool and learn the fundamentals of immersive data visualization and WebXR, how to prepare and clean location data sets, import and map geospatial data to a 3D globe for a 360° view of trends and insights, and customize a 3D project for presentation on the web and in virtual reality and mixed reality headsets. Each workshop participant will be given Early Adopter access to Geometric. Product Website: http://geometric.space/ "
+  subtype: workshop
+  workshop_leaders: [9, 10]
+  language: en
+  complexity: "Beginner"
+-
+  id: 17
+  title: "Oculus"
+  description: ""
+  subtype: workshop
+  workshop_leaders: []
+  language: en
+  complexity: "Beginner"
+-
+  id: 18
+  title: "Creating an IoT Project using ThingWorx"
+  description: "This introductory workshop will teach you how to model, connect, analyze, and build Internet of Things (IoT) applications using ThingWorx, an industry-class platform used by developers across the globe. You will learn the ThingWorx Development Process, the core framework for developing IoT applications. Using this framework, you will be given a hands-on opportunity to create a digital Mars Weather Rover entity that would be used to collect physical information from a physical agent in the field. In this workshop, you will also use Postman, a third-party application, to send RESTful calls to our ThingWorx server in order to see how to bring in connected data."
+  subtype: workshop
+  workshop_leaders: [18]
+  language: en
+  complexity: "Beginner"
+-
+  id: 19
+  title: "Google: ARCORE: Unity and SceneForm"
+  description: ""
+  subtype: workshop
+  workshop_leaders: [3, 7]
+  language: en
+  complexity: "Beginner - Intermediate" 
+-
+  id: 20
+  title: "WayRay: Hands-on with the True AR SDK: Creating Augmented Reality for Cars"
+  description: "The True AR SDK by WayRay makes it easy to create AR experiences for drivers and passengers. The introductory workshop will get participants up to speed on the SDK toolset and how to jump-start AR app development right on the spot. WayRay’s mentors, aka True AR Kids, will be there to cover key functionalities and components of the True AR SDK beta (API, emulator, simulator, toolset), AR application structure and lifecycle as well as the operating principles of WayRay’s in-car holographic AR displays."
+  subtype: workshop
+  workshop_leaders: [19, 20]
+  language: en
+  complexity: "Beginner" 
+-
+  id: 21
+  title: "WebXR and Augmented Reality. In other words, Give Me The Camera."
+  description: "Extra topics: Binding ARKit and ARCore to A-Frame, image processing, sensor fusion, F4 Phantom ultralight headsets An HTTPS website can do AR on modern iOS and Android devices. We’ll learn how to get ahold of the camera and put it underneath a VR layer made of THREE.js and A-Frame, then go further with in-VR camera reprojection. Everybody thinks Apple will come out with the Next Mass Innovation - beautiful AR-enabling glasses - sometime. The excitement we see today with ARCore and ARKit apps is just the first stepping stone.  So what will the future look like? Will websites go away? Will you have to code for iOS or Android to compete, meet and greet in 2020?  In a word, no. More words at the workshop."
+  subtype: workshop
+  workshop_leaders: [0]
+  language: en
+  complexity: "Beginner"
+-
+  id: 22
+  title: "Geo-enable your data with ESRI"
+  description: "Come learn how to geo-enable your data and create powerful VR/AR/MR experiences using Esri technology, the industry leader in digital mapping software and solutions.  First, we’ll discuss our existing data offerings and capabilities available as part of the ArcGIS Platform.  Next, we’ll show how to prepare and distribute your data for use in immersive augmented and virtual experiences.  Finally, we’ll show how AR/VR apps can be developed on native app frameworks using the ArcGIS Runtime."
+  subtype: workshop
+  workshop_leaders: [21]
+  language: en
+  complexity: "Beginner"
+-
+  id: 23
+  title: "Github"
+  description: "Intro to GitHub:
+
+This workshop on Github will introduce participants to source control and best practices with Git.  Learn how to collaborate on a team and keep track of changes through a shared code repository.  The basics of GitHub will covered, such as file structure, code versioning, and branching off a main source. We'll go over how to pull, modify, commit, and merge code onto a master branch.  We'll also review how to manage large files (audio, video, hi-res images) through GitHub's Large File Storage (LFS) system.  Students will have the option of using a command-line interface or GitHub's user-friendly desktop application.  This workshop is for those new to source control and versioning, or looking to improve their git skills.  Participants should download all pre-requisite software listed here: https://github.com/alexfigtree/reality-virtually-hackathon#pre-requisites"
+  subtype: workshop
+  workshop_leaders: [22, 24]
+  language: en
+  complexity: "Beginner"
+-
+  id: 24
+  title: "Designing UI/UX for AR"
+  description: "This workshop will give you a beginner’s inventory of AR UI/UX design patterns and share some best practices. We will start by analyzing an AR experience and exploring its design. Then, we will discuss some principle design foundations as well as do’s and don’ts and see how those have been applied to the AR experience. Then we will dive deeper into concepts for designing in 3D and wrap up with a different AR experience and see if you can apply what you have learned to improve it!"
+  subtype: workshop
+  workshop_leaders: [6]
+  language: en
+  complexity: "Beginner"
+-
+  id: 25
+  title: "GoogleVR/Daydream"
+  description: "Learn to use Google’s VR platform with Unity Game Engine to build experiences for Google Cardboard and Daydream View headsets. We will cover everything from setting up the development environment to building and running the demo scenes and writing simple scripts in C#. By the end of the workshop, you will have a working VR game!"
+  subtype: workshop
+  workshop_leaders: [7]
+  language: en
+  complexity: "Beginner"
+-
+  id: 26
+  title: "Spatial Computing 101: Onboarding on the Magic Leap One"
+  description: "The Magic Leap One offers an unprecedentedly powerful feature set for XR creators. In this workshop Michael Hazani and Tricia Katz, Grassroots Evangelists at Magic Leap, will introduce Magic Leap's hardware & software ecosystems and demonstrate the various pathways to developing with the Magic Leap One. Additionally, they will present a range of useful tools and helpful resources that will empower attendees to work with the device, take advantage of all it has to offer, and embark on a boundless spatial computing journey!"
+  subtype: workshop
+  workshop_leaders: [8]
+  language: en
+  complexity: "Beginner"
+  

@@ -21,11 +21,14 @@ function UploadRelease() {
         document.getElementById('releaseFileSize').value = file.size;
         document.getElementById('applicantEmail').value = email;
 
+        var googleDriveLink = "";
+        $('body').addClass('loading');
+
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "https://script.google.com/macros/s/AKfycbzlShSlDCP0-8Ih0ig2s1wPgY9HmrpvRbzHL4hGrtN_Sv0avW-L/exec", true);
         xhr.onload = function(event){
-            // alert("The server responded with: " + event.target.response);
             console.log("Responded With: " + event.target.response);
+            googleDriveLink = event.target.response.data;
         };
         var formData = new FormData(document.getElementById("uploadRelease"));
         xhr.send(formData);
@@ -40,13 +43,13 @@ function UploadRelease() {
                 console.log("data: " + response.data);
 
                 if(response.result == 'fail' && response.data == 'Invalid email for registration') {
-                    swal("Error!", "Email you entered did not match your application email", "error");
+                    swal("Error!", "Your email may be different than the one you used to apply. Please contact team@realityvirtuallyhack.com.", "error");
+                    $('body').removeClass('loading');
                 } else {
-                    swal("Nice!", "Your have successfully uploaded the release form. Go on to submit the registration information to complete your registration", "success");
+                    swal("Success!", "You have successfully uploaded the release form and completed your registration. We look forwad to seeing you at the hackathon", "success");
 
-                    $("#releaseDriveLocation").attr("value",response.data);
+                    document.getElementById('releaseDriveLocation').value = response.data;
                     $("#resume").fadeOut();
-
 
                     $("#SelectedRelease").fadeOut();
                     $("#resumeWarning").fadeOut();
@@ -59,6 +62,16 @@ function UploadRelease() {
                     $("#loadRelease").fadeOut();
 
                     $(".release_submitted").show();
+                    $('body').removeClass('loading');
+                    $.ajax({
+                        url: "https://script.google.com/macros/s/AKfycbyVPtaXDqPc4xNChZLcY-jsS9Mzi-7g3p_YfrDNqKx32MmnM861/exec",
+                        type:'POST',
+                        data:$('#enrollmentForm').serialize(),
+                        success:function(){
+                            $("#enrollment-hackathon").fadeOut();
+                            $("#enrollment-thankyou").fadeIn();
+                        }
+                    });
                 }
             }
 
@@ -72,16 +85,6 @@ function UploadRelease() {
 $(".releaseSubmit").click(function(e){
     e.preventDefault;
         var name = $("#firstName").val();
-        var action = $("#enrollmentForm").attr('action');
-
-        $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbyVPtaXDqPc4xNChZLcY-jsS9Mzi-7g3p_YfrDNqKx32MmnM861/exec",
-            type:'POST',
-            data:$('#enrollmentForm').serialize(),
-            success:function(){
-                $("#enrollment-hackathon").fadeOut();
-                $("#enrollment-thankyou").fadeIn();
-            }
-        });
-    
+        var action = $("#enrollmentForm").attr('action')
+        UploadRelease();
 });

@@ -1,0 +1,66 @@
+---
+layout: post
+image: banner-image-post-1.jpg
+title: "WayRay to bring its True AR SDK..."
+date:   2018-12-18 09:00:00
+isStaticPost: false
+socialImageSrcFacebook: "/img/posts/post-1/facebook-image-post-1.jpg"
+socialImageSrcTwitter: "/img/posts/post-1/twitter-image-post-1.jpg"
+description: "alling all designers, developers, and engineers! WayRay is challenging you to start creating AR applications for cars with its True AR SDK at the Reality Virtually Hackathon next month."
+permalink: "/blog/WayRay"
+hideHeading: true
+---
+
+# WayRay to bring its True AR SDK to the Reality Virtually Hackathon and award cash prizes
+ 
+Calling all designers, developers, and engineers! WayRay is challenging you to start creating AR applications for cars with its True AR SDK at the Reality Virtually Hackathon next month. WayRay will award $5,000 in cash prizes as well as ongoing mentorship, for the best use of the True AR SDK in the Automotive category.
+ 
+Founded in 2012, WayRay develops holographic AR solutions including Navion, the first-ever aftermarket holographic AR navigation system for cars; the embedded Holographic AR Display, a built-in solution for carmakers; and the True AR SDK, an AR development platform to create AR apps for cars. At the MIT Media Lab, WayRay will demonstrate its holographic AR display prototype to the visitors and participants.
+ 
+“The hackathon is a great opportunity for us to connect with talented developers and designers from different backgrounds, to observe how they apply our True AR SDK to bring their ideas to life”, says Leonid Striga, the True AR SDK Product Owner. “We are looking forward to developers’ feedback, to identify SDK’s top strengths and areas for improvements, and grow the product to the next level.”
+ 
+WayRay’s mentors will be there to lead a workshop on the key functionalities and components of the True AR SDK beta. This includes the API, emulator, simulator, toolset, AR application structure, and lifecycle, as well as the operating principles of WayRay’s in-car holographic AR displays. 
+ 
+The mentors will also be available throughout the hackathon to assist teams in applying the technology to their projects.
+ 
+### About WayRay
+ 
+WayRay was founded in 2012 and is headquartered in Zurich. As a deep-tech startup, WayRay creates fundamental innovations in holography, optics, design, hardware, and software engineering to develop breakthrough technologies like new lasers, new materials and tools for prototyping and production.
+ 
+In keeping the full R&D process under control — from product concept to prototype testing — WayRay has morphed from a startup into a full-cycle manufacturer of holographic optical systems, hardware, and software. 
+ 
+The company has also won prestigious industry awards — the Grand Prize at the 2017 AutoMobility LA Top Ten Automotive Startups Competition, the People’s Choice Award, and the AR category at Startup Autobahn 2018. 
+ 
+ 
+### True AR SDK
+ 
+The True Augmented Reality Software Development Kit is a set of libraries and tools for third-party developers to build, test, and debug AR apps that run on holographic AR displays and deliver a true augmented reality experience.
+ 
+The SDK makes it possible to develop applications that obtain data produced by the device and enrich device output data. The kit also makes it possible to use resources for computing, storing local information, and for network transition. 
+ 
+The SDK also provides the software toolset for building device-specific user applications. On the device side, the SDK run-time container controls AR apps execution and limits the consumption of device resources. 
+ 
+Alongside development tools, the SDK provides a set of tools for testing and debugging AR applications without having to install them on a real device. The set includes an Emulator that replicates how the AR app will behave on the actual device and a Simulator that provides a virtual environment for testing AR app behavior in various situations, on the computer or inside a VR headset.
+ 
+
+Holographic AR Display Prototype
+ 
+The Holographic AR Display Prototype is a demonstrator of the advanced and more compact replacement for conventional heads-up displays (HUDs) that was developed to show how the AR content can be displayed via WayRay’s solutions. Through the visor, you can see how the multicolored AR interface reacts to different road situations that are playing on the TV screen.
+ 
+WayRay’s embedded holographic AR display boasts a smaller optics and a larger field of view. It can be built into almost any car model to provide navigation details, ADAS, notifications, route-related information, and any kind of AR app content. 
+ 
+
+
+###### For more information please visit:
+* Website: [wayray.com](wayray.com)
+* True AR SDK: [https://wayray.com/sdk](https://wayray.com/sdk)
+* Hackathon: [https://wayray.com/sdk/hackathon](https://wayray.com/sdk/hackathon)
+ 
+* Facebook: [facebook.com/MyWayRay](facebook.com/MyWayRay)
+* Instagram: [instagram.com/wayraygram](instagram.com/wayraygram)
+* Twitter: [twitter.com/WayRay](twitter.com/WayRay)
+* LinkedIn: [linkedin.com/company/wayray](linkedin.com/company/wayray)
+* YouTube: [youtube.com/wayray](youtube.com/wayray)
+
+
+

@@ -1,0 +1,90 @@
+<!-- About Hackathon Section -->
+<section id="hackathon-rules" class="hackathon-rules">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            {% for section in site.data.rules %}
+                {% if section.ruleGroup %}
+
+                <h4 style="font-weight: 400; font-size: 2em;">{{ section.ruleGroup }}</h4>
+                <ul style="text-align:left; margin-bottom:10px;">
+                    {% for rules in section.rules %}
+                            <li>{{ rules.description }}</li>
+                            {% if rules.innerlist %}
+                            <ul style="list-style-type:circle">
+                                {% for inner in rules.innerlist %}
+                                <li>{{ inner.inneritem }}</li>
+                                {% endfor %}
+                             </ul>
+                            {% endif %}
+                    {% endfor %}
+                </ul>
+
+                {% if section.disclaimer %}
+                    <p style="text-align:left; font-size: 13px;">{{ section.disclaimer }}</p>
+                {% endif %}
+
+                {% endif %}
+            {% endfor %}
+
+
+
+            <!--&lt;!&ndash;<h4>{{ site.aboutHackathonTitle }}</h4>&ndash;&gt;-->
+            <!--<p>-->
+
+                <!--<h4>Eligibility</h4>-->
+            <!--<ul>-->
+            <!--<li>Attendees from all backgrounds, genders, and geographies are welcome.</li>-->
+            <!--<li>There is no age restriction to attend the hackathon. In case you are under 18, your parents/legal guardian should contact the hackathon to request a waiver  authorizing you to attend the hackathon and submit their plan for your attendance and transportation to and from the hackathon.</li>-->
+            <!--<li>Committee members are not eligible to participate in the hackathon. They may, however,, assist teams as mentors during the coding/development phase.</li>-->
+            <!--<li>There is no country restriction but you must be eligible to receive prizes (in case you win) and you are responsible for paying any taxes on the prize winnings.</li>-->
+            <!--<li>Employees of prize sponsors are not eligible to participate in the hackathon</li>-->
+            <!--</ul>-->
+                <!--<h4>Team forming</h4>-->
+            <!--<ul>-->
+                <!--<li>Teams can consist of one member to a maximum of five members. Exceptions can be made for teams to have more than five members on a case by case basis. Contact the hackathon committee in case you need to have a team of more than 5 members.</li>-->
+                <!--<li>All teams should have at least one designer (unless the team only has one member).</li>-->
+                <!--<li>Changes to team members are not permitted after Friday, January 18, at 5:00 PM. Exceptions can be made on a case by case basis as decided by the rules committee.</li>-->
+                <!--<li>Participants who participated on the same team during the last year in design competitions and hackathons building for the same platform as that chosen by your hackathon team for this year’s submission or who participated on the same team during the 2016 or 2017 Reality Virtually Hackathon are not permitted to be team members on the same team competing in this year’s Reality VIrtually hackathon. Exceptions may be made.  Contact the hackathon committee to avail this exception.</li>-->
+                <!--<li>Project Development-->
+                <!--<li>No development may start before the actual date and time of the event. Any teams that violate this rule will be automatically disqualified. The first line of code should be written on or after October 6th - 8 pm after the team has registered. However, we encourage you to brainstorm ideas and create wireframes/mockups.</li>-->
+                <!--<li>Any software development tools, game engine, IDE, a programming language can be used for the event. If a team member uses a purchased tool licensed to him or her and the license is not transferrable to other members the team should choose one available to all developer teams.</li>-->
+                <!--<li>To ensure a level field for all contestants, all code must be created only at the hackathon. You are permitted to use publicly developed and openly licensed API’s and SDKs for your project.</li>-->
+                <!--<li>You will only be able to use a pre-public release product for use in developing your creation if you bring at least one extra version that can be used by other teams in the Hackathon, and provide any user support needed to teams using the device.</li>-->
+                <!--<li>Project design/assets can be created prior to the start date of the hackathon. All assets should conform to the Creative Commons License agreement standard, or is freely available and you have permission or license to use it. Proof of permission must be given upon request.</li>-->
+                <!--<li>Assets, SDKs, APIs or other tools or components available under a trial license may be used.</li>-->
+                <!--<li>A team can submit only one entry for the hackathon. Participation at the hackathon is subjected on a “per-team” basis meaning you are not allowed to be on more than one team at the event.</li>-->
+                <!--<li>Any intellectual property developed during and within the scope of the hackathon must be open source and licensed under one of the licenses referenced in https://opensource.org/licenses.</li>-->
+                <!--<li>The license selected by the team must be clearly listed in code (page per page) or a generic page announcing the license the application adheres to. Also, public code used inside your application should also list the licenses the code is subjected to.</li>-->
+                <!--<li>A team can use multiple licenses in the application. For example, The public code used is subjected to the Apache license agreement whereas the code written by the team for the application is subjected to the MIT license agreement.</li>-->
+                <!--<li>A team may not code applications that violate the code of conduct. For example Racially insensitive ideas for an application will automatically be disqualified.</li>-->
+            <!--</ul>-->
+                <!--<h4>Project Submission</h4>-->
+            <!--<ul>-->
+                <!--<li>All teams should have a team name, and be registered with Devpost.</li>-->
+                <!--<li>The Devpost team page listing should have the following:</li>-->
+                <!--<li>The team lead must list a mobile phone number on the teams DevPost page</li>-->
+                <!--<li>Their location, floor, and room</li>-->
+                <!--<li>The platform-->
+                <!--<li>The development tools used to build the project</li>-->
+                <!--<li>SDKs used in the project</li>-->
+                <!--<li>APIs used in the project</li>-->
+                <!--<li>Any assets used in the project</li>-->
+                <!--<li>Any libraries used in the project</li>-->
+                <!--<li>Any components not created at the hackathon</li>-->
+                <!--<li>A link to a video of a screen capture of the application on Youtube.</li>-->
+                <!--<li>All projects should be submitted to the hackathon GitHub account (TBA) before judging begins on Sunday January 20  at 2:00 pm. Failure to submit will result in disqualification.</li>-->
+                <!--<li>All projects submitted will be subject to a code-review.  When the hackathon ends at least one member from each team will meet with the code review team for a brief review of their submission and to confirm that the team’s Devpost page has been correctly updated. Applications will be spot checked by code reviewers. All the projects selected by the judges as finalists will be code reviewed to confirm that the code is original work created at the hackathon.</li>-->
+            <!--</ul>-->
+                <!--<h4>Attendee Code of Conduct</h4>-->
+            <!--<ul>-->
+                <!--<li>Our hackathon is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, previous hackathon attendance or computing experience (or lack of any of the aforementioned). We do not tolerate harassment of hackathon participants in any form. Sexual language and imagery are not appropriate for any hackathon venue, including hacks, talks, workshops, parties, social media and other online media. Hackathon participants violating these rules may be sanctioned or expelled from the hackathon at the discretion of the hackathon organizers.</li>-->
+                <!--<li>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, or religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Photography is encouraged, but other participants must be given a reasonable chance to opt out from being photographed. If they object to the taking of their photograph, comply with their request. It is inappropriate to take photographs in contexts where people have a reasonable expectation of privacy (in bathrooms or where participants are sleeping).</li>-->
+                <!--<li>Participants asked to stop any harassing behavior are expected to comply immediately. As this is a hackathon, we like to explicitly note that the hacks created at our hackathon are equally subject to the anti-harassment policy. Sponsors and partners are also subject to the antiharassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Sponsor representatives (including volunteers) should not use sexualized clothing/ uniforms/costumes or otherwise, create a sexualized environment. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of hackathon staff immediately. Hackathon staff will be happy to help participants contact any local security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the hackathon. We value your attendance. If a participant engages in harassing behavior, the hackathon organizers may take any action they deem appropriate. This includes warning the offender, expulsion from the hackathon with no refund (if applicable), or reporting their behavior to local law enforcement.</li>-->
+                <!--<li>We expect participants to follow these rules at hackathon and workshop venues and hackathon related social events.</li>-->
+            <!--</ul>-->
+
+            <!--</p>-->
+        </div>
+    </div>
+</section>
+<!-- End About Hackathon Section -->

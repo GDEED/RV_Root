@@ -1,10 +1,56 @@
 - 
-  group: "Main Sponsors"
+  group: "Founding Sponsors"
   elements: 
-    - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "attlogo.png"}
-    - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "microsoft_logo.png"}
-    - {name: "Samsung Next", description: "Samsung Next", link: "https://samsungnext.com/", imageUrl: "snext.png"}
+    - {name: "MIT Media Lab", description: "MIT Media Lab", link: "https://www.media.mit.edu/", imageUrl: "logo_medialab.png", width: "90%", newline: true}
+    - {name: "AT&T", description: "AT&T", link: "https://www.att.com", imageUrl: "logo_att.png", width: "80%"}
+    - {name: "Microsoft", description: "Microsoft", link: "https://www.microsoft.com", imageUrl: "logo_microsoft.png", width: "100%"}
+    - {name: "Samsung", description: "Samsung", link: "https://samsung.com/", imageUrl: "logo_samsung.png", width: "100%"}
 
+- 
+  group: "Platinum Sponsors"
+  elements: 
+    - {name: "PTC", description: "PTC", link: "https://www.ptc.com", imageUrl: "logo_ptc.jpg", width: "85%"}
+    - {name: "WayRay", description: "WayRay", link: "https://www.wayray.com", imageUrl: "logo_wayray.png", width: "75%"}
+
+- 
+  group: "Gold Sponsors"
+  elements: 
+    - {name: "Wayfair", description: "Wayfair", link: "https://www.wayfair.com", imageUrl: "logo_wayfair.png", width: "90%"}
+    - {name: "Alienware", description: "Alienware", link: "https://www.dell.com/en-us/gaming/alienware", imageUrl: "logo_alienware.png", width: "90%"}
+    - {name: "Magic Leap", description: "Magic Leap", link: "https://www.magicleap.com/", imageUrl: "logo_magicleap.png", width: "95%"}
+    - {name: "Autodesk", description: "Autodesk", link: "https://forge.autodesk.com/", imageUrl: "logo_autodesk.png", width: "90%"}
+    - {name: "HTC Vive", description: "HTC Vive", link: "https://www.vive.com/us/", imageUrl: "logo_htcvive.png", width: "55%"}
+    - {name: "Oculus Rift", description: "Oculus Rift", link: "https://www.oculus.com/rift/", imageUrl: "logo_oculus.png", width: "65%"}
+    - {name: "Esri", description: "Esri", link: "https://www.esri.com/en-us/home", imageUrl: "logo_esri.png", width: "80%"}
+
+
+- 
+  group: "Silver Sponsors"
+  elements: 
+    - {name: "Fidelity", description: "Fidelity", link: "https://www.fidelity.com/", imageUrl: "logo_fidelity.png", width: "70%"}
+    - {name: "GitHub", description: "GitHub", link: "https://www.github.com/", imageUrl: "logo_github.png", width: "65%"}
+    - {name: "Underscore VC", description: "Underscore VC", link: "https://underscore.vc/", imageUrl: "logo_underscorevc.png", width: "85%"}
+
+- 
+  group: "Community Sponsors"
+  elements: 
+    - {name: "Boston VR", description: "Boton VR", link: "http://www.bostonvr.org/", imageUrl: "logo_bostonvr.png", width: "50%"}
+    - {name: "Boston Unity Group", description: "Boston Unity Group", link: "https://www.meetup.com/B-U-G-Boston-Unity-Group/", imageUrl: "logo_bug.png", width: "25%"}
+    - {name: "AR/VR Alliance at Harvard", description: "AR/VR Alliance at Harvard", link: "https://innovationlabs.harvard.edu/arvr-alliance/", imageUrl: "logo_harvard.png", width: "50%"}
+    - {name: "VR/AR MIT", description: "VR/AR MIT", link: "http://vratmit.com/", imageUrl: "logo_vrarmit.jpg", width: "50%"}
+    - {name: "Boston New Technology", description: "Boston New Technology", link: "https://bostonnewtechnology.com/", imageUrl: "logo_boston_newtech.png", width: "50%"}
+    - {name: "Boston AR", description: "Boston AR", link: "https://www.bostonar.org/", imageUrl: "logo_bostonar.png", width: "50%"}
+    - {name: "Public VR Lab", description: "Public VR Lab", link: "http://publicvrlab.com/", imageUrl: "logo_public_vrlab.jpg", width: "50%"}
+    - {name: "VR First", description: "VR First", link: "http://vrfirst.com/", imageUrl: "logo_vrfirst.png", width: "50%"}
+    - {name: "VR AR MR", description: "VR AR MR", link: "https://www.mrarvr.in/", imageUrl: "logo_vrarmr.png", width: "45%"}
+    - {name: "Boston Symphony Orchestra", description: "Boston Symphony Orchestra", link: "https://www.bso.org/", imageUrl: "logo_bso.jpg", width: "50%"}
+
+
+- 
+  group: "Food and Beverage Sponsors"
+  elements: 
+    - {name: "Hint Water", description: "Hint Water", link: "https://www.drinkhint.com/", imageUrl: "logo_hintwater.jpg", width: "60%"}
+    - {name: "Lord Hobo", description: "Lord Hobo", link: "https://lordhobobrewing.com/#index", imageUrl: "logo_lordhobo.png", width: "50%"}
 
 #-
 #  group: "Co-organizers"

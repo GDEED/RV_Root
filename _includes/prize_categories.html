@@ -1,14 +1,65 @@
+<style>
+    table {
+        width: 100%;
+        margin: auto;
+    }
+
+    th {
+        height: 50px;
+        font-size: 1.5em;
+    }
+
+    th,
+    td {
+        padding: 15px;
+        text-align: left;
+    }
+
+    td {
+        max-width: 350px;
+        word-wrap: break-spaces;
+        border: 1px solid grey
+    }
+
+    td.col-example {
+        max-width: 200px;
+    }
+
+    .table {
+        border-radius: 5px;
+        /*width: 50% !important;*/
+        margin: 1px auto;
+        float: none;
+    }
+
+    .table th {
+        text-align: center;
+    }
+
+</style>
+
 <!-- Prize Category Section -->
 <section id="prizeCategories" class="prizeCategories">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h4><b>{{ site.prizeCategoriesTitle }}</b></h4>
-            <div class="row about-details">
-                <ul>
+            <h5><b>{{ site.prizeCategoriesTitle }}</b></h5>
+            <div class="row">
+                <table class="table" align="center" style="margin:15px; font-size:1.4em;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left;">Hackathon Themes</th>
+                            <th style="text-align:left;">Categories and Examples</th>
+                        </tr>
+                    </thead>
+                    <tbody>
                     {% for category in site.prizeCategories %}
-                    <li style="list-style: none;"><a><h5 class="{{ site.prizeCategoriesListStyleClass }}">{{ category.name }}</h5></a></li>
+                    <tr>
+                        <td class="col-name">{{ category.name }}</td>
+                        <td class="col-example">{{ category.example }}</td>
+                    </tr>
                     {% endfor %}
-                </ul>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

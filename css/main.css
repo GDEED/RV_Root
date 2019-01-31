@@ -15,6 +15,11 @@ body.loading input[type=button] {
     cursor: wait !important;
 }
 
+body.loading input[type=button],
+body.loading button, {
+    pointer-events: none;
+}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
@@ -226,7 +231,8 @@ a {
 
 a:hover, a:focus {
     color: #0275a8;
-    text-decoration: underline
+    text-decoration: underline;
+    border-color:#0275a8;
 }
 
 a:focus {
@@ -1700,6 +1706,19 @@ tbody.collapse.in {
     max-width: 100%
 }
 
+.notification-list li {
+    font-size: 17px;
+    margin: 1px 0;
+    margin:5px;
+    color:#d5df2a;
+}
+
+span.field-sub-title {
+    font-weight: 300;
+    font-size: 13px;
+    font-style: italic;
+}
+
 .thumbnail {
     display: block;
     padding: 4px;
@@ -1849,6 +1868,10 @@ button.close {
     z-index: 1040;
     -webkit-overflow-scrolling: touch;
     outline: 0
+}
+
+.modal-workshops {
+	z-index: 95;
 }
 
 .modal.fade .modal-dialog {
@@ -2366,7 +2389,8 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color: #60ccfd
+    color: #60ccfd;
+    border-color: #60ccfd;
 }
 
 a:hover, a:active, a:focus {
@@ -3064,6 +3088,22 @@ nav li a {
     color: #fff
 }
 
+.main-nav li a {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media all and (min-width: 767px) {
+    .sub-nav {
+        min-width: 200px;
+        transform: translateX(-36%);
+        background-color: rgba(0,0,0,0.4);     
+    }
+    .sub-nav li {
+        margin: 10px 0 !important;
+    }
+}
+
 nav li a.current, nav li a:hover {
     text-decoration: none;
     color: #cfcfcf
@@ -3233,7 +3273,6 @@ nav li a.current, nav li a:hover {
     position: relative;
     min-height: 400px;
     padding-top: 0;
-    background: #03a9f4
 }
 
 .top-section .gradient-overlay {
@@ -3251,7 +3290,7 @@ nav li a.current, nav li a:hover {
     background: 0
 }
 .jumbotron h1 {
-    left: 26px;
+    /*left: 26px;*/
     position: relative;
 }
 
@@ -3633,16 +3672,13 @@ nav li a.current, nav li a:hover {
 
 .partners .list-inline li {
     width: 16%;
-    max-width: 180px;
+    max-width: 300px;
     margin: 13px 7px
 }
 
 .partners img {
-    width: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1)
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
 }
 
 .partners img:hover {
@@ -3994,6 +4030,17 @@ nav li a.current, nav li a:hover {
     margin: 50px 0 20px;
     text-align: center
 }
+
+.mentor h3 {
+    margin-bottom: 26px
+}
+
+.mentor h4 {
+    margin: 50px 0 20px;
+    text-align: center
+}
+
+
 
 .zoe-effect {
     margin-bottom: 26px;
@@ -4385,7 +4432,7 @@ nav li a.current, nav li a:hover {
     bottom: 0;
     right: 0;
     left: 0;
-    z-index: 1040
+    z-index: 10;
 }
 
 .modal-content {
@@ -4571,6 +4618,15 @@ nav li a.current, nav li a:hover {
     padding-right: 20px
 }
 
+
+
+.allow-selection{
+    user-select:all!important;
+}
+
+
+
+
 .track-header-slot, .slot {
     padding: 10px 15px 10px;
     text-align: left;
@@ -4688,21 +4744,40 @@ nav li a.current, nav li a:hover {
     box-shadow: 0 3px 0 rgba(0, 0, 0, 0.15), 0 3px 4px rgba(0, 0, 0, 0.2)
 }
 
-.prizes h3 {
-    margin-bottom: 20px
+.prize-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .prize {
-    margin-top: 50px
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
 }
 
-.prize:nth-child(3) {
-    margin-top: 0
+@media all and (min-width: 767px) {
+    .prize {
+        width: 50% !important;
+    }
 }
+
+.prize h4 {
+    margin-bottom: 30px; 
+}
+
+
+.prizes h3 {
+    margin-bottom: 20px;
+}
+
 
 .prize-img-wrapper img {
     max-width: 250px;
-    margin: 0 auto
+    margin: 0 auto;
+    max-height: 80px;
 }
 
 .hackathon-location {
