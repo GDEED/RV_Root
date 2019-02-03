@@ -6485,3 +6485,64 @@ button:focus, a:focus {
 .hover-green:hover {
     color: #078000 !important;
 }
+
+
+.slick-slider {
+    position: relative;
+}
+.slick-slider .slick-slider_item {
+    display: flex;
+    padding: 5px;
+    outline: none !important;
+}
+.slick-slider .slick-slider_item .slick-slider_item_img {
+    padding-top: 75%;
+    width: 100%;
+    position: relative;
+}
+.slick-slider .slick-slider_item .slick-slider_item_img .text-block {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    padding: 0.5rem;
+}
+.slick-slider .slick-arrow {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform-origin: 50% 50%;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    left: -33px;
+    outline: none;
+    transition: all 0.3s;
+}
+.slick-slider .slick-next {
+    left: auto;
+    right: -33px;
+}
+
+@media (max-width: 575px) {
+    .slick-slider .slick-arrow {
+        left: 5px;
+    }
+    .slick-slider .slick-next {
+        left: auto;
+        right: 5px;
+    }
+}
+@media (max-width: 480px) {
+    .slick-slider .slick-slider_item {
+        padding: 0;
+    }
+}
