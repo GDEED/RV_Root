@@ -355,3 +355,13 @@
   social:
     - {name: "", link: ""}
   description: "Michael is an MIT alum with a background as a software engineer, consultant, and entrepreneur. He was on the founding team of several successful startups, including Avid Technology, a pioneer in digital video and film editing for which he won an Emmy Award, and QuickBase, a leader in no-code database application systems.  He currently works in technology consulting.  Michael has participated in many hackathons, and his current interests include Internet of Things devices, and VR/AR applications. "
+-
+  id: 33
+  name: "Craig"
+  surname: "Herndon"
+  title: "Technical Operations and Mentor"
+  thumbnailUrl:
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "CEO of Boston Virtual Reality, one of the largest VR communities in the world with over 5,000 members. He hosts the Virtuality Podcast, that spotlights immersive media created in Boston and around the globe. He cofounded VR content creation studio Digital Precept a location-based immersive entertainment content creator."
