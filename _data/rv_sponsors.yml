@@ -30,6 +30,7 @@
     - {name: "Fidelity", description: "Fidelity", link: "https://www.fidelity.com/", imageUrl: "logo_fidelity.png", width: "70%"}
     - {name: "GitHub", description: "GitHub", link: "https://www.github.com/", imageUrl: "logo_github.png", width: "65%"}
     - {name: "Underscore VC", description: "Underscore VC", link: "https://underscore.vc/", imageUrl: "logo_underscorevc.png", width: "85%"}
+    - {name: "Amazon", description: "Amazon", link: "https://www.amazon.com/", imageUrl: "logo_amazon.png", width: "70%"}
 
 - 
   group: "Community Sponsors"
