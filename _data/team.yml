@@ -10,18 +10,18 @@
   social: 
     - {name: "twitter", link: "https://twitter.com/stevep2007?lang=en"}
   description: "Steven is a project manager and journalist contributing to Ars Technica, Quartz, Fast Company and IDG. He is the president of non-profit Grassroots Developer Education, Inc. that provides free education in new technology to designers, developers and engineers. He has worked to bring AR and VR to the developer community since Google I/O 2014."
--
-  id: 1
-  name: "SCOTT"
-  surname: "GREENWALD"
-  title: "CHAIRMAN"
-  thumbnailUrl: Scott_Greenwald.jpg
-  team: true
-  ribbon: 
-    - {abbr: "team", title: "Our Team"}
-  social:
-    - {name: "twitter", link: "https://twitter.com/scottgwald?lang=en"}
-  description: "Scott is a research scientist in the Fluid Interface Group of the MIT Media Lab. His dissertation on learning and education in virtual reality led to an interest in rapid-prototyping interactions in software making tool development both a byproduct and a focus of his research. He and his team are preparing to release an open-source toolkit for VR research (stay tuned!)"
+# -
+#   id: 1
+#   name: "SCOTT"
+#   surname: "GREENWALD"
+#   title: "CHAIRMAN"
+#   thumbnailUrl: Scott_Greenwald.jpg
+#   team: true
+#   ribbon: 
+#     - {abbr: "team", title: "Our Team"}
+#   social:
+#     - {name: "twitter", link: "https://twitter.com/scottgwald?lang=en"}
+#   description: "Scott is a research scientist in the Fluid Interface Group of the MIT Media Lab. His dissertation on learning and education in virtual reality led to an interest in rapid-prototyping interactions in software making tool development both a byproduct and a focus of his research. He and his team are preparing to release an open-source toolkit for VR research (stay tuned!)"
 -
   id: 2
   name: "MARIA"
@@ -284,16 +284,16 @@
   social: 
     - {name: "twitter", link: ""}
   description: "Carl is creative and methodical strategist committed to generating business value by helping enterprises develop empathy for their customers' wants, needs, and motivations to develop solutions that meet the demands of the market.  His responsibilities leading R&D efforts at Fidelity Investments included developing concepts, prototypes, and pilot studies of emerging applications of evolving user interfaces - including work with blended and virtual reality platforms."
--
-  id: 26
-  name: "ALEXANDER"
-  surname: "LAIMAN"
-  title: "MIT AR/VR Community Lead"
-  thumbnailUrl: Alexander.jpg
-  team: true
-  social: 
-    - {name: "twitter", link: ""}
-  description: "Alexander is an experienced undergraduate researcher at the MIT Media Lab with a demonstrated history of working in Unity. He is also skilled in Photography, Python (Programming Language), C++, and VR development, He is the president of President of VR/AR MIT."
+# -
+#   id: 26
+#   name: "ALEXANDER"
+#   surname: "LAIMAN"
+#   title: "MIT AR/VR Community Lead"
+#   thumbnailUrl: Alexander.jpg
+#   team: true
+#   social: 
+#     - {name: "twitter", link: ""}
+#   description: "Alexander is an experienced undergraduate researcher at the MIT Media Lab with a demonstrated history of working in Unity. He is also skilled in Photography, Python (Programming Language), C++, and VR development, He is the president of President of VR/AR MIT."
 -
   id: 27
   name: "PRATHMESH"
@@ -335,16 +335,16 @@
   social:
     - {name: "", link: ""}
   description: ""
-- 
-  id: 31
-  name: "ESWAR"
-  surname: "ANANDAPADMANABAN"
-  title: "MIT OUTREACH LEAD"
-  thumbnailUrl: Eswar.jpg 
-  team: true
-  social:
-    - {name: "", link: ""}
-  description: "Eswar is a senior at MIT studying electrical engineering and computer science. He has been working on VR and AR for the past few years and has worked with a few companies such as Samsung, Intel, and most recently IDEO. At MIT he works at the Human Systems Lab focused on designing heads up displays for space suits. In his spare time Eswar can be found running events on campus, building something, or watching football. Eswar is also one of the presidents of VR/AR@MIT."
+# - 
+  # id: 31
+  # name: "ESWAR"
+  # surname: "ANANDAPADMANABAN"
+  # title: "MIT OUTREACH LEAD"
+  # thumbnailUrl: Eswar.jpg 
+  # team: true
+  # social:
+  #   - {name: "", link: ""}
+  # description: "Eswar is a senior at MIT studying electrical engineering and computer science. He has been working on VR and AR for the past few years and has worked with a few companies such as Samsung, Intel, and most recently IDEO. At MIT he works at the Human Systems Lab focused on designing heads up displays for space suits. In his spare time Eswar can be found running events on campus, building something, or watching football. Eswar is also one of the presidents of VR/AR@MIT."
 - 
   id: 32
   name: "Michael"
