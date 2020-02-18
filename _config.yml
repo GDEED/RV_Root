@@ -76,7 +76,7 @@ navigationLinks:
 heroImage: "abstract-virtual-reality.png"
 heroTitle: "Check out MedVR, the next Reality Virtually event."
 heroDescription: "Boston June 25 - 28,<sup>th</sup>, 2020"
-heroDescriptionLink: "#location-map"
+heroDescriptionLink: "https://medvr.io/"
 eventDate: "Symposium & Hackathon for VR/AR in Healthcare"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
