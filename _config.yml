@@ -74,10 +74,10 @@ navigationLinks:
 
 # Hero Block
 heroImage: "abstract-virtual-reality.png"
-heroTitle: "Reality Virtually Hackathon"
-heroDescription: "@ the MIT Media Lab"
+heroTitle: "Check out MedVR, the next Reality Virtually event."
+heroDescription: "Boston June 25 - 28,<sup>th</sup>, 2020"
 heroDescriptionLink: "#location-map"
-eventDate: "January 17-21<sup>st</sup>, 2019"
+eventDate: "Symposium & Hackathon for VR/AR in Healthcare"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
 notifyMeButtonText: "Notify me when applications open"    
