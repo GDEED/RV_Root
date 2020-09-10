@@ -74,10 +74,10 @@ navigationLinks:
 
 # Hero Block
 heroImage: "abstract-virtual-reality.png"
-heroTitle: "Check out the next Reality Virtually innovation project, medVR.io, Learn how to innovate with VR and AR in healthcare."
+heroTitle: "Check out the next Reality Virtually innovation project, medVR.io"
 heroDescription: "Boston June 2021"
 heroDescriptionLink: "https://medvr.io/"
-eventDate: "Symposium & Hackathon for VR/AR in Healthcare"
+eventDate: "Learn how to innovate with VR and AR in healthcare"
 typeoutTextValues: '" Hackathon"'
 typeoutFallback: "Season"
 notifyMeButtonText: "Notify me when applications open"    
